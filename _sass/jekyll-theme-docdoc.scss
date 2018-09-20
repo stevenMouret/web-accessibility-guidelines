@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+// Colors
+$color-black: #000;
+$color-white: #fff;
+
+$color-grey-1: #505d6b;
+
+$color-1: #c90c0e;
+
+// Typos
+$typo-1: 'Roboto Slab', Georgia, serif;
+$typo-2: 'Roboto', Arial, sans-serif;
+
+@import
+    "config/base",
+    "config/layout",
+    "config/menu"
+;

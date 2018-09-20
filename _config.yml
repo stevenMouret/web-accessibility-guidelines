@@ -1,0 +1,9 @@
+title: Your awesome title
+author: GitHub User
+email: your-email@domain.com
+
+plugins:
+ - jekyll-seo-tag
+
+sass:
+    sass_dir: _sass

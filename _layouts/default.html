@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{%- include head.html -%}
+<body>
+<div class="site">
+    <div class="column">
+        {%- include header.html -%}
+        {%- include sidebar-menu.html -%}
+    </div>
+    <main class="page-content" role="main">
+        {{ content }}
+    </main>
+</div>
+</body>
+</html>

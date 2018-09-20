@@ -1,0 +1,9 @@
+*.gem
+.bundle
+.sass-cache
+_site
+_data
+criteria/*
+Gemfile.lock
+.idea
+index.md
