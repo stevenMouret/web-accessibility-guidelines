@@ -1,12 +1,21 @@
+%hover {
+    border-right-color: $color-1;
+    border-left-color: $color-1;
+    color: $color-1;
+    background: rgba($color-black, .03);
+}
+
 .menu {
     font-family: $typo-2;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 
     a {
         color: $color-grey-1;
         display: block;
         text-decoration: none;
+
         border-right: 2px solid transparent;
+        border-left: 2px solid transparent;
         transition: border ease 0.3s, color ease 0.3s;
     }
 
@@ -16,32 +25,37 @@
 }
 
 .menu__level-1 {
-    margin: 0.3rem 0;
+    margin: 0.8rem 0;
+
+    > a {
+        padding: 0 1.5rem;
+    }
 
     &.-active > a, > a:hover, > a:focus {
-        border-right-color: $color-1;
-        color: $color-1;
+        @extend %hover;
     }
 }
 
 .menu__sublevel-2 {
-    font-size: 1.4rem;
-    margin-left: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .menu__level-2 {
     margin: 0.3rem 0;
 
-    &::before {
-        content: "-";
-        padding-right: 0.4rem;
-        float: left;
+    > a {
+        padding: 0 2.5rem;
+
+        &::before {
+            content: "-";
+            display: inline;
+            padding-right: 0.4rem;
+        }
     }
 
     &.-active > a, > a:hover, > a:focus {
-        border-right-color: $color-1;
-        color: $color-1;
+        @extend %hover;
     }
 }
 
