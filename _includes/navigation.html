@@ -1,0 +1,15 @@
+<div id="cards-wrapper" class="cards-wrapper row">
+    {% for navigation in include.navigation %}
+    {% assign post = site.doc | where: "id", navigation | first %}
+    {% unless post %}
+    {% assign url = id | append: '.html' %}
+    {% assign post = site.pages | where: "url", url | first %}
+    {% endunless %}
+    {% unless post %}{% continue %}{% endunless %}
+    <div class="item item-{{ post.color }} col-md-4 col-sm-6 col-xs-6">
+        <div class="item-inner">
+            <h3 class="title"><a class="link" href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
+    </div>
+    {% endfor %}
+</div>

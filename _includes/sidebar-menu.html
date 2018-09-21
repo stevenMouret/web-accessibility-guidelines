@@ -1,33 +1,26 @@
-<ul class="menu">
-{% for nav in site.data.menu %}
-    {% if page.url == nav.href %}
-    <li class="menu__level-1 -active">
-    {% else %}
-    <li class="menu__level-1">
-    {% endif %}
-        {% if page.url == nav.href %}
-        <a href="{{ site.baseurl }}{{ nav.href }}" aria-current="page">{{ nav.title }}</a>
-        {% else %}
-        <a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a>
-        {% endif %}
-        {% if nav.sub != null %}
-        <ul class="menu__sublevel-2">
-            <!-- 2nd level -->
-            {% for sub in nav.sub %}
-            {% if page.url == sub.href %}
-            <li class="menu__level-2 -active">
-            {% else %}
-            <li class="menu__level-2">
+
+{% if page.sections %}
+<!-- SIDEBAR -->
+<div class="doc-sidebar">
+    <nav id="doc-nav">
+        <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
+            {% for id in page.sections %}
+            {% assign section = site.doc | where: "id", id | first %}
+            {% unless section %}
+            {% assign url = id | append: '.html' %}
+            {% assign section = site.pages | where: "url", url | first %}
+            {% endunless %}
+            {% unless section %}{% continue %}{% endunless %}
+            <li><a class="scrollto" href="#{{ section.title | slugify }}">{% if section.short_title %}{{ section.short_title }}{% else %}{{ section.title }}{% endif %}</a></li>
+            {% if section.sections %}
+            <ul class="nav doc-sub-menu">
+                {% for subsection in section.sections %}
+                <li class=""><a class="scrollto" href="#{{ subsection | slugify: 'pretty' }}">{{ subsection }}</a></li>
+                {% endfor %}
+            </ul>
             {% endif %}
-                {% if page.url == sub.href %}
-                <a href="{{ site.baseurl }}{{ sub.href }}" aria-current="page">{{ sub.title }}</a>
-                {% else %}
-                <a href="{{ site.baseurl }}{{ sub.href }}">{{ sub.title }}</a>
-                {% endif %}
-            </li>
             {% endfor %}
         </ul>
-        {% endif %}
-    </li>
-{% endfor %}
-</ul>
+    </nav>
+</div>
+{% endif %}

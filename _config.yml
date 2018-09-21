@@ -1,9 +1,49 @@
+#
+# Site settings
+#
+
 title: Your awesome title
 author: GitHub User
 email: your-email@domain.com
 
-plugins:
- - jekyll-seo-tag
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  parse_block_html: true
+  syntax_highlighter: rouge
 
 sass:
     sass_dir: _sass
+
+#
+# Collections
+#
+collections:
+  doc:
+    output: true
+    permalink: /:path.html
+
+#
+# Default values
+#
+defaults:
+  -
+    scope:
+      path: ""
+      type: doc
+    values:
+      layout: doc
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: doc
+

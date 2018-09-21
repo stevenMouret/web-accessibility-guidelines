@@ -1,8 +1,9 @@
 *.gem
 .bundle
 .sass-cache
-_site
 _data
+_doc
+_site
 criteria/*
 Gemfile.lock
 .idea

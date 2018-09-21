@@ -5,12 +5,17 @@ $color-black: #000;
 $color-white: #fff;
 
 $color-grey-1: #505d6b;
+$color-grey-2: #ccc;
 
-$color-1: #c90c0e;
+$color-1-1: #8451a1;
+$color-1-2: #78458E;
+$color-1-3: #2C1E35;
+$color-1-4: #19121E;
+
+$color-2: #007596;
 
 // Typos
-$typo-1: 'Roboto Slab', Georgia, serif;
-$typo-2: 'Roboto', Arial, sans-serif;
+$typo-1: 'Lato', Arial, sans-serif;
 
 @import
     "config/base",

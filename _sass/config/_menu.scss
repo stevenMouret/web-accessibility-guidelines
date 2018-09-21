@@ -1,12 +1,11 @@
 %hover {
-    border-right-color: $color-1;
-    border-left-color: $color-1;
-    color: $color-1;
+    border-right-color: $color-1-1;
+    border-left-color: $color-1-1;
+    color: $color-1-1;
     background: rgba($color-black, .03);
 }
 
 .menu {
-    font-family: $typo-2;
     font-size: 1.7rem;
 
     a {
