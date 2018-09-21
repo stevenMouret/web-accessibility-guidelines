@@ -9,9 +9,13 @@
             {%- include sidebar-menu.html -%}
         </div>
         <main class="page-content" role="main">
-            {%- include breadcrumb.html -%}
-            {{ content }}
-            {% include sections.html %}
+            <div class="page-content__wrapper">
+                {%- include breadcrumb.html -%}
+                <article>
+                    {{ content }}
+                    {% include sections.html %}
+                </article>
+            </div>
         </main>
     </div>
 </div>

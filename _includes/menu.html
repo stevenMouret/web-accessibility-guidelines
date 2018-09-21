@@ -1,4 +1,5 @@
 <ul class="menu">
-    <li><a href="/">Documentation</a></li>
+    <li><a href="/"{% if page.id contains 'index'%} aria-current="page"{% endif%}>Home</a></li>
+    <li><a href="/tools"{% if page.id contains 'tools'%} aria-current="page"{% endif%}>Tools</a></li>
     <li><a href="http://disic.github.io/rgaa_referentiel_en/criteria.html" target="_blank" title="Criteria (new window)">Criteria</a></li>
 </ul>

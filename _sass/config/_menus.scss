@@ -1,0 +1,49 @@
+.menu {
+    margin-left: 1rem;
+
+    li {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.5rem;
+    }
+
+    a {
+        display: block;
+        font-weight: 700;
+        padding: 1.5rem;
+        text-decoration: none;
+        border-bottom: 0.2rem solid transparent;
+        transition: border-bottom-color ease .3s;
+
+        &[aria-current="page"], &:hover, &:focus {
+            border-bottom-color: $color-1-1;
+        }
+    }
+}
+
+.breadcrumb {
+    width: 100%;
+    border-bottom: 0.1rem solid rgba($color-black, 0.05);
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    li {
+        display: inline-block;
+        vertical-align: middle;
+
+        &::after {
+            content: ">";
+            display: inline;
+            margin-left: 0.5rem;
+        }
+
+        &:last-child {
+            &::after {
+                content: '';
+            }
+        }
+    }
+    a {
+
+    }
+}

@@ -1,13 +1,28 @@
 .site {
+    height: 100%;
+}
+
+.site-header {
+    padding: 2rem;
     display: flex;
-    height: 100vh;
-    > * {
-        height: 100vh;
-    }
+    border-bottom: 0.1rem solid rgba($color-black, 0.05);
+}
+
+.site-name {
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding: 0 3rem;
+    border-right: 0.1rem solid rgba($color-black, 0.05);
+}
+
+
+
+.container {
+    display: flex;
 }
 
 .column {
-    border-right: 0.1rem solid rgba($color-black, .1);
+    border-right: 0.1rem solid rgba($color-black, .05);
     flex: 0 0 20%;
     overflow-y: auto;
 }
@@ -16,19 +31,10 @@
     flex: 1 1 auto;
 }
 
-.main-article {
+.page-content__wrapper {
     margin: 0 auto;
     max-width: 80rem;
     padding: 3rem;
-}
-
-.site-header {
-    p {
-        color: $color-grey-1;
-        font-size: 2.5rem;
-        font-weight: normal;
-        margin: 1.5rem;
-    }
 }
 
 .container-404 {

@@ -18,3 +18,15 @@ body {
     font-size: 1.4rem;
 }
 
+a {
+    color: $color-1-2;
+    text-decoration: underline;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+}
+

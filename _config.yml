@@ -1,8 +1,8 @@
 #
 # Site settings
 #
-
 title: Your awesome title
+baseurl: ""
 author: GitHub User
 email: your-email@domain.com
 
@@ -46,4 +46,3 @@ defaults:
       type: pages
     values:
       layout: doc
-

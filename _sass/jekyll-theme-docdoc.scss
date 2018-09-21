@@ -4,9 +4,6 @@
 $color-black: #000;
 $color-white: #fff;
 
-$color-grey-1: #505d6b;
-$color-grey-2: #ccc;
-
 $color-1-1: #8451a1;
 $color-1-2: #78458E;
 $color-1-3: #2C1E35;
@@ -20,5 +17,6 @@ $typo-1: 'Lato', Arial, sans-serif;
 @import
     "config/base",
     "config/layout",
-    "config/menu"
+    "config/menus",
+    "config/home"
 ;
