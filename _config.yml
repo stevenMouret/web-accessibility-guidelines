@@ -2,7 +2,8 @@
 # Site settings
 #
 title: Your awesome title
-baseurl: ""
+url: https://localhost
+baseurl:
 author: GitHub User
 email: your-email@domain.com
 
