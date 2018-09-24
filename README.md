@@ -11,6 +11,8 @@ Particular attention has been paid to accessibility in this theme.
 
 ## Features
 
+This project is under development so feature is not finalized.
+
 - [ ] Fully responsive
 - [x] WCAG 2.0
 - [x] HTML5 - CSS3
