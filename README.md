@@ -1,52 +1,41 @@
-# jekyll-theme-docdoc
+# docdoc - Jekyll theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+## Demo
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+- [Github Pages demo](https://stevenmouret.github.io/jekyll-theme-docdoc/)
 
-TODO: Delete this and the text above, and describe your gem
+## Theme details
 
+docdoc it's a free project documentation theme.  
+Particular attention has been paid to accessibility in this theme.
 
-## Installation
+## Features
 
-Add this line to your Jekyll site's `Gemfile`:
+- [ ] Fully responsive
+- [x] WCAG 2.0
+- [x] HTML5 - CSS3
+- [x] Home page with access to the main sections
+- [x] Documentation layout
+- [ ] News
+- [ ] Glossary
 
-```ruby
-gem "jekyll-theme-docdoc"
+## Use this theme on Github pages
+An example of files are available on the branch gh-pages of the repo.
+
+Change settings in the file _config.yml
+
+```
+remote_theme: stevenMouret/jekyll-theme-docdoc
+url: https://stevenmouret.github.io
+baseurl: /rgaa-training
+title: RGAA Training
+author: Steven Mouret
+email: steven.mouret+github@gmail.fr
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+## Author and licence
+This Jekyll theme is created by [Steven Mouret](https://twitter.com/stevenmouret) and is 100% free under the [Creative Commons Attribution 3.0 License (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)
+ 
 
-```yaml
-theme: jekyll-theme-docdoc
-```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-docdoc
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-docdoc.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
