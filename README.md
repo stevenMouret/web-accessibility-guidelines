@@ -8,7 +8,9 @@ Particular attention has been paid to accessibility in this theme.
 
 [Github Pages demo](https://stevenmouret.github.io/jekyll-theme-docdoc/)
 
-![](./favicon.svg =100x)
+![](./favicon.svg | width=100)
+
+<img src="./favicon.svg" width="48" alt="">
 
 ## Features
 
