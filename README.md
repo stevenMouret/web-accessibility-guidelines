@@ -1,18 +1,18 @@
 # docdoc - Jekyll theme
 
-## Demo
-
-- [Github Pages demo](https://stevenmouret.github.io/jekyll-theme-docdoc/)
 
 ## Theme details
 
-docdoc it's a free project documentation theme.  
+docdoc is a free project documentation theme through Github Pages.
 Particular attention has been paid to accessibility in this theme.
+
+[Github Pages demo](https://stevenmouret.github.io/jekyll-theme-docdoc/)
 
 ## Features
 
 This project is under development so feature is not finalized.
 
+- [x] Compatible with GitHub Pages
 - [ ] Fully responsive
 - [x] WCAG 2.0
 - [x] HTML5 - CSS3
@@ -20,7 +20,9 @@ This project is under development so feature is not finalized.
 - [x] Documentation layout
 - [ ] News
 - [ ] Glossary
-
+- [ ] Commenting support
+- [ ] Search module
+ 
 ## Use this theme on Github pages
 An example of files are available on the branch gh-pages of this repo.
 
