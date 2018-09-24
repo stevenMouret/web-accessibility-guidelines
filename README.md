@@ -48,7 +48,12 @@ This menu give access to the main sections, you need to create one page by secti
 
 ### Section
 Each section must be configured to access the children's sections.
-You can change the YAML front matter block at the top of each file. A new folder must be created for each sub section. 
+You can change the YAML front matter block at the top of each file. A new folder must be created for each sub section.
+
+## Run the theme
+```
+bundle exec jekyll serve
+``` 
 
 ## Author and licence
 This Jekyll theme is created by [Steven Mouret](https://twitter.com/stevenmouret) and is 100% free under the [Creative Commons Attribution 3.0 License (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)
