@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-docdoc"
   spec.version       = "0.1.0"
   spec.authors       = ["Steven Mouret"]
-  spec.email         = ["steven.mouret@gmail.com"]
+  spec.email         = ["steven.mouret+github@gmail.com"]
 
   spec.summary       = "Simple Jekyll theme for documentation"
   spec.homepage      = "https://github.com/stevenMouret/jekyll-theme-docdoc"
