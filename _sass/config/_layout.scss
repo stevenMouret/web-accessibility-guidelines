@@ -3,10 +3,16 @@
 }
 
 .site-header {
+    background: $color-white;
     padding: 2rem;
     display: flex;
     align-items: center;
     border-bottom: 0.1rem solid rgba($color-black, 0.05);
+}
+
+.blank {
+    display: block;
+    height: 9.1rem;
 }
 
 .site-name {

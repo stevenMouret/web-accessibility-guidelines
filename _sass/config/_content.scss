@@ -31,6 +31,16 @@
         margin: 4.5rem 0 2.5rem;
     }
 
+    h5 {
+        font-size: 2.8rem;
+        margin: 4rem 0 2.2rem;
+    }
+
+    h6 {
+        font-size: 2.4rem;
+        margin: 3.8rem 0 2rem;
+    }
+
     p {
         line-height: 2.4rem;
         margin-bottom: 2rem;
@@ -54,5 +64,6 @@
 
     .highlight pre {
         padding: 1.6rem;
+        margin-bottom: 3rem;
     }
 }

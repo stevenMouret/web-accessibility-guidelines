@@ -10,6 +10,7 @@
     }
 
     a {
+        color: $color-black;
         display: block;
         font-weight: 700;
         padding: 1.5rem;
@@ -48,5 +49,35 @@
     }
     a {
 
+    }
+}
+
+.sidebar-menu {
+    margin: 0 0 5rem;
+    padding: 2rem;
+    position: fixed;
+    top: 10rem;
+    left: 0;
+
+    h2 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: disc;
+        margin-left: 2rem;
+
+        li {
+            margin: 0.5rem 0;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
     }
 }
