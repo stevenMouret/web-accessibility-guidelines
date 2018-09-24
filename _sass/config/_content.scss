@@ -1,0 +1,58 @@
+.content {
+    h2, h3, h4, h5, h6 {
+        font-weight: 900;
+    }
+    h2 {
+        font-size: 6rem;
+        margin: 8rem 0 5rem;
+        text-align: center;
+
+        &::after {
+            content: "";
+            display: block;
+            margin: 0 auto;
+            width: 6rem;
+            height: 0.3rem;
+            background: $color-1-1;
+            margin-top: 3rem;
+        }
+    }
+
+    h3 {
+        border-bottom: 0.1rem solid rgba($color-black, 0.05);
+        color: $color-1-1;
+        font-size: 4rem;
+        margin: 5rem 0 3rem;
+    }
+
+    h4 {
+        color: $color-1-3;
+        font-size: 3.2rem;
+        margin: 4.5rem 0 2.5rem;
+    }
+
+    p {
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    ul, ol {
+        margin: 0 0 2rem 3rem;
+    }
+
+    ul {
+        list-style: circle;
+    }
+    ol {
+
+    }
+
+    blockquote {
+        background: rgba($color-black, 0.05);
+        padding: 1rem;
+    }
+
+    .highlight pre {
+        padding: 1.6rem;
+    }
+}
