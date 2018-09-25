@@ -5,12 +5,17 @@
     <title>{{ site.title }} &bull; {{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <style>
         /* @name External link */
-        a[href^='http']:not([href*='{{ site.url }}']),
-        a[href^='https']:not([href*='{{ site.url }}']),
-        a[href^='//']:not([href*='{{ site.url }}']) {
-            background: blue;
+        a[href^='http']:not([href*='{{ site.url }}'])::after,
+        a[href^='https']:not([href*='{{ site.url }}'])::after,
+        a[href^='//']:not([href*='{{ site.url }}'])::after {
+            content: '\f35d';
+            font-family: "Font Awesome 5 Free";
+            font-size: 1.2rem;
+            color: rgba(0, 0, 0, 0.8);
+            margin-left: 0.5rem;
         }
     </style>
 </head>
