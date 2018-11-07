@@ -2,17 +2,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }} &bull; {{ page.title }}</title>
+    <title>{{ page.title }} &bull; {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <style>
         /* @name External link */
         a[href^='http']:not([href*='{{ site.url }}'])::after,
         a[href^='https']:not([href*='{{ site.url }}'])::after,
         a[href^='//']:not([href*='{{ site.url }}'])::after {
-            content: '\f35d';
-            font-family: "Font Awesome 5 Free";
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f35d";
             font-size: 1.2rem;
             color: rgba(0, 0, 0, 0.8);
             margin-left: 0.5rem;

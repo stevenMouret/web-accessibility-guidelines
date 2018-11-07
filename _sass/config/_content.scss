@@ -4,24 +4,35 @@
     text-align: center;
 }
 
+%h2  {
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 8rem 0 5rem;
+    text-align: center;
+
+    &::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 6rem;
+        height: 0.3rem;
+        background: $color-1-1;
+        margin-top: 3rem;
+    }
+}
+
+.page-title {
+    @extend %h2;
+}
+
 .content {
+
     h2, h3, h4, h5, h6 {
         font-weight: 900;
     }
-    h2 {
-        font-size: 6rem;
-        margin: 8rem 0 5rem;
-        text-align: center;
 
-        &::after {
-            content: "";
-            display: block;
-            margin: 0 auto;
-            width: 6rem;
-            height: 0.3rem;
-            background: $color-1-1;
-            margin-top: 3rem;
-        }
+    h2 {
+        @extend %h2;
     }
 
     h3 {
@@ -71,5 +82,11 @@
     .highlight pre {
         padding: 1.6rem;
         margin-bottom: 3rem;
+    }
+
+    code.highlighter-rouge {
+        background: $color-3-1;
+        border-right: 0.3rem;
+        padding: 0.2rem 0.4rem;
     }
 }

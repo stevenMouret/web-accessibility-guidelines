@@ -29,3 +29,9 @@ a {
 ul {
     list-style: none;
 }
+
+a, button, select, input {
+    &:focus {
+        outline: 1px dotted $color-1-2;
+    }
+}

@@ -7,10 +7,16 @@
     <div class="container">
         <main class="page-content" role="main">
             <div class="page-content__wrapper">
-                {{ content }}
-                {% if page.teaser %}
-                <p class="page-teaser">{{ page.teaser }}</p>
-                {% endif %}
+                {%- include breadcrumb.html -%}
+                <header>
+                    <h2 class="page-title">{{ page.title }}</h2>
+                    {% if page.teaser %}
+                    <p class="page-teaser">{{ page.teaser }}</p>
+                    {% endif %}
+                </header>
+                <article class="content">
+                    {{ content }}
+                </article>
             </div>
             {% include navigation.html navigation=page.navigation %}
         </main>
