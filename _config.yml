@@ -3,7 +3,7 @@
 #
 title: Your awesome title
 url: https://localhost
-baseurl:
+baseurl: /jekyll-theme-docdoc
 author: GitHub User
 email: your-email@domain.com
 
