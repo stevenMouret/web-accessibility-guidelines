@@ -31,24 +31,22 @@
     padding: 1rem;
     width: 100%;
 
-    li {
+    span:not(.active) {
+        &::after {
+            content: ">";
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 0.5rem;
+        }
+    }
+
+    a, .active {
         display: inline-block;
         vertical-align: middle;
 
-        &::after {
-            content: ">";
-            display: inline;
-            margin-left: 0.5rem;
+        &::first-letter {
+            text-transform: uppercase;
         }
-
-        &:last-child {
-            &::after {
-                content: '';
-            }
-        }
-    }
-    a {
-
     }
 }
 

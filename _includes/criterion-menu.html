@@ -1,0 +1,10 @@
+{% if page.navigation %}
+    <nav class="sidebar-menu">
+        <h2>{{site.data.menus.images-title}}</h2>
+        <ul>
+            {% for item in site.data.menus[page.navigation] %}
+            <li><a href="{{ item.url }}">{{ item.title }} {{ item.level }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+{% endif %}

@@ -5,16 +5,19 @@
 <div class="site">
     {%- include header.html -%}
     <div class="container">
+        <div class="column">
+            {%- include criterion-menu.html -%}
+        </div>
         <main class="page-content" role="main">
             <div class="page-content__wrapper">
-                {{ content }}
-                {% if page.teaser %}
-                <p class="page-teaser">{{ page.teaser }}</p>
-                {% endif %}
+                {%- include breadcrumb.html -%}
+                <article class="content">
+                    {{ content }}
+                </article>
             </div>
-            {% include navigation.html navigation=page.navigation %}
         </main>
     </div>
 </div>
+{% include js.html %}
 </body>
 </html>

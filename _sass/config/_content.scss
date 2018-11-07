@@ -1,3 +1,9 @@
+.page-teaser {
+    color: lighten($color-black, 40%);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
 .content {
     h2, h3, h4, h5, h6 {
         font-weight: 900;

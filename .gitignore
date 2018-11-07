@@ -3,5 +3,6 @@
 .sass-cache
 _doc
 _site
+_data
 Gemfile.lock
 .idea
