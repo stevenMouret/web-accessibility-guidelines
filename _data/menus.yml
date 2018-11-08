@@ -1,19 +1,15 @@
-images-title: Navigate by criteria
-images:
-
-- title: Criterion 1.1
-  url: images/criterion-1-1.html
-  level: A
-
-- title: Criterion 1.2
-  url: images/criterion-1-2.html
-  level: A
-
-sidebar-title: Navigate by themes
-sidebar:
+menu-sidebar:
 
 - title: About the RGAA
-  url: about-rgaa.html
+  url: /about-rgaa.html
 
 - title: Images
-  url: images.html
+  url: /images.html
+  sub:
+    - title: Criterion 1.1
+      url: /images/criterion-1-1.html
+      level: A
+
+    - title: Criterion 1.2
+      url: /images/criterion-1-2.html
+      level: A

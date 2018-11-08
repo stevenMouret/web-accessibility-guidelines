@@ -6,15 +6,11 @@
     {%- include skip.html -%}
     {%- include header.html -%}
     <div class="container">
-        <div class="column">
-            {%- include sidebar-menu.html -%}
-        </div>
-        <main class="page-content" role="main">
+        <main class="page-content" role="main" id="content">
             <div class="page-content__wrapper">
                 {%- include breadcrumb.html -%}
                 <article class="content">
                     {{ content }}
-                    {% include sections.html %}
                 </article>
             </div>
         </main>

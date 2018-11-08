@@ -1,0 +1,19 @@
+<section class="sidebar-menu">
+    <ul>
+        {% for item in site.data.menus.menu-sidebar %}
+            {% assign topic = item.url | replace: "/", "" | replace: ".html", "" %}
+            <li><a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+            {% if page.navigation == topic %}
+                {% if item.sub %}
+                <ul>
+                {% endif %}
+                    {% for entry in item.sub %}
+                    <li><a href="{{- site.baseurl -}}{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }} ({{ entry.level }})</a></li>
+                    {% endfor %}
+                {% if item.sub %}
+                </ul>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>

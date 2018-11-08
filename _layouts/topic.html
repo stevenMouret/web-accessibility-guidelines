@@ -8,7 +8,7 @@
     <div class="container">
         <div class="column">
             <div class="column-wrapper">
-                {%- include sidebar-menu.html -%}
+                {%- include menu-sidebar.html -%}
             </div>
         </div>
         <main class="page-content" role="main" id="content">
@@ -24,7 +24,6 @@
                     {{ content }}
                 </article>
             </div>
-            {% include navigation.html navigation=page.navigation %}
         </main>
     </div>
     {%- include footer.html -%}

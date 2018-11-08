@@ -1,11 +1,11 @@
 ---
-layout: criterion
-title: Criterion 1.2
+layout: topic
+title: Criterion 1.2 [A]
 teaser: For each decorative image with a text alternative, is this alternative empty?
 navigation: images
 ---
 
-## Criterion 1.2 [A] For each decorative image with a text alternative, is this alternative empty?
+{{ page.layout }}
 
 In order to be able to test this criterion you need to know what a [decorative image](../glossary.html#image-decorative) is.
 

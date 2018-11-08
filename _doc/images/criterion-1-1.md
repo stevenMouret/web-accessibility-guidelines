@@ -1,12 +1,11 @@
 ---
-layout: criterion
-title: Criterion 1.1
+layout: topic
+title: Criterion 1.1 [A]
 teaser: Does each image have a text alternative?
 navigation: images
-menu-sidebar: sidebar
 ---
 
-## Criterion 1.1 [A] Does each image have a text alternative?
+{{ page.layout }}
 
 All images must have an alt attribute, which is due to the fact that in the absence of this attribute, a screen reader returns the path or name of the source file, which makes no sense to the user.
 
