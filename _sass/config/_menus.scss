@@ -27,7 +27,9 @@
     }
 
     @media (max-width: 768px) {
-        text-align: center;
+        ul {
+            text-align: center;
+        }
     }
 }
 
@@ -84,12 +86,6 @@
         &[aria-current=true] {
             text-decoration: underline;
         }
-    }
-
-    @media (max-width: 768px) {
-        left: inherit;
-        position: relative;
-        top: inherit;
     }
 }
 

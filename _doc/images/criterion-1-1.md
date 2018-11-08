@@ -5,8 +5,6 @@ teaser: Does each image have a text alternative?
 navigation: images
 ---
 
-{{ page.layout }}
-
 All images must have an alt attribute, which is due to the fact that in the absence of this attribute, a screen reader returns the path or name of the source file, which makes no sense to the user.
 
 ### Tests

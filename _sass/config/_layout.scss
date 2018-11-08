@@ -48,7 +48,6 @@
     overflow-y: auto;
 
     @media (max-width: 768px) {
-        order: 2;
         overflow: initial;
     }
 
@@ -58,6 +57,12 @@
         padding: 2rem;
         position: fixed;
         top: 10rem;
+
+        @media (max-width: 768px) {
+            left: inherit;
+            position: relative;
+            top: inherit;
+        }
     }
 }
 
@@ -65,7 +70,6 @@
     flex: 1 1 auto;
 
     @media (max-width: 768px) {
-        order: 1;
     }
 }
 
