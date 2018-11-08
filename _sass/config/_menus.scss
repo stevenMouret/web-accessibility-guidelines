@@ -22,6 +22,10 @@
             border-bottom-color: $color-1-1;
         }
     }
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 }
 
 .breadcrumb {
@@ -51,11 +55,11 @@
 }
 
 .sidebar-menu {
+    left: 0;
     margin: 0 0 5rem;
     padding: 2rem;
     position: fixed;
     top: 10rem;
-    left: 0;
 
     h2 {
         font-size: 1.6rem;
@@ -78,14 +82,22 @@
             text-decoration: underline;
         }
     }
+
+    @media (max-width: 768px) {
+        left: inherit;
+        position: relative;
+        top: inherit;
+    }
 }
 
 .menu-main-sections {
     display: flex;
+    flex-wrap: wrap;
     max-width: 80rem;
     margin: 0 auto;
     > * {
         flex: 1 1 calc(33.3333% - 2%);
+        min-width: 25rem;
     }
 
     a {
