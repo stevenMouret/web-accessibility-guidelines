@@ -8,13 +8,13 @@
         <main class="page-content" role="main">
             <div class="page-content__wrapper">
                 {%- include breadcrumb.html -%}
-                <header>
-                    <h2 class="page-title">{{ page.title }}</h2>
-                    {% if page.teaser %}
-                    <p class="page-teaser">{{ page.teaser }}</p>
-                    {% endif %}
-                </header>
                 <article class="content">
+                    <header class="article-header">
+                        <h2 class="article-header__title">{{ page.title }}</h2>
+                        {% if page.teaser %}
+                        <p class="article-header__teaser">{{ page.teaser }}</p>
+                        {% endif %}
+                    </header>
                     {{ content }}
                 </article>
             </div>
