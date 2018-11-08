@@ -1,7 +1,10 @@
 .menu {
-    margin-left: 1rem;
-    text-align: right;
     flex: 1 1 100%;
+    margin-left: 1rem;
+
+    ul {
+        text-align: right;
+    }
 
     li {
         display: inline-block;
@@ -170,4 +173,14 @@
 .menu-main-sections__title {
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.skip {
+    margin: 0 1rem;
+
+    li {
+        display: inline-block;
+        margin: 0 .5rem;
+        vertical-align: middle;
+    }
 }

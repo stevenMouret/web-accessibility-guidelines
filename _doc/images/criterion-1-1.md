@@ -12,9 +12,6 @@ navigation: images
 *   **Test 1.1.3:** Does each form [button](../glossary.html#button-form) (`input` tag with the `type="image"` attribute) have an `alt` attribute?
 *   **Test 1.1.4:** Does each [clickable area](../glossary.html#area-clickable) of a server-side [image map](../glossary.html#image-map) have an equivalent link in the page?
 
-### Criterion explanation
-
-
 ### How to test
 
 #### Test 1.1.1, 1.1.3

@@ -1,6 +1,8 @@
-<ul class="menu">
-    <li><a href="{{ '/' | prepend: site.baseurl }}"{% if page.id contains 'index'%} aria-current="page"{% endif%}>Home</a></li>
-    <li><a href="{{ '/tools' | prepend: site.baseurl }}"{% if page.id contains 'tools'%} aria-current="page"{% endif%}>Tools</a></li>
-    <li><a href="{{ '/glossary' | prepend: site.baseurl }}"{% if page.id contains 'glossary'%} aria-current="page"{% endif%}>Glossary</a></li>
-    <li><a href="http://disic.github.io/rgaa_referentiel_en/criteria.html" target="_blank" title="Criteria (new window)">All Criteria</a></li>
-</ul>
+<nav class="menu" role="navigation" aria-label="Main navigation" id="navigation">
+    <ul>
+        <li><a href="{{ '/' | prepend: site.baseurl }}"{% if page.id contains 'index'%} aria-current="page"{% endif%}>Home</a></li>
+        <li><a href="{{ '/tools' | prepend: site.baseurl }}"{% if page.id contains 'tools'%} aria-current="page"{% endif%}>Tools</a></li>
+        <li><a href="{{ '/glossary' | prepend: site.baseurl }}"{% if page.id contains 'glossary'%} aria-current="page"{% endif%}>Glossary</a></li>
+        <li><a href="http://disic.github.io/rgaa_referentiel_en/criteria.html" target="_blank" title="Criteria (new window)">All Criteria</a></li>
+    </ul>
+</nav>

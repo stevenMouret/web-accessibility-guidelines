@@ -66,7 +66,7 @@
     }
 
     p {
-        line-height: 2.4rem;
+        line-height: 2.6rem;
         margin-bottom: 2rem;
     }
 
@@ -81,8 +81,8 @@
     ul {
         list-style: circle;
     }
-    ol {
-
+    li {
+        line-height: 2.6rem;
     }
 
     blockquote {
@@ -97,7 +97,8 @@
 
     code.highlighter-rouge {
         background: $color-3-1;
-        border-right: 0.3rem;
+        border: 0.1rem solid darken($color-3-1, 20%);
+        border-radius: 0.3rem;
         padding: 0.2rem 0.4rem;
     }
 }
