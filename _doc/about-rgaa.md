@@ -1,7 +1,10 @@
 ---
-layout: home
+layout: topic
 title: About the RGAA
 teaser: General informations about the RGAA (Référentiel Général d'Accessibilité pour les Administrations)
+navigation:
+  - /images
+menu-sidebar: sidebar
 ---
 
 The rules for web content accessibility, which are proposed through this repository, are based on the WCAG 2.0, written by the WAI.

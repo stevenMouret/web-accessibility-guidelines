@@ -1,10 +1,11 @@
 {% if page.navigation %}
-    <nav class="sidebar-menu">
+    <section class="sidebar-menu">
         <h2>{{site.data.menus.images-title}}</h2>
         <ul>
             {% for item in site.data.menus[page.navigation] %}
-            <li><a href="{{ item.url }}">{{ item.title }} ({{ item.level }})</a></li>
+                {% assign pageurl = page.url | remove_first: "/" %}
+                <li><a href="{{- site.baseurl -}}/{{ item.url }}"{% if item.url == pageurl %} aria-current="page"{% endif %}>{{ item.title }} ({{ item.level }})</a></li>
             {% endfor %}
         </ul>
-    </nav>
+    </section>
 {% endif %}

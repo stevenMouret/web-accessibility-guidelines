@@ -101,4 +101,33 @@
         border-radius: 0.3rem;
         padding: 0.2rem 0.4rem;
     }
+
+    .tip, .important {
+        background: $color-3-1;
+        padding: 1rem 1rem 1rem 8rem;
+        position: relative;
+
+        &::before {
+            color: $color-1-1;
+            content: "\f0eb";
+            font-family: "Font Awesome 5 Free";
+            font-size: 5rem;
+            font-weight: 900;
+            left: 1rem;
+            line-height: 1;
+            position: absolute;
+            top: 2.6rem;
+            text-indent: 0;
+            width: 6rem;
+            height: 5rem;
+            text-align: center;
+        }
+    }
+
+    .important {
+
+        &::before {
+            content: "\f071";
+        }
+    }
 }

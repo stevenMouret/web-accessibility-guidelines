@@ -82,3 +82,10 @@ if (isAwesome){
 This is some text not written in HTML but in another language!
 
 *[HTML]: HyperTextMarkupLanguage
+
+## Class and attribute
+lorem ipsum
+{: .tip}
+
+lorem ipsum
+{: title="Blockquote title"}

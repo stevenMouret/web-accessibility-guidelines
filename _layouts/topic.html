@@ -8,16 +8,23 @@
     <div class="container">
         <div class="column">
             <div class="column-wrapper">
-                {%- include criterion-menu.html -%}
+                {%- include sidebar-menu.html -%}
             </div>
         </div>
-        <main class="page-content" role="main">
+        <main class="page-content" role="main" id="content">
             <div class="page-content__wrapper">
                 {%- include breadcrumb.html -%}
                 <article class="content">
+                    <header class="article-header">
+                        <h2 class="article-header__title">{{ page.title }}</h2>
+                        {% if page.teaser %}
+                        <p class="article-header__teaser">{{ page.teaser }}</p>
+                        {% endif %}
+                    </header>
                     {{ content }}
                 </article>
             </div>
+            {% include navigation.html navigation=page.navigation %}
         </main>
     </div>
     {%- include footer.html -%}

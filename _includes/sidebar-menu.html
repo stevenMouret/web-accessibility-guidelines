@@ -1,17 +1,11 @@
-{% if page.sections %}
-<!-- SIDEBAR -->
-    <nav class="sidebar-menu">
-        <h2>Navigate by criterion</h2>
-        <ul>
-            {% for id in page.sections %}
-            {% assign section = site.doc | where: "id", id | first %}
-            {% unless section %}
-            {% assign url = id | append: '.html' %}
-            {% assign section = site.pages | where: "url", url | first %}
-            {% endunless %}
-            {% unless section %}{% continue %}{% endunless %}
-            <li><a href="#{{ section.title | slugify }}">{% if section.short_title %}{{ section.short_title }}{% else %}{{ section.title }}{% endif %}</a></li>
-            {% endfor %}
-        </ul>
-    </nav>
+{% if page.menu-sidebar %}
+<section class="sidebar-menu">
+    <h2>{{site.data.menus.sidebar-title}}</h2>
+    <ul>
+        {% for item in site.data.menus[page.menu-sidebar] %}
+        {% assign pageurl = page.url | replace: '/', '' %}
+        <li><a href="{{- site.baseurl -}}/{{ item.url }}"{% if item.url == pageurl %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
 {% endif %}

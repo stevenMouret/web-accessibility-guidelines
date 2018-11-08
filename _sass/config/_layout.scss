@@ -51,6 +51,14 @@
         order: 2;
         overflow: initial;
     }
+
+    &-wrapper {
+        left: 0;
+        margin: 0 0 5rem;
+        padding: 2rem;
+        position: fixed;
+        top: 10rem;
+    }
 }
 
 .page-content {

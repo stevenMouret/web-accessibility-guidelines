@@ -3,9 +3,14 @@ layout: criterion
 title: Criterion 1.1
 teaser: Does each image have a text alternative?
 navigation: images
+menu-sidebar: sidebar
 ---
 
 ## Criterion 1.1 [A] Does each image have a text alternative?
+
+All images must have an alt attribute, which is due to the fact that in the absence of this attribute, a screen reader returns the path or name of the source file, which makes no sense to the user.
+
+### Tests
 
 *   **Test 1.1.1:** Does each image (`img` tag) have an `alt` attribute?
 *   **Test 1.1.2:** Does each [area](../glossary.html#area-of-an-image-map) (`area` tag) of an [image map](../glossary.html#image-map) have an `alt` attribute?
