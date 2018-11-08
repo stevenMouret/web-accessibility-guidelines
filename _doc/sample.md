@@ -76,3 +76,9 @@ if (isAwesome){
 ## Links
 
 [Blank link with title attribute](http://www.google.fr "Blank link with title attribute (new window)"){:target="_blank"}
+
+## Abbreviation
+
+This is some text not written in HTML but in another language!
+
+*[HTML]: HyperTextMarkupLanguage
