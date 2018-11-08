@@ -1,14 +1,19 @@
+---
+permalink: manifest.json
+layout: blank
+---
+
 {
     "short_name": "RGAA",
     "name": "RGAA Training",
     "icons": [
         {
-            "src": "/img/favicon-192.png",
+            "src": "{{ site.baseurl }}/img/favicon-192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/img/favicon-512.png",
+            "src": "{{ site.baseurl }}/img/favicon-512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
