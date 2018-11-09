@@ -46,7 +46,18 @@ If so, then this image conveys information.
 
 #### Test 1.2.1
 
+Tool(s): [[web developer bar](../tools.html#web-developer-bar)]
 
+1. In the "CSS" menu, choose "Disable All Styles".
+    ![](../img/wdb-css.png)
+2. In the "Images" menu, choose "Display Alt Attributes".
+    ![](../img/wdb-images-alt.png)
+3. In the "Information" menu, choose "Display Title Attributes".
+    ![](../img/wdb-info-title.png)
+4. For each image with an alt attribute, with no caption, check:
+    1. That decorative images have an empty alternative (alt="");
+    2. That images have no title attributes;
+    3. That images have no ARIA role, property or state meant to label them (aria-label, aria-describedby, aria-labelledby for example).
 
 #### Test 1.2.2
 
@@ -57,6 +68,18 @@ If so, then this image conveys information.
 *Todo*
 
 #### Test 1.2.4
+
+Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector]
+
+1. In the "CSS" menu, choose "Disable All Styles".
+    ![](../img/wdb-css.png)
+2. Right-click on the element and choose "Inspect".
+3. In the search field, type "svg".
+4. Spot the svg tags used to insert a decorative image and check:
+    1. The presence of the ARIA property aria-hidden="true" on the svg tag;
+    2. The absence of any ARIA property (aria-label, aria-describedby, aria-labelledby…) meant to label the image on the svg tag or one of its descendants;
+    3. That there is no title or desc tags in the body of the svg tags; or that they are empty, if present;
+    4. The absence of a title attribute on the svg tag or one of its descendants.
 
 #### Test 1.2.5
 
