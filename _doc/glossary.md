@@ -962,7 +962,7 @@ Note: if the media is served via an `object` tag, then the text transcript must 
 
 A time-based media can be broadcast live or be provided to be played in an asynchronous way (prerecorded media).
 
-**Note 1:** The use of the `wmode` parameter for a Flash object with the values "`transparent`" and "`opaque`" invalidates [criterion 4.20: Can each non time-based media be controlled either through a keyboard or a mouse?](./criteria.html#crit-4-20). When accessed with a screenreader, these values make the Flash movie inaccessible (the object is ignored, or can not be browsed). Therefore it can not be tabbed to.
+**Note 1:** The use of the `wmode` parameter for a Flash object with the values "`transparent`" and "`opaque`" invalidates [criterion 4.20: Can each non time-based media be controlled either through a keyboard or a mouse?](./criteria/multimedia/criterion-4.20.html). When accessed with a screenreader, these values make the Flash movie inaccessible (the object is ignored, or can not be browsed). Therefore it can not be tabbed to.
 
 **Note 2:** Animated GIFs, and JavaScript-based animations are not considered as time-based media with regards to RGAA.
 

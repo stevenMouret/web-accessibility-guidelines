@@ -1,9 +1,13 @@
 ---
 layout: topic
 title: Images
-teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
 navigation: images
 ---
+
+Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
+{: .article-header__teaser}
+
+**Main users impacted:** The visually impaired (blind and partially sighted)
 
 There are two types of images:
 

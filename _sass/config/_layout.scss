@@ -44,25 +44,15 @@
 
 .column {
     border-right: 0.1rem solid rgba($color-black, .05);
-    flex: 0 0 20%;
-    overflow-y: auto;
+    flex: 0 0 30rem;
 
     @media (max-width: 768px) {
-        overflow: initial;
+        flex: 0 0 auto;
     }
 
     &-wrapper {
-        left: 0;
         margin: 0 0 5rem;
         padding: 2rem;
-        position: fixed;
-        top: 10rem;
-
-        @media (max-width: 768px) {
-            left: inherit;
-            position: relative;
-            top: inherit;
-        }
     }
 }
 

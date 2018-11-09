@@ -1,18 +1,13 @@
 <ul class="menu-main-sections">
-    {% for navigation in include.navigation %}
-    {% assign post = site.doc | where: "id", navigation | first %}
-    {% unless post %}
-    {% assign url = id | append: '.html' %}
-    {% assign post = site.pages | where: "url", url | first %}
-    {% endunless %}
-    {% unless post %}{% continue %}{% endunless %}
-    <li class="menu-main-sections__item">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="menu-main-sections__title">{{ post.title }}</h2>
-            {% if post.teaser %}
-            <p>{{ post.teaser }}</p>
-            {% endif %}
-        </a>
-    </li>
+    {% for item in site.data.menus.menu-sidebar %}
+        {% assign topic = item.url | replace: "/", "" | replace: ".html", "" | remove: "criteria" %}
+        <li class="menu-main-sections__item">
+            <a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>
+                <h2 class="menu-main-sections__title">{{ item.title }}</h2>
+                {% if item.teaser %}
+                <p>{{ item.teaser }}</p>
+                {% endif %}
+            </a>
+        </li>
     {% endfor %}
 </ul>

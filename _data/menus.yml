@@ -1,15 +1,60 @@
-menu-sidebar:
+menu-main:
+
+- title: Home
+  url: /index.html
 
 - title: About the RGAA
   url: /about-rgaa.html
 
+- title: Disabilities
+  url: /about-persons-with-disabilities.html
+
+- title: Criteria
+  url: /criteria.html
+
+- title: Tools
+  url: /tools.html
+
+- title: Glossary
+  url: /glossary.html
+
+- title: Particular cases
+  url: /particular-cases.html
+
+- title: All criteria
+  url: http://disic.github.io/rgaa_referentiel_en/criteria.html
+
+menu-sidebar:
+
 - title: Images
-  url: /images.html
+  url: /criteria/images.html
+  teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
   sub:
     - title: Criterion 1.1
-      url: /images/criterion-1-1.html
+      url: /criteria/images/criterion-1-1.html
       level: A
 
     - title: Criterion 1.2
-      url: /images/criterion-1-2.html
+      url: /criteria/images/criterion-1-2.html
       level: A
+
+    - title: Criterion 1.3
+      url: /criteria/images/criterion-1-3.html
+      level: A
+
+menu-about-users:
+
+- title: About persons with disabilities
+  url: /about-persons-with-disabilities.html
+
+- title: Visual disability
+  url: /visual-disability.html
+
+- title: Hearing disability
+  url: /hearing-disability.html
+
+- title: Motor disability
+  url: /motor-disability.html
+
+- title: Mental disability
+  url: /mental-disability.html

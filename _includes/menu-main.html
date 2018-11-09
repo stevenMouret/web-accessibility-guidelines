@@ -1,0 +1,7 @@
+<nav class="menu" role="navigation" aria-label="Main navigation" id="navigation">
+    <ul>
+        {% for item in site.data.menus.menu-main %}
+            <li><a href="{% if item.url contains 'http' %}{% else %}{{- site.baseurl -}}{% endif %}{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

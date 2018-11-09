@@ -52,9 +52,16 @@
     a, .active {
         display: inline-block;
         vertical-align: middle;
+        text-decoration: none;
 
         &::first-letter {
             text-transform: uppercase;
+        }
+    }
+
+    a {
+        &:hover, &:focus {
+            text-decoration: underline;
         }
     }
 }
@@ -67,13 +74,8 @@
         margin-bottom: 1rem;
     }
 
-    ul {
-        list-style: disc;
-        margin-left: 2rem;
-
-        li {
-            margin: 0.5rem 0;
-        }
+    a, li {
+        display: block;
     }
 
     a {
@@ -87,6 +89,55 @@
             text-decoration: underline;
         }
     }
+
+    > ul {
+        list-style: none;
+
+        > li {
+            margin: 0.5rem 0;
+
+
+            > a {
+                background: $color-3-1;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding: 0.5rem 1rem;
+                text-transform: uppercase;
+
+                &[aria-current=page],
+                &[aria-current=true] {
+                    background: $color-1-2;
+                    color: $color-white;
+                }
+            }
+        }
+
+        > ul {
+            list-style: none;
+            margin-left: 1rem;
+
+            > li {
+                position: relative;
+                padding-left: 1rem;
+
+                &::before {
+                    color: $color-1-1;
+                    content: "\f105";
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 1.2rem;
+                    font-weight: 900;
+                    left: 0;
+                    line-height: 1;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    text-indent: 0;
+                }
+            }
+        }
+    }
+
+
 }
 
 .menu-main-sections {
