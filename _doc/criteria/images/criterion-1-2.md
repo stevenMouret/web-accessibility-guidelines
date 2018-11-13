@@ -15,6 +15,14 @@ In order to know if an image is decorative or informative, hide it, take into ac
 If so, then this image conveys information.
 {: .tip}
 
+<span class="visually-hidden">Important</span>
+Be careful, an image with content text is not always an image that gives information. Look at the example below.
+{: .important}
+
+![101 things to do in London with kids](../../img/images-1.2-1.png)
+
+In this case, when analyzing the context, the image is only a graphical redundancy of the text below. The image is therefore decorative and the alternative should be empty.
+
 ### Tests
 
 *   **Test 1.2.1:** Does each [decorative image](../../glossary.html#image-decorative) (`img` tag), without [caption](../../glossary.html#image-caption) and with an `alt` attribute, meet the following conditions:

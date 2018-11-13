@@ -132,4 +132,12 @@
             content: "\f071";
         }
     }
+
+    ul.important {
+        margin: 0;
+
+        li {
+            margin-left: 2rem;
+        }
+    }
 }
