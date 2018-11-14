@@ -5,8 +5,6 @@ nav: menu-about-users
 
 ## Motor disability
 
-**Demonstration:** [Motor disability](https://atalan.fr/agissons/en/handicap-moteur.html)
-
 ### People with motor difficulties
 
 This category includes a very wide range of disability situations. We mention here the most common situations encountered in a web context:
@@ -20,6 +18,8 @@ This category includes a very wide range of disability situations. We mention he
 This applies particularly to interactive elements such as a navigation menu, form controls and rich components developed with JavaScript such as a tab system, a modal window or an input calendar.
 
 There may also be very great difficulties in performing a task in a given time due to the multiplication of necessary actions when it is not possible to use the mouse pointer for example.
+
+[Motor disability demonstration](https://atalan.fr/agissons/en/handicap-moteur.html)
 
 #### Assistive technologies
 

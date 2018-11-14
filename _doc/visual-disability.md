@@ -5,8 +5,6 @@ nav: menu-about-users
 
 ## Visual disability
 
-**Demonstrations:** [Blindness](https://atalan.fr/agissons/en/cecite.html), [Color blindness](https://atalan.fr/agissons/en/daltonisme.html), [Visual impairment](https://atalan.fr/agissons/en/malvoyance.html)
-
 ### Blind persons
 
 #### Main difficulties encountered
@@ -16,6 +14,8 @@ Blind people will encounter difficulties with:
 * all types of **non-text content** (images, information given only by colour, video, etc.);
 * the **perception of the structure of the information** and the content proposed to them and to which they have sequential access (tables, lists or identification of the main areas of the page, etc.);
 * the use of **interactive elements**: form elements, JavaScript-rich components (tab system, modal window or input calendar) and moving content or dynamic insertion of content into the page.
+
+[Blindness demonstration](https://atalan.fr/agissons/en/cecite.html)
 
 #### Assistive technologies
 
@@ -27,7 +27,12 @@ Blind people access the content and features of a website or web application thr
 
 A screen reader is a complex software to use that requires a learning phase. It can be optimized through parameters designed to increase its efficiency and adapt it to the user's capabilities.
 
-In addition to the screen reader, blind braillists can use a Braille track to access content and interact with it more quickly.
+##### Video demonstration of a screen reader
+<iframe title="Screen reader demonstration" width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM?cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In addition to the screen reader, blind braillists can use a Braille terminal to access content and interact with it more quickly.
+
+![](img/braille-terminal.jpg)
 
 ### Visually impaired persons
 
@@ -47,6 +52,8 @@ These people will encounter difficulties with:
 * the lack of contrasts,
 * the use of imperceptible colours or combinations of colours (e. g. green and red for daltonians with deuteranopes),
 * the size of the characters.
+
+[Color blindness demonstration](https://atalan.fr/agissons/en/daltonisme.html), [Visual impairment demonstration](https://atalan.fr/agissons/en/malvoyance.html)
 
 #### Assistive technologies
 
