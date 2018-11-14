@@ -11,7 +11,7 @@ If the image does not contain any information, the image is not intended to be r
 
 <span class="visually-hidden">Astuce</span>
 In order to know if an image is decorative or informative, hide it, take into account the context and ask yourself the question:<br>
-**Do you have lost information?**<br>
+**Did you lose any information?**<br>
 If so, then this image conveys information.
 {: .tip}
 
