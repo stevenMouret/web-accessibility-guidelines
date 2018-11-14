@@ -42,6 +42,10 @@ menu-sidebar:
       url: /criteria/images/criterion-1-3.html
       level: A
 
+- title: Links
+  url: /criteria/links.html
+  teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
+
 menu-about-users:
 
 - title: About persons with disabilities

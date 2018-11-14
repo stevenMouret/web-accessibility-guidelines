@@ -3,6 +3,7 @@ layout: home
 title:  General Framework for Accessibility for the French Administrations
 navigation:
   - /images
+  - /links
 ---
 
 In french, the RGAA (Référentiel Général d'Accessibilité pour les Administrations).
