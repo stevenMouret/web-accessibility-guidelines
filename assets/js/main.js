@@ -26,7 +26,10 @@ const anchorMenu = () => {
     }
 
     const refNode = document.querySelector('.content > header');
-    insertAfter(refNode, anchorMenuContainer);
+
+    if(refNode) {
+        insertAfter(refNode, anchorMenuContainer);
+    }
 };
 
 const scrollAnchor = () => {
