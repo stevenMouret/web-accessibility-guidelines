@@ -5,6 +5,8 @@ teaser: For each decorative image with a text alternative, is this alternative e
 navigation: images
 ---
 
+### Explanation
+
 In order to be able to test this criterion you need to know what a [decorative image](../../glossary.html#image-decorative) is.
 
 If the image does not contain any information, the image is not intended to be restituted. Its alternative must then be empty. In addition, it must not have a `title` attribute.

@@ -5,6 +5,8 @@ teaser: For each image conveying information with a text alternative, is this al
 navigation: images
 ---
 
+### Explanation
+
 In order to be able to test this criterion you need to know what an image conveying information is.
 
 <span class="visually-hidden">Astuce</span>
@@ -18,7 +20,7 @@ If so, then this image conveys information.
 * Try to avoid content redundancies.
 {: .important}
 
-### Images that contain text
+#### Images that contain text
 
 ![](../../img/images-1.3-1.png)
 
@@ -26,7 +28,7 @@ In this example, the image give an information in text form. In first time, let'
 In this case the context does not give the same content as the image.
 If we hide the image, we have lost informations. It is therefore necessary to add an alternative such as "101 things to do in London with kids".
 
-### Images that represent a scene or action
+#### Images that represent a scene or action
 
 In this case, if the information is essential to understanding, you must describe it in the alternative text.
 
@@ -39,7 +41,7 @@ On the first image the alternative should be "Push down on the top of the cap to
 It is important to remember that images do not necessarily have to be described in detail. Never extrapolate the meaning of the image. You must provide sufficient and necessary information.
 {: .important}
 
-### Images that represent a graphic
+#### Images that represent a graphic
 
 ![](../../img/images-1.3-2.png)
 
