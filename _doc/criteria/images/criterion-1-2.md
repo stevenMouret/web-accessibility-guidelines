@@ -1,9 +1,12 @@
 ---
 layout: topic
-title: Criterion 1.2 [A]
-teaser: For each decorative image with a text alternative, is this alternative empty?
 navigation: images
 ---
+
+<header>
+## Criterion 1.2 [A] <span>For each [decorative image](../../glossary.html#decorative-image) with a [text alternative](../../glossary.html#alternative-text-alternative-of-an-image), is this alternative empty?</span>
+{: .article-header__title}
+</header>
 
 ### Explanation
 

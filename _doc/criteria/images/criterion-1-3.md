@@ -1,9 +1,12 @@
 ---
 layout: topic
-title: Criterion 1.3 [A]
-teaser: For each image conveying information with a text alternative, is this alternative relevant (except in particular cases)?
 navigation: images
 ---
+
+<header>
+## Criterion 1.3 [A] <span>For each [image conveying information](../../glossary.html#image-conveying-information) with a [text alternative](../../glossary.html#alternative-text-alternative-of-an-image), is this alternative relevant (except in [particular cases](../../particular-cases.html#criterion-13 "Particular cases for criterion 1.3"))?</span>
+{: .article-header__title}
+</header>
 
 ### Explanation
 
