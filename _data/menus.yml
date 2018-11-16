@@ -12,16 +12,7 @@ menu-main:
 - title: Criteria
   url: /criteria.html
 
-- title: Tools
-  url: /tools.html
-
-- title: Glossary
-  url: /glossary.html
-
-- title: Particular cases
-  url: /particular-cases.html
-
-- title: All criteria
+- title: Normative version
   url: http://disic.github.io/rgaa_referentiel_en/criteria.html
 
 menu-sidebar:
@@ -49,6 +40,18 @@ menu-sidebar:
 - title: Links
   url: /criteria/links.html
   teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
+
+- title: Glossary
+  url: /criteria/glossary.html
+
+- title: Particular cases
+  url: /criteria/particular-cases.html
+
+- title: Technical notes
+  url: /criteria/technical-notes.html
+
+- title: Tools
+  url: /criteria/tools.html
 
 menu-about-users:
 

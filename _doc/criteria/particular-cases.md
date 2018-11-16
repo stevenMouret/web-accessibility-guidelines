@@ -1,5 +1,5 @@
 ---
-title: Particular cases
+layout: topic
 ---
 
 ## Images

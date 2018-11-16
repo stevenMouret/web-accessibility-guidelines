@@ -1,6 +1,5 @@
 ---
-title: Tools
-teaser: Some tools to test accessibility.
+layout: topic
 ---
 
 ## Tools

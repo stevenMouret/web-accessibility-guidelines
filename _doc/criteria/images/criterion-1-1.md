@@ -17,15 +17,15 @@ All images must have an alt attribute, which is due to the fact that in the abse
 ### Tests
 
 *   **Test 1.1.1:** Does each image (`img` tag) have an `alt` attribute?
-*   **Test 1.1.2:** Does each [area](../../glossary.html#area-of-an-image-map) (`area` tag) of an [image map](../../glossary.html#image-map) have an `alt` attribute?
-*   **Test 1.1.3:** Does each form [button](../../glossary.html#button-form) (`input` tag with the `type="image"` attribute) have an `alt` attribute?
-*   **Test 1.1.4:** Does each [clickable area](../../glossary.html#area-clickable) of a server-side [image map](../../glossary.html#image-map) have an equivalent link in the page?
+*   **Test 1.1.2:** Does each [area](../../glossary.html#mZone) (`area` tag) of an [image map](../../glossary.html#mImgReactive) have an `alt` attribute?
+*   **Test 1.1.3:** Does each form [button](../../glossary.html#mBtnForm) (`input` tag with the `type="image"` attribute) have an `alt` attribute?
+*   **Test 1.1.4:** Does each [clickable area](../../glossary.html#mZoneCliquable) of a server-side [image map](../../glossary.html#mImgReactive) have an equivalent link in the page?
 
 ### How to test
 
 #### Test 1.1.1, 1.1.3
 
-Tool(s): [[web developer bar](../../tools.html#web-developer-bar), [Validator](../../tools.html#w3c-markup-validation-service)]
+Tool(s): [[web developer bar](../tools.html#web-developer-bar), [Validator](../tools.html#w3c-markup-validation-service)]
 
 ##### Web developer Bar
 
