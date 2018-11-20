@@ -10,6 +10,9 @@ navigation: images
 
 ### Explanation
 
+In the case of test images (Captcha), the alternative must be filled in so that the user can understand the nature and role of the image.
+
+For example, `alt="enter the code in the image"`.
 
 ### Tests
 
