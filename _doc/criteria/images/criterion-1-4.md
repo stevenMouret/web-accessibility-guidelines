@@ -4,7 +4,7 @@ navigation: images
 ---
 
 <header>
-## Criterion 1.4 [A] <span>For each image used as a [CAPTCHA](../../glossary.html#mcaptcha) or as a [test image](../../glossary.html#mImgTest), with a [text alternative](../../glossary.html#mAltTexteImg), does this alternative describe the nature and the purpose of the image?</span>
+## Criterion 1.4 [A] <span>For each image used as a [CAPTCHA](../glossary.html#mcaptcha) or as a [test image](../glossary.html#mImgTest), with a [text alternative](../glossary.html#mAltTexteImg), does this alternative describe the nature and the purpose of the image?</span>
 {: .article-header__title}
 </header>
 
@@ -13,50 +13,50 @@ navigation: images
 
 ### Tests
 
-*   **Test 1.4.1:** Does each image (`img` tag) used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
+*   **Test 1.4.1:** Does each image (`img` tag) used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
     *   The content of the `alt` attribute describes the nature and purpose of the image
     *   If present, the value of the `title` attribute matches the value of the `alt` attribute
     *   If present, the value of the `aria-label` property matches the value of the `alt` attribute
     *   If present, the content of the chunk of text linked via the `aria-labelledby` property matches the value of the `alt` attribute.
-*   **Test 1.4.2:** Does each [area](../../glossary.html#mZone) (`area` tag) of an [image map](../../glossary.html#mImgReactive) used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
+*   **Test 1.4.2:** Does each [area](../glossary.html#mZone) (`area` tag) of an [image map](../glossary.html#mImgReactive) used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
     *   The content of the `alt` attribute describes the nature and purpose of the image
     *   If present, the value of the `title` attribute matches the value of the `alt` attribute
     *   If present, the value of the `aria-label` property matches the value of the `alt` attribute
     *   If present, the content of the chunk of text linked via the `aria-labelledby` property matches the value of the `alt` attribute.
-*   **Test 1.4.3:** For each [button](../../glossary.html#mBtnForm) associated with an image (`input` tag with the attribute `type="image"`), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
+*   **Test 1.4.3:** For each [button](../glossary.html#mBtnForm) associated with an image (`input` tag with the attribute `type="image"`), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?
     *   The content of the `alt` attribute describes the nature and purpose of the image
     *   If present, the value of the `title` attribute matches the value of the `alt` attribute
     *   If present, the value of the `aria-label` property matches the value of the `alt` attribute
     *   If present, the content of the chunk of text linked via the `aria-labelledby` property matches the value of the `alt` attribute.
-*   **Test 1.4.4:** Does each [image object](../../glossary.html#mImgObj) (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), meet one of the following conditions?
-    *   The image object is immediately followed by an [adjacent link](../../glossary.html#mLienAdj) giving access to a page or a chunk of text describing the nature and purpose of the image
+*   **Test 1.4.4:** Does each [image object](../glossary.html#mImgObj) (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), meet one of the following conditions?
+    *   The image object is immediately followed by an [adjacent link](../glossary.html#mLienAdj) giving access to a page or a chunk of text describing the nature and purpose of the image
     *   The user can replace the image object by a text describing the nature and purpose of the image, via a provided mechanism
     *   The user can replace the image object by an image with an alternative describing the nature and purpose of the image, via a provided mechanism.
-*   **Test 1.4.5:** Does each [image object](../../glossary.html#mImgObj) (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
+*   **Test 1.4.5:** Does each [image object](../glossary.html#mImgObj) (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
     *   If present, the value of the `title` attribute matches the value of the `aria-label` property
     *   If present, the value of the `title` attribute matches the content of the chunk of text linked via the `aria-labelledby` property.
-*   **Test 1.4.6:** Does each embedded image (`embed` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a text alternative, meet one of these conditions?
-    *   The embedded image is immediately followed by an [adjacent link](../../glossary.html#mLienAdj) giving access to a page or a chunk of text describing the nature and purpose of the image
+*   **Test 1.4.6:** Does each embedded image (`embed` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a text alternative, meet one of these conditions?
+    *   The embedded image is immediately followed by an [adjacent link](../glossary.html#mLienAdj) giving access to a page or a chunk of text describing the nature and purpose of the image
     *   The user can replace the embedded image by a text describing the nature and purpose of the image, via a provided mechanism
     *   The user can replace the embedded image by an image with an alternative describing the nature and purpose of the image, via a provided mechanism.
-*   **Test 1.4.7:** Does each embedded image (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
+*   **Test 1.4.7:** Does each embedded image (`object` tag with the attribute `type="image/…"`), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
     *   If present, the value of the `title` attribute matches the value of the `aria-label` property
     *   If present, the value of the `title` attribute matches the content of the chunk of text linked via the `aria-labelledby` property.
-*   **Test 1.4.8:** Does each vector image (`svg` tag), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with no [text alternative](../../glossary.html#alternative-svg), meet the following conditions?
+*   **Test 1.4.8:** Does each vector image (`svg` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with no [text alternative](../glossary.html#alternative-svg), meet the following conditions?
     *   The `svg` tag has a `role="img"`
     *   The `svg` tag has an `aria-label` property that describes the nature and purpose of the image, and matches the value of the `title` attribute, if present
     *   The `svg` tag has a `desc` tag that describes the nature and purpose of the image, and matches the value of the `aria-label` property and of the `title` attribute of the `svg` tag, if present
-    *   An [adjacent link](../../glossary.html#mLienAdj) gives access to an alternative that describes the nature and purpose of the image, and matches the value of the `aria-label` property and of the `title` attribute of the `svg` tag, if present
-*   **Test 1.4.9:** For each vector image (`svg` tag), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a [text alternative](../../glossary.html#alternative-svg), is this alternative [correctly rendered](../../glossary.html#mCorrectlyRendered) by assistive technologies?
-*   **Test 1.4.10:** Does each bitmap image (`canvas` tag), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), meet one of the following conditions?
+    *   An [adjacent link](../glossary.html#mLienAdj) gives access to an alternative that describes the nature and purpose of the image, and matches the value of the `aria-label` property and of the `title` attribute of the `svg` tag, if present
+*   **Test 1.4.9:** For each vector image (`svg` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a [text alternative](../glossary.html#alternative-svg), is this alternative [correctly rendered](../glossary.html#mCorrectlyRendered) by assistive technologies?
+*   **Test 1.4.10:** Does each bitmap image (`canvas` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), meet one of the following conditions?
     *   The alternative content (between <canvas> and </canvas>) describes the nature and purpose of the image
-    *   The bitmap image is immediately followed by an [adjacent link](../../glossary.html#mLienAdj) giving access to a page or a chunk of text containing an alternative describing the nature and purpose of the image
+    *   The bitmap image is immediately followed by an [adjacent link](../glossary.html#mLienAdj) giving access to a page or a chunk of text containing an alternative describing the nature and purpose of the image
     *   The user can replace the bitmap image by an alternative describing the nature and purpose of the image, via a provided mechanism
     *   The user can replace the bitmap image by an image with an alternative describing the nature and purpose of the image, via a provided mechanism.
-*   **Test 1.4.11:** Does each bitmap image (`canvas` tag), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
+*   **Test 1.4.11:** Does each bitmap image (`canvas` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a text alternative provided via the `aria-label` or the `aria-labelledby` property or the `title` attribute, meet the following conditions?
     *   If present, the value of the `title` attribute matches the value of the `aria-label` property
     *   If present, the value of the `title` attribute matches the content of the chunk of text linked via the `aria-labelledby` property.
-*   **Test 1.4.12:** For each bitmap image (`canvas` tag), used as a [CAPTCHA](../../glossary.html#mcaptcha) or [test image](../../glossary.html#mImgTest), with a text alternative, is this alternative [correctly rendered](../../glossary.html#mCorrectlyRendered) by assistive technologies?
+*   **Test 1.4.12:** For each bitmap image (`canvas` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a text alternative, is this alternative [correctly rendered](../glossary.html#mCorrectlyRendered) by assistive technologies?
 
 ### How to test
 

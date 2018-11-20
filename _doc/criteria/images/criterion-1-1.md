@@ -6,7 +6,7 @@ navigation: images
 ---
 
 <header>
-## Criterion 1.1 [A] <span>Does each image have a [text alternative](../../glossary.html#mAltTexteImg)?</span>
+## Criterion 1.1 [A] <span>Does each image have a [text alternative](../glossary.html#mAltTexteImg)?</span>
 {: .article-header__title}
 </header>
 
@@ -17,9 +17,9 @@ All images must have an alt attribute, which is due to the fact that in the abse
 ### Tests
 
 *   **Test 1.1.1:** Does each image (`img` tag) have an `alt` attribute?
-*   **Test 1.1.2:** Does each [area](../../glossary.html#mZone) (`area` tag) of an [image map](../../glossary.html#mImgReactive) have an `alt` attribute?
-*   **Test 1.1.3:** Does each form [button](../../glossary.html#mBtnForm) (`input` tag with the `type="image"` attribute) have an `alt` attribute?
-*   **Test 1.1.4:** Does each [clickable area](../../glossary.html#mZoneCliquable) of a server-side [image map](../../glossary.html#mImgReactive) have an equivalent link in the page?
+*   **Test 1.1.2:** Does each [area](../glossary.html#mZone) (`area` tag) of an [image map](../glossary.html#mImgReactive) have an `alt` attribute?
+*   **Test 1.1.3:** Does each form [button](../glossary.html#mBtnForm) (`input` tag with the `type="image"` attribute) have an `alt` attribute?
+*   **Test 1.1.4:** Does each [clickable area](../glossary.html#mZoneCliquable) of a server-side [image map](../glossary.html#mImgReactive) have an equivalent link in the page?
 
 ### How to test
 
