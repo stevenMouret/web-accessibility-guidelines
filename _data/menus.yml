@@ -41,6 +41,10 @@ menu-sidebar:
       url: /criteria/images/criterion-1-5.html
       level: A
 
+    - title: Criterion 1.6
+      url: /criteria/images/criterion-1-6.html
+      level: A
+
 - title: Links
   url: /criteria/links.html
   teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
@@ -53,6 +57,9 @@ menu-sidebar:
 
 - title: Technical notes
   url: /criteria/technical-notes.html
+
+- title: Baseline
+  url: /criteria/baseline.html
 
 - title: Tools
   url: /criteria/tools.html

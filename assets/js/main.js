@@ -1,6 +1,26 @@
+// Helpers
+
 const insertAfter = (referenceNode, newNode) => {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 };
+
+const wrap = (el, wrapper, classWrapper) => {
+    el.parentNode.insertBefore(wrapper, el);
+    wrapper.classList.add(classWrapper);
+    wrapper.appendChild(el);
+}
+
+// Scripts
+
+// Wrap table
+
+const tables = document.getElementsByTagName('table');
+
+for (let i = 0; i < tables.length; i++) {
+    const table = tables[i];
+
+    wrap(table, document.createElement('div'), 'table-responsive');
+}
 
 const anchorMenu = () => {
     const content = document.getElementById('content');

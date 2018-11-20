@@ -68,14 +68,14 @@ For example, `alt="enter the code in the image"`.
 Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector]
 
 1.  In the "CSS" menu, choose "Disable All Styles".
-2.  Spot the images used as a [captcha](https://disic.github.io/rgaa_referentiel_en/glossary.html#captcha).
+2.  Spot the images used as a [captcha](../glossary.html#captcha).
 3.  Right-click on the element and choose "Inspect".
     *   If the element is an image (`img` tag) or a button associated to an image (`input type="image"`) with an `alt` attribute, check:
         1.  That the `alt` attribute allows to understand the nature and purpose of the image;
         2.  That the `title` attribute, if present, is identical to the `alt` attribute;
         3.  That the `aria-label` attribute, if present, is identical to the `alt` attribute;
         4.  That the chunk of text linked via the `aria-labelledby` property, if present, is identical to the `alt` attribute.
-    *   If the element is an image map (`map` tag), for each clickable area used as a [captcha](https://disic.github.io/rgaa_referentiel_en/glossary.html#captcha), `area` tag with an `href` attribute, check:
+    *   If the element is an image map (`map` tag), for each clickable area used as a [captcha](../glossary.html#captcha), `area` tag with an `href` attribute, check:
         1.  That the `alt` attribute allows to understand the nature and purpose of the image;
         2.  That the `title` attribute, if present, is identical to the `alt` attribute;
         3.  That the `aria-label` attribute, if present, is identical to the `alt` attribute;
