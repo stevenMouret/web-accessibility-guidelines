@@ -10,6 +10,29 @@ navigation: images
 
 ### Explanation
 
+The alternative text is only to be used for images that are easily described in one sentence. In the case of a complex image, which requires the writing of a whole paragraph (e.g. a neighbourhood map, graph, histogram), you must provide a detailed description.
+
+When an image requires a detailed description, you will write a paragraph under that image. This is the case for complex images such as a data graph or computer graphics.
+
+To allow a screen reader user to link your image to its detailed description, you will proceed as follows:
+
+* In the field that allows you to define an alternative text, you title your image without describing it, indicating that there is a description. For example: access map (see description below);
+* At the beginning of your detailed description, you will take up this title again. For example: "Access map (detailed description): To access...".
+
+### Example of complex image with detailed description
+
+Below is an example of a complex image. This is a location plan. An alternative text is not sufficient to transcribe all the information on this plan.
+
+![Access map to the British Museum (see description below)](../../img/british-museum.png)
+
+**Detailed description of the access map to the British Museum**
+
+The entrance to the museum is accessible from the Great Russell street.
+
+From the Bloomsbury street go down to the Great Russell street and take on your left.
+
+From the Montague street go down to the Great Russell street and take on your right.
+
 ### Mapping with WCAG 2.0  
 
 WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all)
