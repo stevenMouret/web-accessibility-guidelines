@@ -14,6 +14,12 @@ In the case of test images (Captcha), the alternative must be filled in so that 
 
 For example, `alt="enter the code in the image"`.
 
+### Mapping with WCAG 2.0
+
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s): [G143](http://www.w3.org/TR/WCAG-TECHS/G143.html) - [G100](http://www.w3.org/TR/WCAG-TECHS/G100.html)
+
 ### Tests
 
 *   **Test 1.4.1:** Does each image (`img` tag) used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with an `alt` attribute, meet the following conditions?

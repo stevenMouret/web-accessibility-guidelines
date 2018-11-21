@@ -12,6 +12,12 @@ navigation: images
 
 This mechanism will have to be completed by an alternative method allowing the user to retrieve the code in order to continue. Example, an image CAPTCHA can be associated with an audio player.
 
+### Mapping with WCAG 2.0  
+
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s): [G144](http://www.w3.org/TR/WCAG-TECHS/G144.html)
+
 ### Tests
 
 *   **Test 1.5.1:** Does each image (`img`, area, `object`, `embed`, `svg`, `canvas` tags) used as [CAPTCHA](../glossary.html#mcaptcha) meet one of the following conditions?

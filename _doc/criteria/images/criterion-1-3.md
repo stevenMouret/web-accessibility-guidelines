@@ -51,6 +51,12 @@ It is important to remember that images do not necessarily have to be described 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
 
+### Mapping with WCAG 2.0  
+
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all) - [4.1.2](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s): [G94](http://www.w3.org/TR/WCAG-TECHS/G94.html) - [G95](http://www.w3.org/TR/WCAG-TECHS/G95.html) - [F30](http://www.w3.org/TR/WCAG-TECHS/F30.html) - [F71](http://www.w3.org/TR/WCAG-TECHS/F71.html) - [G196](http://www.w3.org/TR/WCAG-TECHS/G196.html) - [ARIA4](http://www.w3.org/TR/WCAG-TECHS/ARIA4.html)
+
 ### Tests
 
 *   **Test 1.3.1:** Does each image (`img` tag) [conveying information](../glossary.html#mImgInfo), with an `alt` attribute, meet the following conditions (except in [particular cases](../particular-cases.html#cpCrit1-3 "Particular cases for criterion 1.3")):

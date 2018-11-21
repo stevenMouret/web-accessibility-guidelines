@@ -10,7 +10,11 @@ navigation: images
 
 ### Explanation
 
+### Mapping with WCAG 2.0  
 
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s): [G92](http://www.w3.org/TR/WCAG-TECHS/G92.html) - [G74](http://www.w3.org/TR/WCAG-TECHS/G74.html) - [G73](http://www.w3.org/TR/WCAG-TECHS/G73.html) - [H45](http://www.w3.org/TR/WCAG-TECHS/H45.html) - [ARIA6](http://www.w3.org/TR/WCAG-TECHS/ARIA6.html)
 
 ### Tests
 

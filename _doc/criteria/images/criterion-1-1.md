@@ -14,6 +14,12 @@ navigation: images
 
 All images must have an alt attribute, which is due to the fact that in the absence of this attribute, a screen reader returns the path or name of the source file, which makes no sense to the user.
 
+### Mapping with WCAG 2.0
+
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s):  [H36](http://www.w3.org/TR/WCAG-TECHS/H36.html) - [H37](http://www.w3.org/TR/WCAG-TECHS/H37.html) - [H53](http://www.w3.org/TR/WCAG-TECHS/H53.html) - [H24](http://www.w3.org/TR/WCAG-TECHS/H24.html) - [F65](http://www.w3.org/TR/WCAG-TECHS/F65.html)
+
 ### Tests
 
 *   **Test 1.1.1:** Does each image (`img` tag) have an `alt` attribute?

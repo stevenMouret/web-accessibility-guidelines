@@ -28,6 +28,12 @@ Be careful, an image with content text is not always an image that gives informa
 
 In this case, when analyzing the context, the image is only a graphical redundancy of the text below. The image is therefore decorative and the alternative should be empty.
 
+### Mapping with WCAG 2.0
+
+WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all) - [4.1.2](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv)
+
+WCAG 2.0 sufficient technique(s) and/or failure(s): [H67](http://www.w3.org/TR/WCAG-TECHS/H67.html) - [G196](http://www.w3.org/TR/WCAG-TECHS/G196.html) - [C9](http://www.w3.org/TR/WCAG-TECHS/C9.html) - [F39](http://www.w3.org/TR/WCAG-TECHS/F39.html) - [F38](http://www.w3.org/TR/WCAG-TECHS/F38.html) - [ARIA4](http://www.w3.org/TR/WCAG-TECHS/ARIA4.html) - [ARIA10](http://www.w3.org/TR/WCAG-TECHS/ARIA10.html)
+
 ### Tests
 
 *   **Test 1.2.1:** Does each [decorative image](../glossary.html#mImgDeco) (`img` tag), without [caption](../glossary.html#mImageCaption) and with an `alt` attribute, meet the following conditions:
