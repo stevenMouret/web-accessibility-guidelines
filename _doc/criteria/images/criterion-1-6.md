@@ -19,7 +19,7 @@ To allow a screen reader user to link your image to its detailed description, yo
 * In the field that allows you to define an alternative text, you title your image without describing it, indicating that there is a description. For example: access map (see description below);
 * At the beginning of your detailed description, you will take up this title again. For example: "Access map (detailed description): To access...".
 
-### Example of complex image with detailed description
+#### Example of complex image with detailed description
 
 Below is an example of a complex image. This is a location plan. An alternative text is not sufficient to transcribe all the information on this plan.
 
