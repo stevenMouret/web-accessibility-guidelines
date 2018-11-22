@@ -53,6 +53,14 @@ In any case, if the graphical display of a telephone is used, it is therefore ne
 
 ### Received ideas
 
+#### Do not extrapolate the images
+
+![Lavender fields in the south of France](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Plateau_de_valensole1.JPG/320px-Plateau_de_valensole1.jpg)
+
+In this example the `alt` of the image is 'Lavender fields in the south of France'.
+No information in the image allows us to affirm that we are in the south of France. It is not relevant to specify this.
+
+
 #### The image alternative must not be used to mention the credits (author, date, etc.) of the image
 
 If you are crediting an image, you should not use the image replacement text. First of all, it means that not everyone has access to this information. Second, the alternative text is used to describe the image, not to assign it.
