@@ -58,7 +58,7 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [G143](http://www.w3.org/TR/
     *   An [adjacent link](../glossary.html#mLienAdj) gives access to an alternative that describes the nature and purpose of the image, and matches the value of the `aria-label` property and of the `title` attribute of the `svg` tag, if present
 *   **Test 1.4.9:** For each vector image (`svg` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), with a [text alternative](../glossary.html#alternative-svg), is this alternative [correctly rendered](../glossary.html#mCorrectlyRendered) by assistive technologies?
 *   **Test 1.4.10:** Does each bitmap image (`canvas` tag), used as a [CAPTCHA](../glossary.html#mcaptcha) or [test image](../glossary.html#mImgTest), meet one of the following conditions?
-    *   The alternative content (between <canvas> and </canvas>) describes the nature and purpose of the image
+    *   The alternative content (between `<canvas>` and `</canvas>`) describes the nature and purpose of the image
     *   The bitmap image is immediately followed by an [adjacent link](../glossary.html#mLienAdj) giving access to a page or a chunk of text containing an alternative describing the nature and purpose of the image
     *   The user can replace the bitmap image by an alternative describing the nature and purpose of the image, via a provided mechanism
     *   The user can replace the bitmap image by an image with an alternative describing the nature and purpose of the image, via a provided mechanism.

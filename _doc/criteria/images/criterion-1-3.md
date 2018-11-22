@@ -51,6 +51,13 @@ It is important to remember that images do not necessarily have to be described 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
 
+### Received ideas
+
+#### The image alternative must not be used to mention the credits (author, date, etc.) of the image
+
+If you are crediting an image, you should not use the image replacement text. First of all, it means that not everyone has access to this information. Second, the alternative text is used to describe the image, not to assign it.
+In the specific case of credits, the use of a legend is the most appropriate, [See criterion 1.10](criterion-1-10.html).
+
 ### Mapping with WCAG 2.0  
 
 WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all) - [4.1.2](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv)
@@ -94,7 +101,7 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [G94](http://www.w3.org/TR/W
     *   The `svg` tag has a `desc` tag with a relevant content, equal to the `title` attribute of the `svg` tag, if present.
 *   **Test 1.3.9:** For each vector image (`svg` tag), [conveying information](../glossary.html#mImgInfo), and with an alternative, is this alternative [correctly rendered](../glossary.html#mCorrectlyRendered) by assistive technologies?
 *   **Test 1.3.10:** Does each bitmap image (`canvas` tag) [conveying information](../glossary.html#mImgInfo) meet one of the following conditions (except in [particular cases](../particular-cases.html#cpCrit1-3 "Particular cases for criterion 1.3"))?
-    *   The alternative content (between <canvas> and </canvas>) is relevant
+    *   The alternative content (between `<canvas>` and `</canvas>`) is relevant
     *   The bitmap image is immediately followed by an [adjacent link](../glossary.html#mLienAdj) giving access to a page or a chunk of text containing a relevant alternative
     *   The user can replace the bitmap image by a relevant text alternative, via a provided mechanism
     *   The user can replace the bitmap image by an image with a relevant alternative, via a provided mechanism.
