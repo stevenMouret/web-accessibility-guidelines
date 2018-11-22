@@ -53,6 +53,10 @@ menu-sidebar:
       url: /criteria/images/criterion-1-8.html
       level: AA
 
+    - title: Criterion 1.10
+      url: /criteria/images/criterion-1-10.html
+      level: A
+
 
 - title: Links
   url: /criteria/links.html
