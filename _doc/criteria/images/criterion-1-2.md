@@ -28,6 +28,18 @@ Be careful, an image with content text is not always an image that gives informa
 
 In this case, when analyzing the context, the image is only a graphical redundancy of the text below. The image is therefore decorative and the alternative should be empty.
 
+### Received ideas
+
+#### Stop abuses for SEO
+
+It is a barrier to accessibility to use the function to fill in an alternative text to the image, or a tooltip, to insert keywords or sentences to improve SEO.
+
+Indeed, a screen reader user will be given all this information. The reading experience will then be overloaded with parasitic elements and will make the site content incomprehensible.
+
+#### An image can have an empty alternative
+
+Not all images require alternative text. If the image is a decoration (it does not provide any essential information to the content), it should not have alternative text. For the same reason as mentioned above, this makes it more difficult for a screen reader user to reproduce content, for no information gain.
+
 ### Mapping with WCAG 2.0
 
 WCAG 2.0 success criterion: [1.1.1](http://www.w3.org/TR/WCAG20/#text-equiv-all) - [4.1.2](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv)
