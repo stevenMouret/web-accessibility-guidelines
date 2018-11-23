@@ -17,7 +17,7 @@ When facing an image with a detailed description, one must ask oneself the quest
 
 **What information does this image want to convey?**
 
-For example for a map it is useless to describe all the streets, parking, buildings... It is necessary to understand the meaning and interest of this card.
+For example for a map it is useless to describe all the streets, parking, buildings... It is necessary to understand the meaning and interest of this map.
 
 #### Example of complex image with detailed description
 
