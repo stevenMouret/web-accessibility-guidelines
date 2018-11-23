@@ -35,11 +35,8 @@ Tool(s): [[web developer bar](../tools.html#web-developer-bar), [Validator](../t
 ##### Web developer Bar
 
 1. Remove CSS. In the "CSS" menu choose the option "Disable All Styles".
-    ![](../../img/wdb-css.png)
 2. In the "Images" menu choose the option "Outline Images Without Alt Attributes".
-    ![](../../img/wdb-alt.png)
 3. In the "CSS" menu, choose "Edit CSS", and in the field at the bottom of the window,<br>type `img,input{border:2px solid red}`.
-    ![](../../img/wdb-css-edit.png)
 4. Browse the page and look for images and image buttons without the alt attribute.
 
 ##### Validator

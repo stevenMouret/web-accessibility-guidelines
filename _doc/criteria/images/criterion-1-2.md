@@ -81,11 +81,8 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [H67](http://www.w3.org/TR/W
 Tool(s): [[web developer bar](../tools.html#web-developer-bar)]
 
 1. In the "CSS" menu, choose "Disable All Styles".
-    ![](../../img/wdb-css.png)
 2. In the "Images" menu, choose "Display Alt Attributes".
-    ![](../../img/wdb-images-alt.png)
 3. In the "Information" menu, choose "Display Title Attributes".
-    ![](../../img/wdb-info-title.png)
 4. For each image with an `alt` attribute, with no caption, check:
     1. That decorative images have an empty alternative (`alt=""`);
     2. That images have no `title` attributes;
@@ -104,7 +101,6 @@ Tool(s): [[web developer bar](../tools.html#web-developer-bar)]
 Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector]
 
 1. In the "CSS" menu, choose "Disable All Styles".
-    ![](../../img/wdb-css.png)
 2. Right-click on the element and choose "Inspect".
 3. In the search field, type "svg".
 4. Spot the `svg` tags used to insert a decorative image and check:

@@ -127,11 +127,8 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [G94](http://www.w3.org/TR/W
 Tool(s): [[web developer bar](../tools.html#web-developer-bar)]
 
 1. In the "CSS" menu, choose "Disable All Styles".
-    ![](../../img/wdb-css.png)
 2. In the "Images" menu, choose "Display Alt Attributes".
-    ![](../../img/wdb-images-alt.png)
 3. In the "Information" menu, choose "Display Title Attributes".
-    ![](../../img/wdb-info-title.png)
 4. In the "CSS" menu, choose "Edit CSS", and in the field at the bottom of the window, type `img,input{border:2px solid red}`.
 5. For each image that is not a link (not outlined), or button associated to an image (`input type="image"`) with an `alt` attribute, conveying information, check:
     1. That the `alt` attribute is relevant;
@@ -156,7 +153,6 @@ Tool(s): [[web developer bar](../tools.html#web-developer-bar)]
 Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector]
 
 1.  In the "CSS" menu, choose "Disable All Styles".
-    ![](../../img/wdb-css.png)
 2.  Right-click on the page and choose "Inspect".
 3.  In the search field, type "svg".
 4.  Spot the `svg` tags used to insert an image [conveying information](../glossary.html#image-conveying-information)
