@@ -6,7 +6,7 @@ title: About me Steven Mouret
 
 Some words about me.
 
-My name is [Steven Mouret](https://www.linkedin.com/in/steven-mouret-1b693260/), I'm french UX/UI developer and accessibility expert. I mainly work on the creation of websites for local authorities and public institutions at [Stratis](http://www.stratis.fr).
+My name is [Steven Mouret](https://www.linkedin.com/in/steven-mouret-1b693260/), I'm a french UX/UI developer and accessibility expert. I mainly work on the creation of websites for local authorities and public institutions at [Stratis](http://www.stratis.fr).
 
 I have been working for many years in accessibility and I was mainly trained by [Atalan](https://atalan.fr) and [Braillenet](https://www.braillenet.org/en/) association that is [member of the W3C](https://www.w3.org/Consortium/Member/Testimonial/#t1256).
 

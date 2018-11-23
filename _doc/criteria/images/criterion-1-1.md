@@ -1,8 +1,7 @@
 ---
-layout: topic
 title: Criterion 1.1 [A]
-teaser: Does each image have a text alternative?
 navigation: images
+nav: menu-sidebar
 ---
 
 <header>

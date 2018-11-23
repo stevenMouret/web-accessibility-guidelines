@@ -1,7 +1,7 @@
 <section class="sidebar-menu">
-    <h2>{{ site.data.menus.menu-sidebar-title }}</h2>
+    <h2>{{ site.data.menus.menu-technical-reference-title }}</h2>
     <ul>
-        {% for item in site.data.menus.menu-sidebar %}
+        {% for item in site.data.menus.menu-technical-reference %}
             {% assign topic = item.url | replace: "/", "" | replace: ".html", "" | remove: "criteria" %}
             <li><a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
             {% if page.navigation == topic %}

@@ -1,5 +1,6 @@
 ---
-layout: topic
+title: Baseline
+nav: menu-sidebar
 ---
 
 ## Baseline

@@ -1,6 +1,6 @@
 ---
-layout: topic
 navigation: images
+nav: menu-sidebar
 ---
 
 ## Images

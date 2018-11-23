@@ -9,7 +9,13 @@
         {% if site.data.menus[page.nav] %}
         <div class="column">
             <div class="column-wrapper">
-                {% include menu-summary.html %}
+                {% if page.nav == 'menu-sidebar' %}
+                    {%- include menu-sidebar.html -%}
+                    {%- include menu-technical.html -%}
+                {% endif %}
+                {% if page.nav == 'menu-about-users' %}
+                    {% include menu-summary.html %}
+                {% endif %}
             </div>
         </div>
         {% endif %}

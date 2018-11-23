@@ -1,5 +1,6 @@
 ---
-layout: topic
+title: Glossary
+nav: menu-sidebar
 ---
 
 ## A {#a}

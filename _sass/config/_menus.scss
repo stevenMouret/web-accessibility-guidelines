@@ -67,11 +67,14 @@
 }
 
 .sidebar-menu {
+    margin-bottom: 5rem;
 
     h2 {
-        font-size: 1.6rem;
-        font-weight: 300;
+        font-size: 1.8rem;
+        font-weight: 900;
         margin-bottom: 1rem;
+        text-transform: uppercase;
+
     }
 
     a, li {
@@ -103,9 +106,15 @@
                 font-weight: 700;
                 padding: 0.5rem 1rem;
                 text-transform: uppercase;
+                transition: all ease .3s;
 
                 &[aria-current=page],
                 &[aria-current=true] {
+                    background: $color-1-2;
+                    color: $color-white;
+                }
+
+                &:hover, &:focus {
                     background: $color-1-2;
                     color: $color-white;
                 }

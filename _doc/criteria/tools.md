@@ -1,5 +1,6 @@
 ---
-layout: topic
+title: Tools
+nav: menu-sidebar
 ---
 
 ## Tools

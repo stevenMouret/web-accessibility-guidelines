@@ -1,5 +1,6 @@
 ---
-layout: topic
+title: Particular cases
+nav: menu-sidebar
 ---
 
 ## Images

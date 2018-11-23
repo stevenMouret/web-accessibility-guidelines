@@ -1,5 +1,6 @@
 ---
-layout: topic
+title: Technical notes
+nav: menu-sidebar
 ---
 
 ## Images {#images}

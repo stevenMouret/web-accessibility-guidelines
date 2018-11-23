@@ -1,6 +1,7 @@
 ---
-layout: topic
+title: Criterion 1.5 [A]
 navigation: images
+nav: menu-sidebar
 ---
 
 <header>

@@ -1,7 +1,6 @@
 ---
-layout: topic
-title: Links
 navigation: links
+nav: menu-sidebar
 ---
 
 Soon...
