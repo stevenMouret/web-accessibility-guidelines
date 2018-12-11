@@ -1,9 +1,9 @@
 ---
-navigation: images
+navigation: colors
 nav: menu-sidebar
 ---
 
-## Images
+## Colors
 
 Do not provide [information through color](glossary.html#mInfoCouleur) only, and use sufficient color [contrasts](glossary.html#mContraste).
 {: .article-header__teaser}
