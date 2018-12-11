@@ -160,7 +160,7 @@ Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector
 6.  Check:
     *   The presence of the ARIA property `role="img"` on the `svg` tag and:
         1.  The presence of an `aria-label` property, identical to the `title` attribute if present, whose content allows to understand the nature and function of the image;
-        2.  The presence of a `title` tag, identical to the `title` attribute if present, whose content allows to understand the nature and purpose of the image.
+        2.  The presence of a `title` tag, identical to the `aria-label` attribute if present, whose content allows to understand the nature and purpose of the image.
 
 #### Test 1.3.9
 
