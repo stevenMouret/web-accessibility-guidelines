@@ -25,12 +25,12 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [G14](http://www.w3.org/TR/W
 
 ### Tests
 
-*   **Test 3.1.1:** For each word or for each group of words where color is used to convey [information](./glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
-*   **Test 3.1.2:** For each color indication provided by a text, [information](./glossary.html#mInfoCouleur) must not be conveyed through color only. Has this rule been followed?
-*   **Test 3.1.3:** For each image [conveying information](./glossary.html#mInfoDonneeCouleur), [information](./glossary.html#mInfoCouleur) must not be conveyed through color only. Has this rule been followed?
-*   **Test 3.1.4:** For each [CSS property defining a color](./glossary.html#mPropCouleur) and conveying [information](./glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
-*   **Test 3.1.5:** For each [time-based media](./glossary.html#mMediaTemp) conveying [information](./glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
-*   **Test 3.1.6:** For each [non-time-based media](./glossary.html#mMediaNoTemp) conveying [information](./glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.1:** For each word or for each group of words where color is used to convey [information](../glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.2:** For each color indication provided by a text, [information](../glossary.html#mInfoCouleur) must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.3:** For each image [conveying information](../glossary.html#mInfoDonneeCouleur), [information](../glossary.html#mInfoCouleur) must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.4:** For each [CSS property defining a color](../glossary.html#mPropCouleur) and conveying [information](../glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.5:** For each [time-based media](../glossary.html#mMediaTemp) conveying [information](../glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
+*   **Test 3.1.6:** For each [non-time-based media](../glossary.html#mMediaNoTemp) conveying [information](../glossary.html#mInfoCouleur), information must not be conveyed through color only. Has this rule been followed?
 
 ### How to test
 
