@@ -107,7 +107,7 @@ WCAG 2.0 sufficient technique(s) and/or failure(s): [G94](http://www.w3.org/TR/W
 *   **Test 1.3.8:** Does each vector image (`svg` tag) [conveying information](../glossary.html#mImgInfo), and with no [alternative](../glossary.html#alternative-svg), meet one of the following conditions (except in [particular cases](../particular-cases.html#cpCrit1-3 "Particular cases for criterion 1.3")):
     *   The `svg` tag has a `role="img"` 
     *   The `svg` tag has an `aria-label` property with a relevant value, matching the `title` attribute of the `svg` tag, if present
-    *   The `svg` tag has a `desc` tag with a relevant content, equal to the `title` attribute of the `svg` tag, if present.
+    *   The `svg` tag has a `title` tag with a relevant content, equal to the `aria-label` attribute of the `svg` tag, if present.
 *   **Test 1.3.9:** For each vector image (`svg` tag), [conveying information](../glossary.html#mImgInfo), and with an alternative, is this alternative [correctly rendered](../glossary.html#mCorrectlyRendered) by assistive technologies?
 *   **Test 1.3.10:** Does each bitmap image (`canvas` tag) [conveying information](../glossary.html#mImgInfo) meet one of the following conditions (except in [particular cases](../particular-cases.html#cpCrit1-3 "Particular cases for criterion 1.3"))?
     *   The alternative content (between `<canvas>` and `</canvas>`) is relevant
@@ -160,7 +160,7 @@ Tool(s): [[web developer bar](../tools.html#web-developer-bar), Chrome inspector
 6.  Check:
     *   The presence of the ARIA property `role="img"` on the `svg` tag and:
         1.  The presence of an `aria-label` property, identical to the `title` attribute if present, whose content allows to understand the nature and function of the image;
-        2.  The presence of a `desc` tag, identical to the `title` attribute if present, whose content allows to understand the nature and purpose of the image.
+        2.  The presence of a `title` tag, identical to the `title` attribute if present, whose content allows to understand the nature and purpose of the image.
 
 #### Test 1.3.9
 
