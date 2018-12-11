@@ -5,7 +5,7 @@ nav: menu-sidebar
 
 ## Images
 
-Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
+Give each [image conveying information](glossary.html#mImgInfo) a relevant [text alternative](glossary.html#mAltTexteImg) and a [detailed description](glossary.html#mDescDetaillee) if necessary. Replace images of text with [styled text](glossary.html#mTexteStyle) when possible.
 {: .article-header__teaser}
 
 **Main users impacted:** The visually impaired (blind and partially sighted)
