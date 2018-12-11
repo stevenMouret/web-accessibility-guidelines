@@ -61,6 +61,10 @@ menu-sidebar:
 - title: Colors
   url: /criteria/colors.html
   teaser: Do not provide information through color only, and use sufficient color contrasts.
+  sub:
+    - title: Criterion 3.1
+      url: /criteria/colors/criterion-3-1.html
+      level: A
 
 - title: Links
   url: /criteria/links.html
