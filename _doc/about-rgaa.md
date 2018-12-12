@@ -11,6 +11,8 @@ The rules for web content accessibility, which are proposed through this reposit
 
 WCAG 2.0 adopts a thematic approach proposing 12 structuring rules according to 4 fundamental principles.
 
+WCAG explains what is needed but not how to do it. The RGAA is a method of applying WCAG.
+
 The RGAA criteria are structured into 13 themes
 
 * Images
