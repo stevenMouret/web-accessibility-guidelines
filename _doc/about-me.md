@@ -10,6 +10,8 @@ My name is [Steven Mouret](https://www.linkedin.com/in/steven-mouret-1b693260/),
 
 I have been working for many years in accessibility and I was mainly trained by [Atalan](https://atalan.fr) and [Braillenet](https://www.braillenet.org/en/) association that is [member of the W3C](https://www.w3.org/Consortium/Member/Testimonial/#t1256).
 
+I am part of the AccessiWeb working group, this French group brings together the majority of experts in the field of accessibility in France.
+
 I became an expert in 2012 following several training and certification courses.
 
 I had the chance to be trained by a French reference in accessibility, M. [Jean Pierre Villain](https://www.linkedin.com/in/jean-pierre-villain-b8a52033/).
