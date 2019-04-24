@@ -75,6 +75,10 @@ menu-sidebar:
 - title: Links
   url: /criteria/links.html
   teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
+  sub:
+    - title: Criterion 6.1
+      url: /criteria/links/criterion-6-1.html
+      level: A
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
