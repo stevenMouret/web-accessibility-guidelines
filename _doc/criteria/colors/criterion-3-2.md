@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** High to major
+
+**Users mainly impacted:** Blind, visually impaired
+
 ### Explanation
 
 The point here is to verify that the information that is given by a means other than color is consistent. It is important that the information is transmitting by a color, shape and text.

@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** High to major
+
+**Users mainly impacted:** Blind, visually impaired
+
 ### Explanation
 
 The information given by the color impacts many users. In the first place, blind people who can not see colors, but also users who do not see or distinguish certain colors or color combinations. For all these users, information given only by color will be ignored.
