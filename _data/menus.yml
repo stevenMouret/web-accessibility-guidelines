@@ -79,6 +79,9 @@ menu-sidebar:
     - title: Criterion 6.1
       url: /criteria/links/criterion-6-1.html
       level: A
+    - title: Criterion 6.2
+      url: /criteria/links/criterion-6-2.html
+      level: A
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
