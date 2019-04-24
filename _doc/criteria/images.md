@@ -8,8 +8,6 @@ nav: menu-sidebar
 Give each [image conveying information](glossary.html#mImgInfo) a relevant [text alternative](glossary.html#mAltTexteImg) and a [detailed description](glossary.html#mDescDetaillee) if necessary. Replace images of text with [styled text](glossary.html#mTexteStyle) when possible.
 {: .article-header__teaser}
 
-**Main users impacted:** The visually impaired (blind and partially sighted)
-
 There are two types of images:
 
 * Images with information (which need alternative text);
