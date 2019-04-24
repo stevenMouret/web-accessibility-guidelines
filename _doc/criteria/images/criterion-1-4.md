@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** Major
+
+**Users mainly impacted:** Blind, visually impaired, mentally and cognitively impaired.
+
 ### Explanation
 
 In the case of test images (Captcha), the alternative must be filled in so that the user can understand the nature and role of the image.

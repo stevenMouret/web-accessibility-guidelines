@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** Low to high
+
+**Users mainly impacted:** Blind, severely visually impaired.
+
 ### Explanation
 
 In order to be able to test this criterion you need to know what a [decorative image](../glossary.html#image-decorative) is.

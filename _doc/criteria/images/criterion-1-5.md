@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** Major
+
+**Users mainly impacted:** Blind, visually impaired, mentally and cognitively impaired.
+
 ### Explanation
 
 This mechanism will have to be completed by an alternative method allowing the user to retrieve the code in order to continue. Example, an image CAPTCHA can be associated with an audio player.

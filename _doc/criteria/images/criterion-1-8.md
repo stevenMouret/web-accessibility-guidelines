@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** Moderate to high
+
+**Users mainly impacted:** Visually impaired.
+
 ### Explanation
 
 When text images can be reproduced in HTML and CSS, you should not use an image. This is quite possible:

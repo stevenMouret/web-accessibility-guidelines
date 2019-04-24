@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** High to major
+
+**Users mainly impacted:** Blind.
+
 ### Explanation
 
 HTML5 introduces the `figure` and `figcaption` tags in order to associate a caption with an image.

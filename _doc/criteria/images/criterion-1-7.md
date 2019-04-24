@@ -9,6 +9,10 @@ nav: menu-sidebar
 {: .article-header__title}
 </header>
 
+**Impact:** Major
+
+**Users mainly impacted:** Blind, severely visually impaired.
+
 ### Explanation
 
 This criterion will ensure that the detailed description is relevant.
