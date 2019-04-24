@@ -17,6 +17,23 @@ The most common case of information by color is the indication of the active pag
 
 The principle to keep in mind is that any color conveying information must be accessible by other means, including a textual element.
 
+### Examples
+
+#### In a form
+
+![Form example](../../img/color-3.1-1.png)
+
+In this form above, the fields with a red label are required. If you cannot see this color, it is not possible for you to fill in this form correctly.
+In this case prefer to add the mention 'required' directly in the label.
+
+
+#### In a menu
+
+![Menu example](../../img/color-3.1-2.png)
+
+In this menu, the page where we are (iPad) is illustrated by a different color from the other pages. Similarly, if you cannot see this color, you lose this information in the menu.
+ 
+
 ### Mapping with WCAG 2.0
 
 WCAG 2.0 success criteria: [1.4.1](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color) - [1.3.1](http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic)
