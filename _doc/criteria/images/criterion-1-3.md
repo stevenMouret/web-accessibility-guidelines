@@ -17,7 +17,7 @@ nav: menu-sidebar
 
 In order to be able to test this criterion you need to know what an image conveying information is.
 
-<span class="visually-hidden">Astuce</span>
+<span class="visually-hidden">Tip</span>
 In order to know if an image is decorative or informative, hide it, take into account the context and ask yourself the question:<br>
 **Did you lose any information?**<br>
 If so, then this image conveys information.

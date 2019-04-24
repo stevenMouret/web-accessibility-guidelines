@@ -19,7 +19,7 @@ In order to be able to test this criterion you need to know what a [decorative i
 
 If the image does not contain any information, the image is not intended to be restituted. Its alternative must then be empty. In addition, it must not have a `title` attribute.
 
-<span class="visually-hidden">Astuce</span>
+<span class="visually-hidden">Tip</span>
 In order to know if an image is decorative or informative, hide it, take into account the context and ask yourself the question:<br>
 **Did you lose any information?**<br>
 If so, then this image conveys information.
