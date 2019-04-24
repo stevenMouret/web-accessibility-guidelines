@@ -40,6 +40,11 @@
     padding: 1rem;
     width: 100%;
 
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
     span:not(.active) {
         &::after {
             content: ">";
@@ -50,8 +55,6 @@
     }
 
     a, .active {
-        display: inline-block;
-        vertical-align: middle;
         text-decoration: none;
 
         &::first-letter {
