@@ -65,6 +65,9 @@ menu-sidebar:
     - title: Criterion 3.1
       url: /criteria/colors/criterion-3-1.html
       level: A
+    - title: Criterion 3.2
+      url: /criteria/colors/criterion-3-2.html
+      level: A
 
 - title: Links
   url: /criteria/links.html
