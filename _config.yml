@@ -47,3 +47,11 @@ defaults:
       type: pages
     values:
       layout: doc
+
+#
+# Plugins
+#
+plugins:
+  - jekyll-sitemap
+
+
