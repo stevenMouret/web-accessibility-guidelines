@@ -4,8 +4,7 @@
 title: RGAA Training
 url: https://stevenmouret.github.io
 baseurl: /rgaa-training
-author: GitHub User
-email: your-email@domain.com
+author: Steven Mouret
 
 markdown: kramdown
 highlighter: rouge
