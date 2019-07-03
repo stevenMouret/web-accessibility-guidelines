@@ -120,3 +120,8 @@ menu-about-users:
 
 - title: Mental disability
   url: /mental-disability.html
+
+menu-techniques:
+
+- title: Accessible icon
+  url: /techniques/accessible-icons.html

@@ -12,9 +12,10 @@
                 {% if page.nav == 'menu-criteria' %}
                     {%- include menu-criteria.html -%}
                     {%- include menu-technical.html -%}
-                {% endif %}
-                {% if page.nav == 'menu-about-users' %}
+                {% elsif page.nav == 'menu-about-users' %}
                     {% include menu-summary.html %}
+                {% else %}
+                    {% include menu-sidebar.html %}
                 {% endif %}
             </div>
         </div>
@@ -24,6 +25,9 @@
                 {%- include breadcrumb.html -%}
                 <article class="content">
                     {{ content }}
+                    {% if page.title == 'Techniques' %}
+                        {% include menu-sidebar.html %}
+                    {% endif %}
                 </article>
             </div>
         </main>

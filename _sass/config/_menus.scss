@@ -149,7 +149,16 @@
         }
     }
 
+    .content & {
+        ul {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
+
+    }
 }
 
 .menu-main-sections {
