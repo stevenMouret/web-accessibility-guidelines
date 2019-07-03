@@ -1,7 +1,7 @@
 ---
 title: Criterion 6.2 [A]
 navigation: links
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 <header>

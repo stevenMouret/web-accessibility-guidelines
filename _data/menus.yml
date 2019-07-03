@@ -12,11 +12,14 @@ menu-main:
 - title: Criteria
   url: /criteria.html
 
+- title: Techniques
+  url: /techniques.html
+
 - title: Normative version
   url: http://disic.github.io/rgaa_referentiel_en/criteria.html
 
-menu-sidebar-title: Criteria
-menu-sidebar:
+menu-criteria-title: Criteria
+menu-criteria:
 
 - title: Images
   url: /criteria/images.html

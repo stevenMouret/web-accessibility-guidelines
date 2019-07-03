@@ -1,6 +1,6 @@
 ---
 navigation: links
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Links

@@ -1,6 +1,6 @@
 ---
 navigation: colors
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Colors

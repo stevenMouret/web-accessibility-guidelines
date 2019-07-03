@@ -1,6 +1,6 @@
 ---
 navigation: images
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Images

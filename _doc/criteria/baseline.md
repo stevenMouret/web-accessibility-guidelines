@@ -1,6 +1,6 @@
 ---
 title: Baseline
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Baseline

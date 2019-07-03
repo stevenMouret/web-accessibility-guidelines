@@ -1,6 +1,6 @@
 ---
 title: Tools
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Tools

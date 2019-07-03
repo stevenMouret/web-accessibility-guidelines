@@ -1,7 +1,7 @@
 ---
 title: Criterion 1.4 [A]
 navigation: images
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 <header>

@@ -1,6 +1,6 @@
 ---
 title: Technical notes
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Images {#images}

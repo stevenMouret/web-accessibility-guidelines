@@ -1,6 +1,6 @@
 ---
 title: Glossary
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## A {#a}

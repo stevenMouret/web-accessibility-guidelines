@@ -1,7 +1,7 @@
 ---
 title: Criterion 3.2 [A]
 navigation: colors
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 <header>

@@ -1,6 +1,6 @@
 ---
 title: Particular cases
-nav: menu-sidebar
+nav: menu-criteria
 ---
 
 ## Images
