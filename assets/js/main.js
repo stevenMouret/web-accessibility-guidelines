@@ -68,19 +68,6 @@ const anchorMenu = () => {
     }
 };
 
-// scroll animation
-const scrollAnchor = () => {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-};
-
 // Manage _blank and external link
 /**
  * Add to external link the mention 'alt + (External link)'
@@ -162,6 +149,5 @@ const linkExternalNewWindow = () => {
 
 document.addEventListener("DOMContentLoaded", function() {
     anchorMenu();
-    scrollAnchor();
     linkExternalNewWindow();
 });
