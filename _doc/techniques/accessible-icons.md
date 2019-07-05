@@ -8,7 +8,7 @@ nav: menu-techniques
 How to integrate icons in an accessible way.
 {: .article-header__teaser}
 
-### Font icon
+### Icon font
 
 Some assistive technologies (such as VoiceOver) read CSS content property. When using an icon font, the unicode code of the character is added to the content property.
 This character, which should not be returned to the user, is therefore read. In order to fix that, we ask to the technical assistance to not read the content of the tag with the icon with the aria-hidden attribute.
