@@ -8,14 +8,14 @@ nav: menu-techniques
 How to integrate icons in an accessible way.
 {: .article-header__teaser}
 
-### Icon font
+### 1. Icon font
 
 Some assistive technologies (such as VoiceOver) read CSS content property. When using an icon font, the unicode code of the character is added to the content property.
 This character, which should not be returned to the user, is therefore read. In order to fix that, we ask to the technical assistance to not read the content of the tag with the icon with the aria-hidden attribute.
 
 *The icon font examples below are based on FontAwesome but the principle is the same as a custom icon font.*
 
-#### Decorative icon with visible text
+#### 1.1 Decorative icon with visible text
 
 A simple example, in order not to read the CSS content property in assistive technology, we add an aria-hidden attribute to true on the span with the icon.
 The icon being decorative, the text being visible and explicit, there is no need for anything else.
@@ -32,7 +32,7 @@ The icon being decorative, the text being visible and explicit, there is no need
 </a>
 ```
 
-#### Icon conveying information with visible text
+#### 1.2 Icon conveying information with visible text
 
 The fax icon provides information. If you hide this icon, you do not know that it is a fax number and not a phone number. It is therefore important to return this information to the user.
 
@@ -54,7 +54,7 @@ To do this, we use a visually hidden text and the title attribute.
 </p>
 ```
 
-#### Icon conveying information with visible text in a link
+#### 1.3 Icon conveying information with visible text in a link
 
 The phone icon provides information. If you hide this icon, you do not know that it is a phone number and not a fax number. It is therefore important to return this information to the user.
 In our case we will add the information related to the phone but also to the opening of the call manager because there is in the href the element tel:.
@@ -75,7 +75,7 @@ To do this, we use the aria-label attribute and title attribute.
 </a>
 ```
 
-#### Icon conveying information with visible text in a link that opens in a new window
+#### 1.4 Icon conveying information with visible text in a link that opens in a new window
 
 The 'Cloud and Rain' icon convey information so it is important to provide an alternative.
 
@@ -95,7 +95,7 @@ The 'Cloud and Rain' icon convey information so it is important to provide an al
 </a>
 ```
 
-#### Icon conveying information without text
+#### 1.5 Icon conveying information without text
 
 In this case there is no visible text. It is therefore important to provide visual and code information for assistive technologies.
 
@@ -114,9 +114,9 @@ In this case there is no visible text. It is therefore important to provide visu
 </a>
 ```
 
-### Inline SVG
+### 2. Inline SVG
 
-#### Decorative icon with visible text
+#### 2.1 Decorative icon with visible text
 
 As for an icon font the SVG being decorative we add the attribute aria-hidden to true so that it is not read in the assistive technology.
 
@@ -134,7 +134,7 @@ As for an icon font the SVG being decorative we add the attribute aria-hidden to
 </a>
 ```
 
-#### Icon conveying information with visible text
+#### 2.2 Icon conveying information with visible text
 
 For all SVG who convey information it is necessary to provide an alternative and modify the role of the SVG.
 
