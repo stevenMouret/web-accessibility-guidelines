@@ -56,11 +56,33 @@ To do this, we use a visually hidden text and the title attribute.
 
 #### 1.3 Icon conveying information with visible text in a link
 
+##### 1.3.1
+
+The trash icon provides information, the purpose of this link is to delete an element. This information should not only be visual.
+To do this, we use the aria-label attribute and title attribute.
+* The aria-label attribute will be read in the assistive technology instead of the link content.
+* The title attribute allows you to give visual information for people who do not understand the icon.
+
+<a href="#" aria-label="Remove News (15)" class="new-window-off">
+    <span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+    <span class="text">News (15)</span>
+</a>
+
+```html
+<a href="#" aria-label="Remove News (15)">
+    <span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+    <span class="text">News (15)</span>
+</a>
+```
+
+##### 1.3.2
+
+Another very frequent example.
 The phone icon provides information. If you hide this icon, you do not know that it is a phone number and not a fax number. It is therefore important to return this information to the user.
 In our case we will add the information related to the phone but also to the opening of the call manager because there is in the href the element tel:.
 
 To do this, we use the aria-label attribute and title attribute.
-* The aria-label attribute will be read in the assistive technology.
+* The aria-label attribute will be read in the assistive technology instead of the link content.
 * The title attribute allows you to give visual information for people who do not understand the icon.
 
 <a href="tel:01708X4596" aria-label="Phone : 01 70 8X 45 96 opening of the call manager" class="new-window-off">
