@@ -18,6 +18,10 @@
                         {% endif %}
                     </header>
                     {{ content }}
+                    <form action="?" method="post">
+                        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                        <button type="submit">Submit</button>
+                    </form>
                 </article>
             </div>
             {% include menu-home.html navigation=page.navigation %}
