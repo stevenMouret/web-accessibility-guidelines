@@ -85,13 +85,13 @@ To do this, we use the aria-label attribute and title attribute.
 * The aria-label attribute will be read in the assistive technology instead of the link content.
 * The title attribute allows you to give visual information for people who do not understand the icon.
 
-<a href="tel:01708X4596" aria-label="Phone : 01 70 8X 45 96 opening of the call manager" class="new-window-off">
+<a href="tel:01708X4596" aria-label="Phone: 01 70 8X 45 96 opening of the call manager" class="new-window-off">
     <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
     <span class="text">01 70 8X 45 96</span>
 </a>
 
 ```html
-<a href="tel:01708X4596" aria-label="Phone : 01 70 8X 45 96 opening of the call manager">
+<a href="tel:01708X4596" aria-label="Phone: 01 70 8X 45 96 opening of the call manager">
     <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
     <span class="text">01 70 8X 45 96</span>
 </a>
@@ -156,13 +156,15 @@ As for an icon font the SVG being decorative we add the attribute aria-hidden to
 </a>
 ```
 
-#### 2.2 Icon conveying information with visible text
+#### 2.2 Icon conveying information
 
 For all SVG who convey information it is necessary to provide an alternative and modify the role of the SVG.
 
 * Adding the role attribute to img.
 * Adding the aria-label attribute for assistive technologies.
 * Adding in the SVG a title attribute to give visual information.
+
+##### 2.2.1 With visible text
 
 <p>
     <svg role="img" aria-label="Fax" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Fax</title><path d="M64 128H32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zm416 32V77.25c0-8.49-3.37-16.62-9.37-22.63L425.37 9.37c-6-6-14.14-9.37-22.63-9.37H160c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zM288 432c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm128 128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm16-112H176V48h208v32c0 8.84 7.16 16 16 16h32v96z"/></svg>
@@ -177,4 +179,24 @@ For all SVG who convey information it is necessary to provide an alternative and
     </svg>
     <span class="text">01 70 8X 45 96</span>
 </p>
+```
+
+##### 2.2.2 With visible text in a link
+
+<a href="#">
+    <svg role="img" aria-label="Fax" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <title>Fax</title>
+        <path d="M64 128H32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zm416 32V77.25c0-8.49-3.37-16.62-9.37-22.63L425.37 9.37c-6-6-14.14-9.37-22.63-9.37H160c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zM288 432c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm128 128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm16-112H176V48h208v32c0 8.84 7.16 16 16 16h32v96z"/>
+    </svg>
+    <span class="text">01 70 8X 45 96</span>
+</a>
+
+```html
+<a href="#">
+    <svg role="img" aria-label="Fax" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <title>Fax</title>
+        <path d="M64 128H32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zm416 32V77.25c0-8.49-3.37-16.62-9.37-22.63L425.37 9.37c-6-6-14.14-9.37-22.63-9.37H160c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zM288 432c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm128 128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm16-112H176V48h208v32c0 8.84 7.16 16 16 16h32v96z"/>
+    </svg>
+    <span class="text">01 70 8X 45 96</span>
+</a>
 ```
