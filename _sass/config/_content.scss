@@ -113,32 +113,31 @@
     }
 
     .tip, .important {
+        align-items: center;
         background: $color-3-1;
-        padding: 1rem 1rem 1rem 8rem;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
         position: relative;
-        min-height: 9rem;
 
-        &::before {
-            color: $color-1-1;
-            content: "\f0eb";
-            font-family: "Font Awesome 5 Free";
-            font-size: 5rem;
-            font-weight: 900;
-            left: 1rem;
-            line-height: 1;
-            position: absolute;
-            top: 2rem;
-            text-indent: 0;
-            width: 6rem;
-            height: 5rem;
-            text-align: center;
+        > svg {
+            fill: $color-1-1;
+            margin-left: 0.6rem;
+            margin-right: 2.1rem;
+            min-width: 2.8rem;
+        }
+
+        *:last-child {
+            margin-bottom: 0;
         }
     }
 
     .important {
-
-        &::before {
-            content: "\f071";
+        > svg {
+            margin-left: 0;
+            margin-right: 1.5rem;
+            min-width: 4rem;
         }
     }
 
