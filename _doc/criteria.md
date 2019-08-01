@@ -1,4 +1,4 @@
 ---
 layout: home
-title:  All criteria
+title:  Thematics
 ---
