@@ -103,6 +103,20 @@ menu-criteria:
       url: /criteria/links/criterion-6-5.html
       level: A
 
+- title: Mandatory elements
+  url: /criteria/mandatory-elements.html
+  teaser: Check that each Web page has a valid source code according to the document type, a relevant title and a default human language identification. Check that tags are not used for presentation only, that changes in human language and changes in the reading direction are specified.
+  sub:
+#    - title: Criterion 8.5
+#      url: /criteria/mandatory-elements/criterion-8-5.html
+#      level: A
+#    - title: Criterion 8.6
+#      url: /criteria/mandatory-elements/criterion-8-6.html
+#      level: A
+    - title: Criterion 8.9
+      url: /criteria/mandatory-elements/criterion-8-9.html
+      level: A
+
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
 
