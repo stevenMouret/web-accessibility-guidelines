@@ -117,6 +117,14 @@ menu-criteria:
       url: /criteria/mandatory-elements/criterion-8-9.html
       level: A
 
+- title: Information structure
+  url: /criteria/information-structure.html
+  teaser: Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
+  sub:
+    - title: Criterion 9.1
+      url: /criteria/information-structure/criterion-9-1.html
+      level: A
+
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
 
