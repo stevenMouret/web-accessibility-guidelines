@@ -124,6 +124,9 @@ menu-criteria:
     - title: Criterion 9.1
       url: /criteria/information-structure/criterion-9-1.html
       level: A
+    - title: Criterion 9.3
+      url: /criteria/information-structure/criterion-9-3.html
+      level: A
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
