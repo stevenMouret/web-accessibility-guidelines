@@ -61,6 +61,17 @@ menu-criteria:
       url: /criteria/images/criterion-1-10.html
       level: A
 
+- title: Frames
+  url: /criteria/frames.html
+  teaser: Provide each inline frame with a relevant title.
+  sub:
+    - title: Criterion 2.1
+      url: /criteria/frames/criterion-2-1.html
+      level: A
+    - title: Criterion 2.2
+      url: /criteria/frames/criterion-2-2.html
+      level: A
+
 - title: Colors
   url: /criteria/colors.html
   teaser: Do not provide information through color only, and use sufficient color contrasts.
