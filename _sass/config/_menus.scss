@@ -45,12 +45,11 @@
         vertical-align: middle;
     }
 
-    span:not(.active) {
-        &::after {
-            content: ">";
-            display: inline-block;
-            vertical-align: middle;
-            margin-left: 0.5rem;
+    .icon {
+        margin: 0 0.5rem;
+
+        &::before {
+            vertical-align: -0.2rem;
         }
     }
 
@@ -132,18 +131,17 @@
                 position: relative;
                 padding-left: 1rem;
 
-                &::before {
+                .fas {
                     color: $color-1-1;
-                    content: "\f105";
-                    font-family: "Font Awesome 5 Free";
+                    display: inline-block;
                     font-size: 1.2rem;
-                    font-weight: 900;
-                    left: 0;
-                    line-height: 1;
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    text-indent: 0;
+                    margin-right: 0.5rem;
+                    vertical-align: middle;
+                }
+
+                > a {
+                    display: inline-block;
+                    vertical-align: middle;
                 }
             }
         }
@@ -156,8 +154,6 @@
             justify-content: center;
             align-items: center;
         }
-
-
     }
 }
 

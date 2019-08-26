@@ -26,6 +26,28 @@ const addClass = (el, className) => {
     }
 };
 
+/**
+ * Create an accessible icon before or after content of a link.
+ *
+ * @param el {HTMLElement} Must be a link.
+ * @param classes {string} Fontawesome classes or other icon system.
+ * @param position {string} Can be 'before' or 'after'.
+ * @param text {string} Accessible icon description.
+ */
+const addIcon = (el, classes, position, text) => {
+    const elText = el.textContent;
+    const icon = `<span class="${classes}" aria-hidden="true" title="${text}"></span>`;
+    const newWindow = el.getAttribute('target') === '_blank' ? ', new window' : '';
+
+    if (position === 'before') {
+        el.insertAdjacentHTML('afterbegin', icon);
+    } else if (position === 'after') {
+        el.insertAdjacentHTML('beforeend', icon);
+    }
+
+    el.setAttribute('aria-label', elText + ' (' + text + newWindow + ')')
+};
+
 // Scripts
 
 // Wrap table
@@ -134,12 +156,10 @@ const linkExternalNewWindow = () => {
     anchors.forEach((anchor) => {
         // If external link but not _blank
         if (anchor.hostname !== location.hostname && anchor.getAttribute('target') !== '_blank') {
-            anchor.setAttribute('title', `${getAlt(anchor)} (external link)`);
-            addClass(anchor, 'link-external');
+            addIcon(anchor, 'external-link fas fa-external-link-alt', 'after', 'external link');
         } else if (anchor.hostname !== location.hostname && anchor.getAttribute('target') === '_blank') { // If external link and _blank
-            anchor.setAttribute('title', `${getAlt(anchor)} (new window, external link)`);
             addRelNoopener(anchor);
-            addClass(anchor, 'link-external');
+            addIcon(anchor, 'external-link fas fa-external-link-alt', 'after', 'external link');
         } else if (anchor.hostname === location.hostname && anchor.getAttribute('target') === '_blank') { // If internal and blank
             anchor.setAttribute('title', `${getAlt(anchor)} (new window)`);
             addRelNoopener(anchor);

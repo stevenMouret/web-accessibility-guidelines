@@ -9,7 +9,7 @@
                 <ul>
                 {% endif %}
                     {% for entry in item.sub %}
-                    <li><a href="{{- site.baseurl -}}{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }} ({{ entry.level }})</a></li>
+                    <li><span class="fas fa-angle-right" aria-hidden="true"></span><a href="{{- site.baseurl -}}{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }} ({{ entry.level }})</a></li>
                     {% endfor %}
                 {% if item.sub %}
                 </ul>

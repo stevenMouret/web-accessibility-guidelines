@@ -1,11 +1,13 @@
 <p class="breadcrumb">
-    <span><a href="{{ site.baseurl }}/">Home</a></span>
-    {% assign crumbs = page.url | split: '/' %}
-    {% assign crumbs_total = crumbs | size | minus: 1 %}
-    {% for crumb in crumbs offset: 1 %}
-        {% if forloop.index == crumbs_total %}
-        <span class="active">{{ crumb | replace:'-',' ' | replace: '.html','' }}</span>
-        {% else %}
+    <span>
+        <a href="{{ site.baseurl }}/">Home</a>
+    </span><span class="icon icon-angle-right" aria-hidden="true"></span>
+    {%- assign crumbs = page.url | split: '/' -%}
+    {%- assign crumbs_total = crumbs | size | minus: 1 -%}
+    {%- for crumb in crumbs offset: 1 -%}
+        {%- if forloop.index == crumbs_total -%}
+        <span class="active">{{ crumb | replace: '.html','' }}</span>
+        {%- else -%}
             <span><a href="{{- site.baseurl -}}
             {% assign crumb_limit = forloop.index | plus: 1 %}
             {%- for crumb in crumbs limit: crumb_limit -%}
@@ -14,7 +16,7 @@
                 {%- else -%}
                     {{ crumb | append: '/' }}
                 {%- endif -%}
-            {%- endfor -%}">{{ crumb | replace:'-',' ' }}</a></span>
-        {% endif %}
-    {% endfor %}
+            {%- endfor -%}">{{ crumb | replace:'-',' ' }}</a></span><span class="icon icon-angle-right" aria-hidden="true"></span>
+        {%- endif -%}
+    {%- endfor -%}
 </p>

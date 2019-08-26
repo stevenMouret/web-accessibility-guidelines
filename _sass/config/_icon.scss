@@ -1,0 +1,16 @@
+.icon {
+    &:before {
+
+    }
+}
+
+.icon-angle-right {
+    &::before {
+        content: ">";
+    }
+}
+
+.external-link {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
