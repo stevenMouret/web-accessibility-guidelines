@@ -77,5 +77,4 @@ Positionings.
 Be careful with positioning that does not follow the standard flow, especially absolute and fixed positioning. Make sure that the magnification of the characters does not cause any overlap with these boxes positioned outside the flow.
 Manage spaces and line breaks.
 
-The property `white-space: nowrap` prevents text content from being submitted to the automatic line feed. This property should therefore be used with caution. Always perform tests to evaluate the character magnification behaviour.
-
+The properties `white-space: nowrap` or `flex-wrap: unwrap` prevents text content from being submitted to the automatic line feed. This property should therefore be used with caution. Always perform tests to evaluate the character magnification behaviour.
