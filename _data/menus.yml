@@ -139,6 +139,14 @@ menu-criteria:
       url: /criteria/presentation-of-information/criterion-10-7.html
       level: A
 
+- title: Forms
+  url: /criteria/forms.html
+  teaser: For each form, associate each field with its label, group fields in similar blocks of information, structure selection lists in a consistent way, give each button an explicit label. Check that input help is available, ensure that the input control is accessible and that the user can control financial, legal or personal data.
+  sub:
+    - title: Criterion 11.1
+      url: /criteria/forms/criterion-11-1.html
+      level: A
+
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
 
