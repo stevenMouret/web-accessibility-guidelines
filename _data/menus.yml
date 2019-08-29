@@ -146,6 +146,9 @@ menu-criteria:
     - title: Criterion 11.1
       url: /criteria/forms/criterion-11-1.html
       level: A
+    - title: Criterion 11.5
+      url: /criteria/forms/criterion-11-5.html
+      level: A
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
