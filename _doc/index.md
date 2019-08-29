@@ -14,5 +14,3 @@ This documentation is intended to familiarize English-speaking people with the R
 {: .article-header__teaser}
 The version used on this site is the version of the RGAA 3 2017
 {: .article-header__teaser}
-
-
