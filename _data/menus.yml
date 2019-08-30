@@ -84,6 +84,8 @@ menu-criteria:
       url: /criteria/information-structure/document-outline.html
     - title: Unordered, ordered and definition lists
       url: /criteria/information-structure/unordered-ordered-definition-lists.html
+    - title: Quotation
+      url: /criteria/information-structure/quotation.html
 
 - title: Presentation of information
   url: /criteria/presentation-of-information.html
