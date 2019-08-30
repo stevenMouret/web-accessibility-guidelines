@@ -2,8 +2,7 @@
 # Site settings
 #
 title: RGAA Training
-#url: https://stevenmouret.github.io
-url: https://localhost
+url: https://stevenmouret.github.io
 baseurl: /rgaa-training
 author: Steven Mouret
 
@@ -51,7 +50,5 @@ defaults:
 #
 # Plugins
 #
-#plugins:
-#  - jekyll-sitemap
-
-
+plugins:
+  - jekyll-sitemap
