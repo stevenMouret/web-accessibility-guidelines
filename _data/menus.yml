@@ -80,6 +80,8 @@ menu-criteria:
   sub:
     - title: Structure information by titles
       url: /criteria/information-structure/structure-information-by-titles.html
+    - title: Document structure
+      url: /criteria/information-structure/document-structure.html
     - title: Unordered, ordered and definition lists
       url: /criteria/information-structure/unordered-ordered-definition-lists.html
 
