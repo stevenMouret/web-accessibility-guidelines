@@ -1,5 +1,5 @@
-<section class="sidebar-menu">
-    <h2>{{ site.data.menus.menu-criteria-title }}</h2>
+<nav role="navigation" aria-label="{{ site.data.menus.menu-criteria-title }}" class="sidebar-menu">
+    <h2 aria-hidden="true">{{ site.data.menus.menu-criteria-title }}</h2>
     <ul>
         {% for item in site.data.menus.menu-criteria %}
             {% assign topic = item.url | replace: "/", "" | replace: ".html", "" | remove: "criteria" %}
@@ -17,4 +17,4 @@
             {% endif %}
         {% endfor %}
     </ul>
-</section>
+</nav>

@@ -12,6 +12,10 @@
     @media (max-width: 768px) {
         flex-direction: column;
     }
+
+    header {
+        flex: 0 0 auto;
+    }
 }
 
 .blank {
@@ -24,7 +28,6 @@
     font-weight: 900;
     padding: 0 3rem;
     border-right: 0.1rem solid rgba($color-black, 0.05);
-    flex: 0 0 auto;
 
     @media (max-width: 768px) {
         border-right: none;
