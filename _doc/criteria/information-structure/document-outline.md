@@ -1,11 +1,11 @@
 ---
-title: Document structure
+title: Document outline
 navigation: information-structure
 nav: menu-criteria
 ---
 
 <header>
-## Document structure
+## Document outline
 {: .article-header__title}
 </header>
 
