@@ -1,11 +1,11 @@
 ---
-title: Legend image
+title: Image caption
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Legend image
+## Image caption
 {: .article-header__title}
 </header>
 

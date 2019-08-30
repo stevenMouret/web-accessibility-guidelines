@@ -35,8 +35,8 @@ menu-criteria:
       url: /criteria/images/captcha.html
     - title: Text image
       url: /criteria/images/text-image.html
-    - title: Legend image
-      url: /criteria/images/legend-image.html
+    - title: Image caption
+      url: /criteria/images/image-caption.html
 
 - title: Frames
   url: /criteria/frames.html
