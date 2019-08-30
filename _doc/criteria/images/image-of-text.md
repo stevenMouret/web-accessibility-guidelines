@@ -1,11 +1,11 @@
 ---
-title: Text image
+title: Image of text
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Text image
+## Image of text
 {: .article-header__title}
 </header>
 

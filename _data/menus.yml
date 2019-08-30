@@ -33,8 +33,8 @@ menu-criteria:
       url: /criteria/images/image-conveying-information.html
     - title: CAPTCHA
       url: /criteria/images/captcha.html
-    - title: Text image
-      url: /criteria/images/text-image.html
+    - title: Image of text
+      url: /criteria/images/image-of-text.html
     - title: Image caption
       url: /criteria/images/image-caption.html
 
