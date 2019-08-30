@@ -15,7 +15,7 @@ nav: menu-criteria
 
 ### Explanation
 
-Color contrasts refer to the contrast ratio between the writing color of a text and its background color.
+For a user who has difficulty perceiving contrasts, some writings may be impossible to read if the writing colour is not sufficiently contrasted with the background colour.
 
 These contrasts concern:
 
