@@ -26,3 +26,15 @@ For a visually impaired user (blind or visually impaired), web content is a long
 All editorial content must have at least one title that introduces it. Preferably, relatively short and titled sections should be created.
 
 Titling is not enough, it is important to respect the hierarchy of titles. If you start your content with a level 1 title and create a subpart, the title of that subpart should be level 2 and so on until level 6 (last available title level). Note that the number of titles in a page is not limited.
+
+#### Be aware of
+
+Sometimes for SEO reasons, it is not advisable to titrate certain content blocks with high-level titles. It is possible in this case to use `ARIA` to minimize the impact on referencing and to keep a title structure accessible.
+
+```html
+<h1>News flash</h1>
+```
+
+```html
+<div role="heading" aria-level="1">News flash</div>
+```
