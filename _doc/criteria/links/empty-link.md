@@ -1,11 +1,12 @@
 ---
-title: Criterion 6.5 [A]
+title: Empty link
+
 navigation: links
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 6.5 [A] <span>On each Web page, does each [link](../glossary.html#mLien), except in [anchors](../glossary.html#mAncreNom), have a [text](../glossary.html#mIntituleLien)?</span>
+## Empty link
 {: .article-header__title}
 </header>
 

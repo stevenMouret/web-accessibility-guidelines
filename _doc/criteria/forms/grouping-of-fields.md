@@ -1,11 +1,11 @@
 ---
-title: Criterion 11.5 [A]
+title: Grouping of fields
 navigation: forms
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 11.5 [A] <span>In each form, is the [information of same nature](../glossary.html#mInfoMNature) grouped together, if necessary?</span>
+## Grouping of fields
 {: .article-header__title}
 </header>
 

@@ -1,11 +1,11 @@
 ---
-title: Criterion 10.4 [AA]
+title: Enlargement of characters
 navigation: presentation-of-information
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 10.4 [AA] <span>On each Web page, is text still readable when [characters size](../glossary.html#mTailleCaractere) is increased until at least 200%?</span>
+## Enlargement of characters
 {: .article-header__title}
 </header>
 

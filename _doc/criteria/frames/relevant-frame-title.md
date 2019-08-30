@@ -1,11 +1,11 @@
 ---
-title: Criterion 2.2 [A]
+title: Relevant frame title
 navigation: frames
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 2.2 [A] <span>For each [inline frame](../glossary.html#mCadreEnLigne) with a [frame title](../glossary.html#mTitreCadre), is this frame title relevant?</span>
+## Relevant frame
 {: .article-header__title}
 </header>
 
@@ -14,6 +14,8 @@ nav: menu-criteria
 **Users mainly impacted:** Blind
 
 ### Explanation
+
+When you embed content from other websites via iframes, you must implement a title attribute on these frames that identify the content.
 
 You must give them sufficient information so that they know what types of content they will find there.
 

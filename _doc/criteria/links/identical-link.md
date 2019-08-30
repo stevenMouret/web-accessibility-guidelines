@@ -1,11 +1,11 @@
 ---
-title: Criterion 6.4 [A]
+title: Identical link
 navigation: links
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 6.4 [A] <span>For each web page, does each [identical link](../glossary.html#mLienIdentique) have the same purpose and target?</span>
+## Identical link
 {: .article-header__title}
 </header>
 
@@ -15,7 +15,7 @@ nav: menu-criteria
 
 ### Explanation
 
-The purpose of this criterion is to facilitate navigation and understanding of links in the same context.
+The purpose is to facilitate navigation and understanding of links in the same context.
 
 If two identical links (with the same "accessible name") with a different destination and the same context, the text link alone does not make the link explicit.
 <br>See the definition of the [link context](../glossary.html#mContexteLien) for understanding of how to identify it.

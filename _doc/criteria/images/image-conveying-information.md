@@ -1,11 +1,11 @@
 ---
-title: Criterion 1.3 [A]
+title: Image conveying information
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 1.3 [A] <span>For each [image conveying information](../glossary.html#mImgInfo) with a [text alternative](../glossary.html#mAltTexteImg), is this alternative relevant (except in [particular cases](../particular-cases.html#cpCrit1-3 "Particular cases for criterion 1.3"))?</span>
+## Image conveying information
 {: .article-header__title}
 </header>
 
@@ -57,6 +57,43 @@ It is important to remember that images do not necessarily have to be described 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
 
+#### Complex images: the detailed description
+
+The alternative text is only to be used for images that are easily described in one sentence. In the case of a complex image, which requires the writing of a whole paragraph (e.g. a neighbourhood map, graph, histogram), you must provide a detailed description.
+
+When an image requires a detailed description, you will write a paragraph under that image. This is the case for complex images such as a data graph or computer graphics.
+
+There are several ways to add a detailed description, here are the most common ones:
+
+* Add a paragraph directly below the image.
+* Add an adjacent link, before or after to the detailed description.
+* The least robust, add a `longdesc` attribute with a URL to the detailed description.
+
+To allow a screen reader user to link your image to its detailed description, you will proceed as follows:
+
+* In the field that allows you to define an alternative text, you title your image without describing it, indicating that there is a description. For example: access map (see description below);
+* At the beginning of your detailed description, you will take up this title again. For example: "Access map (detailed description): To access...".
+
+When facing an image with a detailed description, one must ask oneself the question:
+
+**What information does this image want to convey?**
+
+For example for a map it is useless to describe all the streets, parking, buildings... It is necessary to understand the meaning and interest of this map.
+
+##### Example of complex image with detailed description
+
+Below is an example of a complex image. This is a location plan. An alternative text is not sufficient to transcribe all the information on this plan.
+
+![Access map to the British Museum (see description below)](../../img/british-museum.png)
+
+**Detailed description of the access map to the British Museum**
+
+The entrance to the museum is accessible from the Great Russell street.
+
+From the Bloomsbury street go down to the Great Russell street and take on your left.
+
+From the Montague street go down to the Great Russell street and take on your right.
+
 ### Received ideas
 
 #### Do not extrapolate the images
@@ -66,8 +103,12 @@ In any case, if the graphical display of a telephone is used, it is therefore ne
 In this example the `alt` of the image is 'Lavender fields in the south of France'.
 No information in the image allows us to affirm that we are in the south of France. It is not relevant to specify this.
 
-
 #### The image alternative must not be used to mention the credits (author, date, etc.) of the image
 
 If you are crediting an image, you should not use the image replacement text. First of all, it means that not everyone has access to this information. Second, the alternative text is used to describe the image, not to assign it.
-In the specific case of credits, the use of a legend is the most appropriate, [See criterion 1.10](criterion-1-10.html).
+In the specific case of credits, the use of a legend is the most appropriate.
+
+<div class="tip">
+<svg role="img" aria-label="Tip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" width="28" height="40"><title>Tip</title><path d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg>
+[How to integrate icons in an accessible way](../../techniques/accessible-icons.html).
+</div>

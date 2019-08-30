@@ -129,19 +129,21 @@
 
             > li {
                 position: relative;
-                padding-left: 1rem;
 
                 .fas {
                     color: $color-1-1;
-                    display: inline-block;
                     font-size: 1.2rem;
                     margin-right: 0.5rem;
+                    position: absolute;
+                    top: 0.9rem;
+                    left: 0;
                     vertical-align: middle;
                 }
 
                 > a {
-                    display: inline-block;
-                    vertical-align: middle;
+                    color: lighten($color-black, 30%);;
+                    display: block;
+                    padding: 0.5rem 0 0.5rem 1rem;
                 }
             }
         }
@@ -158,14 +160,8 @@
 }
 
 .menu-main-sections {
-    display: flex;
-    flex-wrap: wrap;
     max-width: 80rem;
     margin: 0 auto;
-    > * {
-        flex: 1 1 calc(33.3333% - 2%);
-        min-width: 25rem;
-    }
 
     a {
         text-decoration: none;
@@ -179,7 +175,7 @@
     background: rgba($color-black, 0.03);
     margin: 0 2% 2rem;
     overflow: hidden;
-    padding: 6.8rem 2.4rem;
+    padding: 2rem 2.4rem;
     position: relative;
     text-align: center;
 

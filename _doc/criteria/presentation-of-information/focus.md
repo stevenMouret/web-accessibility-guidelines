@@ -1,11 +1,11 @@
 ---
-title: Criterion 10.7 [A]
+title: Focus
 navigation: presentation-of-information
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 10.7 [A] <span>On each Web page, is the [focus](../glossary.html#mPriseFocus) visible for each element that receives focus?</span>
+## Focus
 {: .article-header__title}
 </header>
 
@@ -32,3 +32,4 @@ Similarly, the following properties must not be degraded, i.e. the defined value
 Even if you use a `border` to indicate focus taking, this alternative is not considered relevant.
 
 Indeed, `outline` is a property managed by the browser. Some browsers offer mechanisms to increase the visibility of this outline. Thus, if you specify `outline: 0` in your style sheets, the browser settings to increase the outline will be invisible.
+

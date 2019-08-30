@@ -1,11 +1,11 @@
 ---
-title: Criterion 9.1 [A]
+title: Structure information by titles
 navigation: information-structure
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 9.1 [A] <span>On each Web page, is information structured by the appropriate use of [headings](../glossary.html#mTitre)?</span>
+## Structure information by titles
 {: .article-header__title}
 </header>
 

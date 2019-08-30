@@ -1,11 +1,11 @@
 ---
-title: Criterion 1.8 [AA]
+title: Text image
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 1.8 [AA] <span>When an [alternate mechanism](../glossary.html#mMecaRempl) is missing, each [image of text](../glossary.html#mImgText) [conveying information](../glossary.html#mImgInfo) must be replaced with [styled text](../glossary.html#mTexteStyle), if possible. Has this rule been followed (except in [particular cases](../particular-cases.html#cpCrit1-8 "Particular cases for criterion 1.8"))?</span>
+## Text image
 {: .article-header__title}
 </header>
 

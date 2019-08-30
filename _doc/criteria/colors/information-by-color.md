@@ -1,11 +1,11 @@
 ---
-title: Criterion 3.2 [A]
+title: Information by color
 navigation: colors
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 3.2 [A] <span>On each Web page, [information](../glossary.html#mInfoCouleur) must not be conveyed through color only. Has this rule been implemented in a relevant way?</span>
+## Information by color
 {: .article-header__title}
 </header>
 
@@ -15,6 +15,30 @@ nav: menu-criteria
 
 ### Explanation
 
+The information given by the color impacts many users. In the first place, blind people who can not see colors, but also users who do not see or distinguish certain colors or color combinations. For all these users, information given only by color will be ignored.
+
+The most common case of information by color is the indication of the active page in the navigation menu. In this case, a simple repair consists in providing the information in text form so that a user who does not perceive the colors (blind or user not perceiving the contrasts) can access the same information. In the case of the active link, we can simply add in the title of the link a reference to the template: "Home - current page".
+
+The principle to keep in mind is that any color conveying information must be accessible by other means, including a textual element.
+
+#### Examples
+
+##### In a form
+
+![Form example](../../img/color-3.1-1.png)
+
+In this form above, the fields with a red label are required. If you cannot see this color, it is not possible for you to fill in this form correctly.
+In this case prefer to add the mention 'required' directly in the label.
+
+
+##### In a menu
+
+![Menu example](../../img/color-3.1-2.png)
+
+In this menu, the page where we are (iPad) is illustrated by a different color from the other pages. Similarly, if you cannot see this color, you lose this information in the menu.
+
+### Information must not be conveyed through color only
+
 The point here is to verify that the information that is given by a means other than color is consistent. It is important that the information is transmitting by a color, shape and text.
 
 The means of transmitting information other than by colour can be:
@@ -23,9 +47,9 @@ The means of transmitting information other than by colour can be:
 * a means involving graphics (pictogram, background image, shape, different border style, etc.) and through a code complement (aria-label, title, hidden text, aria-current, etc.)
 * another typographic style (bold, italic, text size, other font, etc.) and through a code complement (aria-label, title, hidden text, aria-current, etc.)
 
-### Examples
+#### Examples
 
-#### In a form
+##### In a form
 
 ![Form example](../../img/color-3.2-1.png)
 
@@ -43,12 +67,12 @@ The best way to be most relevant is to write the required statement directly on 
 Added the require attribute on the field is not enough. People who do not use technical assistance do not have the information.
 </div>
 
-#### In a Apple menu
+##### In a Apple menu
 
-##### Currently Apple menu
+###### Currently Apple menu
 ![Bad menu example](../../img/color-3.1-2.png)
 
-##### Fixed Apple menu
+###### Fixed Apple menu
 ![Fixed menu example](../../img/color-3.2-2.png)
 
 In this menu we have added a shape (the triangle under the active item) and a code complement ([link title](../glossary.html#mTitreLien)).

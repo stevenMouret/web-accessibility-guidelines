@@ -1,11 +1,11 @@
 ---
-title: Criterion 8.9 [A]
+title: Use HTML tags for their proper meaning
 navigation: mandatory-elements
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 8.9 [A] <span>On each Web page, tags must not be used [only for layout](../glossary.html#mUniquPres). Has this rule been followed?</span>
+## Use HTML tags for their proper meaning
 {: .article-header__title}
 </header>
 

@@ -1,11 +1,11 @@
 ---
-title: Criterion 1.1 [A]
+title: Required alternative
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 1.1 [A] <span>Does each image have a [text alternative](../glossary.html#mAltTexteImg)?</span>
+## Required alternative
 {: .article-header__title}
 </header>
 

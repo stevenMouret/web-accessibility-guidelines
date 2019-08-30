@@ -1,11 +1,11 @@
 ---
-title: Criterion 1.5 [A]
+title: Captcha
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 1.5 [A] <span>For each image used as [CAPTCHA](../glossary.html#mcaptcha), is a solution for alternative access to the content or to the purpose of the CAPTCHA available?</span>
+## Captcha
 {: .article-header__title}
 </header>
 
@@ -14,5 +14,9 @@ nav: menu-criteria
 **Users mainly impacted:** Blind, visually impaired, mentally and cognitively impaired.
 
 ### Explanation
+
+In the case of test images (Captcha), the alternative must be filled in so that the user can understand the nature and role of the image.
+
+For example, `alt="enter the code in the image"`.
 
 This mechanism will have to be completed by an alternative method allowing the user to retrieve the code in order to continue. Example, an image CAPTCHA can be associated with an audio player.

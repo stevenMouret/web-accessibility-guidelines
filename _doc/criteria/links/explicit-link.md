@@ -1,11 +1,11 @@
 ---
-title: Criterion 6.1 [A]
+title: Explicit link
 navigation: links
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 6.1 [A] <span>Is each [link](../glossary.html#mLien) explicit (except in [particular cases](../particular-cases.html#cpCrit6- "Particular cases for criterion 6.1"))?</span>
+## Explicit link
 {: .article-header__title}
 </header>
 

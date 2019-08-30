@@ -1,11 +1,11 @@
 ---
-title: Criterion 3.3 [AA]
+title: Color contrast
 navigation: colors
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 3.3 [AA] <span>On each Web page, is the [contrast](../glossary.html#mContraste) between the text and background colors sufficient (except in [particular cases](../particular-cases.html#cpCrit3- "Particular cases for criterion 3.3"))?</span>
+## Color contrast
 {: .article-header__title}
 </header>
 

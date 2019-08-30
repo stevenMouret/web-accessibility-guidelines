@@ -1,11 +1,11 @@
 ---
-title: Criterion 1.10 [A]
+title: Legend image
 navigation: images
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 1.10 [A] <span>Is each [image caption](../glossary.html#mImageCaption) correctly associated with the corresponding image, if necessary?</span>
+## Legend image
 {: .article-header__title}
 </header>
 

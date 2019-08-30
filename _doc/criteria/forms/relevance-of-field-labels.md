@@ -1,11 +1,11 @@
 ---
-title: Criterion 11.1 [A]
+title: Relevance of field labels
 navigation: forms
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 11.1 [A] <span>Does each [form field](../glossary.html#mChpSaisie) have a [label](../glossary.html#mEtiquette)?</span>
+## Relevance of field labels
 {: .article-header__title}
 </header>
 

@@ -1,11 +1,11 @@
 ---
-title: Criterion 9.3 [A]
+title: Unordered, ordered and definition lists
 navigation: information-structure
 nav: menu-criteria
 ---
 
 <header>
-## Criterion 9.3 [A] <span>On each Web page, is each [list](../glossary.html#mListes) structured  appropriately?</span>
+## Unordered, ordered and definition lists
 {: .article-header__title}
 </header>
 
