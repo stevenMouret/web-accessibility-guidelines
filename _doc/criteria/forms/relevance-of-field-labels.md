@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
 
+**RGAA criteria:** [Criterion 11.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-1) - [Criterion 11.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-2)
+
 ### Explanation
 
 A field label is a **required** text that explains what data is expected by the field (surname, first name, date of birth, etc.).
@@ -21,6 +23,10 @@ To be compliant, a label must:
 
 * be relevant;
 * be correctly connected to the corresponding field.
+
+#### Relevance of field labels
+
+A label is relevant if it helps to understand the function of the field to which it is linked. It is not necessarily necessary to write large sentences, but to remain concise. The user must understand what is expected from his entry. For example, for identity data, a "Last name" label, a "First name" label and a "Telephone" label are relevant labels that help to understand what to write on them.
 
 #### Properly bound labels
 
@@ -42,7 +48,7 @@ The advantage of this implementation over all the others is that it extends the 
 A field can also be labeled via the `title` attribute.
 
 ```html
-<input type="text" id="recherche" title="Saisir un mot clé à rechercher"/>
+<input type="text" id="recherche" title="Keyword to search for"/>
 ```
 
 This implementation is compliant, but we invite you to use this implementation only in limited cases. Indeed, the title attribute is only visible when the mouse hovers over it. A user who sees and navigates exclusively on the keyboard will not access this information. In the case of a complex form, this type of labelling can be a barrier to understanding for some users. In addition, for some motor disabilities, the click area is smaller when the label is not visible.
