@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired.
 
+**RGAA criteria:** [Criterion 8.9 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-9)
+
 ### Explanation
 
 Blind and visually impaired people use screen readers that rely on the semantics of tags, as provided by the browser, to render content and provide navigation features in the content.

@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired.
 
+**RGAA criteria:** [Criterion 10.4 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-4)
+
 ### Explanation
 
 The proper adaptation of the contents of a web page when the font size is increased is essential for visually impaired users.

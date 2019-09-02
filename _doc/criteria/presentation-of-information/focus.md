@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Motor disabilities.
 
+**RGAA criteria:** [Criterion 10.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-7)
+
 ### Explanation
 
 The motor handicapped who navigate on the keyboard can encounter considerable difficulties in using the content if they are not able to locate where the visual indication of focus and its movements lie.

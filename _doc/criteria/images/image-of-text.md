@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired.
 
+**RGAA criteria:** [Criterion 1.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-8)
+
 ### Explanation
 
 When text images can be reproduced in HTML and CSS, you should not use an image. This is quite possible:

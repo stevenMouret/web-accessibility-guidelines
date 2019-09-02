@@ -13,13 +13,13 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, visually impaired, mentally handicapped.
 
+**RGAA criteria:** [Criterion 11.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-6) - [Criterion 11.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-7)
+
 ### Explanation
 
 In some forms, it is necessary to create groups of fields. These field groupings are useful to avoid misleading some users, especially blind users. For example, an online purchase form offers a form with the entry of a delivery address and a billing address. Since both will have fields with similar labels, it is imperative to create a grouping so that the user understands which address he is filling in. Field groupings must also have a relevant label in the `legend` tag.
 
 Other typical cases of application are groups of checkboxes or radio buttons.
-
-
 
 #### Do not always group together
 <div class="important">

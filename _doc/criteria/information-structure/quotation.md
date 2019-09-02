@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, mentally handicapped.
 
+**RGAA criteria:** [Criterion 9.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-6)
+
 ### Explanation
 
 Failure to report quotations can make the content more complex for blind and severely visually impaired people to understand and generate ambiguities and misunderstandings.

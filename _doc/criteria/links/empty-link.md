@@ -14,6 +14,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, motor impaired.
 
+**RGAA criteria:** [Criterion 6.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-6-5)
+
 ### Explanation
 
 When a link has no text link, it is not read in the technical assistance or indicated as empty. A common error is to display an icon without alternative in a link. It is therefore important to provide a text link for each link.

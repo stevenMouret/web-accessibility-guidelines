@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind
 
+**RGAA criteria:** [Criterion 2.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-1) - [Criterion 2.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-2)
+
 ### Explanation
 
 When you embed content from other websites via iframes, you must implement a title attribute on these frames that identify the content.

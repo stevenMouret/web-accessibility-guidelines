@@ -13,10 +13,11 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, motor impaired.
 
+**RGAA criteria:** [Criterion 6.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-6-2)
+
 ### Explanation
 
 The content of the link title should only be present if it is necessary to identify the link destination explicitly. A link title must include the link text with additional information.
-
 
 A link title will be considered irrelevant in the following cases:
 

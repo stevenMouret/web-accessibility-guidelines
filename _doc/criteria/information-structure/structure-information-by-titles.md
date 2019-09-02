@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, motor handicapped, cognitive disability.
 
+**RGAA criteria:** [Criterion 9.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-1)
+
 ### Explanation
 
 Using titles and subtitles allows you to structure your text in parts and provides the user with a map of the document and allows him to navigate from title to title to move more quickly through the page content.

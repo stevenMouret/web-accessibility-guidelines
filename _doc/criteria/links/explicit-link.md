@@ -13,6 +13,8 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, motor impaired.
 
+**RGAA criteria:** [Criterion 6.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-6-1)
+
 ### Explanation
 
 A link allows you to navigate between the pages of a site or to link to another site. A link is defined by two important elements:
