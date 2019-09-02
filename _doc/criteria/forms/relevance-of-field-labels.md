@@ -15,7 +15,7 @@ nav: menu-criteria
 
 ### Explanation
 
-A field label is a text that explains what data is expected by the field (surname, first name, date of birth, etc.).
+A field label is a **required** text that explains what data is expected by the field (surname, first name, date of birth, etc.).
 
 To be compliant, a label must:
 
