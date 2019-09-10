@@ -29,5 +29,7 @@ There are values that provide sufficient minimum contrast for a large proportion
 
 To evaluate the contrasts of the elements you insert, you can use tools:
 
-* [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) thanks to a pipette, you can go and pick colours from all document formats (web, office, video, etc.) for analysis;
-* Lighthouse in Google Chrome browser allows you to quickly check your web page for text content.
+* [**Color Contrast Analyzer**](https://developer.paciellogroup.com/resources/contrastanalyser/) thanks to a pipette, you can go and pick colours from all document formats (web, office, video, etc.) for analysis;
+* Lighthouse in Google **Chrome** browser allows you to quickly check your web page for text content.
+* Contrast tools is available in Mozilla **Firefox** developer tools in accessibility tab.
+* [**Accessible colors**](https://accessible-colors.com/) is a tools to know the right contrast between two colors. It has the advantage of offering contrasts that are as close as possible to the original colours.
