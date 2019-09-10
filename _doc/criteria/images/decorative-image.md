@@ -53,8 +53,8 @@ Not all images require alternative text. If the image is a decoration (it does n
 
 #### `img` tag
 
-* It is simply necessary to leave the alt attribute empty.
-* The decoration image does not have a title attribute.
+* It is simply necessary to leave the `alt` attribute empty.
+* The decoration image does not have a `title` attribute.
 
 ```html
 <img src="..." alt="">
@@ -63,9 +63,9 @@ Not all images require alternative text. If the image is a decoration (it does n
 #### `svg` tag
 
 * Add `aria-hidden` to `true`.
-* The title and desc tags are absent or empty.
-* The svg tag or one of its children has no title attribute.
-* The svg tag or one of its children has no role, property or ARIA status to label the vector image (e. g. aria-label, aria-describedby, aria-labelledby).
+* The `title` and `desc` tags are absent or empty.
+* The `svg` tag or one of its children has no `title` attribute.
+* The `svg` tag or one of its children has no `role`, property or ARIA status to label the vector image (e. g. `aria-label`, `aria-describedby`, `aria-labelledby`).
 
 ```html
 <svg aria-hidden="true" viewBox="0 0 512 512">
