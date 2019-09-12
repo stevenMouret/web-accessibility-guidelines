@@ -38,20 +38,20 @@
 }
 
 .container {
-    display: flex;
+    display: grid;
+    max-width: 140rem;
+    margin: 0 auto;
+    grid-template-columns: 30rem calc(100% - 30rem);
 
     @media (max-width: 768px) {
-        flex-direction: column;
+        grid-template-columns: 100%;
     }
 }
 
 .column {
     border-right: 0.1rem solid rgba($color-black, .05);
-    flex: 0 0 30rem;
-
-    @media (max-width: 768px) {
-        flex: 0 0 auto;
-    }
+    width: 100%;
+    min-width: 30rem;
 
     &-wrapper {
         margin: 0 0 5rem;
@@ -60,15 +60,11 @@
 }
 
 .page-content {
-    flex: 1 1 auto;
-
-    @media (max-width: 768px) {
-    }
+    width: 100%;
 }
 
 .page-content__wrapper {
     margin: 0 auto;
-    max-width: 80rem;
     padding: 3rem;
 
     @media (max-width: 768px) {
