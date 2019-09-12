@@ -1,4 +1,5 @@
 ---
+layout: onecolumn
 title: About me Steven Mouret
 ---
 

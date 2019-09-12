@@ -1,8 +1,7 @@
 ---
+layout: onecolumn
 title: About the RGAA
 ---
-
-## About the RGAA
 
 General informations about the RGAA (Référentiel Général d'Accessibilité pour les Administrations)
 {: .article-header__teaser}

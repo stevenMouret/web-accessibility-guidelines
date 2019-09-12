@@ -39,11 +39,15 @@
 
 .container {
     display: grid;
-    max-width: 140rem;
+    max-width: 120rem;
     margin: 0 auto;
     grid-template-columns: 30rem calc(100% - 30rem);
 
     @media (max-width: 768px) {
+        grid-template-columns: 100%;
+    }
+
+    &.-no-column {
         grid-template-columns: 100%;
     }
 }

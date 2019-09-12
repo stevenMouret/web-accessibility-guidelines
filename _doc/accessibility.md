@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: onecolumn
 title:  Thematics of the RGAA
 ---
