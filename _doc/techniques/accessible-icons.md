@@ -121,7 +121,7 @@ The 'Cloud and Rain' icon convey information so it is important to provide an al
 </a>
 ```
 
-##### 1.2.4 Icon font in a link
+##### 1.2.4 Icon font in a link or a button
 
 In this case there is no visible text. It is therefore important to provide visual and code information for assistive technologies.
 
@@ -138,6 +138,18 @@ In this case there is no visible text. It is therefore important to provide visu
     <span class="fas fa-home" aria-hidden="true" title="Home"></span>
     <span class="sr-only">Home</span>
 </a>
+```
+
+<button type="submit">
+    <span class="fas fa-filter" aria-hidden="true" title="Filter news"></span>
+    <span class="sr-only">Filter news</span>
+</button>
+
+```html
+<button type="submit">
+    <span class="fas fa-filter" aria-hidden="true" title="Filter news"></span>
+    <span class="sr-only">Filter news</span>
+</button>
 ```
 
 ### 2 Inline SVG
