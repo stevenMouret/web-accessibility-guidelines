@@ -28,7 +28,8 @@ Blind people access the content and features of a website or web application thr
 A screen reader is a complex software to use that requires a learning phase. It can be optimized through parameters designed to increase its efficiency and adapt it to the user's capabilities.
 
 ##### Video demonstration of a screen reader
-<iframe title="Screen reader demonstration" width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM?cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="video"><iframe title="Screen reader demonstration" width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM?cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 In addition to the screen reader, blind braillists can use a Braille terminal to access content and interact with it more quickly.
 
