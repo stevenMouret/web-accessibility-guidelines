@@ -40,6 +40,6 @@ The title of the page could be `News - Page 2 to 3 - Name of my website`.
 
 Following a search, there are several results.
 
-The title of the page could be `Search results for the term(s) city - 7 results | Name of the website`
+The title of the page could be `Search results for the term(s) city - 7 results | Name of the website`.
 
 
