@@ -22,106 +22,108 @@ menu-criteria-title: Thematics
 menu-criteria:
 
 - title: Images
-  url: /criteria/images.html
+  url: /accessibility/images.html
   teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
   sub:
     - title: Required alternative
-      url: /criteria/images/required-alternative.html
+      url: /accessibility/images/required-alternative.html
     - title: Decorative image
-      url: /criteria/images/decorative-image.html
+      url: /accessibility/images/decorative-image.html
     - title: Image conveying information
-      url: /criteria/images/image-conveying-information.html
+      url: /accessibility/images/image-conveying-information.html
     - title: CAPTCHA
-      url: /criteria/images/captcha.html
+      url: /accessibility/images/captcha.html
     - title: Image of text
-      url: /criteria/images/image-of-text.html
+      url: /accessibility/images/image-of-text.html
     - title: Image caption
-      url: /criteria/images/image-caption.html
+      url: /accessibility/images/image-caption.html
 
 - title: Frames
-  url: /criteria/frames.html
+  url: /accessibility/frames.html
   teaser: Provide each inline frame with a relevant title.
   sub:
     - title: Relevant frame title
-      url: /criteria/frames/relevant-frame-title.html
+      url: /accessibility/frames/relevant-frame-title.html
 
 - title: Colors
-  url: /criteria/colors.html
+  url: /accessibility/colors.html
   teaser: Do not provide information through color only, and use sufficient color contrasts.
   sub:
     - title: Information by color
-      url: /criteria/colors/information-by-color.html
+      url: /accessibility/colors/information-by-color.html
     - title: Color contrast
-      url: /criteria/colors/color-contrast.html
+      url: /accessibility/colors/color-contrast.html
 
 - title: Links
-  url: /criteria/links.html
+  url: /accessibility/links.html
   teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
   sub:
     - title: Explicit link
-      url: /criteria/links/explicit-link.html
+      url: /accessibility/links/explicit-link.html
     - title: Link title
-      url: /criteria/links/link-title.html
+      url: /accessibility/links/link-title.html
     - title: Identical link
-      url: /criteria/links/identical-link.html
+      url: /accessibility/links/identical-link.html
     - title: Empty link
-      url: /criteria/links/empty-link.html
+      url: /accessibility/links/empty-link.html
 
 - title: Mandatory elements
-  url: /criteria/mandatory-elements.html
+  url: /accessibility/mandatory-elements.html
   teaser: Check that each Web page has a valid source code according to the document type, a relevant title and a default human language identification. Check that tags are not used for presentation only, that changes in human language and changes in the reading direction are specified.
   sub:
+    - title: Page title
+      url: /accessibility/mandatory-elements/page-title.html
     - title: Use HTML tags for their proper meaning
-      url: /criteria/mandatory-elements/use-html-tags-for-their-proper-meaning.html
+      url: /accessibility/mandatory-elements/use-html-tags-for-their-proper-meaning.html
 
 - title: Information structure
-  url: /criteria/information-structure.html
+  url: /accessibility/information-structure.html
   teaser: Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
   sub:
     - title: Structure information by titles
-      url: /criteria/information-structure/structure-information-by-titles.html
+      url: /accessibility/information-structure/structure-information-by-titles.html
     - title: Document outline
-      url: /criteria/information-structure/document-outline.html
+      url: /accessibility/information-structure/document-outline.html
     - title: Unordered, ordered and definition lists
-      url: /criteria/information-structure/unordered-ordered-definition-lists.html
+      url: /accessibility/information-structure/unordered-ordered-definition-lists.html
     - title: Quotation
-      url: /criteria/information-structure/quotation.html
+      url: /accessibility/information-structure/quotation.html
 
 - title: Presentation of information
-  url: /criteria/presentation-of-information.html
+  url: /accessibility/presentation-of-information.html
   teaser: Use style sheets to control information presentation. Check for the effect of font size increasing on readability. Ensure that links can be correctly identified, that focus is specified, that line spacing is sufficient, and give the user the ability to control text justification. Ensure that hidden texts are correctly rendered and that information is not conveyed only by an element's shape, size or location.
   sub:
     - title: Enlargement of characters
-      url: /criteria/presentation-of-information/enlargement-of-characters.html
+      url: /accessibility/presentation-of-information/enlargement-of-characters.html
     - title: Focus
-      url: /criteria/presentation-of-information/focus.html
+      url: /accessibility/presentation-of-information/focus.html
 
 - title: Forms
-  url: /criteria/forms.html
+  url: /accessibility/forms.html
   teaser: For each form, associate each field with its label, group fields in similar blocks of information, structure selection lists in a consistent way, give each button an explicit label. Check that input help is available, ensure that the input control is accessible and that the user can control financial, legal or personal data.
   sub:
     - title: Relevance of field labels
-      url: /criteria/forms/relevance-of-field-labels.html
+      url: /accessibility/forms/relevance-of-field-labels.html
     - title: Grouping of fields
-      url: /criteria/forms/grouping-of-fields.html
+      url: /accessibility/forms/grouping-of-fields.html
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
 
 - title: Glossary
-  url: /criteria/glossary.html
+  url: /accessibility/glossary.html
 
 - title: Particular cases
-  url: /criteria/particular-cases.html
+  url: /accessibility/particular-cases.html
 
 - title: Technical notes
-  url: /criteria/technical-notes.html
+  url: /accessibility/technical-notes.html
 
 - title: Baseline
-  url: /criteria/baseline.html
+  url: /accessibility/baseline.html
 
 - title: Tools
-  url: /criteria/tools.html
+  url: /accessibility/tools.html
 
 menu-about-users:
 
