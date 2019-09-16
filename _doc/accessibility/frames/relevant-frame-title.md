@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Relevant frame
+## Relevant frame title
 {: .article-header__title}
 </header>
 
