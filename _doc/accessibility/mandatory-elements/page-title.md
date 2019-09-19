@@ -42,4 +42,10 @@ Following a search, there are several results.
 
 The title of the page could be `Search results for the term(s) city - 7 results | Name of the website`.
 
+#### Page title of the form
+
+When a form is submited and the page is reloaded with error(s), it is necessary to notify the user as soon as the title of the page.
+
+The title of the page could be `5 Error(s) - Contact - Name of my website`.
+
 
