@@ -107,6 +107,13 @@ menu-criteria:
     - title: Grouping of fields
       url: /accessibility/forms/grouping-of-fields.html
 
+- title: Navigation
+  url: /accessibility/navigation.html
+  teaser: Facilitate navigation in a set of pages through at least two different navigation systems (navigation menu, site map or search engine), a breadcrumb trail and the indication of the active page in the navigation menu. Identify groups of important links and the main content area, and provide the ability to avoid them through skip links. Ensure that tabbing order is consistent and that the page does not contain keyboard traps.
+  sub:
+    - title: Bypass or skip links
+      url: /accessibility/navigation/bypass-or-skip-links.html
+
 - title: Consultation
   url: /accessibility/consultation.html
   teaser: Check that the user can control the refresh processes, sudden changes in luminosity, openings of new windows and moving or blinking content. Specify when a content opens in a new window and provide information regarding viewing of files to download. Do not make the completion of a task rely upon a time limit except if it is essential and ensure that entered data is retrieved after an authenticated session has expired. Ensure that unusual phrases and jargon are made explicit. Provide accessible versions or make downloadable documents accessible.
