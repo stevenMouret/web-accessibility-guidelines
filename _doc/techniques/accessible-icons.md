@@ -11,7 +11,7 @@ How to integrate icons in an accessible way.
 ### 1 Icon font
 
 Some assistive technologies (such as VoiceOver) read CSS content property. When using an icon font, the unicode code of the character is added to the content property.
-This character, which should not be returned to the user, is therefore read. In order to fix that, we ask to the technical assistance to not read the content of the tag with the icon with the aria-hidden attribute.
+This character, which should not be returned to the user, is therefore read. In order to fix that, we ask to the technical assistance to not read the content of the tag with the icon with the `aria-hidden` attribute.
 
 *The icon font examples below are based on FontAwesome but the principle is the same as a custom icon font.*
 
@@ -19,7 +19,7 @@ This character, which should not be returned to the user, is therefore read. In 
 
 ##### 1.1.1 With visible text
 
-A simple example, in order not to read the CSS content property in assistive technology, we add an aria-hidden attribute to true on the span with the icon.
+A simple example, in order not to read the CSS content property in assistive technology, we add an `aria-hidden` attribute to true on the span with the icon.
 The icon being decorative, the text being visible and explicit, there is no need for anything else.
 
 <a href="#">
@@ -40,9 +40,9 @@ The icon being decorative, the text being visible and explicit, there is no need
 
 The fax icon provides information. If you hide this icon, you do not know that it is a fax number and not a phone number. It is therefore important to return this information to the user.
 
-To do this, we use a visually hidden text and the title attribute.
+To do this, we use a visually hidden text and the `title` attribute.
 * The class sr-only hide visually the text but this text can be read in the assistive technology.
-* The title attribute allows you to give visual information for people who do not understand the icon.
+* The `title` attribute allows you to give visual information for people who do not understand the icon.
 
 <p>
     <span class="fas fa-fax" aria-hidden="true" title="Fax"></span>
@@ -64,7 +64,7 @@ To do this, we use a visually hidden text and the title attribute.
 
 The trash icon provides information, the purpose of this link is to delete an element. This information should not only be visual.
 
-* With aria-hidden, the icon will not be read by the technical assistance. The title attribute will ne visual information when CSS is enabled.
+* With `aria-hidden` attribute, the icon will not be read by the technical assistance. The `title` attribute will ne visual information when CSS is enabled.
 * When CSS is disabled the icon is invisible, we add hidden text (sr-only).
 
 <a href="#" class="new-window-off">
@@ -87,7 +87,7 @@ Another very frequent example.
 The phone icon provides information. If you hide this icon, you do not know that it is a phone number and not a fax number. It is therefore important to return this information to the user.
 In our case we will add the information related to the phone but also to the opening of the call manager because there is in the href the element tel:.
 
-* With aria-hidden, the icon will not be read by the technical assistance. Here no title attribute on the icon because we already use it on the link.
+* With `aria-hidden` attribute, the icon will not be read by the technical assistance. Here no `title` attribute on the icon because we already use it on the link.
 * When CSS is disabled the icon is invisible, this information (Phone) will be added in the `title` attribute of the link.
 * As the link opens in the call manager, give us this additional information with the `title` attribute of the link. This `title` attribute contains the entire text of the link as well as information about the call manager.
 
@@ -107,7 +107,7 @@ In our case we will add the information related to the phone but also to the ope
 
 The 'Cloud and Rain' icon convey information so it is important to provide an alternative.
 
-* With aria-hidden, the icon will not be read by the technical assistance. Here no `title` attribute on the icon because we already use it on the link.
+* With `aria-hidden` attribute, the icon will not be read by the technical assistance. Here no `title` attribute on the icon because we already use it on the link.
 * When CSS is disabled the icon is invisible, this information (Cloud and rain) will be added in the `title` attribute of the link.
 * As the link opens in a new window, give us this additional information with the `title` attribute of the link. This `title` attribute contains the entire text of the link as well as information about the new window.
 
@@ -127,7 +127,7 @@ The 'Cloud and Rain' icon convey information so it is important to provide an al
 
 In this case there is no visible text. It is therefore important to provide visual and code information for assistive technologies.
 
-* For the visual part, we add a title attribute on the icon span.
+* For the visual part, we add a `title` attribute on the icon span.
 * For assistive technologies, the class sr-only hide visually the text but this text can be read in the assistive technology.
 
 <a href="#">
@@ -160,7 +160,7 @@ In this case there is no visible text. It is therefore important to provide visu
 
 ##### 2.1.1 With visible text
 
-As for an icon font the SVG being decorative we add the attribute aria-hidden to true so that it is not read in the assistive technology.
+As for an icon font the SVG being decorative we add the `aria-hidden` attribute to true so that it is not read in the assistive technology.
 
 <a href="#">
     <svg aria-hidden="true" width="13" height="15" fill="#78458E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"/></svg>
@@ -180,9 +180,9 @@ As for an icon font the SVG being decorative we add the attribute aria-hidden to
 
 For all SVG who convey information it is necessary to provide an alternative and modify the role of the SVG.
 
-* Adding the role attribute to img.
-* Adding the aria-label attribute for assistive technologies.
-* Adding in the SVG a title attribute to give visual information.
+* Adding the `role` attribute to img.
+* Adding the `aria-label` attribute for assistive technologies.
+* Adding in the `<svg>` a `<title>` to give visual information.
 
 ##### 2.2.1 With visible text
 
