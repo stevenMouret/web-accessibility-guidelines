@@ -63,9 +63,9 @@ To do this, we use a visually hidden text and the title attribute.
 ###### 1.2.2.1
 
 The trash icon provides information, the purpose of this link is to delete an element. This information should not only be visual.
-To do this, we use the aria-label attribute and title attribute.
-* The aria-label attribute will be read in the assistive technology instead of the link content.
-* The title attribute allows you to give visual information for people who do not understand the icon.
+
+* With aria-hidden, the icon will not be read by the technical assistance. The title attribute will ne visual information when CSS is enabled.
+* When CSS is disabled the icon is invisible, we add hidden text (sr-only).
 
 <a href="#" class="new-window-off">
     <span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
@@ -87,23 +87,19 @@ Another very frequent example.
 The phone icon provides information. If you hide this icon, you do not know that it is a phone number and not a fax number. It is therefore important to return this information to the user.
 In our case we will add the information related to the phone but also to the opening of the call manager because there is in the href the element tel:.
 
-To do this, we use the aria-label attribute and title attribute.
-* The aria-label attribute will be read in the assistive technology instead of the link content.
-* The title attribute allows you to give visual information for people who do not understand the icon.
+* With aria-hidden, the icon will not be read by the technical assistance. Here no title attribute on the icon because we already use it on the link.
+* When CSS is disabled the icon is invisible, this information (Phone) will be added in the `title` attribute of the link.
+* As the link opens in the call manager, give us this additional information with the `title` attribute of the link. This `title` attribute contains the entire text of the link as well as information about the call manager.
 
 <a href="tel:01708X4596" class="new-window-off" title="Phone 01 70 8X 45 96 opening of the call manager">
     <span class="fas fa-mobile" aria-hidden="true"></span>
-    <span class="sr-only">Phone :</span>
     <span class="text">01 70 8X 45 96</span>
-    <span class="sr-only">opening of the call manager</span>
 </a>
 
 ```html
 <a href="tel:01708X4596" title="Phone 01 70 8X 45 96 opening of the call manager">
     <span class="fas fa-mobile" aria-hidden="true"></span>
-    <span class="sr-only">Phone</span>
     <span class="text">01 70 8X 45 96</span>
-    <span class="sr-only">opening of the call manager</span>
 </a>
 ```
 
@@ -111,21 +107,19 @@ To do this, we use the aria-label attribute and title attribute.
 
 The 'Cloud and Rain' icon convey information so it is important to provide an alternative.
 
-* On the icon span we add the title attribute to give visual information about the meaning of the icon.
-* On the link we add the title attribute to give visual information about the opening in a new window.
-* The aria-label attribute will be read in the assistive technology and give all informations.
+* With aria-hidden, the icon will not be read by the technical assistance. Here no `title` attribute on the icon because we already use it on the link.
+* When CSS is disabled the icon is invisible, this information (Cloud and rain) will be added in the `title` attribute of the link.
+* As the link opens in a new window, give us this additional information with the `title` attribute of the link. This `title` attribute contains the entire text of the link as well as information about the new window.
 
 <a href="#" target="_blank" title="Weather Cloud and rain New window" class="new-window-off">
     <span class="text">Weather:</span>
-    <span class="sr-only">Cloud and rain New window</span>
-    <span class="fas fa-cloud-rain" aria-hidden="true" title="Cloud and rain"></span>
+    <span class="fas fa-cloud-rain" aria-hidden="true"></span>
 </a>
 
 ```html
 <a href="#" target="_blank" title="Weather Cloud and rain New window">
     <span class="text">Weather:</span>
-    <span class="sr-only">Cloud and rain New window</span>
-    <span class="fas fa-cloud-rain" aria-hidden="true" title="Cloud and rain"></span>
+    <span class="fas fa-cloud-rain" aria-hidden="true"></span>
 </a>
 ```
 
