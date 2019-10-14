@@ -95,6 +95,8 @@ menu-criteria:
   sub:
     - title: Exclusive CSS formatting
       url: /accessibility/presentation-of-information/exclusive-css-formatting.html
+    - title: Content visible without CSS
+      url: /accessibility/presentation-of-information/content-visible-without-css.html
     - title: Enlargement of characters
       url: /accessibility/presentation-of-information/enlargement-of-characters.html
     - title: Focus
