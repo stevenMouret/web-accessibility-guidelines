@@ -67,14 +67,16 @@ To do this, we use the aria-label attribute and title attribute.
 * The aria-label attribute will be read in the assistive technology instead of the link content.
 * The title attribute allows you to give visual information for people who do not understand the icon.
 
-<a href="#" aria-label="Remove News (15)" class="new-window-off">
+<a href="#" class="new-window-off">
     <span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+    <span class="sr-only">Remove</span>
     <span class="text">News (15)</span>
 </a>
 
 ```html
-<a href="#" aria-label="Remove News (15)">
+<a href="#">
     <span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+    <span class="sr-only">Remove</span>
     <span class="text">News (15)</span>
 </a>
 ```
@@ -89,15 +91,19 @@ To do this, we use the aria-label attribute and title attribute.
 * The aria-label attribute will be read in the assistive technology instead of the link content.
 * The title attribute allows you to give visual information for people who do not understand the icon.
 
-<a href="tel:01708X4596" aria-label="Phone: 01 70 8X 45 96 opening of the call manager" class="new-window-off">
-    <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
+<a href="tel:01708X4596" class="new-window-off" title="Phone 01 70 8X 45 96 opening of the call manager">
+    <span class="fas fa-mobile" aria-hidden="true"></span>
+    <span class="sr-only">Phone :</span>
     <span class="text">01 70 8X 45 96</span>
+    <span class="sr-only">opening of the call manager</span>
 </a>
 
 ```html
-<a href="tel:01708X4596" aria-label="Phone: 01 70 8X 45 96 opening of the call manager">
-    <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
+<a href="tel:01708X4596" title="Phone 01 70 8X 45 96 opening of the call manager">
+    <span class="fas fa-mobile" aria-hidden="true"></span>
+    <span class="sr-only">Phone</span>
     <span class="text">01 70 8X 45 96</span>
+    <span class="sr-only">opening of the call manager</span>
 </a>
 ```
 
@@ -109,8 +115,9 @@ The 'Cloud and Rain' icon convey information so it is important to provide an al
 * On the link we add the title attribute to give visual information about the opening in a new window.
 * The aria-label attribute will be read in the assistive technology and give all informations.
 
-<a href="#" target="_blank" aria-label="Weather: cloud and rain (new window)" title="New window" class="new-window-off">
+<a href="#" target="_blank" title="Weather Cloud and rain New window" class="new-window-off">
     <span class="text">Weather:</span>
+    <span class="sr-only">Cloud and rain New window</span>
     <span class="fas fa-cloud-rain" aria-hidden="true" title="Cloud and rain"></span>
 </a>
 
