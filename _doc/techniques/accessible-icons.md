@@ -122,8 +122,9 @@ The 'Cloud and Rain' icon convey information so it is important to provide an al
 </a>
 
 ```html
-<a href="#" target="_blank" aria-label="Weather: cloud and rain (new window)" title="New window">
+<a href="#" target="_blank" title="Weather Cloud and rain New window">
     <span class="text">Weather:</span>
+    <span class="sr-only">Cloud and rain New window</span>
     <span class="fas fa-cloud-rain" aria-hidden="true" title="Cloud and rain"></span>
 </a>
 ```
