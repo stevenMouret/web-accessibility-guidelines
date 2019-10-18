@@ -85,6 +85,8 @@ The properties `white-space: nowrap` or `flex-wrap: unwrap` prevents text conten
 
 #### Readable texts
 
+The visually impaired will have major difficulty reading content whose font size and colour scheme they cannot control and adapt to their perception abilities.
+
 CSS background color declarations of elements that may contain text must be correctly defined.
 
 To illustrate my point, here is a example. Zoom the text to 200%, some of the text will be unreadable because the background color is not indicated.

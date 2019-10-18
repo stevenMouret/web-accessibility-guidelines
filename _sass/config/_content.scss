@@ -232,7 +232,7 @@
     z-index: 2;
     padding: 0.4rem;
 
-    &:after {
+    &::after {
         content: "";
         position: absolute;
         top: 0;
