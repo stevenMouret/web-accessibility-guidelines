@@ -68,3 +68,22 @@ iframe {
         width: 100%;
     }
 }
+
+kbd {
+    font-family: Consolas, "Lucida Console", monospace;
+    display: inline;
+    border-radius: 3px;
+    padding: 0.4rem 0.8rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #777;
+    margin: 0 2px;
+    font-size: small;
+    vertical-align: center;
+    background: #eee;
+    color: #555;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+select {
+    margin: 0 0.5rem;
+}
