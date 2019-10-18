@@ -1,11 +1,11 @@
 ---
-title: Enlargement of characters
+title: Customizing the display
 navigation: presentation-of-information
 nav: menu-criteria
 ---
 
 <header>
-## Enlargement of characters
+## Customizing the display
 {: .article-header__title}
 </header>
 
@@ -13,9 +13,11 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired.
 
-**RGAA criteria:** [Criterion 10.4 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-4)
+**RGAA criteria:** [Criterion 10.4 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-4) - [Criterion 10.5 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-5)
 
 ### Explanation
+
+#### Enlargement of characters
 
 The proper adaptation of the contents of a web page when the font size is increased is essential for visually impaired users.
 These users will only want to enlarge the font size, not the page (graphic zoom).
@@ -25,7 +27,7 @@ The formatting must then be adapted appropriately so that all texts remain reada
 * In Safari, under "Presentation" check "Reduce/enlarge text only". From this point on, `Ctrl +` only enlarges font sizes.
 * In Internet Explorer, in "View" (or "Page" depending on the version) go to "Text size" and select one of the proposed values (for example "Largest").
 
-#### Font sizes in relative units only
+##### Font sizes in relative units only
 
 The first thing is to make sure that all your font sizes are reported in relative units.
 
@@ -44,13 +46,13 @@ On the other hand, fixed units to define font sizes are prohibited. Among the fi
 
 This is because in some browsers (such as Internet Explorer), if font sizes are defined in fixed units, the font size magnification settings have no effect.
 
-#### Readability when the font size is enlarged
+##### Readability when the font size is enlarged
 
 At the AA level of the RGAA, the text must remain legible and no information should be lost when the default font size is increased by 200%.
 
 200% corresponds to 6 times the `Ctrl +` action on Firefox (with the "Text only" option of the zoom).
 
-#### Beware of fixed box sizes
+##### Beware of fixed box sizes
 
 When you make your layouts, you are often tempted to set heights or widths to get a harmonious look for certain elements.
 
@@ -69,7 +71,7 @@ Note that width and height do not pose any problem when the values are defined i
 
 Also, avoid using the `max-height` and `max-width` properties as much as possible without controlling their content and font magnification behavior.
 
-#### Other CSS properties to be used with caution
+##### Other CSS properties to be used with caution
 
 `overflow:hidden`
 
@@ -80,3 +82,13 @@ Be careful with positioning that does not follow the standard flow, especially a
 Manage spaces and line breaks.
 
 The properties `white-space: nowrap` or `flex-wrap: unwrap` prevents text content from being submitted to the automatic line feed. This property should therefore be used with caution. Always perform tests to evaluate the character magnification behaviour.
+
+#### Readable texts
+
+CSS background color declarations of elements that may contain text must be correctly defined.
+
+To illustrate my point, here is a example. Zoom the text to 200%, some of the text will be unreadable because the background color is not indicated.
+
+<p class="backgroundafter --ko">Unreadable<br>text in some<br>conditions</p>
+
+<p class="backgroundafter --ok">Readable<br>text</p>

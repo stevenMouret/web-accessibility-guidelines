@@ -97,8 +97,8 @@ menu-criteria:
       url: /accessibility/presentation-of-information/exclusive-css-formatting.html
     - title: Content visible and understandable without CSS
       url: /accessibility/presentation-of-information/content-visible-and-understandable-without-css.html
-    - title: Enlargement of characters
-      url: /accessibility/presentation-of-information/enlargement-of-characters.html
+    - title: Customizing the display
+      url: /accessibility/presentation-of-information/customizing-the-display.html
     - title: Focus
       url: /accessibility/presentation-of-information/focus.html
 

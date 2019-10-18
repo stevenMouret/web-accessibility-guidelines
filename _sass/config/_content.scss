@@ -224,3 +224,29 @@
         }
     }
 }
+
+.backgroundafter {
+    color: #fff;
+    width: 10rem;
+    position: relative;
+    z-index: 2;
+    padding: 0.4rem;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: url("../images/pattern-1.png") 0 0 no-repeat;
+        width: 100%;
+        display: block;
+        z-index: -1;
+    }
+
+    &.--ok {
+        &::after {
+            background-color: $color-1-2;
+        }
+    }
+}
