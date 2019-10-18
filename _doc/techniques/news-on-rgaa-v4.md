@@ -1,6 +1,6 @@
 ---
-navigation: News on the RGAA v4
-nav: menu-criteria
+title:  News on the RGAA v4
+nav: menu-techniques
 ---
 
 ## Images

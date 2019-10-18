@@ -21,10 +21,6 @@ menu-main:
 menu-criteria-title: Thematics
 menu-criteria:
 
-- title: News on the RGAA v4
-  url: /accessibility/news-on-rgaa-v4.html
-  teaser: The points to be taken into account in the evolution of the RGAA in version 4.
-
 - title: Images
   url: /accessibility/images.html
   teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
@@ -170,3 +166,5 @@ menu-techniques:
   url: /techniques/accessible-icons.html
 - title: onChange on a select
   url: /techniques/onchange-on-a-select.html
+- title: News on the RGAA v4
+  url: /techniques/news-on-rgaa-v4.html
