@@ -99,8 +99,8 @@ menu-criteria:
       url: /accessibility/presentation-of-information/content-visible-and-understandable-without-css.html
     - title: Customizing the display
       url: /accessibility/presentation-of-information/customizing-the-display.html
-    - title: Focus
-      url: /accessibility/presentation-of-information/focus.html
+    - title: Visible focus
+      url: /accessibility/presentation-of-information/visible-focus.html
 
 - title: Forms
   url: /accessibility/forms.html

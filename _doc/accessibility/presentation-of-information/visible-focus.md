@@ -1,11 +1,11 @@
 ---
-title: Focus
+title: Visible focus
 navigation: presentation-of-information
 nav: menu-criteria
 ---
 
 <header>
-## Focus
+## Visible focus
 {: .article-header__title}
 </header>
 
