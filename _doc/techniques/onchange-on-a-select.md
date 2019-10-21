@@ -11,7 +11,7 @@ Users using the keyboard cannot make a selection in a select when the event on i
 
 To see this, try selecting the last option in the select below.
 
-*Use the <kbd>tab</kbd> key to naviguate and <kbd>enter</kbd> or <kbd>space</kbd> key to validate.*
+*Use the <kbd>tab</kbd> key to naviguate and <kbd>enter</kbd> or <kbd>space</kbd> key to validate. Be careful with the keyboard trap.*
 
 <label for="select">Your favorite GAFA</label><select name="select" id="select"><option value="0">-- Nothing --</option><option value="https://www.google.com">Google</option><option value="https://www.apple.com">Apple</option><option value="https://www.facebook.com">Facebook</option><option value="https://www.amazon.com">Amazon</option></select>
 
