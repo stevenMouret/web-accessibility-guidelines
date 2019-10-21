@@ -23,6 +23,8 @@ There may also be very great difficulties in performing a task in a given time d
 
 #### Assistive technologies
 
+<div class="video"><iframe title="Introducing Voice Control on Mac and iOS — Apple" width="560" height="315" src="https://www.youtube.com/embed/aqoXFCCTfm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 There is also a very wide variety of assistive technologies.
 
 Some users will use simple mechanical devices such as head-sticks, finger guides (plastic covers that rest on the keyboard) or adapted keyboards. Others will use more complex devices such as joysticks, contactors or adapted mice.
