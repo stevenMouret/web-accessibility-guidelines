@@ -112,6 +112,12 @@ menu-criteria:
       url: /accessibility/forms/grouping-of-fields.html
     - title: Relevant button
       url: /accessibility/forms/relevant-button.html
+    - title: Required fields
+      url: /accessibility/forms/required-fields.html
+    - title: Input help
+      url: /accessibility/forms/input-help.html
+    - title: Input errors
+      url: /accessibility/forms/input-errors.html
 
 - title: Navigation
   url: /accessibility/navigation.html
