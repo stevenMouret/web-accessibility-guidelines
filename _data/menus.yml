@@ -110,6 +110,8 @@ menu-criteria:
       url: /accessibility/forms/relevance-of-field-labels.html
     - title: Grouping of fields
       url: /accessibility/forms/grouping-of-fields.html
+    - title: Relevant button
+      url: /accessibility/forms/relevant-button.html
 
 - title: Navigation
   url: /accessibility/navigation.html
