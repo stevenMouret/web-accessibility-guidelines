@@ -28,7 +28,7 @@ You can also indicate these errors with the `aria-label` property and the `aria-
 ```html
 <label for="birthday">Birthday - Error - Please fill in this required field</label>
 <input type="text" name="birthday" id="birthday" aria-invalid="true" aria-describedby="format-date" required>
-<p id="format-date">yyyy/mm/dd</p>
+<p id="format-date">yyyy-mm-dd</p>
 ```
 
 <div class="important">
