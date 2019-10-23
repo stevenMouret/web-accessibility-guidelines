@@ -30,7 +30,7 @@ You also have the attribute `aria-describedby` which allows you to reference the
 ```html
 <label for="birthday">Birthday</label>
 <input type="text" name="birthday" id="birthday" aria-describedby="format-date">
-<p id="format-date">aaaa-mm-dd</p>
+<p id="format-date">aaaa/mm/dd</p>
 ```
 
 <div class="important">
