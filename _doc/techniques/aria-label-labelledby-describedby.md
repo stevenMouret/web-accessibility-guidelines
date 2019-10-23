@@ -9,7 +9,7 @@ The accessible name allows you to identify an element and return it to technical
 
 * The text of the element,
 * an attribute, (an `alt` attribute on an `<image>`)
-* or by an associated element (a `label` tag for example)
+* or by an associated element (a `<label>` tag for example)
 
 An accessible description allows you to give additional information to an accessible name.
 
