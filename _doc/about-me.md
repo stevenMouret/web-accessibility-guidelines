@@ -1,9 +1,7 @@
 ---
 layout: onecolumn
-title: About me Steven Mouret
+title: About me
 ---
-
-## About me
 
 Some words about me.
 
