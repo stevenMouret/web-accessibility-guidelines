@@ -117,6 +117,8 @@ menu-criteria:
   url: /accessibility/navigation.html
   teaser: Facilitate navigation in a set of pages through at least two different navigation systems (navigation menu, site map or search engine), a breadcrumb trail and the indication of the active page in the navigation menu. Identify groups of important links and the main content area, and provide the ability to avoid them through skip links. Ensure that tabbing order is consistent and that the page does not contain keyboard traps.
   sub:
+    - title: Main contents identified
+      url: /accessibility/navigation/main-contents-identified.html
     - title: Bypass or skip links
       url: /accessibility/navigation/bypass-or-skip-links.html
 
