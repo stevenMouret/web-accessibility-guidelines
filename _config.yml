@@ -1,9 +1,9 @@
 #
 # Site settings
 #
-title: Learn accessibility
+title: Web Accessibility Guideline
 url: https://stevenmouret.github.io
-baseurl: /learn-accessibility
+baseurl: /web-accessibility-guideline
 author: Steven Mouret
 
 markdown: kramdown

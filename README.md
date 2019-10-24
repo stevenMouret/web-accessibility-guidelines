@@ -1,8 +1,6 @@
-# Learn accessibility
+# Web Accessibility Guideline
 
-Digital accessibility explained
-
-[Learn accessibility](https://stevenmouret.github.io/learn-accessibility/)
+[Web Accessibility Guideline](https://stevenmouret.github.io/web-accessibility-guideline/)
 
 <img src="./favicon.svg" width="96" alt="">
 
