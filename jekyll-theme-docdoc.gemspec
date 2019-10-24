@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-docdoc"
+  spec.name          = "learn-accessibility"
   spec.version       = "0.1.0"
   spec.authors       = ["Steven Mouret"]
   spec.email         = ["steven.mouret+github@gmail.com"]
 
   spec.summary       = "Simple Jekyll theme for documentation"
-  spec.homepage      = "https://github.com/stevenMouret/jekyll-theme-docdoc"
+  spec.homepage      = "https://github.com/stevenMouret/learn-accessibility"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

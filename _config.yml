@@ -1,9 +1,9 @@
 #
 # Site settings
 #
-title: Accessibility training
+title: Learn accessibility
 url: https://stevenmouret.github.io
-baseurl: /rgaa-training
+baseurl: /learn-accessibility
 author: Steven Mouret
 
 markdown: kramdown
