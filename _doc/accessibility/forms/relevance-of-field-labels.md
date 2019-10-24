@@ -30,7 +30,7 @@ A label is relevant if it helps to understand the function of the field to which
 
 #### Properly bound labels
 
-Several HTML methods recognized by the RGAA are at your disposal to label a form field.
+Several HTML methods are at your disposal to label a form field.
 
 ##### For / id
 
@@ -57,7 +57,7 @@ The title attribute should preferably be used in cases where the context of the 
 
 ##### Placeholder, be careful
 
-`placeholder` is not considered as a valid labelling method under the RGAA, if it is implemented alone. The first reason is its insufficient contrast.
+`placeholder` is not considered as a valid labelling method, if it is implemented alone. The first reason is its insufficient contrast.
 
 Then, if we take into account the order of restitution of the elements defined by the HTML5 specification, the `placeholder` attribute is restored before the title attribute. In fact, if important information is placed in the title attribute that is not found in the `placeholder` attribute, then the field is mislabelled because the user is losing information.
 

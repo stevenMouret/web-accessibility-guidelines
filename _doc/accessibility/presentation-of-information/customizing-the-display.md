@@ -48,7 +48,7 @@ This is because in some browsers (such as Internet Explorer), if font sizes are 
 
 ##### Readability when the font size is enlarged
 
-At the AA level of the RGAA, the text must remain legible and no information should be lost when the default font size is increased by 200%.
+At the AA level, the text must remain legible and no information should be lost when the default font size is increased by 200%.
 
 200% corresponds to 6 times the `Ctrl +` action on Firefox (with the "Text only" option of the zoom).
 
