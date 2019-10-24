@@ -20,7 +20,7 @@ nav: menu-criteria
 When a field is required, it is necessary to make a good restitution to all users. This restitution must be visual and indicated in the code.
 
 There is no requirement that a required field be systematically indicated to the user, it is useless to do on a single field of a search engine.
-However, if you indicate the required fields, this must be done in an accessible way.
+However, **if you indicate the required fields, this must be done in an accessible way**.
 
 #### Text indication in the label
 
