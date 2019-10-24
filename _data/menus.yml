@@ -3,9 +3,6 @@ menu-main:
 - title: Home
   url: /index.html
 
-- title: About the RGAA
-  url: /about-rgaa.html
-
 - title: Disabilities
   url: /about-persons-with-disabilities.html
 

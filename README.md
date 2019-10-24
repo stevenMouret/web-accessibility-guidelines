@@ -1,6 +1,6 @@
-# Web Accessibility Guideline
+# Web Accessibility Guidelines
 
-[Web Accessibility Guideline](https://stevenmouret.github.io/web-accessibility-guideline/)
+[Web Accessibility Guidelines](https://stevenmouret.github.io/web-accessibility-guidelines/)
 
 <img src="./favicon.svg" width="96" alt="">
 

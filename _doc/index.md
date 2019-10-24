@@ -1,6 +1,6 @@
 ---
 layout: onecolumn
-title:  General Framework for Accessibility for the French Administrations
+title:  Web Accessibility Guidelines
 navigation:
   - /images
   - /links
