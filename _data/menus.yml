@@ -27,8 +27,8 @@ menu-criteria:
       url: /accessibility/images/image-conveying-information.html
     - title: CAPTCHA
       url: /accessibility/images/captcha.html
-    - title: Image of text
-      url: /accessibility/images/image-of-text.html
+    - title: Text in image
+      url: /accessibility/images/text-in-image.html
     - title: Image caption
       url: /accessibility/images/image-caption.html
 
