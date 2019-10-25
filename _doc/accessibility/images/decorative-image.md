@@ -14,6 +14,7 @@ Decorative image
 **Users mainly impacted:**
 
 **RGAA criteria:** [Criterion 1.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-2)
+{: .criteria }
 
 ### Explanation
 

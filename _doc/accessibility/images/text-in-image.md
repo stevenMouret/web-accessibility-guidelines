@@ -14,6 +14,7 @@ nav: menu-criteria
 **Users mainly impacted:** Visually impaired.
 
 **RGAA criteria:** [Criterion 1.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-8)
+{: .criteria }
 
 ### Explanation
 

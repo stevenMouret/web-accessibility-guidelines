@@ -104,3 +104,7 @@ lorem ipsum
 ## Iframe video
 
 <div class="video"><iframe title="Screen reader demonstration" width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM?cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+Profile:
+
+Contributor, Developer, Webdesigner

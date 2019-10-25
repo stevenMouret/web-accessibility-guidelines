@@ -192,8 +192,40 @@ const noOnChangeOnSelect = () => {
     }
 };
 
+const searchUrlParam = (param) => {
+    const url = new URL(window.location);
+    return url.searchParams.get(param);
+};
+
+const searchCriteriaParam = () => {
+    if (searchUrlParam('criteria') === 'on') {
+        if (localStorage.getItem('criteria') !== 'on') {
+            localStorage.setItem('criteria', 'on');
+        }
+    }
+
+    if (searchUrlParam('criteria') === 'off') {
+            localStorage.setItem('criteria', 'off');
+    }
+
+    const criteria = document.querySelector('.criteria');
+
+    if (localStorage.getItem('criteria') === 'on') {
+        if (criteria) {
+            criteria.style.display = "block";
+        }
+    }
+
+    if (localStorage.getItem('criteria') === 'off') {
+        localStorage.removeItem('criteria');
+    }
+};
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     //anchorMenu();
+    searchCriteriaParam();
     linkExternalNewWindow();
     onChangeOnSelect();
     noOnChangeOnSelect();

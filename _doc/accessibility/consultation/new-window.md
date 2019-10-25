@@ -14,6 +14,7 @@ nav: menu-criteria
 **Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
 
 **RGAA criteria:** [Criterion 13.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-13-2) - [Criterion 13.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-13-3)
+{: .criteria }
 
 ### Explanation
 
