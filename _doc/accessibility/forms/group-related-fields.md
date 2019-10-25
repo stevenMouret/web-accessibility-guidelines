@@ -1,11 +1,11 @@
 ---
-title: Grouping of fields
+title: Group related fields
 navigation: forms
 nav: menu-criteria
 ---
 
 <header>
-## Grouping of fields
+## Group related fields
 {: .article-header__title}
 </header>
 

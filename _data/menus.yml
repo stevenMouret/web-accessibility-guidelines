@@ -102,8 +102,8 @@ menu-criteria:
   sub:
     - title: Relevance of field labels
       url: /accessibility/forms/relevance-of-field-labels.html
-    - title: Grouping of fields
-      url: /accessibility/forms/grouping-of-fields.html
+    - title: Group related fields
+      url: /accessibility/forms/group-related-fields.html
     - title: Relevant button
       url: /accessibility/forms/relevant-button.html
     - title: Required fields
@@ -128,6 +128,8 @@ menu-criteria:
   sub:
     - title: New window
       url: /accessibility/consultation/new-window.html
+    - title: Files for downloading
+      url: /accessibility/consultation/files-for-downloading.html
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
