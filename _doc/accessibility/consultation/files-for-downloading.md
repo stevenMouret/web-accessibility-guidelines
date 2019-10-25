@@ -42,3 +42,4 @@ When documents for downloading are generated on the fly and it is not possible t
 
 #### Make downloadable documents accessible or propose an accessible alternative
 
+If possible, it is necessary to make a document accessible for download. If the software used to create the document is not compatible with accessibility, it is necessary to provide an accessible equivalent in another format (.doc,.odt... or a web page).
