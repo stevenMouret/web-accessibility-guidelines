@@ -193,7 +193,7 @@ const noOnChangeOnSelect = () => {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-    anchorMenu();
+    //anchorMenu();
     linkExternalNewWindow();
     onChangeOnSelect();
     noOnChangeOnSelect();
