@@ -22,3 +22,7 @@ nav: menu-techniques
 #### Critère 7.5 Dans chaque page web, les messages de statut sont-ils correctement restitués par les technologies d'assistance ?
 
 * New criterion
+
+### Consultation
+
+* Le poids et le format de fichiers ne sont plus obligatoires
