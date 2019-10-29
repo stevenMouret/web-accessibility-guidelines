@@ -97,6 +97,9 @@ menu-criteria:
       url: /accessibility/presentation-of-information/visible-focus.html
     - title: Hidden texts correctly displayed
       url: /accessibility/presentation-of-information/hidden-texts-correctly-displayed.html
+    - title: Information conveyed by shape, size or location
+      url: /accessibility/presentation-of-information/information-by-shape-size-location.html
+
 
 - title: Forms
   url: /accessibility/forms.html
