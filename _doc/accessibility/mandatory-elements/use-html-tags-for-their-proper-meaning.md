@@ -18,10 +18,6 @@ nav: menu-criteria
 
 ### Explanation
 
-
-
-
-
 Blind and visually impaired people use screen readers that rely on the semantics of tags, as provided by the browser, to render content and provide navigation features in the content.
 
 If the use of tags is misused, the rendering may become incomprehensible and the navigation features in the content inoperative or give particularly unexpected results.
