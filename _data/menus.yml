@@ -69,6 +69,8 @@ menu-criteria:
       url: /accessibility/mandatory-elements/page-title.html
     - title: Use HTML tags for their proper meaning
       url: /accessibility/mandatory-elements/use-html-tags-for-their-proper-meaning.html
+    - title: Multilingual texts
+      url: /accessibility/mandatory-elements/multilingual-texts.html
 
 - title: Information structure
   url: /accessibility/information-structure.html
