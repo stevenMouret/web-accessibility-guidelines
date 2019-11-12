@@ -1,6 +1,7 @@
 ---
 layout: onecolumn
 title:  Web Accessibility Guidelines
+type: home
 ---
 
 The Web Accessibility Guidelines (WAG) is a Github pages that try to explain how to produce accessible content.

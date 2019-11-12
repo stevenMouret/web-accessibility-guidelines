@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="pBg6_5DbQjV4j0wilOMNqgD8WleO2wPC3cv1ihFJjcA" />
-    <title>{{ page.title }} &bull; {{ site.title }}</title>
+    <title>{% if page.type and page.type == 'home' %}{{ site.title }}{% else %}{{ page.title }} &bull; {{ site.title }}{% endif %}</title>
     <link rel="icon" type="image/gif" href="{{ site.baseurl }}/favicon.ico" />
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
