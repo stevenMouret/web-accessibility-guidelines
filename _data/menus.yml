@@ -19,8 +19,6 @@ menu-criteria:
   url: /accessibility/images.html
   teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
   sub:
-    - title: Required alternative
-      url: /accessibility/images/required-alternative.html
     - title: Decorative image
       url: /accessibility/images/decorative-image.html
     - title: Image conveying information

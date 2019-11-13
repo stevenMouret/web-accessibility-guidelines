@@ -39,6 +39,12 @@ In this example, the image give an information in text form. In first time, let'
 In this case the context does not give the same content as the image.
 If we hide the image, we have lost informations. It is therefore necessary to add an alternative such as "101 things to do in London with kids".
 
+```html
+<img src="101-things-to-do-in-london-with-kids.png" alt="101 things to do in London with kids">
+<p class="category">Kids</p>
+<h3>A new way to visit london</h3>
+```
+
 #### Images that represent a scene or action
 
 In this case, if the information is essential to understanding, you must describe it in the alternative text.
@@ -47,6 +53,13 @@ In this case, if the information is essential to understanding, you must describ
 
 Context does not allow us to understand the meaning of images.
 On the first image the alternative should be "Push down on the top of the cap to release the contents" and on the second "and mix the ingredients"
+
+```html
+<h2>How KarmaCap works</h2>
+<p>KarmaCap holds predetermined quantities of liquid or powder ingredients in a hermetically sealed, protected chamber.</p>
+<img src="push-down.jpg" alt="Push down on the top of the cap to release the contents">
+<img src="mix.jpg" alt="and mix the ingredients">
+```
 
 <div class="important">
 <svg role="img" aria-label="Important" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="36"><title>Important</title><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>
@@ -59,6 +72,19 @@ It is important to remember that images do not necessarily have to be described 
 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
+
+```html
+<p>
+    <span class="fas fa-phone" aria-hidden="true" title="Phone"></span>
+    <span class="sr-only">Phone :</span>
+    <span class="text">04 94 45 32 28</span>
+</p>
+<p>
+    <span class="fas fa-fax" aria-hidden="true" title="Fax"></span>
+    <span class="sr-only">Fax :</span>
+    <span class="text">04 94 45 32 29</span>
+</p>
+```
 
 #### Complex images: the detailed description
 

@@ -52,7 +52,7 @@ Not all images require alternative text. If the image is a decoration (it does n
 
 ### How to integrate a decorative image
 
-#### `img` tag
+#### `img` tag without caption
 
 * It is simply necessary to leave the `alt` attribute empty.
 * The decoration image does not have a `title` attribute.
@@ -61,7 +61,7 @@ Not all images require alternative text. If the image is a decoration (it does n
 <img src="..." alt="">
 ```
 
-#### `svg` tag
+#### `svg` tag without caption
 
 * Add `aria-hidden` to `true`.
 * The `title` and `desc` tags are absent or empty.
