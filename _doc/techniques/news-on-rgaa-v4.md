@@ -51,7 +51,7 @@ Zoom graphique autorisé
 #### Critère 10.11. Pour chaque page web, les contenus peuvent-ils être présentés sans avoir recours à la fois à un défilement vertical pour une fenêtre ayant une hauteur de 256px ou une largeur de 320px (hors cas particuliers) ?
 Nouveau critère
 
-Pas de scrollbar horizontal sur un affichage à 320px;
+Pas de scroll bar horizontale sur un affichage à 320px;
 
 #### Critère 10.12. Dans chaque page web, les propriétés d’espacement du texte peuvent-elles être redéfinies par l’utilisateur sans perte de contenu ou de fonctionnalité (hors cas particuliers) ?
 Nouveau critère
@@ -65,7 +65,7 @@ Nouveau critère
 ### Formulaires
 
 #### Critère 11.5. Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?
-Nouvelle condition
+Nouvelle condition<br>
 Les champs de même nature de type radio ( ou balises possédant un attribut WAI-ARIA role=”radio”) sont regroupés dans une balise possédant un attribut WAI-ARIA role=”radiogroup” ou “group”.
 
 #### Critère 11.11. Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?
@@ -98,5 +98,5 @@ Nouveau critère
 Nouveau critère
 
 #### Critère 13.12. Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ? 
-Nouveau critère
+Nouveau critère.<br>
 Prévoir des alternatives dans l'interface pour les action par mouvement.
