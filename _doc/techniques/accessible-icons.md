@@ -156,13 +156,13 @@ In this case there is no visible text. It is therefore important to provide visu
 
 ##### 1.2.5 Icon font in a link or a button that opens in a new window
 
-<a href="#" title="Share on Facebook new window">
+<a href="#" title="Share on Facebook new window" target="_blank">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
     <span class="sr-only">Share on Facebook new window</span>
 </a>
 
 ```html
-<a href="#" title="Share on Facebook new window">
+<a href="#" title="Share on Facebook new window" target="_blank">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
     <span class="sr-only">Share on Facebook new window</span>
 </a>
