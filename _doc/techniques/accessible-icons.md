@@ -156,7 +156,7 @@ In this case there is no visible text. It is therefore important to provide visu
 
 ##### 1.2.5 Icon font in a link or a button that opens in a new window
 
-In this case the title attribute is directly on the link. There is no point in multiplying the title attributes.
+In this case the `title` attribute is directly on the link. There is no point in multiplying the `title` attributes.
 
 * For the visual part, we add a `title` attribute directly on the link, no need the title attribute on the icon span.
 * For assistive technologies, the class sr-only hide visually the text but this text can be read in the assistive technology.
