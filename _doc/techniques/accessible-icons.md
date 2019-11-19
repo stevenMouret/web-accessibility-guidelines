@@ -154,6 +154,20 @@ In this case there is no visible text. It is therefore important to provide visu
 </button>
 ```
 
+##### 1.2.5 Icon font in a link or a button that opens in a new window
+
+<a href="#" title="Share on Facebook new window">
+    <span class="fab fa-facebook-square" aria-hidden="true"></span>
+    <span class="sr-only">Share on Facebook new window</span>
+</a>
+
+```html
+<a href="#" title="Share on Facebook new window">
+    <span class="fab fa-facebook-square" aria-hidden="true"></span>
+    <span class="sr-only">Share on Facebook new window</span>
+</a>
+```
+
 ### 2 Inline SVG
 
 #### 2.1 Decorative icon
