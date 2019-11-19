@@ -63,6 +63,8 @@ menu-criteria:
   url: /accessibility/mandatory-elements.html
   teaser: Check that each Web page has a valid source code according to the document type, a relevant title and a default human language identification. Check that tags are not used for presentation only, that changes in human language and changes in the reading direction are specified.
   sub:
+    - title: A valid source code
+      url: /accessibility/mandatory-elements/valid-source-code.html
     - title: Page title
       url: /accessibility/mandatory-elements/page-title.html
     - title: Use HTML tags for their proper meaning
