@@ -3,7 +3,7 @@
 The [Web Accessibility Guidelines](https://stevenmouret.github.io/web-accessibility-guidelines/) (WAG) is a Github pages that try to explain how to produce accessible content.
 The content of the WAG is strongly inspired by the work of the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) the  and the [RGAA (fr)](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/) a French repository.
 
-<img src="./favicon.svg" width="96" alt="">
+<img src="./_doc/img/web-accessibility-guidelines.png" alt="">
 
 ## Run the theme
 ```
