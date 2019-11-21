@@ -12,6 +12,9 @@ menu-main:
 - title: Techniques
   url: /techniques.html
 
+- title: Tools
+  url: /tools.html
+
 menu-criteria-title: Thematics
 menu-criteria:
 
