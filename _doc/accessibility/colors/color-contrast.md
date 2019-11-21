@@ -37,4 +37,6 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 
 #### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
-<div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></iframe></div>
+<div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+If you don't see these tools, go to `about:config` and search the property "gfx.webrender.all". This property must be to `true`.
