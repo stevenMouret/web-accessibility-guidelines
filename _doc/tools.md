@@ -14,6 +14,11 @@ The Web Developer extension adds a toolbar button to your Chrome browser with va
 
 [Check the markup (HTML, XHTML, …) of Web documents](https://validator.w3.org/)
 
+### Screen reader
+* [NVDA](https://www.nvaccess.org/download/) free screen reader
+* [Jaws](https://www.freedomscientific.com/products/software/jaws/)
+* VoiceOver, by default on all mac.
+
 ### Understand Website Accessibility with the Firefox Accessibility Inspector
 
 <div class="video"><iframe title="Understand Website Accessibility with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/7mqqgIxX_NU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
