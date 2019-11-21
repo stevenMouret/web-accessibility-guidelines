@@ -34,3 +34,7 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 * Lighthouse in Google **Chrome** browser allows you to quickly check your web page for text content.
 * Contrast tools is available in Mozilla **Firefox** developer tools in accessibility tab.
 * [**Accessible colors**](https://accessible-colors.com/) is a tools to know the right contrast between two colors. It has the advantage of offering contrasts that are as close as possible to the original colours.
+
+#### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
+
+<div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></iframe></div>
