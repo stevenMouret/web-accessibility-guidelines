@@ -24,10 +24,11 @@
 }
 
 .site-name {
+    border-right: 0.1rem solid rgba($color-black, 0.05);
     font-size: 2.6rem;
     font-weight: 900;
+    line-height: 1.2;
     padding: 0 3rem;
-    border-right: 0.1rem solid rgba($color-black, 0.05);
 
     @media (max-width: 768px) {
         border-right: none;
