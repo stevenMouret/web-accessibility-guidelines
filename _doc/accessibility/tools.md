@@ -18,6 +18,4 @@ The Web Developer extension adds a toolbar button to your Chrome browser with va
 
 ### Understand Website Accessibility with the Firefox Accessibility Inspector
 
-<div class="video"><iframe title="Understand Website Accessibility with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/7mqqgIxX_NU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></div>
-
-
+<div class="video"><iframe title="Understand Website Accessibility with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/7mqqgIxX_NU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
