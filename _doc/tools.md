@@ -1,9 +1,7 @@
 ---
+layout: onecolumn
 title: Tools
-nav: menu-criteria
 ---
-
-## Tools
 
 ### Web developer bar
 
