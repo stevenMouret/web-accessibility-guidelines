@@ -76,6 +76,7 @@ It is important to remember that images do not necessarily have to be described 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
 
+##### With icon font
 ```html
 <p>
     <span class="fas fa-phone" aria-hidden="true" title="Phone"></span>
@@ -85,6 +86,24 @@ In any case, if the graphical display of a telephone is used, it is therefore ne
 <p>
     <span class="fas fa-fax" aria-hidden="true" title="Fax"></span>
     <span class="sr-only">Fax :</span>
+    <span class="text">04 94 45 32 29</span>
+</p>
+```
+
+##### With SVG
+```html
+<p>
+    <svg role="img" aria-label="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <title>Phone</title>
+        <path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" class=""></path>
+    </svg>
+    <span class="text">04 94 45 32 28</span>
+</p>
+<p>
+    <svg role="img" aria-label="fax" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <title>Fax</title>
+        <path fill="currentColor" d="M480 160V77.25a32 32 0 0 0-9.38-22.63L425.37 9.37A32 32 0 0 0 402.75 0H160a32 32 0 0 0-32 32v448a32 32 0 0 0 32 32h320a32 32 0 0 0 32-32V192a32 32 0 0 0-32-32zM288 432a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h32a16 16 0 0 1 16 16zm0-128a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h32a16 16 0 0 1 16 16zm128 128a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h32a16 16 0 0 1 16 16zm0-128a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16v-32a16 16 0 0 1 16-16h32a16 16 0 0 1 16 16zm0-112H192V64h160v48a16 16 0 0 0 16 16h48zM64 128H32a32 32 0 0 0-32 32v320a32 32 0 0 0 32 32h32a32 32 0 0 0 32-32V160a32 32 0 0 0-32-32z" class=""></path>
+    </svg>
     <span class="text">04 94 45 32 29</span>
 </p>
 ```
@@ -144,3 +163,5 @@ In the specific case of credits, the use of a legend is the most appropriate.
 <svg role="img" aria-label="Tip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" width="28" height="40"><title>Tip</title><path d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg>
 [How to integrate icons in an accessible way](../../techniques/accessible-icons.html).
 </div>
+
+*[SVG]: Scalable Vector Graphics
