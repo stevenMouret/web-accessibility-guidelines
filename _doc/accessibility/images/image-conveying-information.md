@@ -80,12 +80,12 @@ In any case, if the graphical display of a telephone is used, it is therefore ne
 ```html
 <p>
     <span class="fas fa-phone" aria-hidden="true" title="Phone"></span>
-    <span class="sr-only">Phone :</span>
+    <span class="sr-only">phone</span>
     <span class="text">04 94 45 32 28</span>
 </p>
 <p>
     <span class="fas fa-fax" aria-hidden="true" title="Fax"></span>
-    <span class="sr-only">Fax :</span>
+    <span class="sr-only">fax</span>
     <span class="text">04 94 45 32 29</span>
 </p>
 ```
