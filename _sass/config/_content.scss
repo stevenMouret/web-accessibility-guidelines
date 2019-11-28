@@ -113,6 +113,14 @@
         padding: 0.2rem 0.4rem;
     }
 
+    .anchor-heading {
+        display: none;
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        color: $color-1-4;
+        font-weight: normal;
+    }
+
     .tip, .important {
         align-items: center;
         background: $color-3-1;

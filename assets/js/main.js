@@ -205,7 +205,7 @@ const searchCriteriaParam = () => {
     }
 
     if (searchUrlParam('criteria') === 'off') {
-            localStorage.setItem('criteria', 'off');
+        localStorage.setItem('criteria', 'off');
     }
 
     const criteria = document.querySelector('.criteria');
@@ -221,11 +221,53 @@ const searchCriteriaParam = () => {
     }
 };
 
+const anchorHeadingLink = () => {
+    const content = document.getElementById('content');
+    const headings = content.querySelectorAll('h2, h3, h4, h5, h6');
+
+    headings.forEach((index) => {
+        const anchorLink = document.createElement('a');
+        anchorLink.href = `#${index.getAttribute("id")}`;
+        anchorLink.classList.add('anchor-heading');
+        anchorLink.innerText = '#';
+
+        index.appendChild(anchorLink);
+    });
+};
+
+const searchAnchorParam = () => {
+    if (searchUrlParam('anchor') === 'on') {
+        if (localStorage.getItem('anchor') !== 'on') {
+            localStorage.setItem('anchor', 'on');
+        }
+    }
+
+    if (searchUrlParam('anchor') === 'off') {
+        localStorage.setItem('anchor', 'off');
+    }
+
+    const anchor = document.querySelectorAll('.anchor-heading');
+
+    anchor.forEach((index) => {
+        if (localStorage.getItem('anchor') === 'on') {
+            if (anchor) {
+                index.style.display = "inline-block";
+            }
+        }
+    });
+
+    if (localStorage.getItem('anchor') === 'off') {
+        localStorage.removeItem('anchor');
+    }
+};
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
     //anchorMenu();
+    anchorHeadingLink();
     searchCriteriaParam();
+    searchAnchorParam();
     linkExternalNewWindow();
     onChangeOnSelect();
     noOnChangeOnSelect();
