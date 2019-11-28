@@ -11,7 +11,7 @@ Decorative image
 
 **Impact:** Low to high
 
-**Users mainly impacted:**
+**Users mainly impacted:** Blind, severely visually impaired.
 
 **RGAA criteria:** [Criterion 1.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-2)
 {: .criteria }
