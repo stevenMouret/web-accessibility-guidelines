@@ -35,18 +35,27 @@ Consider making the page title relevant in the case of a process.
 
 Imagine that we have 28 results in total with 10 results displayed per page and we are on the second page.
 
-The title of the page could be `News - Page 2 to 3 - Name of my website`.
+The title of the page could be
+```html
+<title>News - Page 2 to 3 - Name of my website</title>
+```
 
 #### Page title of a search result
 
 Following a search, there are several results.
 
-The title of the page could be `Search results for the term(s) city - 7 results | Name of the website`.
+The title of the page could be
+```html
+<title>Search results for the term(s) city - 7 results | Name of the website</title>
+```
 
 #### Page title of the form
 
 When a form is submited and the page is reloaded with error(s), it is necessary to notify the user as soon as the title of the page.
 
-The title of the page could be `5 Error(s) - Contact - Name of my website`.
+The title of the page could be
+```html
+<title>5 Error(s) - Contact - Name of my website</title>
+```
 
 
