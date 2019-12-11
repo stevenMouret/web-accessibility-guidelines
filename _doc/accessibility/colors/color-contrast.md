@@ -45,7 +45,7 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 
 #### The interface components or graphical elements that convey information
 
-The contrast ratio is at least 3:1 in this case:
+The contrast ratio is at least 3:1 of:
 
 * The colors of an interface component in its different states and the background color.
 * The different colors composing a graphic element and its background color.
