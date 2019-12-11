@@ -43,6 +43,14 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 * Less than 18.5px: The contrast ratio is at least 4.5:1.
 * Greater than or equal to 18.5px: The contrast ratio is at least 3:1.
 
+#### The interface components or graphical elements that convey information
+
+The contrast ratio is at least 3:1 in this case:
+
+* The colors of an interface component in its different states and the background color.
+* The different colors composing a graphic element and its background color.
+* The different colors composing a graphic element.
+
 #### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
 <div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
