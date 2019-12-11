@@ -14,6 +14,13 @@ nav: menu-techniques
 
 ### Couleurs
 
+#### Critère 3.2. Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
+
+* Text sans effet de graisse inférieur à 24px - 4.5:1 au moins
+* Text sans effet de graisse supérieur ou égale à 24px - 3:1 au moins
+* Text en gras (bold, black) inférieur à 18.5px - 4.5:1 au moins
+* Text en gras (bold, black) supérieur ou égale 18.5px - 3:1 au moins
+
 #### Critère 3.3 Dans chaque page web, les couleurs utilisées dans les composants d'interface ou les éléments graphiques porteurs d'informations sont-elles suffisamment contrastées (hors cas particulier s ) ?
 
 * Le rapport de contraste est de 3:1, au moins.
@@ -78,10 +85,10 @@ Utilisation de l'attribut autocomplete
 
 ### Navigation
 
-#### Critère 12.10. Dans chaque page web, les raccourcis clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ? 
+#### Critère 12.10. Dans chaque page web, les raccourcis clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?
 Nouveau critère
 
-#### Critère 12.11. Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un composant d’interface sont-ils si nécessaire atteignables au clavier ? 
+#### Critère 12.11. Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un composant d’interface sont-ils si nécessaire atteignables au clavier ?
 Nouveau critère
 
 ### Consultation
@@ -91,12 +98,12 @@ Nouveau critère
 #### Critère 13.9. Dans chaque page web, le contenu proposé est-il consultable quelle que soit l’orientation de l’écran (portait ou paysage) (hors cas particuliers) ?
 Nouveau critère
 
-#### Critère 13.10. Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un geste complexe peuvent-elles être également disponibles au moyen d’un geste simple (hors cas particuliers) ? 
+#### Critère 13.10. Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un geste complexe peuvent-elles être également disponibles au moyen d’un geste simple (hors cas particuliers) ?
 Nouveau critère
 
 #### Critère 13.11. Dans chaque page web, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers) ?
 Nouveau critère
 
-#### Critère 13.12. Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ? 
+#### Critère 13.12. Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?
 Nouveau critère.<br>
 Prévoir des alternatives dans l'interface pour les action par mouvement.

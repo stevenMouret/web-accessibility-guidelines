@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired
 
-**RGAA criteria:** [Criterion 3.3 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-3-3)
+**RGAA criteria:** [Criterion 3.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-3-2) - [Criterion 3.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-3-3)
 {: .criteria }
 
 ### Explanation
@@ -22,9 +22,8 @@ For a user who has difficulty perceiving contrasts, some writings may be impossi
 
 These contrasts concern:
 
-* the texts you enter in the editor;
-* the texts present in the images;
-* the texts embedded in the videos.
+* the text and the text present in the image;
+* the interface components or graphical elements that convey information
 
 There are values that provide sufficient minimum contrast for a large proportion of users with color perception difficulties.
 
@@ -33,7 +32,16 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 * [**Color Contrast Analyzer**](https://developer.paciellogroup.com/resources/contrastanalyser/) thanks to a pipette, you can go and pick colours from all document formats (web, office, video, etc.) for analysis;
 * Lighthouse in Google **Chrome** browser allows you to quickly check your web page for text content.
 * Contrast tools is available in Mozilla **Firefox** developer tools in accessibility tab.
-* [**Accessible colors**](https://accessible-colors.com/) is a tools to know the right contrast between two colors. It has the advantage of offering contrasts that are as close as possible to the original colours.
+
+#### Text without bold
+
+* Less than 24px: The contrast ratio is at least 4.5:1.
+* Greater than or equal to 24px: The contrast ratio is at least 3:1.
+
+#### Text with bold
+
+* Less than 18.5px: The contrast ratio is at least 4.5:1.
+* Greater than or equal to 18.5px: The contrast ratio is at least 3:1.
 
 #### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
