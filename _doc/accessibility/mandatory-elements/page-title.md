@@ -42,7 +42,7 @@ The title of the page could be
 
 #### Page title of a search result
 
-Following a search, there are several results.
+Following a search, there are several results. It is necessary to indicate the number of results and keywords searched.
 
 The title of the page could be
 ```html
