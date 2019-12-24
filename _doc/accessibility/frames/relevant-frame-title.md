@@ -18,7 +18,7 @@ nav: menu-criteria
 
 ### Explanation
 
-When you embed content from other websites via iframes, you must implement a title attribute on these frames that identify the content.
+When you embed content from other websites via iframes, you must implement a `title` attribute on these frames that identify the content.
 
 You must give them sufficient information so that they know what types of content they will find there.
 
