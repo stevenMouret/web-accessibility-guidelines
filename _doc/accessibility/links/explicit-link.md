@@ -38,6 +38,7 @@ The accessible name is obtained in the following order:
 * Passage of text associated by the attribute `aria-labelledby`;
 * Otherwise, content of the `aria-label` attribute;
 * Otherwise, link text;
+* Otherwise, on link image, content of `alt`;
 * Otherwise, content of the attribute `title`.
 
 For example:
