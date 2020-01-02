@@ -41,3 +41,37 @@ Sometimes for SEO reasons, it is not advisable to titrate certain content blocks
 ```html
 <div role="heading" aria-level="1">News flash</div>
 ```
+
+<div class="important">
+<svg role="img" aria-label="Important" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="36"><title>Important</title><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>
+It is not prohibited to have a section marked with h2 before the main section marked with h1.
+</div>
+
+##### Examples: Headings in a 3-column layout
+
+In this example, the main content of the page is in the middle column of a 3-column page. The title of the main content matches the title of the page, and is marked as h1, even though it is not the first thing on the page. The content in the first and third columns is less important, and marked with h2.
+
+```html
+<head>
+    <title>Stock Market Up Today</title>
+</head>
+<body>
+    <!-- left nav -->
+    <section class="left-nav">
+        <h2>Site Navigation</h2>
+        <!-- content here -->
+    </section>
+    <!-- main contents -->
+    <main class="main" role="main">
+        <h1>Stock Market up today</h1>
+        <!-- article text here -->
+    </main>
+    <!-- right panel -->
+    <aside class="right-panel">
+        <h2>Related links</h2>
+        <!-- content here -->
+    </aside>
+</body>
+```
+
+
