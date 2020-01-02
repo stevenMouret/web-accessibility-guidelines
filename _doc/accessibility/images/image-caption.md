@@ -24,9 +24,9 @@ It is important to do this when the [caption](../glossary.html#mImageCaption) co
 
 The use of `figure` and `figcaption` requires certain adaptations to fill the possible lack of support by assistive technologies.
 
-* The `<figure>` tag has a `role="figure"` or `role="group"` attribute.
-* The `<figure>` tag has a `aria-label` attribute with the same content of the caption
-* The caption is included in a `<figcaption>` tag.
+* The `<figure>` tag has a `role="figure"` or `role="group"` attribute;
+* the `<figure>` tag has a `aria-label` attribute with the same content of the caption;
+* the caption is included in a `<figcaption>` tag.
 
 ```html
 <figure role="group" aria-label="copyright 2016 author name">
