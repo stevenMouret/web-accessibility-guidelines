@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired.
 
-**RGAA criteria:** [Criterion 10.4 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-4) - [Criterion 10.5 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-5)
+**RGAA criteria:** [Criterion 10.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-4) - [Criterion 10.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-5) - [Criterion 10.12](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-12)
 {: .criteria }
 
 ### Explanation
@@ -83,6 +83,22 @@ Be careful with positioning that does not follow the standard flow, especially a
 Manage spaces and line breaks.
 
 The properties `white-space: nowrap` or `flex-wrap: unwrap` prevents text content from being submitted to the automatic line feed. This property should therefore be used with caution. Always perform tests to evaluate the character magnification behaviour.
+
+##### Text spacing properties must be user-definable
+
+The text must be readable when the display is changed according to these conditions:
+
+```css
+* {
+  line-height: 1.5 !important;
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+p {
+  margin-bottom: 2em !important;
+}
+```
 
 #### Readable texts
 
