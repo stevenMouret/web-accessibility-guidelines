@@ -30,7 +30,7 @@ Defining the language of a document:
 
 Changing the language on a text:
 ```html
-<p>The <abbr lang="fr" title="Référentiel Général d'Accessibilité pour les Administrations">RGAA</abbr> is the French government's General Accessibility Reference for Administrations.</p>
+<p>The <abbr lang="fr" title="Référentiel général d'amélioration de l'accessibilité">RGAA</abbr> is the French government's General Guideline for Accessibility Improvement.</p>
 ```
 
 <div class="important">

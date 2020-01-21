@@ -20,7 +20,7 @@ nav: menu-criteria
 
 The motor handicapped who navigate on the keyboard can encounter considerable difficulties in using the content if they are not able to locate where the visual indication of focus and its movements lie.
 
-The RGAA requires that the `outline` property be retained. In style sheets, it is forbidden to find properties to remove this outline at focus (`:focus`), such as :
+It is necessary that the `outline` property be retained. In style sheets, it is forbidden to find properties to remove this outline at focus (`:focus`), such as :
 
 * `outline: 0`
 * `outline: none`
