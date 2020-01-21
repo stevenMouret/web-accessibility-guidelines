@@ -142,6 +142,8 @@ menu-criteria:
       url: /accessibility/navigation/main-contents-identified.html
     - title: Bypass or skip links
       url: /accessibility/navigation/bypass-or-skip-links.html
+    - title: Tab order and keyboard traps
+      url: /accessibility/navigation/tab-order-keyboard-traps.html
 
 - title: 13. Consultation
   url: /accessibility/consultation.html
