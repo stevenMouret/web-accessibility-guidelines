@@ -18,7 +18,7 @@ menu-main:
 menu-criteria-title: Thematics
 menu-criteria:
 
-- title: Images
+- title: 1. Images
   url: /accessibility/images.html
   teaser: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
   sub:
@@ -33,14 +33,14 @@ menu-criteria:
     - title: Image caption
       url: /accessibility/images/image-caption.html
 
-- title: Frames
+- title: 2. Frames
   url: /accessibility/frames.html
   teaser: Provide each inline frame with a relevant title.
   sub:
     - title: Relevant frame title
       url: /accessibility/frames/relevant-frame-title.html
 
-- title: Colors
+- title: 3. Colors
   url: /accessibility/colors.html
   teaser: Do not provide information through color only, and use sufficient color contrasts.
   sub:
@@ -49,7 +49,13 @@ menu-criteria:
     - title: Color contrast
       url: /accessibility/colors/color-contrast.html
 
-- title: Links
+- title: 4. Multimedia
+  teaser: If necessary, provide each time-based media with relevant text transcript, synchronized captions and a synchronized audio description. Provide each non time-based media with a relevant text alternative. Provide control features for each time-based and non time-based media through a keyboard and ensure that they are compatible with assistive technologies.
+
+- title: 5. Tables
+  teaser: Provide each complex data table, with a relevant summary and a title, clearly identify header cells, use a relevant mechanism to associate data cells with header cells. Ensure that each layout table is correctly linearized.
+
+- title: 6. Links
   url: /accessibility/links.html
   teaser: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
   sub:
@@ -62,7 +68,10 @@ menu-criteria:
     - title: Empty link
       url: /accessibility/links/empty-link.html
 
-- title: Mandatory elements
+- title: 7. Scripts
+  teaser: Provide, if necessary, each script with a relevant alternative. Make each script controllable at least through a keyboard and a mouse, and ensure that it is compatible with assistive technologies.
+
+- title: 8. Mandatory elements
   url: /accessibility/mandatory-elements.html
   teaser: Check that each Web page has a valid source code according to the document type, a relevant title and a default human language identification. Check that tags are not used for presentation only, that changes in human language and changes in the reading direction are specified.
   sub:
@@ -75,7 +84,7 @@ menu-criteria:
     - title: Multilingual texts
       url: /accessibility/mandatory-elements/multilingual-texts.html
 
-- title: Information structure
+- title: 9. Information structure
   url: /accessibility/information-structure.html
   teaser: Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
   sub:
@@ -88,7 +97,7 @@ menu-criteria:
     - title: Quotation
       url: /accessibility/information-structure/quotation.html
 
-- title: Presentation of information
+- title: 10. Presentation of information
   url: /accessibility/presentation-of-information.html
   teaser: Use style sheets to control information presentation. Check for the effect of font size increasing on readability. Ensure that links can be correctly identified, that focus is specified, that line spacing is sufficient, and give the user the ability to control text justification. Ensure that hidden texts are correctly rendered and that information is not conveyed only by an element's shape, size or location.
   sub:
@@ -106,7 +115,7 @@ menu-criteria:
       url: /accessibility/presentation-of-information/information-by-shape-size-location.html
 
 
-- title: Forms
+- title: 11. Forms
   url: /accessibility/forms.html
   teaser: For each form, associate each field with its label, group fields in similar blocks of information, structure selection lists in a consistent way, give each button an explicit label. Check that input help is available, ensure that the input control is accessible and that the user can control financial, legal or personal data.
   sub:
@@ -123,7 +132,7 @@ menu-criteria:
     - title: Input errors
       url: /accessibility/forms/input-errors.html
 
-- title: Navigation
+- title: 12. Navigation
   url: /accessibility/navigation.html
   teaser: Facilitate navigation in a set of pages through at least two different navigation systems (navigation menu, site map or search engine), a breadcrumb trail and the indication of the active page in the navigation menu. Identify groups of important links and the main content area, and provide the ability to avoid them through skip links. Ensure that tabbing order is consistent and that the page does not contain keyboard traps.
   sub:
@@ -134,7 +143,7 @@ menu-criteria:
     - title: Bypass or skip links
       url: /accessibility/navigation/bypass-or-skip-links.html
 
-- title: Consultation
+- title: 13. Consultation
   url: /accessibility/consultation.html
   teaser: Check that the user can control the refresh processes, sudden changes in luminosity, openings of new windows and moving or blinking content. Specify when a content opens in a new window and provide information regarding viewing of files to download. Do not make the completion of a task rely upon a time limit except if it is essential and ensure that entered data is retrieved after an authenticated session has expired. Ensure that unusual phrases and jargon are made explicit. Provide accessible versions or make downloadable documents accessible.
   sub:

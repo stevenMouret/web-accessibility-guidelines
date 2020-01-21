@@ -1,13 +1,13 @@
-<ul class="menu-main-sections">
+<ol class="menu-main-sections">
     {% for item in site.data.menus.menu-criteria %}
         {% assign topic = item.url | replace: "/", "" | replace: ".html", "" | remove: "criteria" %}
         <li class="menu-main-sections__item">
-            <a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>
-                <h2 class="menu-main-sections__title">{{ item.title }}</h2>
+            {% if item.url %}<a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>{% endif %}
+                <h2 class="menu-main-sections__title">{{ item.title }} {% unless item.url %}(Soon){% endunless %}</h2>
                 {% if item.teaser %}
                 <p>{{ item.teaser }}</p>
                 {% endif %}
-            </a>
+            {% if item.url %}</a>{% endif %}
         </li>
     {% endfor %}
-</ul>
+</ol>

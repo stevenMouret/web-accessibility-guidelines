@@ -226,12 +226,14 @@ const anchorHeadingLink = () => {
     const headings = content.querySelectorAll('h2, h3, h4, h5, h6');
 
     headings.forEach((index) => {
-        const anchorLink = document.createElement('a');
-        anchorLink.href = `#${index.getAttribute("id")}`;
-        anchorLink.classList.add('anchor-heading');
-        anchorLink.innerText = '#';
+        if (index.getAttribute("id")) {
+            const anchorLink = document.createElement('a');
+            anchorLink.href = `#${index.getAttribute("id")}`;
+            anchorLink.classList.add('anchor-heading');
+            anchorLink.innerText = '#';
 
-        index.appendChild(anchorLink);
+            index.appendChild(anchorLink);
+        }
     });
 };
 

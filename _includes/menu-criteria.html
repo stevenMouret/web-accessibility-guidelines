@@ -1,9 +1,20 @@
 <nav role="navigation" aria-label="{{ site.data.menus.menu-criteria-title }}" class="sidebar-menu">
     <h2 aria-hidden="true">{{ site.data.menus.menu-criteria-title }}</h2>
-    <ul>
+    <ol>
         {% for item in site.data.menus.menu-criteria %}
             {% assign topic = item.url | replace: "/", "" | replace: ".html", "" | remove: "accessibility" %}
-            <li><a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+            <li>
+                {% if item.url %}
+                    <a href="{{- site.baseurl -}}{{ item.url }}"{% if page.navigation == topic and item.url != page.url %} aria-current="true"{% elsif item.url == page.url %} aria-current="page"{% endif %}>
+                {% else %}
+                    <span>
+                {% endif %}
+                        {{ item.title }}
+                {% if item.url %}
+                    </a>
+                {% else %}
+                    </span>
+                {% endif %}
             {% if page.navigation == topic %}
                 {% if item.sub %}
                 <ul>
@@ -17,5 +28,5 @@
             {% endif %}
             </li>
         {% endfor %}
-    </ul>
+    </ol>
 </nav>
