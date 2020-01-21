@@ -44,6 +44,7 @@
 
     h2, h3, h4, h5, h6 {
         font-weight: 900;
+        position: relative;
     }
 
     h2 {
@@ -115,10 +116,16 @@
 
     .anchor-heading {
         display: none;
+        position: absolute;
+        top: 50%;
+        left: -2.6rem;
+        opacity: 0.5;
+        transform: translateY(-50%);
         margin-left: 1rem;
         font-size: 1.8rem;
         color: $color-1-4;
         font-weight: normal;
+        text-decoration: none;
     }
 
     .tip, .important {

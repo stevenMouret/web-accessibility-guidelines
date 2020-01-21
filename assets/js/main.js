@@ -223,14 +223,14 @@ const searchCriteriaParam = () => {
 
 const anchorHeadingLink = () => {
     const content = document.getElementById('content');
-    const headings = content.querySelectorAll('h2, h3, h4, h5, h6');
+    const headings = content.querySelectorAll('h3, h4, h5, h6');
 
     headings.forEach((index) => {
         if (index.getAttribute("id")) {
             const anchorLink = document.createElement('a');
             anchorLink.href = `#${index.getAttribute("id")}`;
             anchorLink.classList.add('anchor-heading');
-            anchorLink.innerText = '#';
+            anchorLink.innerText = '§';
 
             index.appendChild(anchorLink);
         }
