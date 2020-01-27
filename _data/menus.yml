@@ -153,6 +153,8 @@ menu-criteria:
       url: /accessibility/consultation/new-window.html
     - title: Files for downloading
       url: /accessibility/consultation/files-for-downloading.html
+    - title: Moving or blinking content
+      url: /accessibility/consultation/moving-or-blinking-content.html
 
 menu-technical-reference-title: Technical reference
 menu-technical-reference:
