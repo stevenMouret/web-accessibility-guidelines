@@ -44,9 +44,14 @@ The title of the page could be
 
 Following a search, there are several results. It is necessary to indicate the number of results and keywords searched.
 
-The title of the page could be
+The title of the page could be:
 ```html
 <title>Search results for the term(s) city - 7 results | Name of the website</title>
+```
+
+In case there are no results, the title could be:
+```html
+<title>Search results for the term(s) city - No results | Name of the website</title>
 ```
 
 #### Page title of the form
