@@ -127,6 +127,8 @@ menu-criteria:
                 url: /accessibility/forms/relevance-of-field-labels.html
             -   title: Group related fields
                 url: /accessibility/forms/group-related-fields.html
+            -   title: Complex selection list
+                url: /accessibility/forms/complex-selection-list.html
             -   title: Relevant button
                 url: /accessibility/forms/relevant-button.html
             -   title: Required fields
