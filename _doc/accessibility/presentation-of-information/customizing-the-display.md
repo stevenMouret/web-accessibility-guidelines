@@ -21,12 +21,18 @@ nav: menu-criteria
 #### Enlargement of characters
 
 The proper adaptation of the contents of a web page when the font size is increased is essential for visually impaired users.
-These users will only want to enlarge the font size, not the page (graphic zoom).
 The formatting must then be adapted appropriately so that all texts remain readable and understandable at certain zoom levels.
 
-* In Firefox, in "View" go to "Zoom" and select "Zoom text only ". From this point on, `Ctrl +` only enlarges font sizes.
-* In Safari, under "Presentation" check "Reduce/enlarge text only". From this point on, `Ctrl +` only enlarges font sizes.
+**The font size must be increased by at least 200% by enlarging the text or the graphic zoom of the browser**.
+
+##### Enlargement of the browser text
+* In Firefox, in "View" go to "Zoom" and select "Zoom text only ". `Ctrl +` increase font-size, `Ctrl -` decrease font-size and `Ctrl 0` in order to reset the default zoom.
+* In Safari, `Option Command +` increase font sizes, `Option Command -` decrease font-size.
 * In Internet Explorer, in "View" (or "Page" depending on the version) go to "Text size" and select one of the proposed values (for example "Largest").
+
+##### Browser graphic zoom enlargement
+* In Firefox, Chrome, Edge, `Ctrl +` increase zoom level, `Ctrl -` decrease zoom level and `Ctrl 0` in order to reset the default zoom.
+* In Safari, `Command +` increase zoom level, `Command -` decrease zoom level.
 
 ##### Font sizes in relative units only
 
@@ -46,12 +52,6 @@ On the other hand, fixed units to define font sizes are prohibited. Among the fi
 * cm (centimeters).
 
 This is because in some browsers (such as Internet Explorer), if font sizes are defined in fixed units, the font size magnification settings have no effect.
-
-##### Readability when the font size is enlarged
-
-At the AA level, the text must remain legible and no information should be lost when the default font size is increased by 200%.
-
-200% corresponds to 6 times the `Ctrl +` action on Firefox (with the "Text only" option of the zoom).
 
 ##### Beware of fixed box sizes
 
