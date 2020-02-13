@@ -59,3 +59,5 @@ Consult the page on good techniques for [integrating icons in an accessible way]
 #### Content understandable without CSS
 
 In CSS, it is possible to change the order in which the elements are displayed. Inconsistencies in the order in which the content appears in the code can lead to misunderstandings for blind and partially sighted people who access the content through a screen reader.
+
+For example a feature to share an article that is before the article title. In this case it is difficult to know what you are sharing. In this case it is necessary to position the feature after the title or to make the feature understandable out of context.
