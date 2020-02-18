@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-10) - [Criterion 11.11 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-11)
+**RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-11)
 {: .criteria }
 
 ### Explanation
@@ -26,11 +26,35 @@ When the form returns errors, the error must be mentioned either:
 
 You can also indicate these errors with the `aria-label` property and the `aria-invalid` property. In these cases, you must always provide a visible alternative for all other users.
 
+#### Input error in the label and input help after the field
 ```html
-<label for="birthday">Birthday - Error - Please fill in this required field</label>
-<input type="text" name="birthday" id="birthday" aria-invalid="true" aria-describedby="format-date" required>
+<label for="birthday">Birthday <em aria-hidden="true">(required)</em> Error, Please fill in this required field</label>
+<input type="text" name="birthday" id="birthday" required aria-invalid="true" aria-describedby="format-date">
 <p id="format-date">yyyy/mm/dd</p>
 ```
+
+* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`.
+* The user is informed of the error on the field thanks to `aria-invalid`.
+* An input help is indicated below the field and related by the `aria-describedby` attribute and the associated `id`.
+
+#### Input error located at the top of the form
+```html
+<form action="#">
+    <div class="alert" role="alert">
+        <ul>
+            <li id="name-required">This field is required</li>
+        </ul>
+    </div>
+    <label for="name">Name <em aria-hidden="true">(required)</em></label>
+    <input type="text" name="name" id="name" required aria-invalid="true" aria-describedby="name-required">
+    <button type="submit">Contact us</button>
+</form>
+```
+
+* The content added in javascript in the alert element is rendered (See [Status messages](../scripts/status-messages.html)).
+* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`.
+* The user is informed of the error on the field thanks to `aria-invalid`.
+* Error information is rendered using the `aria-describedby` attribute and the associated `id`.
 
 <div class="important">
 <svg role="img" aria-label="Important" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="36"><title>Important</title><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>
