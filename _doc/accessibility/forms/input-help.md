@@ -44,7 +44,7 @@ When the form field type offers an input mask, such as date or time fields, form
 People with language and memory impairments, motor impairments, or impairments that affect the performance of a function can spend a lot of time validating a form.
 In order to help the user to fill in the relevant fields more simply, it is necessary to use the attribute `autocomplete`.
 
-Autocomplete field are described in the [HTML 5.2 specification](https://www.w3.org/TR/html52/sec-forms.html#autofilling-form-controls-the-autocomplete-attribute).
+Autocomplete field are described in the [HTML 5.2 - Autofilling form controls: the autocomplete attribute](https://www.w3.org/TR/html52/sec-forms.html#autofilling-form-controls-the-autocomplete-attribute) and in [WCAG 2.1 - Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG21/#input-purposes).
 
 Example:
 
