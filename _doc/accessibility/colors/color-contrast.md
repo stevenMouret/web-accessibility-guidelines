@@ -51,6 +51,11 @@ The contrast ratio is at least 3:1 of:
 * The different colors composing a graphic element and its background color.
 * The different colors composing a graphic element.
 
+#### Special case
+* The text is part of a logo or brand name of an organization or company.
+* The text or graphic element is purely decorative.
+* The text or graphical element is part of an interface element on which no action is possible (e.g. a button with the disabled attribute).
+
 #### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
 <div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
