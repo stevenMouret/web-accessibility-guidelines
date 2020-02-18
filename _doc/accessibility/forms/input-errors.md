@@ -33,7 +33,7 @@ You can also indicate these errors with the `aria-label` property and the `aria-
 <p id="format-date">yyyy/mm/dd</p>
 ```
 
-* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`.
+* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`. This information is therefore purely visual.
 * The user is informed of the error on the field thanks to `aria-invalid`.
 * An input help is indicated below the field and related by the `aria-describedby` attribute and the associated `id`.
 
@@ -52,7 +52,7 @@ You can also indicate these errors with the `aria-label` property and the `aria-
 ```
 
 * The content added in javascript in the alert element is rendered (See [Status messages](../scripts/status-messages.html)).
-* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`.
+* Required information in the `<label>` is not rendered in the technical assistance (`aria-hidden`) in order to avoid duplication of information because the `required` attribute already exists on the `<input>`. This information is therefore purely visual.
 * The user is informed of the error on the field thanks to `aria-invalid`.
 * Error information is rendered using the `aria-describedby` attribute and the associated `id`.
 
