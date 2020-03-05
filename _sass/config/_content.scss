@@ -91,6 +91,10 @@
 
     ul {
         list-style: circle;
+
+        ul {
+            list-style: disc;
+        }
     }
     li {
         line-height: 2.6rem;
