@@ -157,8 +157,8 @@ menu-criteria:
         url: /accessibility/consultation.html
         teaser: Check that the user can control the refresh processes, sudden changes in luminosity, openings of new windows and moving or blinking content. Specify when a content opens in a new window and provide information regarding viewing of files to download. Do not make the completion of a task rely upon a time limit except if it is essential and ensure that entered data is retrieved after an authenticated session has expired. Ensure that unusual phrases and jargon are made explicit. Provide accessible versions or make downloadable documents accessible.
         sub:
-            -   title: New window
-                url: /accessibility/consultation/new-window.html
+            -   title: No new window without user action
+                url: /accessibility/consultation/no-new-window-without-user-action.html
             -   title: Files for downloading
                 url: /accessibility/consultation/files-for-downloading.html
             -   title: Moving or blinking content
