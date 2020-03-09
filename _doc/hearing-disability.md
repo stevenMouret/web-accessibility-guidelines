@@ -17,7 +17,7 @@ For the deaf, whose natural language is the LSF (Langue des Signes Française), 
 
 #### Assistive technologies
 
-There is no assistive technology to help these users. Some experiments aim to produce signing avatars capable of interpreting a text on the fly, but their effectiveness has not yet been demonstrated.
+There is no assistive technology to help these users. Some experiments aim to produce avatars capable of interpreting and signing a text in real time, but their effectiveness has not yet been demonstrated.
 
 It should be noted that for these users, video subtitling, while it can help, is not satisfactory, as it requires fast playback capabilities.
 
