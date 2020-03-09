@@ -1,0 +1,118 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Web Accessibility Guidelines",
+    "scope": "/web-accessibility-guidelines/",
+    "display": "standalone",
+    "start_url": "https://stevenmouret.github.io/web-accessibility-guidelines/",
+    "short_name": "WAG",
+    "theme_color": "transparent",
+    "description": "The Web Accessibility Guidelines (WAG) is a Github pages that try to explain how to produce accessible content.",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/assets/images/favicon/favicon.ico",
+            "sizes": "48x48 32x32 16x16"
+        },
+        {
+            "src": "/assets/images/favicon/8f300d1f-53be-1189-b9cc-532fcbffa56b.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/1637d1bb-c9c6-f2e8-bf8d-e37d6ead9ced.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/8be184ca-3435-be5c-a66b-6736e54fdc07.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/8ecca402-b90f-9b8e-c3d1-5af84b545ab3.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/5bb76c1d-d9da-1e7a-ccab-e39158048f67.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/e620dbfc-2a39-f9c4-271e-ff9276b48ae5.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/11c232fc-49d4-f677-9dec-ccbb105053fb.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/6a22c86f-bff1-3713-1951-7d17b56993ab.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/93a0ee1b-1099-c38d-209c-e2839c33a7aa.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/3109b0ea-e9ce-d7a8-432c-8812b5388fff.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/61327b03-f5b2-4e1d-421e-47f2ea9c6fce.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/4ac0d02b-13e7-c53b-661a-5edff92e71d6.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/554c3470-da33-8c2a-28ab-0655f4d123e2.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/fa10e76d-57f0-2793-ac91-4c389594f474.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/837c3cc5-e83b-b028-5e4f-23e53781653a.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/ed87e2fe-8454-278c-3b7b-1aac45b89ad0.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/ba8982bb-62f9-c3ab-4efa-2dcd5c2be958.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/20c40305-4d9b-55a3-fc17-7454f3285578.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/favicon/254d6d21-19db-4c38-709c-950c38c79248.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://stevenmouret.github.io/web-accessibility-guidelines/",
+    "screenshots": []
+}
