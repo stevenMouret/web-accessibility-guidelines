@@ -11,7 +11,7 @@ nav: menu-about-users
 
 Deaf people will have difficulty with sound information, sound and video files.
 
-For the deaf, whose natural language is the LSF (Langue des Signes Française (French equivalent of American Sign Language - ASL)), reading proficiency can be degraded and make texts difficult to read or understand, especially with regard to specialized vocabulary or expressions.
+For the deaf, whose natural language is the sign Language, reading proficiency can be degraded and make texts difficult to read or understand, especially with regard to specialized vocabulary or expressions.
 
 [Hearing impairment demonstration](https://atalan.fr/agissons/en/malentendance.html)
 
