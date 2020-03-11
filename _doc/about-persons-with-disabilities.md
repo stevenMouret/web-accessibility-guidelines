@@ -1,12 +1,12 @@
 ---
-title: About persons with disabilities
+title: About people with disabilities
 nav: menu-about-users
 ---
 
-## About persons with disabilities
+## About people with disabilities
 
-A disability situation is the result of an interaction between a user and content (or functionality) that, because of a disability, makes it impossible for the user to access, perceive, understand or use it.
+A problem in accessibility is the result of an interaction between a user and the content (or functionality) that he or she tried to access, use, perceive or understand but couldn't because of a disability.
 
-Beyond the deficiencies, everyone is different and it would be futile to try to describe all the disability situations resulting from a lack of adaptation of the content and functionalities of a site or a web application.
+Looking beyong people's disability, everyone is different and it would be meaningless to describe all the accessibility problems resulting from the content and functionalities of a site or web application lacking adaptability.
 
-However, this first part focuses on the main difficulties and modes of interaction that characterise the disability situations experienced by these users.
+This first part focuses on what difficulties people will encounter during their experience or which kind of interaction will cause disturbance for these user's experience.
