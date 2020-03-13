@@ -4,7 +4,7 @@ menu-main:
         url: /index.html
 
     -   title: Disabilities
-        url: /about-persons-with-disabilities.html
+        url: /about-people-with-disabilities.html
 
     -   title: Understanding accessibility
         url: /accessibility.html
@@ -184,8 +184,8 @@ menu-technical-reference:
 
 menu-about-users:
 
-    -   title: About persons with disabilities
-        url: /about-persons-with-disabilities.html
+    -   title: About people with disabilities
+        url: /about-people-with-disabilities.html
 
     -   title: Visual disability
         url: /visual-disability.html
