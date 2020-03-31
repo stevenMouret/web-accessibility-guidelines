@@ -9,7 +9,7 @@
     "theme_color": "#78458E",
     "description": "The Web Accessibility Guidelines (WAG) is a Github pages that try to explain how to produce accessible content.",
     "orientation": "any",
-    "background_color": "transparent",
+    "background_color": "#ffffff",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
