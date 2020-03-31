@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Presentation of information
 
-Use [style sheets](glossary.html#mFeuilleStyle) to control [information presentation](glossary.html#mPresInfo). Check for the effect of [font size](glossary.html#mTailleCaractere) increasing on readability. Ensure that [links](glossary.html#mLien) can be correctly identified, that [focus](glossary.html#mPriseFocus) is specified, that line spacing is sufficient, and give the user the ability to control text justification. Ensure that hidden texts are [correctly rendered](glossary.html#mCorrectlyRendered) and that information is not conveyed only by an element's shape, size or location.
+Use style sheets to control information presentation. Check for the effect of font size increasing on readability. Ensure that links can be correctly identified, that focus is specified, that line spacing is sufficient, and give the user the ability to control text justification. Ensure that hidden texts are correctly rendered and that information is not conveyed only by an element's shape, size or location.
 {: .article-header__teaser}
 
 ### Synthesis

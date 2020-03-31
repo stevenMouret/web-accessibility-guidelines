@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Colors
 
-Do not provide [information through color](glossary.html#mInfoCouleur) only, and use sufficient color [contrasts](glossary.html#mContraste).
+Do not provide information through color only, and use sufficient color contrasts.
 {: .article-header__teaser}
 
 Colors are an important issue for users who do not perceive colors at all, especially people who are blind, have very low vision or who have color vision deficiencies (color blindness for example).

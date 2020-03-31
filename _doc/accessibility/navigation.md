@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Mandatory elements
 
-Facilitate navigation in a [set of pages](glossary.html#mEnsemblePages) through at least two different [navigation systems](glossary.html#mSysNav) ([navigation menu](glossary.html#mMenuNav), [site map](glossary.html#mPlanSite) or [search engine](glossary.html#mMoteurRecherche)), a breadcrumb trail and the indication of the active page in the navigation menu. Identify groups of important links and the [main content area](glossary.html#mMain), and provide the ability to avoid them through [skip links](glossary.html#mLienEvitement). Ensure that [tabbing order](glossary.html#mOrdTab) is [consistent](glossary.html#mCoherentODL) and that the page does not contain keyboard traps.
+Facilitate navigation in a set of pages through at least two different navigation systems (navigation menu, site map or search engine), a breadcrumb trail and the indication of the active page in the navigation menu. Identify groups of important links and the main content area, and provide the ability to avoid them through skip link. Ensure that tabbing order is consistent and that the page does not contain keyboard traps.
 {: .article-header__teaser}
 
 ### Synthesis

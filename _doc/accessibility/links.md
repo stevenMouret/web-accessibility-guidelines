@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Links
 
-Provide explicit [link text](glossary.html#mIntituleLien), through [context](glossary.html#mContexteLien) information if needed, and use the [link title](glossary.html#mTitreLien) as sparsely as possible.
+Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
 {: .article-header__teaser}
 
 For a visually impaired user who does not have a global view of the page, it is essential to understand the function of a link. Indeed, the visual context and proximity of information are not always available to these blind or partially sighted users.

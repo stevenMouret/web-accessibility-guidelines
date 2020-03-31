@@ -18,9 +18,9 @@ nav: menu-criteria
 
 ### Explanation
 
-HTML5 introduces the `figure` and `figcaption` tags in order to associate a [caption](../glossary.html#mImageCaption) with an image.
+HTML5 introduces the `figure` and `figcaption` tags in order to associate a caption with an image.
 
-It is important to do this when the [caption](../glossary.html#mImageCaption) contains information about the image, such as copyright, that a blind user might misinterpret by thinking that the caption information is about the associated text.
+It is important to do this when the caption contains information about the image, such as copyright, that a blind user might misinterpret by thinking that the caption information is about the associated text.
 
 The use of `figure` and `figcaption` requires certain adaptations to fill the possible lack of support by assistive technologies.
 

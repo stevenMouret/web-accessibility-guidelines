@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Images
 
-Give each [image conveying information](glossary.html#mImgInfo) a relevant [text alternative](glossary.html#mAltTexteImg) and a [detailed description](glossary.html#mDescDetaillee) if necessary. Replace images of text with [styled text](glossary.html#mTexteStyle) when possible.
+Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images of text with styled text when possible.
 {: .article-header__teaser}
 
 There are two types of images:

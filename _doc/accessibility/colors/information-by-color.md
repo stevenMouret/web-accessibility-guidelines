@@ -78,4 +78,4 @@ Added the require attribute on the field is not enough. People who do not use te
 ###### Fixed Apple menu
 ![Fixed menu example](../../img/color-3.2-2.png)
 
-In this menu we have added a shape (the triangle under the active item) and a code complement ([link title](../glossary.html#mTitreLien)).
+In this menu we have added a shape (the triangle under the active item) and a code complement (link title).

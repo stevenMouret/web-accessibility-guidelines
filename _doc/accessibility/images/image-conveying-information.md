@@ -149,7 +149,7 @@ From the Montague street go down to the Great Russell street and take on your ri
 
 #### Do not extrapolate the images
 
-![Lavender fields in the south of France](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Plateau_de_valensole1.JPG/320px-Plateau_de_valensole1.jpg)
+![Lavender fields in the south of France](../../img/320px-Plateau_de_valensole1.jpg)
 
 In this example the `alt` of the image is 'Lavender fields in the south of France'.
 No information in the image allows us to affirm that we are in the south of France. It is not relevant to specify this.

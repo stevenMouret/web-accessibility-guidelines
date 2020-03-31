@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Forms
 
-For each form, associate each [field](glossary.html#mChpSaisie) with its [label](glossary.html#mEtiquette), group fields in [similar blocks of information](glossary.html#mInfoMNature), structure [selection lists](glossary.html#mListeChoix) in a consistent way, give each [button](glossary.html#mBtnForm) an explicit label. Check that input help is available, ensure that the [input control](glossary.html#mControleSaisie) is accessible and that the user can control financial, legal or personal data.
+For each form, associate each field with its label, group fields in similar blocks of information, structure selection lists in a consistent way, give each button an explicit label. Check that input help is available, ensure that the input control is accessible and that the user can control financial, legal or personal data.
 {: .article-header__teaser}
 
 ### Synthesis

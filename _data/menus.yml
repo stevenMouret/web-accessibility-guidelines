@@ -164,24 +164,6 @@ menu-criteria:
             -   title: Moving or blinking content
                 url: /accessibility/consultation/moving-or-blinking-content.html
 
-menu-technical-reference-title: Technical reference
-menu-technical-reference:
-
-    -   title: Glossary
-        url: /accessibility/glossary.html
-
-    -   title: Particular cases
-        url: /accessibility/particular-cases.html
-
-    -   title: Technical notes
-        url: /accessibility/technical-notes.html
-
-    -   title: Baseline
-        url: /accessibility/baseline.html
-
-    -   title: Tools
-        url: /accessibility/tools.html
-
 menu-about-users:
 
     -   title: About people with disabilities

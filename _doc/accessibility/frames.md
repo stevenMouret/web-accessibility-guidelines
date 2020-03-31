@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Frames
 
-Provide each [inline frame](glossary.html#mCadreEnLigne) with a relevant title.
+Provide each inline frame with a relevant title.
 {: .article-header__teaser}
 
 Screen readers have advanced features for quick navigation by type of elements in the page or through a list of page elements.

@@ -5,7 +5,7 @@ nav: menu-criteria
 
 ## Information structure
 
-Use [headings](glossary.html#mTitre), landmarks, [lists](glossary.html#mListes), abbreviations and quotes to structure information. Ensure that the [document outline](glossary.html#mDocumentOutline) is coherent.
+Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
 {: .article-header__teaser}
 
 ### Synthesis
