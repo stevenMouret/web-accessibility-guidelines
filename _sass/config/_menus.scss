@@ -273,3 +273,15 @@
         text-transform: uppercase;
     }
 }
+
+.responsive-menu-button {
+    padding: 0.5rem 0;
+
+    span {
+        margin-right: 0.5rem;
+
+        &::before {
+            color: $color-1-1;
+        }
+    }
+}

@@ -112,6 +112,22 @@ const searchAnchorParam = () => {
     }
 };
 
+const burgerMenu = () => {
+    const responsiveMenu = document.getElementById('responsive-menu');
+
+    if (responsiveMenu) {
+        const responsiveMenuButton = document.getElementById("responsive-menu-button");
+
+        responsiveMenuButton.addEventListener('click', function () {
+            if (responsiveMenuButton.getAttribute('aria-expanded') === 'false') {
+                responsiveMenuButton.setAttribute('aria-expanded', true);
+            } else {
+                responsiveMenuButton.setAttribute('aria-expanded', false);
+            }
+        }, false);
+    }
+};
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -120,4 +136,5 @@ document.addEventListener("DOMContentLoaded", function() {
     searchAnchorParam();
     onChangeOnSelect();
     noOnChangeOnSelect();
+    burgerMenu();
 });

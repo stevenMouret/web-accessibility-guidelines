@@ -7,7 +7,8 @@
     {%- include header.html -%}
     <div class="container">
         {% if site.data.menus[page.nav] %}
-        <div class="column">
+        <button type="button" id="responsive-menu-button" class="responsive-menu-button" aria-expanded="false" aria-controls="responsive-menu"><span class="fas fa-bars" aria-hidden="true"></span>Thematics</button>
+        <div class="column" id="responsive-menu">
             <div class="column-wrapper">
                 {% if page.nav == 'menu-criteria' %}
                     {%- include menu-criteria.html -%}

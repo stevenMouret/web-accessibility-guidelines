@@ -53,6 +53,26 @@
     }
 }
 
+.responsive-menu-button {
+    display: block;
+
+    &[aria-expanded$="false"] + .column {
+        display: none;
+    }
+
+    &[aria-expanded$="true"] + .column {
+        display: block;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
+
+        &[aria-expanded$="false"] + .column {
+            display: block;
+        }
+    }
+}
+
 .column {
     border-right: 0.1rem solid rgba($color-black, .05);
     width: 100%;
