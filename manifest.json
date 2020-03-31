@@ -7,7 +7,7 @@
     "start_url": "index.html",
     "short_name": "WAG",
     "theme_color": "#78458E",
-    "description": "The Web Accessibility Guidelines (WAG) is a Github pages that try to explain how to produce accessible content.",
+    "description": "The Web Accessibility Guidelines (WAG) are Github pages that try to explain how to produce accessible content.",
     "orientation": "any",
     "background_color": "#ffffff",
     "related_applications": [],
@@ -15,7 +15,7 @@
     "icons": [
         {
             "src": "assets/images/favicon/favicon.ico",
-            "sizes": "48x48 32x32 16x16"
+            "sizes": "48x48"
         },
         {
             "src": "assets/images/favicon/8f300d1f-53be-1189-b9cc-532fcbffa56b.webPlatform.png",
