@@ -24,7 +24,7 @@ const precacheFiles = [
     "img/british-museum.png",
     "index.html",
     "about-me.html",
-    "about-persons-with-disabilities.html",
+    "about-people-with-disabilities.html",
     "accessibility.html",
     "hearing-disability.html",
     "mental-disability.html",
