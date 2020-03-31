@@ -2,7 +2,6 @@
 
 const CACHE = "pwabuilder-precache";
 const precacheFiles = [
-    "index.html",
     "assets/css/main.css",
     "assets/css/syntax.css",
     "https://use.fontawesome.com/releases/v5.5.0/css/all.css",
@@ -21,10 +20,24 @@ const precacheFiles = [
     "https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
     "https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwaPGR_p.woff2",
     "https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2",
+    "img/braille-terminal.jpg",
+    "img/british-museum.png",
+    "index.html",
     "about-me.html",
     "about-persons-with-disabilities.html",
+    "accessibility.html",
+    "hearing-disability.html",
+    "mental-disability.html",
+    "motor-disability.html",
+    "sources.html",
+    "techniques.html",
     "visual-disability.html",
-    "hearing-disability.html"
+    "techniques/accessible-icons.html",
+    "techniques/aria-label-labelledby-describedby.html",
+    "techniques/news-on-rgaa-v4.html",
+    "techniques/onchange-on-a-select.html",
+    "techniques/tools.html",
+    "accessibility/images/image-conveying-information.html"
 ];
 
 self.addEventListener("install", function (event) {
