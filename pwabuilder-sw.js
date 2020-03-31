@@ -2,6 +2,8 @@
 
 const CACHE = "pwabuilder-precache";
 const precacheFiles = [
+    "manifest.json",
+    "pwabuilder-sw.js",
     "assets/css/main.css",
     "assets/css/style.css",
     "assets/css/syntax.css",
