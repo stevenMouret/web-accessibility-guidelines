@@ -189,5 +189,3 @@ menu-techniques:
         url: /techniques/onchange-on-a-select.html
     -   title: aria-label, aria-labelledby and aria-describedby
         url: /techniques/aria-label-labelledby-describedby.html
-    -   title: News on the RGAA v4
-        url: /techniques/news-on-rgaa-v4.html
