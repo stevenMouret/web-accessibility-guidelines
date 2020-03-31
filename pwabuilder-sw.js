@@ -37,6 +37,7 @@ const precacheFiles = [
     "techniques/news-on-rgaa-v4.html",
     "techniques/onchange-on-a-select.html",
     "techniques/tools.html",
+    "accessibility/images.html",
     "accessibility/images/image-conveying-information.html"
 ];
 
