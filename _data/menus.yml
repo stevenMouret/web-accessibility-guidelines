@@ -148,8 +148,8 @@ menu-criteria:
                 url: /accessibility/navigation/sitemap.html
             -   title: Main contents identified
                 url: /accessibility/navigation/main-contents-identified.html
-            -   title: Bypass or skip links
-                url: /accessibility/navigation/bypass-or-skip-links.html
+            -   title: Access to the main content area
+                url: /accessibility/navigation/access-to-the-main-content-area.html
             -   title: Tab order and keyboard traps
                 url: /accessibility/navigation/tab-order-keyboard-traps.html
 
