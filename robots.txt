@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://stevenmouret.github.io/web-accessibility-guidelines/sitemap.xml
