@@ -152,7 +152,8 @@ function Add2HomeScreen() {
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
-        if (localStorage.getItem('myCat') !== 'false') {
+        console.log('');
+        if (localStorage.getItem('a2hs') !== 'false') {
             addBtn.style.display = 'block';
         }
 
