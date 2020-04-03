@@ -9,7 +9,6 @@ const precacheFiles = [
     "assets/css/syntax.css",
     "assets/images/pattern-1.png",
     "assets/js/main.js",
-    "assets/js/pwabuilder-sw-register.js",
     "https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-brands-400.woff2",
     "https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-regular-400.woff2",
     "https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.woff2",
