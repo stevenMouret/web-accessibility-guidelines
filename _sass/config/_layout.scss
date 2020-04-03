@@ -1,3 +1,14 @@
+.add-button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $color-1-2;
+    color: $color-white;
+    width: 100%;
+    padding: 1.5rem 1rem;
+}
+
 .site {
     height: 100%;
 }
