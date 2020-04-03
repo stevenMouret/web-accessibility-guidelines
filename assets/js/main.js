@@ -152,7 +152,9 @@ function Add2HomeScreen() {
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
-        addBtn.style.display = 'block';
+        if (localStorage.getItem('myCat') !== 'false') {
+            addBtn.style.display = 'block';
+        }
 
         addBtn.addEventListener('click', (e) => {
             addBtn.style.display = 'none';
@@ -162,6 +164,7 @@ function Add2HomeScreen() {
                     console.log('User accepted the A2HS prompt');
                 } else {
                     console.log('User dismissed the A2HS prompt');
+                    localStorage.setItem('a2hs', 'false');
                 }
                 deferredPrompt = null;
             });
