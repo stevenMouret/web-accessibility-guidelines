@@ -173,7 +173,7 @@ function Add2HomeScreen() {
         });
 
         closeBtn.addEventListener('click', (e) => {
-            a2hs.style.display = 'block';
+            a2hs.style.display = 'none';
             localStorage.setItem('a2hs', 'false');
         });
     });
