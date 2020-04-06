@@ -146,18 +146,20 @@ if ("serviceWorker" in navigator) {
 
 function Add2HomeScreen() {
     let deferredPrompt;
-    const addBtn = document.querySelector('.add-button');
-    addBtn.style.display = 'none';
+    const a2hs = document.querySelector('.a2hs');
+    const addBtn = a2hs.querySelector('.a2hs__button-install');
+    const closeBtn = a2hs.querySelector('.a2hs__button-close');
+    a2hs.style.display = 'none';
 
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
         if (localStorage.getItem('a2hs') !== 'false') {
-            addBtn.style.display = 'block';
+            a2hs.style.display = 'block';
         }
 
         addBtn.addEventListener('click', (e) => {
-            addBtn.style.display = 'none';
+            a2hs.style.display = 'none';
             deferredPrompt.prompt();
             deferredPrompt.userChoice.then((choiceResult) => {
                 if (choiceResult.outcome === 'accepted') {
@@ -168,6 +170,11 @@ function Add2HomeScreen() {
                 }
                 deferredPrompt = null;
             });
+        });
+
+        closeBtn.addEventListener('click', (e) => {
+            a2hs.style.display = 'block';
+            localStorage.setItem('a2hs', 'false');
         });
     });
 }
