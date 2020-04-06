@@ -5,6 +5,17 @@ const wrap = (el, wrapper, classWrapper) => {
     wrapper.appendChild(el);
 };
 
+function getCookie(name) {
+    const v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    return v ? v[2] : null;
+}
+
+function setCookie(name, value, days) {
+    const d = new Date;
+    d.setTime(d.getTime() + 24*60*60*1000*days);
+    document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+}
+
 // Scripts
 
 // Wrap table
@@ -143,7 +154,6 @@ if ("serviceWorker" in navigator) {
     }
 }
 
-
 function Add2HomeScreen() {
     let deferredPrompt;
     const a2hs = document.querySelector('.a2hs');
@@ -154,7 +164,7 @@ function Add2HomeScreen() {
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
-        if (localStorage.getItem('a2hs') !== 'false') {
+        if (!getCookie('a2hs')) {
             a2hs.style.display = 'block';
         }
 
@@ -166,7 +176,7 @@ function Add2HomeScreen() {
                     console.log('User accepted the A2HS prompt');
                 } else {
                     console.log('User dismissed the A2HS prompt');
-                    localStorage.setItem('a2hs', 'false');
+                    setCookie('a2hs', 'true', 30);
                 }
                 deferredPrompt = null;
             });
@@ -174,10 +184,16 @@ function Add2HomeScreen() {
 
         closeBtn.addEventListener('click', (e) => {
             a2hs.style.display = 'none';
-            localStorage.setItem('a2hs', 'false');
+            setCookie('a2hs', 'true', 30);
         });
     });
+
+    window.addEventListener('appinstalled', (e) => {
+        alert('The app has been successfully installed!');
+    });
 }
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     anchorHeadingLink();
