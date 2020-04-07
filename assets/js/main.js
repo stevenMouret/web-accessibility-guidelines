@@ -145,7 +145,7 @@ if ("serviceWorker" in navigator) {
     } else {
         // Register the service worker
         navigator.serviceWorker
-            .register("/web-accessibility-guidelines/assets/js/pwabuilder-sw.js", {
+            .register("/web-accessibility-guidelines/pwabuilder-sw.js", {
                 scope: "/web-accessibility-guidelines/"
             })
             .then(function (reg) {
