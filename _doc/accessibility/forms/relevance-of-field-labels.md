@@ -23,7 +23,8 @@ A field label is a **required** text that explains what data is expected by the 
 To be compliant, a label must:
 
 * be relevant;
-* be correctly connected to the corresponding field.
+* be correctly connected to the corresponding field;
+* visible.
 
 #### Relevance of field labels
 
