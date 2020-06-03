@@ -40,6 +40,12 @@
     }
 }
 
+.section-header {
+    &__title {
+        @extend %h2;
+    }
+}
+
 .content {
 
     h2, h3, h4, h5, h6 {
@@ -270,4 +276,47 @@
             background-color: $color-1-2;
         }
     }
+}
+
+.list {
+    &--posts {
+
+    }
+}
+
+.item--post {
+    margin: 3rem 0;
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        display: block;
+        background: rgba($color-black, 0.05);
+        margin-top: 3rem;
+    }
+}
+
+.post-header {
+    &__title {
+
+    }
+
+    &__info {
+        font-style: italic;
+        color: $color-1-5;
+        text-align: center;
+        margin-top: -2rem;
+    }
+}
+
+.article--post {
+    .description {
+        margin-top: 1rem;
+    }
+}
+
+.date {
+    font-style: italic;
+    color: $color-1-5;
 }

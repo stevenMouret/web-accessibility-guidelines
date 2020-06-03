@@ -62,6 +62,8 @@
     }
 
     a {
+        text-transform: capitalize;
+
         &:hover, &:focus {
             text-decoration: underline;
         }
@@ -284,4 +286,13 @@
             color: $color-1-1;
         }
     }
+}
+
+.nav--paginator {
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+.pagination {
+    margin: 0 2rem;
 }

@@ -29,6 +29,9 @@ collections:
   doc:
     output: true
     permalink: /:path.html
+  posts:
+    output: true
+    permalink: posts/:title:output_ext
 
 #
 # Default values
@@ -52,3 +55,7 @@ defaults:
 #
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10 # jekyll-paginate > items per page
+paginate_path: "/posts/page:num/"

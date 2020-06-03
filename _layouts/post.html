@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container -no-column">
+    <main class="page-content" role="main" id="content">
+        <div class="page-content__wrapper">
+            {%- include breadcrumb.html -%}
+            <article class="content">
+                <header class="post-header">
+                    <h2 class="post-header__title">{{ page.title }}</h2>
+                    {% if page.date or page.author %}
+                    <p class="post-header__info">
+                        {% if page.date %}
+                        <time class="date post-header__date" datetime="{{ page.date | date: "%Y-%m-%-d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+                        {% endif %}
+                        {% if page.author %}
+                        <span class="post-header__author">by {{ page.author }}</span>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                </header>
+                {% if page.image %}
+                <div class="post-banner">
+                    <img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" alt="">
+                </div>
+                {% endif %}
+                {{ content }}
+                <footer>
+                    <p><a href="{{ site.url }}{{ site.baseurl }}/posts">Back to the posts</a></p>
+                </footer>
+            </article>
+        </div>
+    </main>
+</div>
