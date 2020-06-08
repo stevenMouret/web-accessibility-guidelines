@@ -4,6 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="pBg6_5DbQjV4j0wilOMNqgD8WleO2wPC3cv1ihFJjcA" />
     <meta name="theme-color" content="#78458E"/>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    {% endif %}
+    {%if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+    {%endif %}
     <link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon/3109b0ea-e9ce-d7a8-432c-8812b5388fff.webPlatform.png">
     <link rel="manifest" href="{{ site.url }}{{ site.baseurl }}/manifest.json">
     <title>
