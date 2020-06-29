@@ -7,9 +7,9 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description | escape }}">
     {% endif %}
-    {%if page.tags %}
+    {% if page.tags %}
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-    {%endif %}
+    {% endif %}
     <link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon/3109b0ea-e9ce-d7a8-432c-8812b5388fff.webPlatform.png">
     <link rel="manifest" href="{{ site.url }}{{ site.baseurl }}/manifest.json">
     <title>
