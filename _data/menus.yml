@@ -63,8 +63,6 @@ menu-criteria:
                 url: /accessibility/links/explicit-link.html
             -   title: Link title
                 url: /accessibility/links/link-title.html
-            -   title: Identical link
-                url: /accessibility/links/identical-link.html
             -   title: Empty link
                 url: /accessibility/links/empty-link.html
 

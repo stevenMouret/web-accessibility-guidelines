@@ -2,6 +2,8 @@
 title: Link title
 navigation: links
 nav: menu-criteria
+description: What is an explicit link according to its context?
+tags: [link,context,explicit,accessible name]
 ---
 
 <header>
