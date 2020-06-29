@@ -41,9 +41,9 @@ The accessible name is determined according to a specific order.
 
 In the case of an HTML link, the accessible name is provided in the following order.
 
-* The content related to the `aria-labelledby` attribute
-* Otherwise, the content od the `aria-label` attribute.
-* Otherwise, the content of an `<a>` element (text, alt...)
+* The content related to the `aria-labelledby` attribute.
+* Otherwise, the content of the `aria-label` attribute.
+* Otherwise, the content of an `<a>` element (text, alt...).
 * Otherwise, the content of the `title` attribute.
 
 For example, for an `aria-label` attribute and link content, it is the content of the `aria-label` attribute that is considered the accessible name.
