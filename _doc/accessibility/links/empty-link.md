@@ -16,7 +16,7 @@ tags: [link,empty,accessible name]
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, motor impaired.
 
-**RGAA criteria:** [Criterion 6.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-6-5)
+**RGAA criteria:** [Criterion 6.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-6-2)
 {: .criteria }
 
 ### Explanation

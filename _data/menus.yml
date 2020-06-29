@@ -61,8 +61,6 @@ menu-criteria:
         sub:
             -   title: Explicit link
                 url: /accessibility/links/explicit-link.html
-            -   title: Link title
-                url: /accessibility/links/link-title.html
             -   title: Empty link
                 url: /accessibility/links/empty-link.html
 
