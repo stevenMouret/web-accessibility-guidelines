@@ -50,7 +50,7 @@ For example, for an `aria-label` attribute and link content, it is the content o
 
 As some properties override others, it is necessary to ensure that the entire content is rendered in the accessible name.
 
-In this exemple the `aria-label` attribute takes priority over the content of the link. The content of the link "Weather" must be filled in the `aria-label` attribute.
+In the exemple below the `aria-label` attribute takes priority over the content of the link. The content of the link "Weather" must be filled in the `aria-label` attribute.
 
 <a href="#" aria-label="Weather Cloud and rain">
     <span class="text">Weather:</span>
