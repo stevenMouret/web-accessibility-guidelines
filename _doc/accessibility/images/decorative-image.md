@@ -2,6 +2,8 @@
 title: Decorative image
 navigation: images
 nav: menu-criteria
+description: Decorative images don't convey information to the content of a page
+tags: [image,decorative]
 ---
 
 <header>
