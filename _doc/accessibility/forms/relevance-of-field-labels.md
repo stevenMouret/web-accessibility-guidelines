@@ -2,6 +2,8 @@
 title: Relevance of field labels
 navigation: forms
 nav: menu-criteria
+description: Label allows to identify the controls in a form
+tags: [label,accessible name, input, visible]
 ---
 
 <header>
@@ -13,7 +15,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-1) - [Criterion 11.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-2)
+**RGAA criteria:** [Criterion 11.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-1) - [Criterion 11.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-2)
 {: .criteria }
 
 ### Explanation
@@ -40,7 +42,7 @@ The most common and also the best method is the HTML relationship between the fi
 
 ```html
 <label for="name">Name</label>
-<input type="text" id="name" />
+<input type="text" id="name">
 ```
 
 The advantage of this implementation over all the others is that it extends the click area. Indeed, when the user clicks on the label, the focus is given directly to the corresponding field. In the case of a checkbox, clicking on the label allows you to check the checkbox.
@@ -55,20 +57,23 @@ Try not to hide the label in order to keep a large click area.
 A field can also be labeled via the `title` attribute.
 
 ```html
-<input type="text" id="recherche" title="Keyword to search for"/>
+<input type="text" id="recherche" title="Keyword to search for">
 ```
 
 This implementation is compliant, but we invite you to use this implementation only in limited cases. Indeed, the title attribute is only visible when the mouse hovers over it. A user who sees and navigates exclusively on the keyboard will not access this information. In the case of a complex form, this type of labelling can be a barrier to understanding for some users. In addition, for some motor disabilities, the click area is smaller when the label is not visible.
 
 The title attribute should preferably be used in cases where the context of the form field allows to understand its function, for example, the search field of the site. It is then accompanied by a "Search" validation button or an image button in the shape of a magnifying glass, which allows the function of the field to be deduced.
 
+##### With aria-label attribute
 
-<input type="text" id="phone" title="phone" />
+```html
+<span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
+<input type="text" id="phone" aria-label="Phone" aria-describedby="help-phone">
+<span id="help-phone">0768990886</span>
+```
 
-<p id="name">Name</p>
-<input type="text" id="name" aria-labelledby="name" />
-
-<input type="text" id="lastname" aria-label="lastname" />
+In technical assistance it is the `aria-label` attribute that identify the field. In a visual way, the information is transmitted through the icon and the `title` attribute on the icon.
+The use of the `aria-described` attribute allows here to make the relation with the [input help](input-help.html).
 
 ##### Placeholder, be careful
 
