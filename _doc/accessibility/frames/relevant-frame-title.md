@@ -18,6 +18,8 @@ nav: menu-criteria
 
 ### Explanation
 
+Users using screen reader, who do not perceive the content of an iframe before browsing it, need short information that presents this content.
+
 When you embed content from other websites via iframes, you must implement a `title` attribute on these frames that identify the content.
 
 You must give them sufficient information so that they know what types of content they will find there.
