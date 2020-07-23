@@ -90,8 +90,8 @@ menu-criteria:
         url: /accessibility/information-structure.html
         teaser: Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
         sub:
-            -   title: Structure information by titles
-                url: /accessibility/information-structure/structure-information-by-titles.html
+            -   title: Structure information by headings
+                url: /accessibility/information-structure/structure-information-by-headings.html
             -   title: Document outline
                 url: /accessibility/information-structure/document-outline.html
             -   title: Unordered, ordered and definition lists
