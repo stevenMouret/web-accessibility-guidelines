@@ -88,7 +88,7 @@ Not all images require alternative text. If the image is a decoration (it does n
 
 <p>
     <span class="fab fa-accessible-icon" aria-hidden="true"></span>
-    <span class="text">Accessibility</span>
+    <span class="text">Accessible location</span>
 </p>
 
 ```html
