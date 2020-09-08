@@ -164,4 +164,9 @@ In the specific case of credits, the use of a legend is the most appropriate.
 [How to integrate icons in an accessible way](../../techniques/accessible-icons.html).
 </div>
 
+#### Functional image
+
+An image can be used in a link, input, button and other interactive elements. The image alternative in this case must convey the function and the destination.
+For example a thumbnail that opens the image large in a modal window, the alternative will not be a description of the image but the action of opening the image.
+
 *[SVG]: Scalable Vector Graphics
