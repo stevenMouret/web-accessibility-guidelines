@@ -87,14 +87,14 @@ Another way of doing things:
 * `title` attribute give a visual information.
 * Hidden text is rendered in assistive technologies.
 
-<span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+<span class="fas fa-trash-alt tooltip" aria-hidden="true" title="Remove"></span>
 <span class="sr-only">Remove</span>
 <a href="#">
     <span class="text">News (15)</span>
 </a>
 
 ```html
-<span class="fas fa-trash-alt" aria-hidden="true" title="Remove"></span>
+<span class="fas fa-trash-alt tooltip" aria-hidden="true" title="Remove"></span>
 <span class="sr-only">Remove</span>
 <a href="#">
     <span class="text">News (15)</span>
