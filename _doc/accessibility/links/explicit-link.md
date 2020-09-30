@@ -85,3 +85,13 @@ For example, notifying users of the opening of a new window is useful for all us
 * If I look at the text of my links, do I understand where I'm going by clicking on them?
 * Avoid generic link text such as: click here, here, read more, visit this page, download...
 </div>
+
+#### Image used alone as a linked logo
+
+In the case of a link on an image, the text of the link is the image's alternative. This alternative must indicate the function and destination and not the description of the image.
+
+```html
+<a href="https://www.gov.uk">
+    <img src="govuk.png" alt="gov.uk home page">
+</a>
+```
