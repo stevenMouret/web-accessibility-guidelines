@@ -61,3 +61,8 @@ The contrast ratio is at least 3:1 of:
 <div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you don't see these tools, go to `about:config` and search the property "gfx.webrender.all". This property must be to `true`.
+
+#### Other tools
+
+* [Button Contrast Checker](https://www.aditus.io/button-contrast-checker/)
+* [A11Y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
