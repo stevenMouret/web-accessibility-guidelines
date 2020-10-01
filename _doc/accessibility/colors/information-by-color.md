@@ -78,4 +78,8 @@ Added the require attribute on the field is not enough. People who do not use te
 ###### Fixed Apple menu
 ![Fixed menu example](../../img/color-3.2-2.png)
 
-In this menu we have added a shape (the triangle under the active item) and a code complement (link title).
+In this menu we have added a shape (the triangle under the active item) and a code complement (link title attribute).
+
+In this example, to replace the `title` attribute, it also possible to use the [`aria-current`](https://www.w3.org/TR/wai-aria-1.1/#aria-current) attribute to give a state to the element through the code.
+
+
