@@ -35,13 +35,13 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 
 #### Text without bold
 
-* Less than 24px: The contrast ratio is at least 4.5:1.
-* Greater than or equal to 24px: The contrast ratio is at least 3:1.
+* Less than 24px: the contrast ratio is at least 4.5:1.
+* Greater than or equal to 24px: the contrast ratio is at least 3:1.
 
 #### Text with bold
 
-* Less than 18.5px: The contrast ratio is at least 4.5:1.
-* Greater than or equal to 18.5px: The contrast ratio is at least 3:1.
+* Less than 18.5px: the contrast ratio is at least 4.5:1.
+* Greater than or equal to 18.5px: the contrast ratio is at least 3:1.
 
 #### The interface components or graphical elements that convey information
 
