@@ -82,7 +82,7 @@ The hierarchy of the content must be respected through the headings. This exampl
 #### Some received ideas
 
 ##### A lack of headings
-Although it is preferable to use headings for content sections, this does not represent non-compliance.
+Even if it is preferable to use headings for content sections, this does not represent non-compliance.
 
 ##### Missing h1
 Similarly, it is not mandatory to beginning a heading hierarchy with an `<h1>`.
@@ -90,7 +90,7 @@ Similarly, it is not mandatory to beginning a heading hierarchy with an `<h1>`.
 ##### A single `<h1>`
 Very often the heading `<h1>` is reserved for the main heading of the page, but this is not a requirement. Having several `<h1>` does not represent a non-compliance.
 
-##### Skipped heanding levels
+##### Skipped heading levels
 A hole in the heading hierarchy (such as having an `<h2>` followed by an `<h4>`) does not help to convey a logical hierarchy of headings, however, it does not represent a non-compliance.
 
 ##### Examples: Headings in a 3-column layout
@@ -127,7 +127,7 @@ Sometimes for SEO reasons, it is not advisable to markup heading of some content
 ```
 
 ```html
-<div role="heading" aria-level="1">News flash</div>
+<p role="heading" aria-level="1">News flash</p>
 ```
 
 
