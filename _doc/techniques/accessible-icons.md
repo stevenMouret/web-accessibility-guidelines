@@ -128,23 +128,25 @@ In our case we will add the information related to the phone but also to the ope
 
 ##### 1.2.3 With visible text in a link that opens in a new window
 
-The 'Cloud and Rain' icon convey information so it is important to provide an alternative.
-
-* With `aria-hidden` attribute, the icon will not be read by the technical assistance. Here no `title` attribute on the icon because we already use it on the link.
-* When CSS is disabled the icon is invisible, this information (Cloud and rain) will be added in the `title` attribute of the link.
-* `aria-label` attribute override the content text and the `title` attribute in the assistive technologies. This is why it includes all the information of the link.
-* As the link opens in a new window, give us this additional information with the `title` attribute of the link. This `title` attribute contains the entire text of the link as well as information about the new window.
-
-<a href="#" target="_blank" title="Weather Cloud and rain New window" class="new-window-off">
-    <span class="text">Weather:</span>
-    <span class="fas fa-cloud-rain" aria-hidden="true"></span>
+<a href="https://www.w3.org/WAI/" target="_blank">
+    Discover the Web Accessibility Initiative (new window)
 </a>
 
 ```html
-<a href="#" target="_blank" title="Weather Cloud and rain New window" aria-label="Weather Cloud and rain New window">
-    <span class="text">Weather:</span>
-    <span class="fas fa-cloud-rain" aria-hidden="true"></span>
+<a href="https://www.w3.org/WAI/" target="_blank">
+    Discover the Web Accessibility Initiative (new window)
 </a>
+```
+
+<a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
+    Discover the Web Accessibility Initiative
+</a><span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+
+```html
+<a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
+    Discover the Web Accessibility Initiative
+</a>
+<span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
 ```
 
 ##### 1.2.4 Icon font in a link or a button
