@@ -22,16 +22,16 @@ This character, which should not be returned to the user, is therefore read. In 
 A simple example, in order not to read the CSS content property in assistive technology, we add an `aria-hidden` attribute to true on the span with the icon.
 The icon being decorative, the text being visible and explicit, there is no need for anything else.
 
-<a href="#">
+<button type="button">
     <span class="fas fa-bars" aria-hidden="true"></span>
     <span class="text">Menu</span>
-</a>
+</button>
 
 ```html
-<a href="#">
+<button type="button">
     <span class="fas fa-bars" aria-hidden="true"></span>
     <span class="text">Menu</span>
-</a>
+</button>
 ```
 
 #### 1.2 Icon conveying information
