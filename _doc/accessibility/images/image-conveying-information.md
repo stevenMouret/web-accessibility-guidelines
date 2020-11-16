@@ -77,15 +77,22 @@ In this case without alternative, it is impossible to distinguish between the te
 In any case, if the graphical display of a telephone is used, it is therefore necessary to provide the same information and therefore to provide an alternative.
 
 ##### With icon font
-```html
 <p>
-    <span class="fas fa-phone" aria-hidden="true" title="Phone"></span>
-    <span class="sr-only">phone</span>
+    <span class="fas fa-phone" role="img" aria-label="Phone"></span>
     <span class="text">04 94 45 32 28</span>
 </p>
 <p>
-    <span class="fas fa-fax" aria-hidden="true" title="Fax"></span>
-    <span class="sr-only">fax</span>
+    <span class="fas fa-fax" role="img" aria-label="Fax"></span>
+    <span class="text">04 94 45 32 29</span>
+</p>
+
+```html
+<p>
+    <span class="fas fa-phone" role="img" aria-label="Phone"></span>
+    <span class="text">04 94 45 32 28</span>
+</p>
+<p>
+    <span class="fas fa-fax" role="img" aria-label="Fax"></span>
     <span class="text">04 94 45 32 29</span>
 </p>
 ```
