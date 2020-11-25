@@ -5,25 +5,25 @@ nav: menu-techniques
 
 ## ARIA attributes aria-label, aria-labelledby and aria-describedby
 
-The accessible name allows you to identify an element and return it to technical assistance (TA). It is provided by:
+The accessible name allows to identify an element and returns it to technical assistance (TA). It is provided by:
 
-* The text of the element,
-* an attribute, (an `alt` attribute on an `<image>`)
-* or by an associated element (a `<label>` tag for example)
+* the text of the element,
+* an attribute (an `alt` attribute on an `<image>`),
+* or by an associated element (a `<label>` tag for example).
 
-An accessible description allows you to give additional information to an accessible name.
+An accessible description allows to give additional information to an accessible name.
 
-* `aria-label`, `aria-labelledby` allow you to give an accessible name to an element.
-* `aria-describedby` allows you to add a description to the accessible name.
+* `aria-label` and `aria-labelledby` provide an accessible name to an element;
+* `aria-describedby` provides a description to the accessible name.
 
 ### How to use them?
 
-* `aria-label` expects a string of characters in value, it will be the accessible name.
+* `aria-label` expects a string of characters in value, it will be the accessible name;
 * `aria-labelledby` and `aria-describedby` refer to the element id(s) on the page.
 
 <div class="important">
 <svg role="img" aria-label="Important" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="36"><title>Important</title><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>
-When using `aria-label` or `aria-labelledby`, the text of the element is no longer returned to the TA. It is replaced by the accessible name. The accessible name must therefore contain all the information necessary for the user.
+When using `aria-label` or `aria-labelledby`, the text of the element is no longer returned to the TA. It is replaced by the accessible name. The accessible name must therefore contains all the information necessary for the user.
 </div>
 
 <div class="tip">

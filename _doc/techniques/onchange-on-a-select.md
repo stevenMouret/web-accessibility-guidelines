@@ -15,14 +15,14 @@ To see this, try selecting the last option in the select below.
 
 <label for="select">Your favorite GAFA</label><select name="select" id="select"><option value="0">-- Nothing --</option><option value="https://www.google.com">Google</option><option value="https://www.apple.com">Apple</option><option value="https://www.facebook.com">Facebook</option><option value="https://www.amazon.com">Amazon</option></select>
 
-**You can't**, onChange event reload the page always on the first option.
+**You can't !** The onChange event always reloads the page when the first option is selected.
 
 Here are two issues:
-* The user cannot select the desired option.
-* The user is not notified of the event that will redirect him/her to another page.
+* the user cannot select the desired option;
+* the user is not notified of the event that will redirect him/her to another page.
 
 ### A simple solution
 
-Remove onChange event and add a button.
+Remove onChange event and add a submit button.
 
 <label for="select2">Your favorite GAFA *(external redirection)*</label><select name="select2" id="select2"><option value="0">-- Nothing --</option><option value="https://www.google.com">Google</option><option value="https://www.apple.com">Apple</option><option value="https://www.facebook.com">Facebook</option><option value="https://www.amazon.com">Amazon</option></select><button type="submit" id="submit">Submit</button>

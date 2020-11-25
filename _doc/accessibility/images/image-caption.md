@@ -18,15 +18,15 @@ nav: menu-criteria
 
 ### Explanation
 
-HTML5 introduces the `figure` and `figcaption` tags in order to associate a caption with an image.
+HTML5 introduces the `figure` and `figcaption` tags that associate a caption with an image.
 
 It is important to do this when the caption contains information about the image, such as copyright, that a blind user might misinterpret by thinking that the caption information is about the associated text.
 
 The use of `figure` and `figcaption` requires certain adaptations to fill the possible lack of support by assistive technologies.
 
 * The `<figure>` tag has a `role="figure"` or `role="group"` attribute;
-* the `<figure>` tag has a `aria-label` attribute with the same content of the caption;
-* the caption is included in a `<figcaption>` tag.
+* The `<figure>` tag has a `aria-label` attribute with the same content of the caption;
+* The caption is included in a `<figcaption>` tag.
 
 ```html
 <figure role="group" aria-label="copyright 2016 author name">
@@ -44,5 +44,5 @@ Not mandatory but highly recommended, the "See caption below" text in the image 
 
 #### Difference between the alternative of an image and the caption
 
-* The image alternative makes it possible to describe what the image conveys that is not in the context.
-* The caption of an image provides additional information that the image does not convey.
+* The image alternative makes it possible to describe what the image conveys that is not in the context;
+* The caption of an image conveys additional information that the image does not convey.

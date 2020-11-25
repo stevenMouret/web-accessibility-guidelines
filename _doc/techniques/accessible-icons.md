@@ -19,7 +19,7 @@ This character, which should not be returned to the user, is therefore read. In 
 
 ##### 1.1.1 With visible text
 
-A simple example, in order not to read the CSS content property in assistive technology, we add an `aria-hidden` attribute to true on the span with the icon.
+A simple example, in order not to read the CSS content property in assistive technology, we add an `aria-hidden` attribute to true on the span that displays the icon.
 The icon being decorative, the text being visible and explicit, there is no need for anything else.
 
 <button type="button">
@@ -38,11 +38,11 @@ The icon being decorative, the text being visible and explicit, there is no need
 
 ##### 1.2.1 With visible text
 
-The fax icon provides information. If you hide this icon, you do not know that it is a fax number and not a phone number. It is therefore important to return this information to the user.
+The fax icon conveys information. If you hide this icon, you do not know that it is a fax number and not a phone number. It is therefore important to return this information to the user.
 
-To do this, we use a visually hidden text and the `title` attribute.
-* The class sr-only hide visually the text but this text can be read in the assistive technologies.
-* The `title` attribute allows you to give visual information for people who do not understand the icon.
+To do this, we use a visually hidden text and the `title` attribute:
+* The class sr-only visually hides the text, but this text can be read in the assistive technologies;
+* The `title` attribute provides a visual information for people who do not understand the icon.
 
 <p>
     <span class="fas fa-fax tooltip" aria-hidden="true" title="Fax"></span>
@@ -62,11 +62,11 @@ To do this, we use a visually hidden text and the `title` attribute.
 
 ###### 1.2.2.1
 
-The trash icon provides information, the purpose of this link is to delete an element. This information should not only be visual.
+The trash icon conveys information, the purpose of this link is to delete an element. This information should not be only visual:
 
-* With `aria-hidden` attribute, the icon will not be read by the assistive technologies.
-* `aria-label` attribute override the content text and the `title` attribute in the assistive technologies.
-* `title` is a visual information, a JS script is added to display the `title` on hover and focus.
+* With `aria-hidden` attribute, the icon will not be read by the assistive technologies;
+* The `aria-label` attribute overrides the content text, and the `title` attribute in the assistive technologies;
+* The `title` is a visual information, but a JS script is added to display the `title` on hover and focus.
 
 <a href="#" title="Remove News (15)" aria-label="Remove News (15)">
     <span class="fas fa-trash-alt" aria-hidden="true"></span>
@@ -80,11 +80,11 @@ The trash icon provides information, the purpose of this link is to delete an el
 </a>
 ```
 
-Another way of doing things:
+Another way to do things:
 
-* Icon is positioned before the link.
-* With `aria-hidden` attribute, the icon will not be read by the assistive technologies.
-* `title` attribute give a visual information.
+* Icon is positioned before the link;
+* With `aria-hidden` attribute, the icon will not be read by the assistive technologies;
+* The `title` attribute give a visual information;
 * Hidden text is rendered in assistive technologies.
 
 <span class="fas fa-trash-alt tooltip" aria-hidden="true" title="Remove"></span>
@@ -105,14 +105,14 @@ Another way of doing things:
 ###### 1.2.2.2
 
 Another very frequent example.
-The phone icon provides information. If you hide this icon, you do not know that it is a phone number and not a fax number. It is therefore important to return this information to the user.
-In our case we will add the information related to the phone but also to the opening of the call manager because there is in the href the element tel:.
+The phone icon conveys information. If you hide this icon, you do not know if it is a phone number or a fax number. It is therefore important to return this information to the user.
+In our case, we will add the information related to the phone but also to the opening of the call manager because there is the element tel: in the `href` attribute.
 
-* With `aria-hidden` attribute, the icon will not be read by the technical assistance.
-* When CSS is disabled the icon is invisible, this information (Phone) will be added in the `title` and `aria-label` attributes of the link.
-* `aria-label` attribute override the content text and the `title` attribute in the assistive technologies. This is why it includes all the information of the link.
-* `title` is a visual information, a JS script is added to display the `title` on hover and focus.
-* As the link opens in the call manager, give us this additional information with the `title` and `aria-label` attribute of the link.
+* With `aria-hidden` attribute, the icon will not be read by the technical assistance;
+* When CSS is disabled, the icon is invisible, and this information (phone) is added in the `title` and `aria-label` attributes of the link;
+* The `aria-label` attribute overrides the content text, and the `title` attribute in the assistive technologies. This is why it includes all the information of the link;
+* The `title` is a visual information, a JS script is added to display the `title` on hover and focus;
+* As the link opens the call manager, it provides this additional information with the `title` and `aria-label` attribute of the link.
 
 <a href="tel:01708X4596" class="new-window-off" title="Phone 01 70 8X 45 96 opening of the call manager" aria-label="Phone 01 70 8X 45 96 opening of the call manager">
     <span class="fas fa-mobile" aria-hidden="true"></span>
@@ -151,9 +151,9 @@ In our case we will add the information related to the phone but also to the ope
 
 ##### 1.2.4 Icon font in a link or a button
 
-In this case there is no visible text. It is therefore important to provide visual and code information for assistive technologies.
+In this case, there is no visible text. It is important to provide visual and code information for assistive technologies.
 
-* For the visual part, we add a `title` attribute on the link.
+* For the visual part, we add a `title` attribute on the link;
 * For assistive technologies, we add `aria-label` attribute.
 
 <a href="#" title="Home" aria-label="Home">
@@ -194,7 +194,7 @@ In this case there is no visible text. It is therefore important to provide visu
 
 ##### 2.1.1 With visible text
 
-As for an icon font the SVG being decorative we add the `aria-hidden` attribute to true so that it is not read in the assistive technology.
+As for an icon font, the SVG being decorative, we add the `aria-hidden` attribute to true so that it is not read in the assistive technology.
 
 <a href="#">
     <svg aria-hidden="true" width="13" height="15" fill="#78458E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"/></svg>
@@ -212,10 +212,10 @@ As for an icon font the SVG being decorative we add the `aria-hidden` attribute 
 
 #### 2.2 Icon conveying information
 
-For all SVG who convey information it is necessary to provide an alternative and modify the role of the SVG.
+For all SVG that convey information, it is necessary to provide an alternative and modify the role of the SVG:
 
-* Adding the `role` attribute to img.
-* Adding the `aria-label` attribute for assistive technologies.
+* Adding the `role` attribute to img;
+* Adding the `aria-label` attribute for assistive technologies;
 * Adding in the `<svg>` a `<title>` to give visual information.
 
 ##### 2.2.1 With visible text

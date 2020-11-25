@@ -22,8 +22,8 @@ When text images can be reproduced in HTML and CSS, you should not use an image.
 
 * when the fonts used are not complex fonts,
 * when the image does not play on a distortion of the font,
-* or when the font is not a font that would be difficult to reproduce.
+* or when the font is not difficult to reproduce.
 
-In all other cases, the texts must be made in HTML and CSS, in order to allow users who need to adapt their readability (enlargement of characters, modification of colours, fonts...).
+In all other cases, the texts must be made in HTML and CSS, to allow users who need to adapt their readability (enlargement of characters, modification of colours, fonts...).
 
-It is also possible to keep the text images and provide the user with a replacement mechanism that allows him, with a button for example, to replace all the text images with stylish texts.
+It is also possible to keep the text images and provide the user a replacement mechanism that allows him, with a button for example, to replace all the text images with styled texts.
