@@ -35,14 +35,32 @@ When using `aria-label` or `aria-labelledby`, the text of the element is no long
 ```html
 <button aria-label="Close" type="button">X</button>
 ```
-The render in TA: Close
+The render in AT: Close<br>
+The content of the button is not rendered, `aria-label` attribute override it.
 
 #### aria-labelledby
+
 ```html
 <p id="name">Name</p>
 <input type="text" aria-labelledby="name">
 ```
-The render in TA: Name
+The render in AT: Name
+
+```html
+<a href="http://www.w3c.org" aria-labelledby="label">W3C</a>
+<p id="label" hidden>W3C World Wide Web Consortium</p>
+```
+render in AT : W3C World Wide Web Consortium Link<br>
+Override the content of the element. Only `aria-labelledby` attribute is rendered in the AT.
+
+#### aria-describedby
+
+```html
+<a href="http://www.w3c.org" aria-describedby="description">W3C</a>
+<p id="description">World Wide Web Consortium</p>
+```
+render in AT : W3C Link World Wide Web Consortium<br>
+The content of the element **and** the `aria-describedby` attribute element are rendered in the AT.
 
 #### aria-labelledby and aria-describedby
 ```html
@@ -50,6 +68,6 @@ The render in TA: Name
 <input type="text" aria-labelledby="birdthday" aria-describedby="dateformat">
 <p id="dateformat">(yyyy/mm/dd)</p>
 ```
-The render in TA: Birthday (yyyy/mm/dd)
+The render in AT: Birthday (yyyy/mm/dd)
 
-*[TA]: Technical assistance
+*[AT]: assistive technology
