@@ -45,6 +45,8 @@ To evaluate the contrasts of the elements you insert, you can use tools:
 
 #### The interface components or graphical elements that convey information
 
+An interface component is an element with which the user can interact such as a button, a link, an input field...
+
 The contrast ratio is at least 3:1 of:
 
 * The colors of an interface component in its different states and the background color.
