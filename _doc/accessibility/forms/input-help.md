@@ -52,7 +52,7 @@ Example:
 <form method="post" action="step2">
   <div>
    <label for="title">Title</label>
-   <select required="required" name="title" id="title" autocomplete="honorific-prefix">
+   <select id="title" name="title" autocomplete="honorific-prefix">
        <option value="ms">Ms</option>
        <option value="mrs">Mrs</option>
        <option value="mr">Mr</option>
