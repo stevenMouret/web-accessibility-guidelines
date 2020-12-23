@@ -50,9 +50,18 @@ Example:
 
 ```html
 <form method="post" action="step2">
- <div>
+  <div>
+   <label for="title">Title</label>
+   <select required="required" name="title" id="title" autocomplete="honorific-prefix">
+       <option value="ms">Ms</option>
+       <option value="mrs">Mrs</option>
+       <option value="mr">Mr</option>
+       <option value="mx">Mx</option>
+   </select>
+  </div>
+  <div>
    <label for="fname">First Name</label>
-  <input id="fname" type="text" autocomplete="given-name">
+   <input id="fname" type="text" autocomplete="given-name">
   </div>
   <div>
     <label for="lname">Last Name</label>
