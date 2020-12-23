@@ -36,5 +36,5 @@ On the other hand, if the choice list offers a number of options that can be gro
         <option value="4">Carrots</option>
         <option value="5">Cucumbers</option>
     </optgroup>
-<select>
+</select>
 ```
