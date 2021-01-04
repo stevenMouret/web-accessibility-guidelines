@@ -80,28 +80,6 @@ The trash icon conveys information, the purpose of this link is to delete an ele
 </a>
 ```
 
-Another way to do things:
-
-* Icon is positioned before the link;
-* With `aria-hidden` attribute, the icon will not be read by the assistive technologies;
-* The `title` attribute give a visual information;
-* Hidden text is rendered in assistive technologies.
-
-<span class="fas fa-trash-alt tooltip" aria-hidden="true" title="Remove"></span>
-<span class="sr-only">Remove</span>
-<a href="#">
-    <span class="text">News (15)</span>
-</a>
-
-```html
-<span class="fas fa-trash-alt tooltip" aria-hidden="true" title="Remove"></span>
-<span class="sr-only">Remove</span>
-<a href="#">
-    <span class="text">News (15)</span>
-</a>
-```
-
-
 ###### 1.2.2.2
 
 Another very frequent example.
@@ -139,14 +117,14 @@ In our case, we will add the information related to the phone but also to the op
 ```
 
 <a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
-    Discover the Web Accessibility Initiative
-</a><span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+    Discover the Web Accessibility Initiative <span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+</a>
 
 ```html
 <a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
     Discover the Web Accessibility Initiative
+    <span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
 </a>
-<span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
 ```
 
 ##### 1.2.4 Icon font in a link or a button
@@ -158,33 +136,39 @@ In this case, there is no visible text. It is important to provide visual and co
 
 <a href="#" title="Home" aria-label="Home">
     <span class="fas fa-home" aria-hidden="true"></span>
+    <span class="sr-only">Home</span>
 </a>
 
 ```html
 <a href="#" title="Home" aria-label="Home">
     <span class="fas fa-home" aria-hidden="true"></span>
+    <span class="sr-only">Home</span>
 </a>
 ```
 
 <button type="submit" title="Filter news" aria-label="Filter news">
     <span class="fas fa-filter" aria-hidden="true"></span>
+    <span class="sr-only">Filter news</span>
 </button>
 
 ```html
 <button type="submit" title="Filter news" aria-label="Filter news">
     <span class="fas fa-filter" aria-hidden="true"></span>
+    <span class="sr-only">Filter news</span>
 </button>
 ```
 
 ##### 1.2.5 Icon font in a link or a button that opens in a new window
 
-<a href="#" target="_blank" class="new-window-off" title="Share on Facebook new window" aria-label="Share on Facebook new window">
+<a href="#" target="_blank" class="new-window-off" title="Share on Facebook, new window" aria-label="Share on Facebook, new window">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
+    <span class="sr-only">Share on Facebook, new window</span>
 </a>
 
 ```html
-<a href="#" target="_blank" title="Share on Facebook new window" aria-label="Share on Facebook new window">
+<a href="#" target="_blank" title="Share on Facebook, new window" aria-label="Share on Facebook, new window">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
+    <span class="sr-only">Share on Facebook, new window</span>
 </a>
 ```
 
