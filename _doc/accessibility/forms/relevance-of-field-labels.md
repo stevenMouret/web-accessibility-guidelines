@@ -26,7 +26,6 @@ To be compliant, a label must:
 
 * be relevant;
 * be correctly connected to the corresponding field;
-* visible.
 
 #### Relevance of field labels
 
