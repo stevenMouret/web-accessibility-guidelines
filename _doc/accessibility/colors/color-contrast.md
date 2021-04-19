@@ -18,18 +18,18 @@ nav: menu-criteria
 
 ### Explanation
 
-For a user who has difficulty perceiving contrasts, some writings may be impossible to read if the writing colour is not sufficiently contrasted with the background colour.
+For a user who has difficulties perceiving contrasts, a text may be impossible to read if its colour is not sufficiently contrasted with the background colour.
 
 These contrasts concern:
 
-* the text and the text present in the image;
-* the interface components or graphical elements that convey information
+* the text and the text present in the image,
+* the interface components or graphical elements that convey information.
 
 There are values that provide sufficient minimum contrast for a large proportion of users with color perception difficulties.
 
-To evaluate the contrasts of the elements you insert, you can use tools:
+To evaluate the contrasts of an element, you can use the following tools:
 
-* [**Color Contrast Analyzer**](https://developer.paciellogroup.com/resources/contrastanalyser/) thanks to a pipette, you can go and pick colours from all document formats (web, office, video, etc.) for analysis;
+* [**Color Contrast Analyzer**](https://developer.paciellogroup.com/resources/contrastanalyser/) thanks to a pipette, you can go and pick any colours displayed on the screen, from any kind of document (web, office, video, etc.) for analysis;
 * Lighthouse in Google **Chrome** browser allows you to quickly check your web page for text content.
 * Contrast tools is available in Mozilla **Firefox** developer tools in accessibility tab.
 
@@ -53,14 +53,14 @@ The contrast ratio is at least 3:1 of:
 * The different colors composing a graphic element and its background color.
 * The different colors composing a graphic element.
 
-#### Special case
+#### Derogated cases
 * The text is part of a logo or brand name of an organization or company.
 * The text or graphic element is purely decorative.
 * The text or graphical element is part of an interface element on which no action is possible (e.g. a button with the disabled attribute).
 
 #### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
-<div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" width="560" height="315" src="https://www.youtube.com/embed/eBefjaWud-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" src="https://www.youtube.com/embed/eBefjaWud-M" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you don't see these tools, go to `about:config` and search the property "gfx.webrender.all". This property must be to `true`.
 
