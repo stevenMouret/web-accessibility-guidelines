@@ -75,7 +75,7 @@ The `title` attribute is not a robust way to create an explicit link, it cannot 
 
 #### By itself, added by its context
 It is always better to have explicit links out of context, i.e. understandable by themselves. Indeed, screen reader users are used to navigating from title to title, from iframe to iframe or from link to link and in this case they do not have the context.
-However, it is not always possible to make explicit links out of context, in which case it is necessary to ensure that the context makes the link explicit. To make a link explicit it is necessary to understand its function (the nature of the link) and its destination.
+However, it is not always possible to make explicit links out of context, in which case it is necessary to ensure that the context makes the link explicit. To make an explicit link, it is necessary to understand its function (the nature of the link) and its destination.
 A link that is not explicit without its context can be of the type:
 * "[See the RSS feed](#)", the RSS feed of what?
 * "[More information](#)", information about what?
