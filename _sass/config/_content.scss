@@ -1,5 +1,6 @@
 
 
+
 %h2  {
     font-size: 4rem;
     font-weight: 900;
@@ -87,6 +88,10 @@
         margin-bottom: 2rem;
     }
 
+    input + p {
+        margin-top: 0;
+    }
+
     img {
         border: 2px solid #f8f8f8;
         margin: 1rem 0;
@@ -110,6 +115,17 @@
     blockquote {
         background: rgba($color-black, 0.05);
         padding: 1rem;
+        border-left: 1rem solid $color-1-1;
+        margin: 2rem 0;
+        font-family: Georgia,Times,'Times New Roman',serif;
+
+        p {
+            font-size: 2rem;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
+        }
     }
 
     .highlight pre {

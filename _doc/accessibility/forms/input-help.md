@@ -18,7 +18,6 @@ nav: menu-criteria
 {: .criteria }
 
 ### Explanation
-
 For all required fields that require a particular format, you must indicate this to the user.
 
 For example, a date field waits for the day, month and year values to be distinguished by a slash to be compliant. You must therefore indicate "yyyy-mm-dd" which corresponds to the input format.
