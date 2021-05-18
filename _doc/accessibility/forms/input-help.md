@@ -1,6 +1,7 @@
 ---
 title: Input help
 navigation: forms
+description: Help users complete a field that requires specific data formats
 nav: menu-criteria
 ---
 
@@ -29,8 +30,8 @@ For example, a date field waits for the day, month and year values to be disting
 You also have the attribute `aria-describedby` which allows you to reference the value of the identifier of a text passage containing the format indication. The use of `aria-describedby` on the form field will restore the text passage in addition to the label regardless of the method used: `<label>`, `title`, etc. unlike `aria-labelledby`.
 
 ```html
-<label for="birthday">Birthday</label>
-<input type="text" name="birthday" id="birthday" aria-describedby="format-date">
+<label for="birthday">Birthday <span aria-hidden="true">(required)</span></label>
+<input type="text" name="birthday" id="birthday" aria-describedby="format-date" required>
 <p id="format-date">aaaa/mm/dd</p>
 ```
 
