@@ -3,9 +3,9 @@ title:  onChange on a select
 nav: menu-techniques
 ---
 
-## onChange on a select
+# onChange on a select
 
-### The problem
+## The problem
 
 Users using the keyboard cannot make a selection in a select when the event on it is onChange.
 
@@ -21,7 +21,7 @@ Here are two issues:
 * the user cannot select the desired option;
 * the user is not notified of the event that will redirect him/her to another page.
 
-### A simple solution
+## A simple solution
 
 Remove onChange event and add a submit button.
 
