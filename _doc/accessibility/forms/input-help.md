@@ -29,6 +29,22 @@ For example, a date field waits for the day, month and year values to be disting
 
 You also have the attribute `aria-describedby` which allows you to reference the value of the identifier of a text passage containing the format indication. The use of `aria-describedby` on the form field will restore the text passage in addition to the label regardless of the method used: `<label>`, `title`, etc. unlike `aria-labelledby`.
 
+#### In the label
+
+<label for="birthday">Birthday <span aria-hidden="true">(required)</span><br>(aaaa/mm/dd) </label><br>
+<input type="text" name="birthday" id="birthday" required>
+
+```html
+<label for="birthday">Birthday (aaaa/mm/dd) <span aria-hidden="true">(required)</span></label>
+<input type="text" name="birthday" id="birthday" required>
+```
+
+#### With aria-describedby attribute
+
+<label for="birthday2">Birthday <span aria-hidden="true">(required)</span></label><br>
+<input type="text" name="birthday2" id="birthday2" aria-describedby="format-date" required>
+<p id="format-date">aaaa/mm/dd</p>
+
 ```html
 <label for="birthday">Birthday <span aria-hidden="true">(required)</span></label>
 <input type="text" name="birthday" id="birthday" aria-describedby="format-date" required>
