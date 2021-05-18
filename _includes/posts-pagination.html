@@ -1,7 +1,7 @@
 <nav class="nav  nav--paginator">
     <p>
   {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous">
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous" title="Newer {{ paginator.previous_page }} of {{ paginator.total_pages }}">
         <span class="fas fa-chevron-left" aria-hidden="true"></span>
         Newer
     </a>
@@ -13,7 +13,7 @@
   {% endif %}
   <span class="pagination  pagination--counter">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next" title="Older {{ paginator.next_page }} of {{ paginator.total_pages }}">
         Older
         <span class="fas fa-chevron-right" aria-hidden="true"></span>
     </a>

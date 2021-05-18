@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Changes of context
+# Changes of context
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 7.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-7-4)
 {: .criteria }
 
-### Explanation
+## Explanation
 A change of context is a change in the page that is likely to be ignored or misunderstood by a user who cannot see the page as a whole. This is particularly the case for blind users using a screen reader and visually impaired users who navigate with a screen magnifier.
 
 Example: updating dynamic form fields or changing the dynamic content of the page.
@@ -38,7 +38,7 @@ A change of content is not always a change of context. Changes in content, such 
 
 The cases are multiple, here are some concrete cases.
 
-#### Change of user agent
+### Change of user agent
 User agent changes can be multiple, here are a few examples:
 * Opening the call manager for a phone number.
 * Opening an email client for an email address.
@@ -46,19 +46,19 @@ User agent changes can be multiple, here are a few examples:
 
 In order to make this accessible in practice, it is possible to [give the link an accessible name](../links/explicit-link.html).
 
-#### Single page application
+### Single page application
 In a "Single page application" the reloading of a page is dynamic. After the user's action, he/she is not informed of the page reload and loses his focus.
 
 It is therefore necessary to inform him/her when the page reloads and to manage the focus return. So we're going to simulate a page reload.
 
-##### Update page title
+#### Update page title
 As there was no real reload of the page by the user agent, it is necessary to update with Javascript the `<title>` of the page with a [relevant page title](../mandatory-elements/page-title.html).
 
 Updating the `<title>` of the page is important because the user has the possibility at any time to ask for it to be read.
 
 However, when reloading in Javascript, this is not enough because the `<title>` of the page is still not automatically returned in the technical assistance.
 
-##### Simulate reloading the page thanks to focus
+#### Simulate reloading the page thanks to focus
 When the content is reloaded, the element activated by the user may no longer be present in the page, so he/she loses focus.
 
 It will therefore be important to force the reading of the page title and to return the focus to the right place.
@@ -82,7 +82,7 @@ To do this, let's add a paragraph to the first element of the DOM:
 
 Once the content is loaded, the user is at the top of the page and the title of the page is rendered by the technical support.
 
-#### Major update of a content in the page with faceted search
+### Major update of a content in the page with faceted search
 
 Let's take as an example a [faceted search](https://en.wikipedia.org/wiki/Faceted_search) system. The whole page is not necessarily reloaded, only the results can be updated.
 
@@ -91,10 +91,10 @@ The action of one filter reloads the results dynamically and it is often necessa
 
 In this case, it is therefore necessary not to send the user back to the top of the page after each action on a filter because the user is likely to activate a new filter.
 
-##### Update page title
+#### Update page title
 As for a "Single page application" ([See above](#single-page-application)) it is necessary to update the `<title>` of the page.
 
-##### Inform the user of a content modification in the page
+#### Inform the user of a content modification in the page
 
 We assume that there are no changes to the filters, they are always displayed, only their status changes, active or inactive.
 
@@ -121,7 +121,7 @@ Never declare with the `aria-live` attribute a content area with too much inform
 Some fields such as text or date fields for example may require submission by a button to avoid reloading the list at each action in the field.
 </div>
 
-#### Status messages
+### Status messages
 The status messages are changes of context, [more information on status messages can be found on this page](status-messages.html).
 
 *[DOM]: Document Object Model

@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Quotation
+# Quotation
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 9.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-6)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Failure to report quotations can make the content more complex for blind and severely visually impaired people to understand and generate ambiguities and misunderstandings.
 

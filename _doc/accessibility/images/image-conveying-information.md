@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Image conveying information
+# Image conveying information
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 1.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-3) - [Criterion 1.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-6) - [Criterion 1.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-7)
 {: .criteria }
 
-### Relevant alternative
+## Relevant alternative
 
 To be accessible, the alternative of an image **must be relevant**. It must provide the information conveyed by the image to the user, taking its context into account.
 The alternative of an image must be short and concise, in other words, not exceeding 80 characters. If it is too long, it is necessary to make a long description ([See the example of a complex image](#complex-images-the-detailed-description)).
@@ -26,15 +26,15 @@ The alternative of an image must be short and concise, in other words, not excee
 To know if an image is decorative or informative, hide it, take into account the context and ask yourself the question:<br>**Did I lose any information?**<br>If so, this image conveys information.
 </div>
 
-#### Synthesis
+### Synthesis
 * Always take into account the context;
 * Do not make redundant content;
 * Create a long description if the alternative exceeds 80 characters;
 * Never extrapolate the meaning of an image.
 
-### Examples
+## Examples
 
-#### Images that contain text
+### Images that contain text
 
 ![](../../img/images-1.3-1.png)
 
@@ -48,7 +48,7 @@ If we hide the image, some information is lost. Therefore it is necessary to add
 <h3>A new way to visit london</h3>
 ```
 
-#### Images that represent a scene or an action
+### Images that represent a scene or an action
 
 In this case, if the information is essential to understanding, you must describe it in the alternative text.
 
@@ -69,14 +69,14 @@ On the first image, the alternative should be "Push down on the top of the cap t
 It is important to remember that images do not necessarily have to be described in detail. Never extrapolate the meaning of the image. You must convey sufficient and necessary information.
 </div>
 
-#### Images that represent a graphic
+### Images that represent a graphic
 
 ![](../../img/images-1.3-2.png)
 
 In this case without alternative, it is impossible to distinguish between the telephone number and the fax number.
 In any case, if the graphical display of a telephone is used, it is necessary to provide this information via an alternative.
 
-##### With icon font
+#### With icon font
 <p>
     <span class="fas fa-phone" role="img" aria-label="Phone"></span>
     <span class="text">04 94 45 32 28</span>
@@ -97,7 +97,7 @@ In any case, if the graphical display of a telephone is used, it is necessary to
 </p>
 ```
 
-##### With SVG
+#### With SVG
 ```html
 <p>
     <svg role="img" aria-label="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -115,7 +115,7 @@ In any case, if the graphical display of a telephone is used, it is necessary to
 </p>
 ```
 
-#### Complex images: the detailed description
+### Complex images: the detailed description
 
 Alternative text should only be used for images that can be easily described in a sentence.
 
@@ -138,7 +138,7 @@ When facing an image with a detailed description, a question must be asked:
 
 For example for a map, it is useless to describe all the streets, parking, buildings... It is necessary to understand the meaning and interest of this map.
 
-##### Example of complex image with detailed description
+#### Example of complex image with detailed description
 
 Below is an example of a complex image. This is a location plan. An alternative text is not sufficient to transcribe all the information on this plan.
 
@@ -152,16 +152,16 @@ From the Bloomsbury street, go down to the Great Russell street and take on your
 
 From the Montague street, go down to the Great Russell street and take on your right.
 
-### Received ideas
+## Received ideas
 
-#### Do not extrapolate the information conveyed by the images
+### Do not extrapolate the information conveyed by the images
 
 ![Lavender fields in the south of France](../../img/320px-Plateau_de_valensole1.jpg)
 
 In this example, the `alt` of the image is 'Lavender fields in the south of France'.
 No information in the image allows to affirm that we are in the south of France. It is not relevant to specify this.
 
-#### The image alternative must not be used to mention the credits (author, date, etc.) of the image
+### The image alternative must not be used to mention the credits (author, date, etc.) of the image
 
 If you are crediting an image, you should not use the image replacement text. First of all, it means that not everyone has access to this information. Second, the alternative text is used to describe the image, not to assign it.
 In the specific case of credits, the use of a legend is the most appropriate.
@@ -171,7 +171,7 @@ In the specific case of credits, the use of a legend is the most appropriate.
 [How to integrate icons in an accessible way](../../techniques/accessible-icons.html).
 </div>
 
-#### Functional image
+### Functional image
 
 An image can be used in a link, input, button and other interactive elements. In this case, the image alternative must convey the function and the destination.
 For example, a link on a thumbnail that opens the enlarged version of an image in a modal window, the alternative will not be a description of the image but the action of opening the image.

@@ -3,9 +3,9 @@ title: Motor disability
 nav: menu-about-users
 ---
 
-## Motor disability
+# Motor disability
 
-### People with motor difficulties
+## People with motor difficulties
 
 This category includes a very wide range of disability situations. We mention here the most common situations encountered in a web context:
 
@@ -13,7 +13,7 @@ This category includes a very wide range of disability situations. We mention he
 * difficulties in gripping and controlling movements,
 * difficulties in sequencing multiple actions or difficulties in using key combinations.
 
-#### Main difficulties encountered
+### Main difficulties encountered
 
 This applies particularly to interactive elements such as a navigation menu, form controls and rich components developed with JavaScript such as a tab system, a modal window or an input calendar.
 
@@ -21,7 +21,7 @@ There may also be very great difficulties in performing a task in a given time d
 
 [Motor disability demonstration](https://atalan.fr/agissons/en/handicap-moteur.html)
 
-#### Assistive technologies
+### Assistive technologies
 
 <div class="video"><iframe title="Introducing Voice Control on Mac and iOS — Apple" width="560" height="315" src="https://www.youtube.com/embed/aqoXFCCTfm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

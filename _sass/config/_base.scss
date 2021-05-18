@@ -70,7 +70,9 @@ ul {
 
 a, button, select, input {
     &:focus {
-        outline: 1px dotted $color-1-2;
+        outline: 2px dashed $color-1-2;
+        outline-offset: 1px;
+        border-radius: 3px;
     }
 }
 

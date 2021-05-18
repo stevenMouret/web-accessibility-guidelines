@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Document outline
+# Document outline
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 9.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-2) - [Criterion 12.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-12-10)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Screen readers or some browser plug-ins provide quick navigation based on the structural elements of the HTML5 document.
 
@@ -24,7 +24,7 @@ In their absence, blind and severely visually impaired people may have difficult
 
 The motor handicapped will see the fast access functionalities to the large areas of the document as inoperative.
 
-#### HTML5 elements and ARIA landmarks
+### HTML5 elements and ARIA landmarks
 
 The large areas that allow to structure a web page are:
 
@@ -63,9 +63,9 @@ In HTML5, each of these zones is identified by a specific HTML5 tag:
 When an area is hidden (in CSS, or with `aria-hidden'), this area will not be rendered in assistive technologies. It is therefore necessary to add the role on a visible element.
 </div>
 
-#### How to determine what is...
+### How to determine what is...
 
-##### The main header?
+#### The main header?
 
 The main header is usually the title of your site, with its baseline, if it exists. Very often, this is the level 1 title of your site (`h1`).
 
@@ -76,11 +76,11 @@ The main header usually contains few elements.
 The header does not contain the main menu and other navigation elements.
 </div>
 
-##### The main content?
+#### The main content?
 
 The main content of a page is the content of interest. It is the content that gives meaning to your page and without which your page is useless.
 
-##### Primary and secondary navigation?
+#### Primary and secondary navigation?
 
 The main navigation, generally called the "menu", is an element that can be found on all the pages of your website.
 It is the one found at the beginning of the content to reach the main sections of your site.
@@ -98,13 +98,13 @@ In order to allow users who navigate with a screen reader to distinguish all the
 <nav role="navigation" aria-label="In the same section"></nav>
 ```
 
-##### The search engine?
+#### The search engine?
 
 The search engine can be an interesting alternative for users who could not use the menu or site map. For it to be considered as an alternative, it must nevertheless allow, based on its results, to reach any content of the site.
 
 Thus, a search engine limited to a catalogue cannot be considered as a navigation system.
 
-##### The footer?
+#### The footer?
 
 The footer is to be considered as an element that provides information on the site. We will generally place, if present, legal information (copyright, link to legal notices...), contact information (address, phone...).
 

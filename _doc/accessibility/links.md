@@ -5,7 +5,7 @@ description: Provide explicit link text, through context information if needed, 
 tags: [link,explicit,context]
 ---
 
-## Links
+# Links
 
 Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
 {: .article-header__teaser}
@@ -16,7 +16,7 @@ For users with cognitive disabilities, weak links do not encourage action. The u
 
 When the links are made up of single images, it is the alternative text of the image that constitutes the title of the link. At this point, the alternative text to be filled in is no longer the description of the image, but the destination of the link. If the image has no alternative, then the link is an empty link. For example, a user who navigates by voice will not be able to click on this link, not knowing how to name it.
 
-### Synthesis
+## Synthesis
 * Beware of empty links.
 * Define relevant link titles.
 * Respect the construction of link titles.

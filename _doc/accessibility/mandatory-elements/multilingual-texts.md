@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Multilingual texts
+# Multilingual texts
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 8.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-3) - [Criterion 8.4 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-4) - [Criterion 8.7 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-7) - [Criterion 8.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-8)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 A blind user, who is visually impaired or has difficulty reading, browses a website using a screen reader. Screen reader makes a sound restitution of words, so it is important that the vocal synthesis pronounces in the language defines the words it encounters in order to be understood.
 

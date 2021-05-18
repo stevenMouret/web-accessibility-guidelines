@@ -5,7 +5,7 @@ description: Give each image conveying information a relevant text alternative a
 tags: [image,images,relevant,alternative,description]
 ---
 
-## Images
+# Images
 
 Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images containing text with styled text when possible.
 {: .article-header__teaser}
@@ -28,7 +28,7 @@ For all these reasons, it is essential to translate the necessary and sufficient
 When these images constitute links, it is no longer the information they convey that is essential, but the function of the link they constitute. In this situation, they allow software controlled by voice by a person with a motor disability to locate the link to be activated more easily.
 </div>
 
-### Synthesis
+## Synthesis
 * On image conveying information, define an alt on all images `<img>`, `<svg>`, `<object>`, etc;
 * Define an empty alternative on the decoration images;
 * Define a compliant and relevant alternative according to the type of image when it is an information carrier;

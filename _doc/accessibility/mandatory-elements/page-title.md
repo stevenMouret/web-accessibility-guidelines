@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Page title
+# Page title
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 8.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-5) - [Criterion 8.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-6)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Page titles are the first information available to users and serve as the basis for browsers to produce a navigation history or list of open tabs.
 
@@ -31,7 +31,7 @@ Finally, when the page is bookmarked, the absence of a title or lack of relevanc
 Consider making the page title relevant in the case of a process.
 </div>
 
-#### Page title of a list view
+### Page title of a list view
 
 Imagine that we have 28 results in total with 10 results displayed per page and we are on the second page.
 
@@ -40,7 +40,7 @@ The title of the page could be
 <title>News - Page 2 to 3 - Name of my website</title>
 ```
 
-#### Page title of a search result
+### Page title of a search result
 
 Following a search, there are several results. It is necessary to indicate the number of results and keywords searched.
 
@@ -54,7 +54,7 @@ In case there are no results, the title could be:
 <title>Search results for the term(s) city - No results | Name of the website</title>
 ```
 
-#### Page title of the form
+### Page title of the form
 
 When a form is submited and the page is reloaded with error(s), it is necessary to notify the user as soon as the title of the page.
 

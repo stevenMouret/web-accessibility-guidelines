@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Customizing the display
+# Customizing the display
 {: .article-header__title}
 </header>
 
@@ -16,25 +16,25 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 10.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-4) - [Criterion 10.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-5) - [Criterion 10.12](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-12)
 {: .criteria }
 
-### Explanation
+## Explanation
 
-#### Enlargement of characters
+### Enlargement of characters
 
 The proper adaptation of the contents of a web page when the font size is increased is essential for visually impaired users.
 The formatting must then be adapted appropriately so that all texts remain readable and understandable at certain zoom levels.
 
 **The font size must be increased by at least 200% by enlarging the text or the graphic zoom of the browser**.
 
-##### Enlargement of the browser text
+#### Enlargement of the browser text
 * In Firefox, in "View" go to "Zoom" and select "Zoom text only ". `Ctrl +` increase font-size, `Ctrl -` decrease font-size and `Ctrl 0` in order to reset the default zoom.
 * In Safari, `Option Command +` increase font sizes, `Option Command -` decrease font-size.
 * In Internet Explorer, in "View" (or "Page" depending on the version) go to "Text size" and select one of the proposed values (for example "Largest").
 
-##### Browser graphic zoom enlargement
+#### Browser graphic zoom enlargement
 * In Firefox, Chrome, Edge, `Ctrl +` increase zoom level, `Ctrl -` decrease zoom level and `Ctrl 0` in order to reset the default zoom.
 * In Safari, `Command +` increase zoom level, `Command -` decrease zoom level.
 
-##### Font sizes in relative units only
+#### Font sizes in relative units only
 
 The first thing is to make sure that all your font sizes are reported in relative units.
 
@@ -53,7 +53,7 @@ On the other hand, fixed units to define font sizes are prohibited. Among the fi
 
 This is because in some browsers (such as Internet Explorer), if font sizes are defined in fixed units, the font size magnification settings have no effect.
 
-##### Beware of fixed box sizes
+#### Beware of fixed box sizes
 
 When you make your layouts, you are often tempted to set heights or widths to get a harmonious look for certain elements.
 
@@ -72,7 +72,7 @@ Note that width and height do not pose any problem when the values are defined i
 
 Also, avoid using the `max-height` and `max-width` properties as much as possible without controlling their content and font magnification behavior.
 
-##### Other CSS properties to be used with caution
+#### Other CSS properties to be used with caution
 
 `overflow:hidden`
 
@@ -84,7 +84,7 @@ Manage spaces and line breaks.
 
 The properties `white-space: nowrap` or `flex-wrap: nowrap` prevents text content from being submitted to the automatic line feed. This property should therefore be used with caution. Always perform tests to evaluate the character magnification behaviour.
 
-##### Text spacing properties must be user-definable
+#### Text spacing properties must be user-definable
 
 The text must be readable when the display is changed according to these conditions:
 
@@ -100,7 +100,7 @@ p {
 }
 ```
 
-#### Readable texts
+### Readable texts
 
 The visually impaired will have major difficulty reading content whose font size and colour scheme they cannot control and adapt to their perception abilities.
 

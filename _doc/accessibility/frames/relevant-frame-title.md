@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Relevant frame title
+# Relevant frame title
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 2.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-1) - [Criterion 2.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Users using screen reader, who do not perceive the content of an iframe before browsing it, need short information that presents this content.
 

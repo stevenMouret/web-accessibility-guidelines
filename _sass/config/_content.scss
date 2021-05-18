@@ -1,7 +1,4 @@
-
-
-
-%h2  {
+%h1  {
     font-size: 4rem;
     font-weight: 900;
     margin: 8rem 0 5rem;
@@ -22,7 +19,7 @@
     margin-bottom: 5rem;
 
     &__title {
-        @extend %h2;
+        @extend %h1;
 
         span {
             color: lighten($color-black, 30%);
@@ -43,42 +40,42 @@
 
 .section-header {
     &__title {
-        @extend %h2;
+        @extend %h1;
     }
 }
 
 .content {
 
-    h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
         font-weight: 900;
         position: relative;
         z-index: 1;
     }
 
-    h2 {
-        @extend %h2;
+    h1 {
+        @extend %h1;
     }
 
-    h3 {
+    h2 {
         border-bottom: 0.1rem solid rgba($color-black, 0.05);
         color: $color-1-1;
         font-size: 3.2rem;
         margin: 5rem 0 3rem;
     }
 
-    h4 {
+    h3 {
         color: $color-black;
         font-size: 2.8rem;
         margin: 4.5rem 0 2.5rem;
     }
 
-    h5 {
+    h4 {
         color: $color-1-1;
         font-size: 2.4rem;
         margin: 4rem 0 2.2rem;
     }
 
-    h6 {
+    h5 {
         font-size: 2rem;
         margin: 3.8rem 0 2rem;
     }
@@ -332,7 +329,13 @@
     }
 }
 
+.article {
+    &__title {
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+    }
+}
+
 .date {
     font-style: italic;
-    color: $color-1-5;
 }

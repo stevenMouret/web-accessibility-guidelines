@@ -203,16 +203,6 @@ document.addEventListener("DOMContentLoaded", function() {
     noOnChangeOnSelect();
     burgerMenu();
     Add2HomeScreen();
-    AccessTooltip({
-        objs : 'a, button, input, textarea, select, .tooltip',
-        tooltipClassName : 'access-tooltip',
-        toolTipBetween : 5,
-        toolTipUp : false,
-        mouse : true,
-        tempDelay : 4000,
-        useAriaDP : true,
-        useEscClose : true
-    });
 });
 
 

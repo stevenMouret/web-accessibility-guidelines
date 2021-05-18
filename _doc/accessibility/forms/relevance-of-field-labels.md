@@ -7,7 +7,7 @@ tags: [label,accessible name, input, visible]
 ---
 
 <header>
-## Relevance of field labels
+# Relevance of field labels
 {: .article-header__title}
 </header>
 
@@ -18,7 +18,7 @@ tags: [label,accessible name, input, visible]
 **RGAA criteria:** [Criterion 11.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-1) - [Criterion 11.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 A field label is a **required** text that explains what data is expected by the field (surname, first name, date of birth, etc.).
 
@@ -27,15 +27,15 @@ To be compliant, a label must:
 * be relevant;
 * be correctly connected to the corresponding field;
 
-#### Relevance of field labels
+### Relevance of field labels
 
 A label is relevant if it helps to understand the function of the field to which it is linked. It is not necessarily necessary to write large sentences, but to remain concise. The user must understand what is expected from his entry. For example, for identity data, a "Last name" label, a "First name" label and a "Telephone" label are relevant labels that help to understand what to write on them.
 
-#### Properly bound labels
+### Properly bound labels
 
 Several HTML methods are at your disposal to label a form field.
 
-##### For / id
+#### For / id
 
 The most common and also the best method is the HTML relationship between the field and its label:
 
@@ -51,7 +51,7 @@ The advantage of this implementation over all the others is that it extends the 
 Try not to hide the label in order to keep a large click area.
 </div>
 
-##### Title attribute
+#### Title attribute
 
 A field can also be labeled via the `title` attribute.
 
@@ -63,7 +63,7 @@ This implementation is compliant, but we invite you to use this implementation o
 
 The title attribute should preferably be used in cases where the context of the form field allows to understand its function, for example, the search field of the site. It is then accompanied by a "Search" validation button or an image button in the shape of a magnifying glass, which allows the function of the field to be deduced.
 
-##### With aria-label attribute
+#### With aria-label attribute
 
 ```html
 <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
@@ -74,7 +74,7 @@ The title attribute should preferably be used in cases where the context of the 
 In technical assistance it is the `aria-label` attribute that identify the field. In a visual way, the information is transmitted through the icon and the `title` attribute on the icon.
 The use of the `aria-described` attribute allows here to make the relation with the [input help](input-help.html).
 
-##### Placeholder, be careful
+#### Placeholder, be careful
 
 `placeholder` is not considered as a valid labelling method, if it is implemented alone. The first reason is its insufficient contrast.
 

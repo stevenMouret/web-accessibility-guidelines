@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Sitemap page
+# Sitemap page
 {: .article-header__title}
 </header>
 
@@ -14,7 +14,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 12.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-12-3)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 **The sitemap is not required**, it is part of the 3 recognized navigation systems (menu, search, sitemap). If you integrate a sitemap, you must also ensure that all links are relevant and functional.
 

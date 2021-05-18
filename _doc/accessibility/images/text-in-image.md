@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Text in image
+# Text in image
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 1.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-8)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 When text images can be reproduced in HTML and CSS, you should not use an image. This is quite possible:
 

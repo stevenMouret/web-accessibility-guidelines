@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## A valid source code
+# A valid source code
 {: .article-header__title}
 </header>
 
@@ -16,16 +16,16 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 8.1 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-8-1) - [Criterion 8.2 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-8-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Assistive technologies are based on page code (DOM) for rendering and interaction with the user.
 If the HTML code contains code errors, this may render some systems inoperative.
 
-#### Declare the DTD correctly
+### Declare the DTD correctly
 
 It is important to Add a Doctype declaration. This makes sure the document will be parsed the same way by different browsers.
 
-##### Doctype HTML5
+#### Doctype HTML5
 
 ```html
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ It is important to Add a Doctype declaration. This makes sure the document will 
 
 [Other doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
 
-#### A valid source code
+### A valid source code
 
 To validate your source code, always use the generated source code (with JavaScript) with [the W3C online validation tool](https://validator.w3.org/).
 

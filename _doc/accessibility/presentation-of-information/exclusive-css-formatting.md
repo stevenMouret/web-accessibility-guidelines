@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Exclusive CSS formatting
+# Exclusive CSS formatting
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 10.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-1)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Some people with a visual impairment need to customize the display. For example, to be able to read the content, the user can increase the contrast of background and text colors, the size of the fonts...
 If the content is not fully formatted by CSS, it may be unreadable.

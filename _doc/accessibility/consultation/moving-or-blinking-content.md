@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Moving or blinking content
+# Moving or blinking content
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 13.8 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-8)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 The moving text will not be read by people with reading difficulties if it slides too quickly. It can distract people with attention deficit and prevent them from reading the rest of the text on the page. For people using a screen reader, moving text can sometimes prevent the screen reader from rendering the content of the page.
 

@@ -12,6 +12,9 @@ menu-main:
     -   title: Techniques
         url: /techniques.html
 
+#    -   title: Posts
+#        url: /posts/
+
     -   title: Tools
         url: /tools.html
 

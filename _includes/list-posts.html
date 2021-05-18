@@ -1,10 +1,10 @@
 <section class="section  typeset">
-    <h2 class="section-header__title">Posts</h2>
+    <h1 class="section-header__title">Posts</h1>
     <ul class="list  list--posts">
         {% for page in paginator.posts %}
         <li class="item  item--post">
             <article class="article article--post">
-                <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+                <h2 class="article__title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
                 {% if page.date %}
                 <p class="date">{{ page.date | date: "%B %-d, %Y" }}</p>
                 {% endif %}
@@ -16,6 +16,6 @@
         {% endfor %}
     </ul>
     {% if paginator.total_pages > 1 %}
-        {% include post-pagination.html %}
+        {% include posts-pagination.html %}
     {% endif %}
 </section>

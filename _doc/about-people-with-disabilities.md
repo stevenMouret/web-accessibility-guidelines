@@ -3,7 +3,7 @@ title: About people with disabilities
 nav: menu-about-users
 ---
 
-## About people with disabilities
+# About people with disabilities
 
 A problem in accessibility is the result of an interaction between an user and the content (or functionality) that he or she tried to access, use, perceive or understand but couldn't because of a disability.
 

@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Main contents identified
+# Main contents identified
 {: .article-header__title}
 </header>
 
@@ -14,7 +14,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 12.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-12-10)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Users of technical assistance such as screen reader have the ability to navigate from one area to another when the content areas are well defined.
 
@@ -26,7 +26,7 @@ Users of technical assistance such as screen reader have the ability to navigate
 * The ARIA `banner`, `main`, `contentinfo` and `search` roles are unique in the page.
 * The ARIA `navigation` role is reserved for the main and secondary navigation areas.
 
-#### About the footer area
+### About the footer area
 
 This is information about the website or legal information. It includes, for example, legal notices, credits, terms of use, site map and possibly the accessibility page.
 

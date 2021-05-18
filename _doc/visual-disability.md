@@ -3,11 +3,11 @@ title: Visual disability
 nav: menu-about-users
 ---
 
-## Visual disability
+# Visual disability
 
-### Blind persons
+## Blind persons
 
-#### Main difficulties encountered
+### Main difficulties encountered
 
 Blind people will encounter difficulties with:
 
@@ -17,7 +17,7 @@ Blind people will encounter difficulties with:
 
 [Blindness demonstration](https://atalan.fr/agissons/en/cecite.html)
 
-#### Assistive technologies
+### Assistive technologies
 
 Blind people access the content and features of a website or web application through a **screen reader** that:
 
@@ -27,7 +27,7 @@ Blind people access the content and features of a website or web application thr
 
 A screen reader is a complex software to use that requires a learning phase. It can be optimized through parameters designed to increase its efficiency and adapt it to the user's capabilities.
 
-##### Video demonstration of a screen reader
+#### Video demonstration of a screen reader
 
 <div class="video"><iframe title="Screen reader demonstration" width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM?cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -35,7 +35,7 @@ In addition to the screen reader, blind braillists can use a Braille terminal to
 
 ![](img/braille-terminal.jpg)
 
-### Visually impaired persons
+## Visually impaired persons
 
 The term visually impaired includes a wide range of visual impairments related to many vision disorders.
 
@@ -45,7 +45,7 @@ Without aiming at exhaustiveness, we can distinguish visually impaired people wh
 * have reduced visual acuity;
 * suffer from particular types of visual impairment such as loss of peripheral vision or, conversely, loss of central vision, which cause serious reading or locating difficulties in the page.
 
-#### Main difficulties encountered
+### Main difficulties encountered
 
 These people will encounter difficulties with:
 
@@ -56,7 +56,7 @@ These people will encounter difficulties with:
 
 [Color blindness demonstration](https://atalan.fr/agissons/en/daltonisme.html), [Visual impairment demonstration](https://atalan.fr/agissons/en/malvoyance.html)
 
-#### Assistive technologies
+### Assistive technologies
 
 To overcome their difficulties, they can use devices that allow them to:
 

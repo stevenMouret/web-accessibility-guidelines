@@ -42,13 +42,13 @@ defaults:
       path: ""
       type: doc
     values:
-      layout: doc
+      layout: "doc"
   -
     scope:
       path: ""
       type: pages
     values:
-      layout: doc
+      layout: "doc"
 
 #
 # Plugins

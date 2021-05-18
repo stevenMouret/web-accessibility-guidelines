@@ -3,7 +3,7 @@ navigation: colors
 nav: menu-criteria
 ---
 
-## Colors
+# Colors
 
 Do not convey information through color only, and use sufficient color contrasts.
 {: .article-header__teaser}
@@ -14,6 +14,6 @@ Sometimes, the color is used as the only way to convey information. For example,
 
 Another issue related to color concerns contrasts. For a user who has difficulty perceiving contrasts, some text may be impossible to read if its color is not sufficiently contrasted with the background color.
 
-### Synthesis
+## Synthesis
 * Do not give information only by color;
 * Readability of the contents.

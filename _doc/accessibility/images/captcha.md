@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Captcha
+# Captcha
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 1.4 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-4) - [Criterion 1.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-5)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 In the case of test images (Captcha), the alternative must be filled in so that the user can understand the nature and role of the image.
 

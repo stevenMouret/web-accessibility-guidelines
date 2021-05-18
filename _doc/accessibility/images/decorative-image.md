@@ -7,7 +7,7 @@ tags: [image,decorative]
 ---
 
 <header>
-Decorative image
+# Decorative image
 {: .article-header__title}
 </header>
 
@@ -18,7 +18,7 @@ Decorative image
 **RGAA criteria:** [Criterion 1.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 To be able to test, you need to know what a decorative image is.
 
@@ -40,21 +40,21 @@ Be careful, an image with content text is not always an image that conveys infor
 
 In this case, when analyzing the context, the image is only a graphical redundancy of the text below. The image is therefore decorative and the alternative should be empty.
 
-### Received ideas
+## Received ideas
 
-#### Stop abuses for SEO
+### Stop abuses for SEO
 
 Some techniques to improve SEO can be a barrier for accessibility: adding useless alternative text to pictures, inserting useless keywords in title attributes, ...
 
 Indeed, a screen reader user will be given all this information. But the reading experience will be overloaded with parasitic elements and will make the site content hard to understand.
 
-#### An image can have an empty alternative
+### An image can have an empty alternative
 
 An alternative text is not always necessary for all images. If an image is decorative (it does not convey any essential information to the content), it should not have alternative text. For the same reason as mentioned above, this makes it more difficult for a screen reader user to reproduce content, without gain of information.
 
-### How to integrate a decorative image
+## How to integrate a decorative image
 
-#### `img` tag without caption
+### `img` tag without caption
 
 * It is simply necessary to leave the `alt` attribute empty;
 * The decoration image does not have a `title` attribute.
@@ -63,7 +63,7 @@ An alternative text is not always necessary for all images. If an image is decor
 <img src="..." alt="">
 ```
 
-#### `svg` tag without caption
+### `svg` tag without caption
 
 * Add `aria-hidden` is set to `true`;
 * The `title` and `desc` tags are absent or empty;
@@ -81,7 +81,7 @@ An alternative text is not always necessary for all images. If an image is decor
 [How to integrate icons in an accessible way](../../techniques/accessible-icons.html).
 </div>
 
-#### font icon
+### font icon
 
 * The `aria-hidden` is set to `true` on the icon container;
 * The `title` or `aria-label` attributes are absent.

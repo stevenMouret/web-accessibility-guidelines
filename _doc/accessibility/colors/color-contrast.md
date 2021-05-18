@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Color contrast
+# Color contrast
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 3.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-3-2) - [Criterion 3.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-3-3)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 For a user who has difficulties perceiving contrasts, a text may be impossible to read if its colour is not sufficiently contrasted with the background colour.
 
@@ -33,17 +33,17 @@ To evaluate the contrasts of an element, you can use the following tools:
 * Lighthouse in Google **Chrome** browser allows you to quickly check your web page for text content.
 * Contrast tools is available in Mozilla **Firefox** developer tools in accessibility tab.
 
-#### Text without bold
+### Text without bold
 
 * Less than 24px: the contrast ratio is at least 4.5:1.
 * Greater than or equal to 24px: the contrast ratio is at least 3:1.
 
-#### Text with bold
+### Text with bold
 
 * Less than 18.5px: the contrast ratio is at least 4.5:1.
 * Greater than or equal to 18.5px: the contrast ratio is at least 3:1.
 
-#### The interface components or graphical elements that convey information
+### The interface components or graphical elements that convey information
 
 An interface component is an element with which the user can interact such as a button, a link, an input field...
 
@@ -53,18 +53,18 @@ The contrast ratio is at least 3:1 of:
 * The different colors composing a graphic element and its background color.
 * The different colors composing a graphic element.
 
-#### Derogated cases
+### Derogated cases
 * The text is part of a logo or brand name of an organization or company.
 * The text or graphic element is purely decorative.
 * The text or graphical element is part of an interface element on which no action is possible (e.g. a button with the disabled attribute).
 
-#### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
+### Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector
 
 <div class="video"><iframe title="Testing Color Contrast & Simulating Color Blindness with the Firefox Accessibility Inspector" src="https://www.youtube.com/embed/eBefjaWud-M" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you don't see these tools, go to `about:config` and search the property "gfx.webrender.all". This property must be to `true`.
 
-#### Tools
+### Tools
 
 * [Button Contrast Checker](https://www.aditus.io/button-contrast-checker/)
 * [A11Y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)

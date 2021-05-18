@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## No new window without user action
+# No new window without user action
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 13.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Opening a new window when the user has not requested it can be very disturbing.
 

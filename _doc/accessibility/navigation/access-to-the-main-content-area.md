@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Access to the main content area
+# Access to the main content area
 {: .article-header__title}
 </header>
 
@@ -14,7 +14,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 12.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-12-7)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 In order to facilitate the navigation of blind and partially sighted people, it is necessary to provide a mechanism to bypass blocks that are repeated on multiple Web pages by skipping directly to the main content of the Web page.
 

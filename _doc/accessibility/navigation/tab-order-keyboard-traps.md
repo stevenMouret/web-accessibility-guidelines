@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Tab order and keyboard traps
+# Tab order and keyboard traps
 {: .article-header__title}
 </header>
 
@@ -14,20 +14,20 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 12.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-12-8)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 The order of tabulation is a determining factor both in the exploration of content, but above all in the manipulation of complex elements or in the sequence of successive actions. All users will encounter significant difficulties if this is not correct.
 
 In the case of a keyboard trap, the motor handicapped will be unable to leave the element being consulted and will be forced to leave the browser to regain control of the cursor.
 
-#### Tab order
+### Tab order
 
 The tab order is the order in which the focus moves to the next or previous element.
 The natural order is the order of succession of elements in the source code. The tab will move successively between all the interactive elements.
 
 The tab order can be redefined by the `tabindex` attribute or by javascript.
 
-##### `tabindex` attribute
+#### `tabindex` attribute
 
 the `tabindex` attribute can receive numeric values. If these values are greater than 0, the order is no longer the natural order but the order redefined by `tabindex'.
 
@@ -45,7 +45,7 @@ A negative value (usually `tabindex="-1"`) means that the element is not reachab
 
 `tabindex="0"` means that the element should be focusable in sequential keyboard navigation, but its order is defined by the document's source order.
 
-##### Focus and focus back with Javascript
+#### Focus and focus back with Javascript
 
 Rich interfaces sometimes require focus management with the help of Javascript.
 
@@ -58,7 +58,7 @@ You can see in "Keyboard Interaction" section how the focus management is specif
 
 But all rich interfaces have not design pattern. In this case, the situation becomes more complex and it will be necessary to imagine a behavior consistent with the logic of the functionality. The goal is to accompany the user and position the focus back where it is logical that it is.
 
-#### Keyboard traps
+### Keyboard traps
 
 When it is impossible to navigate through all the interactive elements of the page, using only the tab key, then you are in front of a keyboard trap.
 

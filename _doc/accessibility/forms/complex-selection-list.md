@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Complex selection list
+# Complex selection list
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 11.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-8)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Blind and severely visually impaired, visually impaired and mentally handicapped persons may encounter difficulties if selection lists that are complex or contain many items are not structured by groupings.
 

@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Input errors
+# Input errors
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-11)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 When the form returns errors, the error must be mentioned either:
 
@@ -26,7 +26,7 @@ When the form returns errors, the error must be mentioned either:
 
 You can also indicate these errors with the `aria-label` property and the `aria-invalid` property. In these cases, you must always provide a visible alternative for all other users.
 
-#### Input error in the label and input help after the field
+### Input error in the label and input help after the field
 ```html
 <label for="birthday">Birthday <em aria-hidden="true">(required)</em> Error, Please fill in this required field</label>
 <input type="text" name="birthday" id="birthday" required aria-invalid="true" aria-describedby="format-date">
@@ -37,7 +37,7 @@ You can also indicate these errors with the `aria-label` property and the `aria-
 * The user is informed of the error on the field thanks to `aria-invalid`.
 * An input help is indicated below the field and related by the `aria-describedby` attribute and the associated `id`.
 
-#### Input error located at the top of the form
+### Input error located at the top of the form
 ```html
 <form action="#">
     <div class="alert" role="alert">
@@ -66,14 +66,14 @@ Input error messages relating to the use of the wrong data format must include a
 More information about [`aria-label`, `aria-labelledby` and `aria-describedby`](../../techniques/aria-label-labelledby-describedby.html)
 </div>
 
-#### Input error after the field
+### Input error after the field
 ```html
 <label for="birthday">Birthday <em aria-hidden="true">(required)</em></label>
 <input type="text" name="birthday" id="birthday" required aria-invalid="true" aria-describedby="date-error">
 <p id="date-error">Incorrect value</p>
 ```
 
-#### Error message related to several fields
+### Error message related to several fields
 ```html
 <div>
     <label for="email">Email <em aria-hidden="true">(required)</em></label>

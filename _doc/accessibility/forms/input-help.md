@@ -6,7 +6,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Input help
+# Input help
 {: .article-header__title}
 </header>
 
@@ -17,7 +17,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-11)
 {: .criteria }
 
-### Explanation
+## Explanation
 For all required fields that require a particular format, you must indicate this to the user.
 
 For example, a date field waits for the day, month and year values to be distinguished by a slash to be compliant. You must therefore indicate "yyyy-mm-dd" which corresponds to the input format.
@@ -28,14 +28,14 @@ For example, a date field waits for the day, month and year values to be disting
 
 You also have the attribute `aria-describedby` which allows you to reference the value of the identifier of a text passage containing the format indication. The use of `aria-describedby` on the form field will restore the text passage in addition to the label regardless of the method used: `<label>`, `title`, etc. unlike `aria-labelledby`.
 
-#### Data format in the label
+### Data format in the label
 
 ```html
 <label for="birthday">Birthday (aaaa/mm/dd) <span aria-hidden="true">(required)</span></label>
 <input type="text" name="birthday" id="birthday" required>
 ```
 
-#### Data format with the aria-describedby attribute
+### Data format with the aria-describedby attribute
 
 ```html
 <label for="birthday">Birthday <span aria-hidden="true">(required)</span></label>
@@ -48,7 +48,7 @@ You also have the attribute `aria-describedby` which allows you to reference the
 When the form field type offers an input mask, such as date or time fields, the format indication is not required because the format can change depending on the language of the user agent.
 </div>
 
-#### Automatic filling of the fields with user data
+### Automatic filling of the fields with user data
 
 People with language and memory impairments, motor impairments, or impairments that affect the performance of a function can spend a lot of time validating a form.
 In order to help the user to fill in the relevant fields more simply, it is necessary to use the attribute `autocomplete`.

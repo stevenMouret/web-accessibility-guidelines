@@ -3,7 +3,7 @@ title:  ARIA attributes aria-label, aria-labelledby and aria-describedby
 nav: menu-techniques
 ---
 
-## ARIA attributes aria-label, aria-labelledby and aria-describedby
+# ARIA attributes aria-label, aria-labelledby and aria-describedby
 
 The accessible name allows to identify an element and returns it to technical assistance (TA). It is provided by:
 
@@ -16,7 +16,7 @@ An accessible description allows to give additional information to an accessible
 * `aria-label` and `aria-labelledby` provide an accessible name to an element;
 * `aria-describedby` provides a description to the accessible name.
 
-### How to use them?
+## How to use them?
 
 * `aria-label` expects a string of characters in value, it will be the accessible name;
 * `aria-labelledby` and `aria-describedby` refer to the element id(s) on the page.
@@ -31,14 +31,14 @@ When using `aria-label` or `aria-labelledby`, the text of the element is no long
 `aria-labelledby` and `aria-describedby` can admit several values separated by a space and can self-reference.
 </div>
 
-#### aria-label
+### aria-label
 ```html
 <button aria-label="Close" type="button">X</button>
 ```
 The render in AT: Close<br>
 The content of the button is not rendered, `aria-label` attribute override it.
 
-#### aria-labelledby
+### aria-labelledby
 
 ```html
 <p id="name">Name</p>
@@ -53,7 +53,7 @@ The render in AT: Name
 render in AT : W3C World Wide Web Consortium Link<br>
 Override the content of the element. Only `aria-labelledby` attribute is rendered in the AT.
 
-#### aria-describedby
+### aria-describedby
 
 ```html
 <a href="http://www.w3c.org" aria-describedby="description">W3C</a>
@@ -62,7 +62,7 @@ Override the content of the element. Only `aria-labelledby` attribute is rendere
 render in AT : W3C Link World Wide Web Consortium<br>
 The content of the element **and** the `aria-describedby` attribute element are rendered in the AT.
 
-#### aria-labelledby and aria-describedby
+### aria-labelledby and aria-describedby
 ```html
 <p id="birdthday">Birthday</p>
 <input type="text" aria-labelledby="birdthday" aria-describedby="dateformat">

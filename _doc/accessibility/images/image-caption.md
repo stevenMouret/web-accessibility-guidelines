@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Image caption
+# Image caption
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 1.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-10)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 HTML5 introduces the `figure` and `figcaption` tags that associate a caption with an image.
 
@@ -42,7 +42,7 @@ The use of `figure` and `figcaption` requires certain adaptations to fill the po
 Not mandatory but highly recommended, the "See caption below" text in the image alternative creates a semantic relationship between the image and its caption, in case the element `figure` is not returned by the screen readers. The text "See caption below" is used in the caption to establish the semantic relationship.
 </div>
 
-#### Difference between the alternative of an image and the caption
+### Difference between the alternative of an image and the caption
 
 * The image alternative makes it possible to describe what the image conveys that is not in the context;
 * The caption of an image conveys additional information that the image does not convey.

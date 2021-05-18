@@ -3,7 +3,7 @@ navigation: frames
 nav: menu-criteria
 ---
 
-## Frames
+# Frames
 
 Provide each inline frame with a relevant title.
 {: .article-header__teaser}
@@ -12,7 +12,7 @@ Screen readers have advanced features for quick navigation by type of elements i
 
 In both of these two navigation modes, the lack of frame identification can cause problems in locating the page structure or understanding the content for a blind person.
 
-### Synthesis
+## Synthesis
 * Give a relevant title to inline frame.
 
 

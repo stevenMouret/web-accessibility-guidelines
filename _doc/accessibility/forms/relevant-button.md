@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Relevant button
+# Relevant button
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 11.9 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-9)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 The buttons, input `type="submit"`, input `type="reset"` or `button` must have relevant texts that allow the user to understand the action of the button. They are essential especially for blind users so that they can be sure of the action they are taking. For example, terms such as "submit", "ok", "validate"... will not be relevant enough. On the other hand, relevant texts explain the action, for example: "Subscribe to the newsletter", "Book my tickets online".
 

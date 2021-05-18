@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Unordered, ordered and definition lists
+# Unordered, ordered and definition lists
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 9.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-3)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 Structuring content with the right elements provides an enhanced navigation experience for screen reader users.
 
@@ -26,7 +26,7 @@ In addition to allowing you to navigate between elements, it also allows you to 
 
 In the case of a list, the number of items in the list is announced, as well as the level of the item in the list. Thus, if the user finds the list too long, he or she can simply avoid it rather than go through it in its entirety, or go to the beginning of the list, or to the end directly.
 
-#### Three types of lists are identified
+### Three types of lists are identified
 
 * unordered lists
     * The lists use the `ul` and `li` tags

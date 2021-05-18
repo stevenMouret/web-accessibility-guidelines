@@ -3,21 +3,21 @@ title:  Accessible icons
 nav: menu-techniques
 ---
 
-## Accessible icons
+# Accessible icons
 
 How to integrate icons in an accessible way.
 {: .article-header__teaser}
 
-### 1 Icon font
+## 1 Icon font
 
 Some assistive technologies (such as VoiceOver) read CSS content property. When using an icon font, the unicode code of the character is added to the content property.
 This character, which should not be returned to the user, is therefore read. In order to fix that, we ask to the technical assistance to not read the content of the tag with the icon with the `aria-hidden` attribute.
 
 *The icon font examples below are based on FontAwesome but the principle is the same as a custom icon font.*
 
-#### 1.1 Decorative icon
+### 1.1 Decorative icon
 
-##### 1.1.1 With visible text
+#### 1.1.1 With visible text
 
 A simple example, in order not to read the CSS content property in assistive technology, we add an `aria-hidden` attribute to true on the span that displays the icon.
 The icon being decorative, the text being visible and explicit, there is no need for anything else.
@@ -34,9 +34,9 @@ The icon being decorative, the text being visible and explicit, there is no need
 </button>
 ```
 
-#### 1.2 Icon conveying information
+### 1.2 Icon conveying information
 
-##### 1.2.1 With visible text
+#### 1.2.1 With visible text
 
 The fax icon conveys information. If you hide this icon, you do not know that it is a fax number and not a phone number. It is therefore important to return this information to the user.
 
@@ -58,9 +58,9 @@ To do this, we use a visually hidden text and the `title` attribute:
 </p>
 ```
 
-##### 1.2.2 With visible text in a link
+#### 1.2.2 With visible text in a link
 
-###### 1.2.2.1
+##### 1.2.2.1
 
 The trash icon conveys information, the purpose of this link is to delete an element. This information should not be only visual:
 
@@ -80,7 +80,7 @@ The trash icon conveys information, the purpose of this link is to delete an ele
 </a>
 ```
 
-###### 1.2.2.2
+##### 1.2.2.2
 
 Another very frequent example.
 The phone icon conveys information. If you hide this icon, you do not know if it is a phone number or a fax number. It is therefore important to return this information to the user.
@@ -104,7 +104,7 @@ In our case, we will add the information related to the phone but also to the op
 </a>
 ```
 
-##### 1.2.3 With visible text in a link that opens in a new window
+#### 1.2.3 With visible text in a link that opens in a new window
 
 <a href="https://www.w3.org/WAI/" target="_blank">
     Discover the Web Accessibility Initiative (new window)
@@ -127,7 +127,7 @@ In our case, we will add the information related to the phone but also to the op
 </a>
 ```
 
-##### 1.2.4 Icon font in a link or a button
+#### 1.2.4 Icon font in a link or a button
 
 In this case, there is no visible text. It is important to provide visual and code information for assistive technologies.
 
@@ -158,7 +158,7 @@ In this case, there is no visible text. It is important to provide visual and co
 </button>
 ```
 
-##### 1.2.5 Icon font in a link or a button that opens in a new window
+#### 1.2.5 Icon font in a link or a button that opens in a new window
 
 <a href="#" target="_blank" class="new-window-off" title="Share on Facebook, new window" aria-label="Share on Facebook, new window">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
@@ -172,11 +172,11 @@ In this case, there is no visible text. It is important to provide visual and co
 </a>
 ```
 
-### 2 Inline SVG
+## 2 Inline SVG
 
-#### 2.1 Decorative icon
+### 2.1 Decorative icon
 
-##### 2.1.1 With visible text
+#### 2.1.1 With visible text
 
 As for an icon font, the SVG being decorative, we add the `aria-hidden` attribute to true so that it is not read in the assistive technology.
 
@@ -194,7 +194,7 @@ As for an icon font, the SVG being decorative, we add the `aria-hidden` attribut
 </a>
 ```
 
-#### 2.2 Icon conveying information
+### 2.2 Icon conveying information
 
 For all SVG that convey information, it is necessary to provide an alternative and modify the role of the SVG:
 
@@ -202,7 +202,7 @@ For all SVG that convey information, it is necessary to provide an alternative a
 * Adding the `aria-label` attribute for assistive technologies;
 * Adding in the `<svg>` a `<title>` to give visual information.
 
-##### 2.2.1 With visible text
+#### 2.2.1 With visible text
 
 <p>
     <svg role="img" aria-label="Fax" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Fax</title><path d="M64 128H32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zm416 32V77.25c0-8.49-3.37-16.62-9.37-22.63L425.37 9.37c-6-6-14.14-9.37-22.63-9.37H160c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zM288 432c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm128 128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm0-128c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-32c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v32zm16-112H176V48h208v32c0 8.84 7.16 16 16 16h32v96z"/></svg>
@@ -219,7 +219,7 @@ For all SVG that convey information, it is necessary to provide an alternative a
 </p>
 ```
 
-##### 2.2.2 With visible text in a link
+#### 2.2.2 With visible text in a link
 
 <a href="#" title="Fax 01 70 8X 45 96" aria-label="Fax 01 70 8X 45 96">
     <svg aria-hidden="true" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -237,7 +237,7 @@ For all SVG that convey information, it is necessary to provide an alternative a
 </a>
 ```
 
-##### 2.2.3 SVG in a link
+#### 2.2.3 SVG in a link
 
 <a href="#" title="Home" aria-label="Home">
     <svg aria-hidden="true" width="15" height="13"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">

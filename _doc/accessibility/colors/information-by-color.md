@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Information by color
+# Information by color
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 3.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-3-1) - [Criterion 3.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-3-2)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 An information provided by the color impacts many users. For blind people who can not see colors, or distinguish certain colors or color combinations, information provided only by color will be ignored.
 
@@ -24,9 +24,9 @@ The most common case of information by color is the indication of the active pag
 
 The principle to keep in mind is that any color that conveys information must be accessible by other way, including a textual element.
 
-#### Examples
+### Examples
 
-##### In a form
+#### In a form
 
 ![Form example](../../img/color-3.1-1.png)
 
@@ -34,13 +34,13 @@ In this form above, the fields with a red label are required. If you cannot see 
 In this case, prefer to add the mention 'required' directly in the label.
 
 
-##### In a menu
+#### In a menu
 
 ![Menu example](../../img/color-3.1-2.png)
 
 In this menu, the page where we are (iPad) is illustrated by a different color from the other pages. Similarly, if you cannot see this color, you lose this information in the menu.
 
-### Information must not be conveyed through color only
+## Information must not be conveyed through color only
 
 Be sure the information given by another way than color is consistent. It is important to provide the information by a color, a shape and a text.
 
@@ -55,9 +55,9 @@ The ways of transmitting information other than by colour can be:
 When using `aria-current`, make sure that the information is not given by color and `aria-current` only. Visually impaired people who cannot perceive color may not necessarily use a assistive technology capable of interpreting `aria-current`. In this case it is necessary to add shape, size or position to the element.
 </div>
 
-#### Examples
+### Examples
 
-##### In a form
+#### In a form
 
 ![Form example](../../img/color-3.2-1.png)
 
@@ -75,12 +75,12 @@ The best way to be most relevant is to write the required statement directly ins
 Using the `require` attribute on the field is not enough. People who do not use technical assistance do not have the information.
 </div>
 
-##### In a Apple menu
+#### In a Apple menu
 
-###### Currently Apple menu
+##### Currently Apple menu
 ![Bad menu example](../../img/color-3.1-2.png)
 
-###### Fixed Apple menu
+##### Fixed Apple menu
 ![Fixed menu example](../../img/color-3.2-2.png)
 
 In this menu, we have added a shape (the triangle under the active item) and a code complement (link title attribute).

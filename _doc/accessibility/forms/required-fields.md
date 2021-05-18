@@ -5,7 +5,7 @@ nav: menu-criteria
 ---
 
 <header>
-## Required fields
+# Required fields
 {: .article-header__title}
 </header>
 
@@ -16,7 +16,7 @@ nav: menu-criteria
 **RGAA criteria:** [Criterion 11.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-10)
 {: .criteria }
 
-### Explanation
+## Explanation
 
 When a field is required, it is necessary to make a good restitution to all users. This restitution must be visual and indicated in the code.
 
@@ -33,7 +33,7 @@ Required fields must be positioned in the code before the submit button.
 It is not always necessary to make fields required. When a form has only one field (search form, newsletter subscription), there is no need to make it required.
 </div>
 
-#### Text indication in the label
+### Text indication in the label
 
 The most robust solution. Indicate by an explicit term the required nature of the field directly in the label (`label`, `title`, `aria-label`...).
 
@@ -47,7 +47,7 @@ The most robust solution. Indicate by an explicit term the required nature of th
 You will notice the addition of the attribute `aria-hidden="true"` which allows you not to vocalize the information in order not to create redundancy of information in case the field has an attribute `required` or `aria-required`.
 </div>
 
-#### Indication by a symbol
+### Indication by a symbol
 
 It is very common to find the required field indication by means of an asterisk. This practice is completely consistent if you give a caption to this symbol before the form concerned.
 
@@ -59,6 +59,6 @@ It is very common to find the required field indication by means of an asterisk.
 </form>
 ```
 
-#### Indication by colour
+### Indication by colour
 
 In case the color is used to indicate the required character of the field, it is necessary to add a symbol or an explicit text.
