@@ -69,8 +69,11 @@ ul {
 }
 
 a, button, select, input {
+    outline: 2px dashed transparent;
+    transition: outline 0.3s linear;
+
     &:focus {
-        outline: 2px dashed $color-1-2;
+        outline-color: $color-1-2;
         outline-offset: 1px;
         border-radius: 3px;
     }

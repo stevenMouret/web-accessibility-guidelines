@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Accessibility principles
-date: 2021-05-18 09:04:00
+date: 2021-05-05 09:04:00
 //author: Steven Mouret
 ---
 
