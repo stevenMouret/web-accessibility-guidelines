@@ -1,11 +1,11 @@
 ---
-title: Document outline
+title: Semantic structure and aria landmarks
 navigation: information-structure
 nav: menu-criteria
 ---
 
 <header>
-# Document outline
+# Semantic structure and aria landmarks
 {: .article-header__title}
 </header>
 

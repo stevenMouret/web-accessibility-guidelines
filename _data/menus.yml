@@ -95,8 +95,8 @@ menu-criteria:
         sub:
             -   title: Structure information by headings
                 url: /accessibility/information-structure/structure-information-by-headings.html
-            -   title: Document outline
-                url: /accessibility/information-structure/document-outline.html
+            -   title: Semantic structure and aria landmarks
+                url: /accessibility/information-structure/semantic-structure-and-aria-landmarks.html
             -   title: Unordered, ordered and definition lists
                 url: /accessibility/information-structure/unordered-ordered-definition-lists.html
             -   title: Quotation
