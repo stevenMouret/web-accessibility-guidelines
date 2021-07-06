@@ -68,20 +68,20 @@ More information about [`aria-label`, `aria-labelledby` and `aria-describedby`](
 
 ### Input error after the field
 ```html
-<label for="birthday">Birthday <em aria-hidden="true">(required)</em></label>
+<label for="birthday">Birthday dd/mm/yyyy <em aria-hidden="true">(required)</em></label>
 <input type="text" name="birthday" id="birthday" required aria-invalid="true" aria-describedby="date-error">
-<p id="date-error">Incorrect value</p>
+<p id="date-error">Incorrect value, example 02/06/1996</p>
 ```
 
 ### Error message related to several fields
 ```html
 <div>
-    <label for="email">Email <em aria-hidden="true">(required)</em></label>
+    <label for="email">Email name@domain.com <em aria-hidden="true">(required)</em></label>
     <input type="text" name="email" id="email" required aria-describedby="email-error" value="jo@mail.net">
 </div>
 <div>
-    <label for="email-conformation">Email <em aria-hidden="true">(required)</em></label>
+    <label for="email-conformation">Email name@domain.com <em aria-hidden="true">(required)</em></label>
     <input type="text" name="email-conformation" id="email-conformation" required aria-describedby="email-error" value="jo@mail.not">
 </div>
-<p id="email-error">The fields are not identical</p>
+<p id="email-error">The fields are not identical, example john.doe@net.com</p>
 ```
