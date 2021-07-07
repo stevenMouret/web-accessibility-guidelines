@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind and severely visually impaired.
 
-**RGAA criteria:** [Criterion 10.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-2) - [Criterion 10.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-3)
+**RGAA criteria:** [Criterion 10.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-2) - [Criterion 10.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-3)
 {: .criteria }
 
 ## Explanation
@@ -58,6 +58,94 @@ Consult the page on good techniques for [integrating icons in an accessible way]
 
 ### Content understandable without CSS
 
-In CSS, it is possible to change the order in which the elements are displayed. Inconsistencies in the order in which the content appears in the code can lead to misunderstandings for blind and partially sighted people who access the content through a screen reader.
+Screen reader users do not have a global view of the content. They often search for content by navigating from link to link, heading to heading or region to region.<br>
+For this reason it is important to present the content in a logical order. In a navigation by heading, the user expects to read the content that is related to it.<br>
+For example, let's take a sequence of event articles.<br>
+In the example below, if the user navigates from heading to heading, he will continue to browse the content by reading the description of the article because it is positioned just after in the code.<br>
+Then he will read the category and the date of the second article without being aware that he has changed article. This causes a misunderstanding of the content. In this case, the date of the concert which is important information.
 
-For example a feature to share an article that is before the article title. In this case it is difficult to know what you are sharing. In this case it is necessary to position in the source code the feature after the title or to make the feature understandable out of context.
+Note that some screen readers can render list or article structures, but this is usually not a default setting.
+
+#### Failure example
+
+```html
+<ul>
+    <li>
+        <article>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
+            <h2>The Big Push</h2>
+            <p class="resume">A crazed kind of energy and authentic sound</p>
+        </article>
+    </li>
+    <li>
+        <article>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
+            <h2>Deluxe</h2>
+            <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
+        </article>
+    </li>
+</ul>
+```
+<ul class="list-event">
+    <li>
+        <article>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
+            <h2>The Big Push</h2>
+            <p class="resume">A crazed kind of energy and authentic sound</p>
+        </article>
+    </li>
+    <li>
+        <article>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
+            <h2>Deluxe</h2>
+            <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
+        </article>
+    </li>
+</ul>
+
+#### Success example
+
+The easiest way to fix this is to position the content in a logical order visually and in the code.
+
+```html
+<ul>
+    <li>
+        <article>
+            <h2>The Big Push</h2>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
+            <p class="resume">A crazed kind of energy and authentic sound</p>
+        </article>
+    </li>
+    <li>
+        <article>
+            <h2>Deluxe</h2>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
+            <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
+        </article>
+    </li>
+</ul>
+```
+<ul class="list-event">
+    <li>
+        <article>
+            <h2>The Big Push</h2>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
+            <p class="resume">A crazed kind of energy and authentic sound</p>
+        </article>
+    </li>
+    <li>
+        <article>
+            <h2>Deluxe</h2>
+            <p class="category">Concert</p>
+            <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
+            <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
+        </article>
+    </li>
+</ul>

@@ -339,3 +339,21 @@
 .date {
     font-style: italic;
 }
+
+.content .list-event {
+    list-style: none;
+
+    li {
+        margin: 2.5rem 0;
+    }
+
+    p {
+        margin: 0.3rem 0;
+    }
+
+    h2 {
+        border: none;
+        font-size: 1.6rem;
+        margin: 0.3rem 0;
+    }
+}
