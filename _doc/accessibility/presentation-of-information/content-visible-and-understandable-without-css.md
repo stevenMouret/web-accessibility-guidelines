@@ -115,7 +115,7 @@ Note that some screen readers can render list or article structures, but this is
         <article>
             <p class="category">Concert</p>
             <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
-            <h2>The Big Push</h2>
+            <h5>The Big Push</h5>
             <p class="resume">A crazed kind of energy and authentic sound</p>
         </article>
     </li>
@@ -123,7 +123,7 @@ Note that some screen readers can render list or article structures, but this is
         <article>
             <p class="category">Concert</p>
             <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
-            <h2>Deluxe</h2>
+            <h5>Deluxe</h5>
             <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
         </article>
     </li>
@@ -156,7 +156,7 @@ The easiest way to fix this is to position the content in a logical order visual
 <ul class="list-event">
     <li>
         <article>
-            <h2>The Big Push</h2>
+            <h5>The Big Push</h5>
             <p class="category">Concert</p>
             <p class="date"><time datetime="2021-07-06">July 6, 2021</time></p>
             <p class="resume">A crazed kind of energy and authentic sound</p>
@@ -164,7 +164,7 @@ The easiest way to fix this is to position the content in a logical order visual
     </li>
     <li>
         <article>
-            <h2>Deluxe</h2>
+            <h5>Deluxe</h5>
             <p class="category">Concert</p>
             <p class="date"><time datetime="2021-07-17">July 17, 2021</time></p>
             <p class="resume">DELUXE in concert at 6MIC, the new venue in Aix-en-Provence</p>
