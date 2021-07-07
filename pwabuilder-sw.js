@@ -79,7 +79,7 @@ const precacheFiles = [
     "accessibility/images/image-caption.html",
     "accessibility/images/image-conveying-information.html",
     "accessibility/images/text-in-image.html",
-    "accessibility/information-structure/document-outline.html",
+    "accessibility/information-structure/semantic-structure-and-aria-landmarks.html",
     "accessibility/information-structure/quotation.html",
     "accessibility/information-structure/structure-information-by-headings.html",
     "accessibility/information-structure/unordered-ordered-definition-lists.html",
