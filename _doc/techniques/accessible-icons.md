@@ -80,26 +80,55 @@ The trash icon conveys information, the purpose of this link is to delete an ele
 </a>
 ```
 
+Another way:
+
+<a href="#">
+    <span class="sr-only">Remove</span>
+    <span class="fas fa-trash-alt" aria-hidden="true" title="remove"></span>
+    <span class="text">News (15)</span>
+</a>
+
+```html
+<a href="#">
+    <span class="sr-only">Remove</span>
+    <span class="fas fa-trash-alt" aria-hidden="true" title="remove"></span>
+    <span class="text">News (15)</span>
+</a>
+```
+
 ##### 1.2.2.2
 
 Another very frequent example.
 The phone icon conveys information. If you hide this icon, you do not know if it is a phone number or a fax number. It is therefore important to return this information to the user.
-In our case, we will add the information related to the phone but also to the opening of the call manager because there is the element tel: in the `href` attribute.
 
 * With `aria-hidden` attribute, the icon will not be read by the technical assistance;
 * When CSS is disabled, the icon is invisible, and this information (phone) is added in the `title` and `aria-label` attributes of the link;
 * The `aria-label` attribute overrides the content text, and the `title` attribute in the assistive technologies. This is why it includes all the information of the link;
-* The `title` is a visual information, a JS script is added to display the `title` on hover and focus;
-* As the link opens the call manager, it provides this additional information with the `title` and `aria-label` attribute of the link.
 
-<a href="tel:01708X4596" class="new-window-off" title="Phone 01 70 8X 45 96 opening of the call manager" aria-label="Phone 01 70 8X 45 96 opening of the call manager">
+<a href="tel:01708X4596" title="Phone 01 70 8X 45 96" aria-label="Phone 01 70 8X 45 96">
     <span class="fas fa-mobile" aria-hidden="true"></span>
     <span class="text">01 70 8X 45 96</span>
 </a>
 
 ```html
-<a href="tel:01708X4596" title="Phone 01 70 8X 45 96 opening of the call manager" aria-label="Phone 01 70 8X 45 96 opening of the call manager">
+<a href="tel:01708X4596" title="Phone 01 70 8X 45 96" aria-label="Phone 01 70 8X 45 96">
     <span class="fas fa-mobile" aria-hidden="true"></span>
+    <span class="text">01 70 8X 45 96</span>
+</a>
+```
+
+Another way:
+
+<a href="tel:01708X4596">
+    <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
+    <span class="sr-only">phone</span>
+    <span class="text">01 70 8X 45 96</span>
+</a>
+
+```html
+<a href="tel:01708X4596">
+    <span class="fas fa-mobile" aria-hidden="true" title="Phone"></span>
+    <span class="sr-only">phone</span>
     <span class="text">01 70 8X 45 96</span>
 </a>
 ```
@@ -116,43 +145,56 @@ In our case, we will add the information related to the phone but also to the op
 </a>
 ```
 
-<a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
-    Discover the Web Accessibility Initiative <span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+Another way:
+
+<a href="https://www.w3.org/WAI/" target="_blank" title="Discover the Web Accessibility Initiative, new window" aria-label="Discover the Web Accessibility Initiative, new window">
+    Discover the Web Accessibility Initiative <span class="fas fa-window-restore" aria-hidden="true"></span>
 </a>
 
 ```html
-<a href="https://www.w3.org/WAI/" target="_blank" aria-label="Discover the Web Accessibility Initiative, new window">
+<a href="https://www.w3.org/WAI/" target="_blank" title="Discover the Web Accessibility Initiative, new window" aria-label="Discover the Web Accessibility Initiative, new window">
+    Discover the Web Accessibility Initiative
+    <span class="fas fa-window-restore" aria-hidden="true"></span>
+</a>
+```
+
+Another way:
+
+<a href="https://www.w3.org/WAI/" target="_blank">
     Discover the Web Accessibility Initiative
     <span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+    <span class="sr-only">new window</span>
+</a>
+
+```html
+<a href="https://www.w3.org/WAI/" target="_blank">
+    Discover the Web Accessibility Initiative
+    <span class="fas fa-window-restore" aria-hidden="true" title="New window"></span>
+    <span class="sr-only">new window</span>
 </a>
 ```
 
 #### 1.2.4 Icon font in a link or a button
 
-In this case, there is no visible text. It is important to provide visual and code information for assistive technologies.
-
-* For the visual part, we add a `title` attribute on the link;
-* For assistive technologies, we add `aria-label` attribute.
-
-<a href="#" title="Home" aria-label="Home">
+<a href="#" title="Home">
     <span class="fas fa-home" aria-hidden="true"></span>
     <span class="sr-only">Home</span>
 </a>
 
 ```html
-<a href="#" title="Home" aria-label="Home">
+<a href="#" title="Home">
     <span class="fas fa-home" aria-hidden="true"></span>
     <span class="sr-only">Home</span>
 </a>
 ```
 
-<button type="submit" title="Filter news" aria-label="Filter news">
+<button type="submit" title="Filter news">
     <span class="fas fa-filter" aria-hidden="true"></span>
     <span class="sr-only">Filter news</span>
 </button>
 
 ```html
-<button type="submit" title="Filter news" aria-label="Filter news">
+<button type="submit" title="Filter news">
     <span class="fas fa-filter" aria-hidden="true"></span>
     <span class="sr-only">Filter news</span>
 </button>
@@ -160,13 +202,13 @@ In this case, there is no visible text. It is important to provide visual and co
 
 #### 1.2.5 Icon font in a link or a button that opens in a new window
 
-<a href="#" target="_blank" class="new-window-off" title="Share on Facebook, new window" aria-label="Share on Facebook, new window">
+<a href="#" target="_blank" class="new-window-off" title="Share on Facebook, new window">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
     <span class="sr-only">Share on Facebook, new window</span>
 </a>
 
 ```html
-<a href="#" target="_blank" title="Share on Facebook, new window" aria-label="Share on Facebook, new window">
+<a href="#" target="_blank" title="Share on Facebook, new window">
     <span class="fab fa-facebook-square" aria-hidden="true"></span>
     <span class="sr-only">Share on Facebook, new window</span>
 </a>
@@ -239,15 +281,15 @@ For all SVG that convey information, it is necessary to provide an alternative a
 
 #### 2.2.3 SVG in a link
 
-<a href="#" title="Home" aria-label="Home">
-    <svg aria-hidden="true" width="15" height="13"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<a href="#" title="Home">
+    <svg role="img" aria-label="Home" width="15" height="13"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
         <path d="M570.24 247.41L512 199.52V104a8 8 0 0 0-8-8h-32a8 8 0 0 0-7.95 7.88v56.22L323.87 45a56.06 56.06 0 0 0-71.74 0L5.76 247.41a16 16 0 0 0-2 22.54L14 282.25a16 16 0 0 0 22.53 2L64 261.69V448a32.09 32.09 0 0 0 32 32h128a32.09 32.09 0 0 0 32-32V344h64v104a32.09 32.09 0 0 0 32 32h128a32.07 32.07 0 0 0 32-31.76V261.67l27.53 22.62a16 16 0 0 0 22.53-2L572.29 270a16 16 0 0 0-2.05-22.59zM463.85 432H368V328a32.09 32.09 0 0 0-32-32h-96a32.09 32.09 0 0 0-32 32v104h-96V222.27L288 77.65l176 144.56z"/>
     </svg>
 </a>
 
 ```html
-<a href="#" title="Home" aria-label="Home">
-    <svg aria-hidden="true" width="15" height="13"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<a href="#" title="Home">
+    <svg role="img" aria-label="Home" width="15" height="13"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
         <path d="M570.24 247.41L512 199.52V104a8 8 0 0 0-8-8h-32a8 8 0 0 0-7.95 7.88v56.22L323.87 45a56.06 56.06 0 0 0-71.74 0L5.76 247.41a16 16 0 0 0-2 22.54L14 282.25a16 16 0 0 0 22.53 2L64 261.69V448a32.09 32.09 0 0 0 32 32h128a32.09 32.09 0 0 0 32-32V344h64v104a32.09 32.09 0 0 0 32 32h128a32.07 32.07 0 0 0 32-31.76V261.67l27.53 22.62a16 16 0 0 0 22.53-2L572.29 270a16 16 0 0 0-2.05-22.59zM463.85 432H368V328a32.09 32.09 0 0 0-32-32h-96a32.09 32.09 0 0 0-32 32v104h-96V222.27L288 77.65l176 144.56z"/>
     </svg>
 </a>
