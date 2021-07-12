@@ -1,6 +1,7 @@
 ---
 navigation: mandatory-elements
 nav: menu-criteria
+description: Check that each Web page has a valid source code according to the document type, a relevant title and a default human language identification. Check that tags are not used for presentation only, that changes in human language and changes in the reading direction are specified.
 ---
 
 # Mandatory elements

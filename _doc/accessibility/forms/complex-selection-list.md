@@ -2,6 +2,7 @@
 title: Complex selection list
 navigation: forms
 nav: menu-criteria
+description: Accessibility of complex selection list
 ---
 
 <header>

@@ -3,7 +3,6 @@ title: Structure information by headings
 navigation: information-structure
 nav: menu-criteria
 description: Content hierarchized by relevant headings
-tags: [heading,relevant,hierarchy]
 ---
 
 <header>

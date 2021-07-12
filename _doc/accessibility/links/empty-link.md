@@ -4,7 +4,6 @@ title: Empty link
 navigation: links
 nav: menu-criteria
 description: A link must never be empty
-tags: [link,empty,accessible name]
 ---
 
 <header>

@@ -2,6 +2,7 @@
 title: Text in image
 navigation: images
 nav: menu-criteria
+description: Accessibility of text in image
 ---
 
 <header>

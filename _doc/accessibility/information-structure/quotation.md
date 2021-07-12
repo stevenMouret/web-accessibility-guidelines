@@ -2,6 +2,7 @@
 title: Quotation
 navigation: information-structure
 nav: menu-criteria
+description: Accessibility of quotes
 ---
 
 <header>

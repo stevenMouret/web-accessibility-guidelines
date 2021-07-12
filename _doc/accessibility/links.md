@@ -2,7 +2,6 @@
 navigation: links
 nav: menu-criteria
 description: Provide explicit link text, through context information if needed, and use the link title as sparsely as possible.
-tags: [link,explicit,context]
 ---
 
 # Links

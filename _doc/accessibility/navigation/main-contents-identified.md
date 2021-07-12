@@ -2,6 +2,7 @@
 title: Main contents identified
 navigation: navigation
 nav: menu-criteria
+description: Management of the main content areas
 ---
 
 <header>

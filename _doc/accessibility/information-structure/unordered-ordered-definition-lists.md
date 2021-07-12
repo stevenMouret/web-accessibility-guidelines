@@ -2,6 +2,7 @@
 title: Unordered, ordered and definition lists
 navigation: information-structure
 nav: menu-criteria
+description: Accessibility of unordered, ordered and definition lists
 ---
 
 <header>

@@ -2,6 +2,7 @@
 title: Use HTML tags for their proper meaning
 navigation: mandatory-elements
 nav: menu-criteria
+description: Use HTML tags for their proper meaning
 ---
 
 <header>

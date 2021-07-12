@@ -2,6 +2,7 @@
 title: Tab order and keyboard traps
 navigation: navigation
 nav: menu-criteria
+description: Avoid keyboard traps and maintain a logical order of the tabulation
 ---
 
 <header>

@@ -1,6 +1,7 @@
 ---
 navigation: colors
 nav: menu-criteria
+description: Do not convey information through color only, and use sufficient color contrasts
 ---
 
 # Colors

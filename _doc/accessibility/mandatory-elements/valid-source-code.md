@@ -2,6 +2,7 @@
 title: A valid source code
 navigation: mandatory-elements
 nav: menu-criteria
+description: Validity of the source code of the page
 ---
 
 <header>

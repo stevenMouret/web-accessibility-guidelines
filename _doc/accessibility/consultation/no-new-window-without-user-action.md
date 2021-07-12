@@ -2,6 +2,7 @@
 title: No new window without user action
 navigation: consultation
 nav: menu-criteria
+description: Accessibility of links opening new windows
 ---
 
 <header>

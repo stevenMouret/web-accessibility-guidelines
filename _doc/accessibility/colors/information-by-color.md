@@ -2,6 +2,7 @@
 title: Information by color
 navigation: colors
 nav: menu-criteria
+description: Accessibility of the information conveyed by the color
 ---
 
 <header>

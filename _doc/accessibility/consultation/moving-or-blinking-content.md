@@ -2,6 +2,7 @@
 title: Moving or blinking content
 navigation: consultation
 nav: menu-criteria
+description: Accessibility of moving or flashing content
 ---
 
 <header>

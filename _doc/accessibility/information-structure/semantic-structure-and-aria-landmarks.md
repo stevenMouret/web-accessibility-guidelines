@@ -2,6 +2,7 @@
 title: Semantic structure and aria landmarks
 navigation: information-structure
 nav: menu-criteria
+description: Accessibility and semantic structures
 ---
 
 <header>

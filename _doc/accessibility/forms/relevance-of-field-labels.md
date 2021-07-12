@@ -3,7 +3,6 @@ title: Relevance of field labels
 navigation: forms
 nav: menu-criteria
 description: Label allows to identify the controls in a form
-tags: [label,accessible name, input, visible]
 ---
 
 <header>

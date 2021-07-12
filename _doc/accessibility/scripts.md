@@ -1,6 +1,7 @@
 ---
 navigation: scripts
 nav: menu-criteria
+description: Provide, if necessary, each script with a relevant alternative. Make each script controllable at least through a keyboard and a mouse, and ensure that it is compatible with assistive technologies.
 ---
 
 # Scripts

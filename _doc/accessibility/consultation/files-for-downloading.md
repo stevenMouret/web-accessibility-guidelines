@@ -2,6 +2,7 @@
 title: Files for downloading
 navigation: consultation
 nav: menu-criteria
+description: Accessibility of office documents
 ---
 
 <header>

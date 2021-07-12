@@ -2,6 +2,7 @@
 title: Access to the main content area
 navigation: navigation
 nav: menu-criteria
+description: Skip menu to facilitate the navigation
 ---
 
 <header>

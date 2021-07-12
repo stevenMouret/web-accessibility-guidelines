@@ -2,6 +2,7 @@
 title: Relevant button
 navigation: forms
 nav: menu-criteria
+description: Accessibility of the buttons
 ---
 
 <header>

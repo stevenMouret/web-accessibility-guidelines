@@ -3,7 +3,6 @@ title: Explicit link
 navigation: links
 nav: menu-criteria
 description: What is an explicit link and accessible name according to its context?
-tags: [link,context,explicit,accessible name]
 ---
 
 <header>

@@ -1,6 +1,7 @@
 ---
 navigation: consultation
 nav: menu-criteria
+description: Check that the user can control the refresh processes, sudden changes in luminosity, openings of new windows and moving or blinking content
 ---
 
 # Consultation

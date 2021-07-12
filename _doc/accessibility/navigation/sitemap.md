@@ -2,6 +2,7 @@
 title: Sitemap
 navigation: navigation
 nav: menu-criteria
+description: A site map that represents the tree structure of the site
 ---
 
 <header>

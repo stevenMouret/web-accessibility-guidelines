@@ -2,6 +2,7 @@
 title: Relevant frame title
 navigation: frames
 nav: menu-criteria
+description: accessibility of the iframes
 ---
 
 <header>

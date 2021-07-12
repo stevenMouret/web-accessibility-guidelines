@@ -2,6 +2,7 @@
 title: Page title
 navigation: mandatory-elements
 nav: menu-criteria
+description: Accessibility of the page title
 ---
 
 <header>

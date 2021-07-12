@@ -2,6 +2,7 @@
 title: Captcha
 navigation: images
 nav: menu-criteria
+description: Accessibility of the CAPTCHA
 ---
 
 <header>

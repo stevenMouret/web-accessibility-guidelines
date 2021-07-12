@@ -2,6 +2,7 @@
 title: Multilingual texts
 navigation: mandatory-elements
 nav: menu-criteria
+description: Language management in accessibility
 ---
 
 <header>

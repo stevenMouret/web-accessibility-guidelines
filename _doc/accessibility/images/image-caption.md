@@ -2,6 +2,7 @@
 title: Image caption
 navigation: images
 nav: menu-criteria
+description: Accessibility of the image with caption
 ---
 
 <header>

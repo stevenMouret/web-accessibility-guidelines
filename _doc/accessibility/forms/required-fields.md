@@ -2,6 +2,7 @@
 title: Required fields
 navigation: forms
 nav: menu-criteria
+description: Accessibility of the required fields
 ---
 
 <header>

@@ -2,6 +2,7 @@
 title: Color contrast
 navigation: colors
 nav: menu-criteria
+description: Accessibility of color contrasts on text and interactive elements.
 ---
 
 <header>

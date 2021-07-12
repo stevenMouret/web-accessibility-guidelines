@@ -2,6 +2,7 @@
 title: Image conveying information
 navigation: images
 nav: menu-criteria
+description: Accessibility of image conveying information
 ---
 
 <header>

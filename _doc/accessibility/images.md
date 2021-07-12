@@ -2,7 +2,6 @@
 navigation: images
 nav: menu-criteria
 description: Give each image conveying information a relevant text alternative and a detailed description if necessary. Replace images containing text with styled text when possible
-tags: [image,images,relevant,alternative,description]
 ---
 
 # Images

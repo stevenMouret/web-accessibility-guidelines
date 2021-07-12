@@ -2,6 +2,7 @@
 title: Input errors
 navigation: forms
 nav: menu-criteria
+description: Accessibility of wrong fields
 ---
 
 <header>

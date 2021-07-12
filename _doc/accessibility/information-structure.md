@@ -1,6 +1,7 @@
 ---
 navigation: information-structure
 nav: menu-criteria
+description: Use headings, landmarks, lists, abbreviations and quotes to structure information. Ensure that the document outline is coherent.
 ---
 
 # Information structure

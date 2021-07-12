@@ -1,8 +1,8 @@
 ---
 title: Input help
 navigation: forms
-description: Help users complete a field that requires specific data formats
 nav: menu-criteria
+description: Help users complete a field that requires specific data formats
 ---
 
 <header>
