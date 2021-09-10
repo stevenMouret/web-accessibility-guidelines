@@ -111,3 +111,35 @@ To illustrate my point, here is a example. Zoom the text to 200%, some of the te
 <p class="backgroundafter --ko">Unreadable<br>text in some<br>conditions</p>
 
 <p class="backgroundafter --ok">Readable<br>text</p>
+
+### Specify foreground and background colors
+
+Users with vision loss or cognitive, language and learning challenges often prefer specific foreground and background color combinations.<br>
+It is possible in the user agents to choose in its preferences colors of foreground and background. In this case, it can disturb the styles of the author (the creator of the site).<br>
+For example, a user who has customized these colors may encounter problems on content where the foreground color is not defined. In this case, the foreground color will be the one chosen by the user and the background color will be the one defined by the author which can cause color contrast problems.
+
+For this reason it is important to define the foreground and background colors of the elements. It is not necessary to specify the colors of each element, the colors can be inherited from a parent.
+
+In general it is necessary to set on the <body> the CSS properties `color` and `background-color`.
+
+```css
+body {
+    color: black;
+    background: white;
+}
+```
+
+It is then necessary to ensure that an element inherits or has the foreground and background colors.
+
+#### How to test?
+
+On Firefox browser, customize your foreground and background colors.
+
+Settings, General, Language and Appearance, Colors button.
+
+Check your test page, the colors previously chosen should not be displayed. If it is the case a color is not defined.
+
+<div class="important">
+<svg role="img" aria-label="Important" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="40" height="36"><title>Important</title><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></svg>
+`background-color` may also be specified using `background-image` because users may have images turned off in their browser. In this case, if a text is above a background image in CSS, it may not be visible.
+</div>
