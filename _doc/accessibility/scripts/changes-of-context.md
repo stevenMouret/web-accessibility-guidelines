@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 7.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-7-4)
+**RGAA criteria:** [Criterion 7.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-7-4)
 {: .criteria }
 
 ## Explanation

@@ -14,7 +14,7 @@ description: Accessibility of moving or flashing content
 
 **Users mainly impacted:** Blind, visually impaired, physically handicapped, mentally handicapped.
 
-**RGAA criteria:** [Criterion 13.8 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-8)
+**RGAA criteria:** [Criterion 13.8 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-13-8)
 {: .criteria }
 
 ## Explanation

@@ -51,7 +51,7 @@ These people will encounter difficulties with:
 
 * the information given only by color,
 * the lack of contrasts,
-* the use of imperceptible colours or combinations of colours (e. g. green and red for daltonians with deuteranopes),
+* the use of imperceptible colours or combinations of colours (e. g. green and red for color-blind people with deuteranopes),
 * the size of the characters.
 
 [Color blindness demonstration](https://atalan.fr/agissons/en/daltonisme.html), [Visual impairment demonstration](https://atalan.fr/agissons/en/malvoyance.html)
@@ -65,4 +65,4 @@ To overcome their difficulties, they can use devices that allow them to:
 * adapt the font size (reduce or enlarge) to their needs,
 * to enlarge the screen using screen magnifiers, possibly coupled with voice systems or the character enlargement features of their browser.
 
-Sources : [Impacts on users](https://github.com/DISIC/guide-impacts_utilisateurs)
+Sources: [Impacts on users](https://github.com/DISIC/guide-impacts_utilisateurs)

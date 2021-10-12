@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Visually impaired.
 
-**RGAA criteria:** [Criterion 10.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-4) - [Criterion 10.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-5) - [Criterion 10.12](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-10-12)
+**RGAA criteria:** [Criterion 10.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-4) - [Criterion 10.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-5) - [Criterion 10.12](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-12)
 {: .criteria }
 
 ## Explanation

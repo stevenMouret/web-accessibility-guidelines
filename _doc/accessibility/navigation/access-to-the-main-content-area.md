@@ -12,7 +12,7 @@ description: Skip menu to facilitate the navigation
 
 **Users mainly impacted:** Blind, visually impaire.
 
-**RGAA criteria:** [Criterion 12.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-12-7)
+**RGAA criteria:** [Criterion 12.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-7)
 {: .criteria }
 
 ## Explanation

@@ -14,7 +14,7 @@ description: What is an explicit link and accessible name according to its conte
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, motor impaired.
 
-**RGAA criteria:** [Criterion 6.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-6-1)
+**RGAA criteria:** [Criterion 6.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-6-1)
 {: .criteria }
 
 ## Explanation

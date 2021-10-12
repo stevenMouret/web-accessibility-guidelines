@@ -14,7 +14,7 @@ description: Accessibility of wrong fields
 
 **Users mainly impacted:** Blind, severely visually impaired, visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-11)
+**RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-11)
 {: .criteria }
 
 ## Explanation

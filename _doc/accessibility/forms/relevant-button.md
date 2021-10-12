@@ -14,7 +14,7 @@ description: Accessibility of the buttons
 
 **Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.9 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-9)
+**RGAA criteria:** [Criterion 11.9 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-9)
 {: .criteria }
 
 ## Explanation

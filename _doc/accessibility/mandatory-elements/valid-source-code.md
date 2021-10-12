@@ -14,7 +14,7 @@ description: Validity of the source code of the page
 
 **Users mainly impacted:** Blind, visually impaired, motor impaired.
 
-**RGAA criteria:** [Criterion 8.1 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-8-1) - [Criterion 8.2 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-8-2)
+**RGAA criteria:** [Criterion 8.1 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-1) - [Criterion 8.2 [A]](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-2)
 {: .criteria }
 
 ## Explanation
