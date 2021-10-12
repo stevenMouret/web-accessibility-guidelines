@@ -56,7 +56,15 @@ menu-criteria:
         teaser: If necessary, provide each time-based media with relevant text transcript, synchronized captions and a synchronized audio description. Provide each non time-based media with a relevant text alternative. Provide control features for each time-based and non time-based media through a keyboard and ensure that they are compatible with assistive technologies.
 
     -   title: 5. Tables
-        teaser: Provide each complex data table, with a relevant summary and a title, clearly identify header cells, use a relevant mechanism to associate data cells with header cells. Ensure that each layout table is correctly linearized.
+        url: /accessibility/tables.html
+        teaser: Provide each complex data table a relevant title, clearly identify header cells, use a relevant mechanism to associate data cells with header cells. Ensure that each layout table is correctly linearized.
+        sub:
+            -   title: Layout table
+                url: /accessibility/tables/layout-table.html
+            -   title: Data table
+                url: /accessibility/tables/data-table.html
+            -   title: Complex data table
+                url: /accessibility/tables/complex-data-table.html
 
     -   title: 6. Links
         url: /accessibility/links.html
