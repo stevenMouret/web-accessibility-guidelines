@@ -45,10 +45,10 @@ Here is an example of simple data table:
     </tbody>
 </table>
 
-## An optional relevant title
-In a simple data table, <strong>an optional title</strong> can be added. If it exists, it must be relevant by clearly identifying the table.
+## An optional relevant caption
+In a simple data table, <strong>an optional caption</strong> can be added. If it exists, it must be relevant by clearly identifying the table.
 
-The title can be implemented as follows:
+The caption can be implemented as follows:
 * Using a `<caption>` tag directly below the `<table>` tag (recommended method, best support);
 * Using a `title` attribute on the `<table>` tag;
 * Using a `aria-label` attribute on the `<table>` tag;
