@@ -64,7 +64,7 @@ Here is an example of complex data table:
 ## A required relevant summary
 In a complex data table, <strong>a summary is required</strong>. It must identify the table and describe its nature and structure.
 
-The summary must be implemented in [the same way as the title in the simple data table](data-table.html#an-optional-relevant-title).
+The summary must be implemented in [the same way as the caption in the simple data table](data-table.html#an-optional-relevant-caption).
 
 ## Associate cells with their headers
 Unlike the simple data table, the cells and the headers are not associated using the `scope` attribute on the `<th>` tag. In a complex data table, the mechanism to associate headers and cells is specific:
