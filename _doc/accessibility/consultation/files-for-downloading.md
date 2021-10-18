@@ -14,7 +14,7 @@ description: Accessibility of office documents
 
 **Users mainly impacted:** Blind and severely visually impaired.
 
-**RGAA criteria:** [Criterion 13.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-3) - [Criterion 13.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-4)
+**RGAA criteria:** [Criterion 13.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-13-3) - [Criterion 13.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-13-4)
 {: .criteria }
 
 ## Explanation

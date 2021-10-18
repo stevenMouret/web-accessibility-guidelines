@@ -14,7 +14,7 @@ description: Accessibility of links opening new windows
 
 **Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 13.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-13-2)
+**RGAA criteria:** [Criterion 13.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-13-2)
 {: .criteria }
 
 ## Explanation

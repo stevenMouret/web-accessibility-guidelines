@@ -12,7 +12,7 @@ description: Avoid keyboard traps and maintain a logical order of the tabulation
 
 **Users mainly impacted:** Blind, visually impaired, mobility impaired, mentally and cognitively handicapped.
 
-**RGAA criteria:** [Criterion 12.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-12-8)
+**RGAA criteria:** [Criterion 12.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-8)
 {: .criteria }
 
 ## Explanation

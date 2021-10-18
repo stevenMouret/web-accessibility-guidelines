@@ -23,7 +23,7 @@ There may also be very great difficulties in performing a task in a given time d
 
 ### Assistive technologies
 
-<div class="video"><iframe title="Introducing Voice Control on Mac and iOS — Apple" width="560" height="315" src="https://www.youtube.com/embed/aqoXFCCTfm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video"><iframe title="Introducing Voice Control on Mac and iOS — Apple" src="https://www.youtube.com/embed/tEEPpdct5t8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 There is also a very wide variety of assistive technologies.
 
@@ -33,4 +33,4 @@ Finally, when motor skills are very limited or non-existent, very sophisticated 
 
 The very wide variety of situations and assistive technologies means that these users may have great difficulty using web content even when it is made accessible.
 
-Sources : [Impacts on users](https://github.com/DISIC/guide-impacts_utilisateurs)
+Sources: [Impacts on users](https://github.com/DISIC/guide-impacts_utilisateurs)

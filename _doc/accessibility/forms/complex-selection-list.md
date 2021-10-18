@@ -14,7 +14,7 @@ description: Accessibility of complex selection list
 
 **Users mainly impacted:** blind, severely visually impaired, visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#crit-11-8)
+**RGAA criteria:** [Criterion 11.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-8)
 {: .criteria }
 
 ## Explanation
