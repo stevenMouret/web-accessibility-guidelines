@@ -247,17 +247,17 @@
             text-transform: uppercase;
         }
 
-        thead th {
+        thead th, thead tr td:first-of-type {
             border-bottom: 0.2rem solid $color-1-1;
         }
 
-        td {
+        td, th {
             border-bottom: 0.1rem solid rgba($color-black, 0.5);
         }
 
         tr {
             &:nth-child(even) {
-                td {
+                td, th {
                     background: rgba($color-black, 0.03);
                 }
             }
