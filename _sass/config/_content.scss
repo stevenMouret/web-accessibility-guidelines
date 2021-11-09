@@ -311,8 +311,23 @@
 }
 
 .post-header {
-    &__title {
+    &__title + &__tag {
+        margin-top: -9rem;
+    }
 
+    &__tag {
+        background: $color-1-2;
+        padding: 0.5rem 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        color: $color-white;
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 1.5rem;
+        z-index: 1;
     }
 
     &__info {
