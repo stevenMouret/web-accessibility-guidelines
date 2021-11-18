@@ -48,5 +48,10 @@ A source code is valid when:
 * the attributes respect the writing rules (for example, no obsolete elements are present);
 * the attribute values respect the writing rules (for example, duplicate ID values are not compliant).
 
+### Tools
+
+* [HTML Validator (bookmarklet)](https://dequeuniversity.com/validator)
+* [Serialized DOM checker (bookmarklet)](https://gist.github.com/stevefaulkner/c7087f72af0517dd60ffbd65acb850f8)
+
 *[DOM]: Document Object Model
 *[DTD]: Document Type Definition
