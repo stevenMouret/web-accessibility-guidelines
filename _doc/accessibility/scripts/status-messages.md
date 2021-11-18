@@ -11,7 +11,7 @@ nav: menu-criteria
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 7.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-7-5)
 {: .criteria }

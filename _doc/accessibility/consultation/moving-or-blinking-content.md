@@ -12,7 +12,7 @@ description: Accessibility of moving or flashing content
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, physically handicapped, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, physically impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 13.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-13-8)
 {: .criteria }

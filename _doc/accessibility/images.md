@@ -16,7 +16,7 @@ There are two types of images:
 
 Sometimes, images convey non-text information. This information, which can help to understand the content to which it relates, must be accessible for all.
 
-Providing an alternative is essential for users who do not perceive visual content. This is the case for blind or partially sighted people. A screen reader will be able to access this alternative and will return it to the user.
+Providing an alternative is essential for users who do not perceive visual content. This is the case for people who are blind or partially sighted. A screen reader will be able to access this alternative and will return it to the user.
 
 Similarly, for people who have difficulty understanding certain visual representations (iconography, paintings, multi-dimensional representations, graphics, etc.), an alternative can help to understand their meaning or extract important information.
 

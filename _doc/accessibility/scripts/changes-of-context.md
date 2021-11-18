@@ -11,7 +11,7 @@ nav: menu-criteria
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 7.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-7-4)
 {: .criteria }
@@ -21,9 +21,9 @@ A change of context is a change in the page that is likely to be ignored or misu
 
 Example: updating dynamic form fields or changing the dynamic content of the page.
 
-In order to enable them to understand these changes, they must be notified in advance or the changes must be the result of an explicit action on their part.
+To understand these changes, they must be notified in advance or the changes must be the result of an explicit action on their part.
 
-Mentally and cognitively disabled people may not be able to understand these changes if they are not informed in advance.
+People with mental and cognitive impairment may not be able to understand these changes if they are not informed in advance.
 
 The changes of context are numerous on a page or a web application. A change of context is considered to occur in the following cases:
 * Change of user agent, for example a link on a phone number that open the call manager.

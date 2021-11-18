@@ -24,7 +24,7 @@ If the HTML code contains code errors, this may render some systems inoperative.
 
 ### Declare the DTD correctly
 
-It is important to Add a Doctype declaration. This makes sure the document will be parsed the same way by different browsers.
+It is important to define a Doctype declaration. This makes sure the document will be parsed the same way by different browsers.
 
 #### Doctype HTML5
 

@@ -10,7 +10,7 @@ description: A site map that represents the tree structure of the site
 {: .article-header__title}
 </header>
 
-**Users mainly impacted:** Blind, visually impaired, physically handicapped, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, physically and mentally impaired.
 
 **RGAA criteria:** [Criterion 12.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-3)
 {: .criteria }

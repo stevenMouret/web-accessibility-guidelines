@@ -12,14 +12,14 @@ description: Accessibility of complex selection list
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** blind, severely visually impaired, visually impaired, mentally handicapped.
+**Users mainly impacted:** blind, severely visually impaired, visually impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 11.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-8)
 {: .criteria }
 
 ## Explanation
 
-Blind and severely visually impaired, visually impaired and mentally handicapped persons may encounter difficulties if selection lists that are complex or contain many items are not structured by groupings.
+People with visual and mental impairment may encounter difficulties if selection lists that are complex or contain many items are not structured by groupings.
 
 If the list offers a limited choice, the options should be presented in a logical order.
 

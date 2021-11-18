@@ -10,7 +10,7 @@ description: Management of the main content areas
 {: .article-header__title}
 </header>
 
-**Users mainly impacted:** Blind, visually impaire.
+**Users mainly impacted:** Blind, visually impaired.
 
 **RGAA criteria:** [Criterion 12.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-6)
 {: .criteria }

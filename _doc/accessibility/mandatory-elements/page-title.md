@@ -21,9 +21,9 @@ description: Accessibility of the page title
 
 Page titles are the first information available to users and serve as the basis for browsers to produce a navigation history or list of open tabs.
 
-In their absence or irrelevance, the blind, the severely visually impaired and the mentally or cognitively handicapped will have great difficulty finding a page in the navigation history or in the list of open tabs.
+In their absence or irrelevance, the blind, the severely visually impaired and the people with mental or cognitive disabilities will have great difficulty finding a page in the navigation history or in the list of open tabs.
 
-When pages are part of a process, blind and severely visually impaired people who use a screen reader may not understand the process.
+When pages are part of a process, people who are blind or severely visually impaired who use a screen reader may not understand the process.
 
 Finally, when the page is bookmarked, the absence of a title or lack of relevance will force these users to systematically modify the proposed title, which can make the use of a site complex, especially for people with motor disabilities.
 

@@ -39,7 +39,7 @@ In addition to the screen reader, blind braillists can use a Braille terminal to
 
 The term visually impaired includes a wide range of visual impairments related to many vision disorders.
 
-Without aiming at exhaustiveness, we can distinguish visually impaired people who:
+Without aiming at exhaustiveness, we can distinguish people with visual impairment who:
 
 * do not see colours, certain colour combinations or which have difficulties in perceiving contrasts;
 * have reduced visual acuity;

@@ -21,7 +21,7 @@ There is no assistive technology to help these users. Some experiments aim to pr
 
 It should be noted that, for these users, video subtitling, while it can be of help, is not satisfactory, as it requires fast reading and comprehension capabilities.
 
-## Hearing impaired people
+## People with hearing impairment
 
 ### Main difficulties encountered
 

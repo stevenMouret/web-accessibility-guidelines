@@ -12,7 +12,7 @@ description: Help users complete a field that requires specific data formats
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, severely visually impaired, visually impaired, mentally handicapped.
+**Users mainly impacted:** Blind, severely visually impaired, visually impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 11.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-10) - [Criterion 11.11](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-11)
 {: .criteria }

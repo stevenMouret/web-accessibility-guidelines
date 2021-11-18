@@ -19,7 +19,7 @@ description: Accessibility of office documents
 
 ## Explanation
 
-Blind and severely visually impaired people will have great difficulty if the documents to be downloaded are not accessible or if they do not have an accessible alternative.
+People who are blind or severely visually impaired will have great difficulty if the documents to be downloaded are not accessible or if they do not have an accessible alternative.
 
 ### Make downloadable documents accessible or propose an accessible alternative
 If possible, it is necessary to make a document accessible for download. If the software used to create the document is not compatible with accessibility, it is necessary to provide an accessible equivalent in another format (.doc,.odt... or a web page).

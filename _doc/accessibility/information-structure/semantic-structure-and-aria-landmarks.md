@@ -12,7 +12,7 @@ description: Accessibility and semantic structures
 
 **Impact:** Moderate to high
 
-**Users mainly impacted:** Blind, severely visually impaired, motor handicapped.
+**Users mainly impacted:** Blind, severely visually impaired, motor impaired.
 
 **RGAA criteria:** [Criterion 9.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-2) - [Criterion 12.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-6)
 {: .criteria }
@@ -21,9 +21,9 @@ description: Accessibility and semantic structures
 
 Screen readers or some browser plug-ins provide quick navigation based on the structural elements of the HTML5 document.
 
-In their absence, blind and severely visually impaired people may have difficulty identifying large areas of the document or moving quickly through the page, for example on navigation elements.
+In their absence, people who are blind or severely visually impaired may have difficulty identifying large areas of the document or moving quickly through the page, for example on navigation elements.
 
-The motor handicapped will see the fast access functionalities to the large areas of the document as inoperative.
+People with motor disabilities will see the fast access functionalities to the large areas of the document as inoperative.
 
 ### HTML5 elements and ARIA landmarks
 
@@ -33,7 +33,7 @@ The large areas that allow to structure a web page are:
 * the main content;
 * the footer (legal information, etc.) ;
 * the search engine;
-* the main navigation and any secondary navigation.
+* the main navigation and any secondary navigations.
 
 Each of these zones has a specific ARIA property that will allow them to be identified with certainty. These properties are implemented with the `role` attribute:
 

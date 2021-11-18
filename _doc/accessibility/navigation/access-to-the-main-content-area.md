@@ -17,11 +17,11 @@ description: Skip menu to facilitate the navigation
 
 ## Explanation
 
-In order to facilitate the navigation of blind and partially sighted people, it is necessary to provide a mechanism to bypass blocks that are repeated on multiple Web pages by skipping directly to the main content of the Web page.
+In order to facilitate the navigation for users who are blind or partially sighted, it is necessary to provide a mechanism to bypass blocks that are repeated on multiple Web pages by skipping directly to the main content of the Web page.
 
 This quick access link must be placed **at the top of the page**.
 
-This link should ideally always be visible. Indeed they are useful for blind users but also for visually impaired users who use a screen magnifier but also a mouse.
+This link should ideally always be visible. Obviously they are useful for users who are blind, but also for users with visually impairment who use a screen magnifier and also a mouse.
 
 If it is not visible, it must be displayed when the focus is taken. Do not use CSS properties that make them inactive such as :
 

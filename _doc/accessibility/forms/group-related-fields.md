@@ -12,7 +12,7 @@ description: Accessibility of group of fields
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 11.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-5) - [Criterion 11.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-6) - [Criterion 11.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-7)
 {: .criteria }

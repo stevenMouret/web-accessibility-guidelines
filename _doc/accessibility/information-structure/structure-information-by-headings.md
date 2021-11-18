@@ -12,7 +12,7 @@ description: Content hierarchized by relevant headings
 
 **Impact:** Moderate to high
 
-**Users mainly impacted:** Blind, severely visually impaired, motor handicapped, cognitive disability.
+**Users mainly impacted:** Blind, severely visually impaired, motor disability, cognitive disability.
 
 **RGAA criteria:** [Criterion 9.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-1)
 {: .criteria }
@@ -69,7 +69,7 @@ The following example is non-compliant.
 </ul>
 
 #### Inappropriate order
-The hierarchy of the content must be respected through the headings. This example is non-compliant. Radish is a child of vegetables, he can't be higher than vegetables.
+The hierarchy of the content must be respected through the headings. This example is non-compliant. Radish is a child of vegetables, it can't be higher than vegetables.
 
 ```html
 <h3>Vegetables</h3>
@@ -84,7 +84,7 @@ The hierarchy of the content must be respected through the headings. This exampl
 Even if it is preferable to use headings for content sections, this does not represent non-compliance.
 
 #### Missing h1
-Similarly, it is not mandatory to beginning a heading hierarchy with an `<h1>`.
+Similarly, it is not mandatory to start a heading hierarchy with an `<h1>`.
 
 #### A single `<h1>`
 Very often the heading `<h1>` is reserved for the main heading of the page, but this is not a requirement. Having several `<h1>` does not represent a non-compliance.

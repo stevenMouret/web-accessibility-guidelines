@@ -12,7 +12,7 @@ description: Accessibility of the buttons
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, physically impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 11.9](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-9)
 {: .criteria }

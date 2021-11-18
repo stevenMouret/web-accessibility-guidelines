@@ -34,7 +34,7 @@ A link must be explicit by itself (its link text alone) or through its context :
 ### By itself (accessible name)
 
 #### What is an accessible name?
-The accessible name is the name of an interface element (link, button, form field...) returned to assistive technologies and therefore to the user. It can be composed of several elements such as the visible text of the interactive element but also other non-visible texts (aria-label, aria-labeledby, title) that belong to the interactive element or its children (alt, sr-only).
+The accessible name is the name of an interface element (link, button, form field...) returned to assistive technologies and therefore to the user. It can be composed of several elements such as the visible text of the interactive element but also other non-visible texts (aria-label, aria-labelledby, title) that belong to the interactive element or its children (alt, sr-only).
 
 The accessible name is determined according to a specific order.
 
@@ -42,10 +42,9 @@ In the case of an HTML link, the accessible name is provided in the following or
 
 * The content related to the `aria-labelledby` attribute.
 * Otherwise, the content of the `aria-label` attribute.
-* Otherwise, the content of the `title` attribute.
 * Otherwise, the content of an `<a>` element (text, alt...).
 
-For example, for an `aria-label` attribute and link content, it is the content of the `aria-label` attribute that is considered the accessible name.
+For example, for an `aria-label` attribute and link content, it is the content of the `aria-label` attribute that is considered as the accessible name.
 
 As some properties override others, it is necessary to ensure that the entire content is rendered in the accessible name.
 

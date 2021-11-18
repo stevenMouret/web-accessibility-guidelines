@@ -10,7 +10,7 @@ description: Avoid keyboard traps and maintain a logical order of the tabulation
 {: .article-header__title}
 </header>
 
-**Users mainly impacted:** Blind, visually impaired, mobility impaired, mentally and cognitively handicapped.
+**Users mainly impacted:** Blind, visually impaired, mobility impaired, mentally and cognitively impaired.
 
 **RGAA criteria:** [Criterion 12.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-8)
 {: .criteria }
@@ -19,7 +19,7 @@ description: Avoid keyboard traps and maintain a logical order of the tabulation
 
 The order of tabulation is a determining factor both in the exploration of content, but above all in the manipulation of complex elements or in the sequence of successive actions. All users will encounter significant difficulties if this is not correct.
 
-In the case of a keyboard trap, the motor handicapped will be unable to leave the element being consulted and will be forced to leave the browser to regain control of the cursor.
+In the case of a keyboard trap, people with motor disabilities will be unable to leave the element being consulted and will be forced to leave the browser to regain control of the cursor.
 
 ### Tab order
 

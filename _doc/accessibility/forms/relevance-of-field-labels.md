@@ -12,7 +12,7 @@ description: Label allows to identify the controls in a form
 
 **Impact:** Strong to major
 
-**Users mainly impacted:** Blind, visually impaired, physically impaired, mentally handicapped.
+**Users mainly impacted:** Blind, visually impaired, physically impaired, mentally impaired.
 
 **RGAA criteria:** [Criterion 11.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-1) - [Criterion 11.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-2)
 {: .criteria }
