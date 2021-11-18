@@ -14,7 +14,7 @@ description: Accessibility and semantic structures
 
 **Users mainly impacted:** Blind, severely visually impaired, motor handicapped.
 
-**RGAA criteria:** [Criterion 9.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-2) - [Criterion 12.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-12-10)
+**RGAA criteria:** [Criterion 9.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-2) - [Criterion 12.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-12-6)
 {: .criteria }
 
 ## Explanation

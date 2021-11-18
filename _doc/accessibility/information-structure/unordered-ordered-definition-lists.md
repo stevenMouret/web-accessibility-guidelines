@@ -14,7 +14,7 @@ description: Accessibility of unordered, ordered and definition lists
 
 **Users mainly impacted:** Blind, severely visually impaired, motor handicapped, cognitive disability.
 
-**RGAA criteria:** [Criterion 9.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-3)
+**RGAA criteria:** [Criterion 9.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-3)
 {: .criteria }
 
 ## Explanation

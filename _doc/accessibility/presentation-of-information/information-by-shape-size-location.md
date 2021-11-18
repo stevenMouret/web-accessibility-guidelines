@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Blind, severely visually impaired.
 
-**RGAA criteria:** [Criterion 10.14 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-14) - [Criterion 10.15 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-15)
+**RGAA criteria:** [Criterion 10.9](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-9) - [Criterion 10.10](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-10)
 {: .criteria }
 
 ## Explanation

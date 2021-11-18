@@ -14,7 +14,7 @@ description: Accessibility of text in image
 
 **Users mainly impacted:** Visually impaired.
 
-**RGAA criteria:** [Criterion 1.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-8)
+**RGAA criteria:** [Criterion 1.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-8)
 {: .criteria }
 
 ## Explanation

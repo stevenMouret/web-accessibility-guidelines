@@ -14,7 +14,7 @@ description: Accessibility of group of fields
 
 **Users mainly impacted:** Blind, visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 11.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-5) - [Criterion 11.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-6) - [Criterion 11.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-11-7)
+**RGAA criteria:** [Criterion 11.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-5) - [Criterion 11.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-6) - [Criterion 11.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-11-7)
 {: .criteria }
 
 ## Explanation

@@ -14,7 +14,7 @@ description: Accessibility of the image with caption
 
 **Users mainly impacted:** Blind.
 
-**RGAA criteria:** [Criterion 1.10 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-10)
+**RGAA criteria:** [Criterion 1.9](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-9)
 {: .criteria }
 
 ## Explanation

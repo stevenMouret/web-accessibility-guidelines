@@ -14,7 +14,7 @@ description: Use HTML tags for their proper meaning
 
 **Users mainly impacted:** Blind, severely visually impaired.
 
-**RGAA criteria:** [Criterion 8.9 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-9)
+**RGAA criteria:** [Criterion 8.9](hhttps://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-9)
 {: .criteria }
 
 ## Explanation

@@ -14,7 +14,7 @@ description: Accessibility of image conveying information
 
 **Users mainly impacted:** Blind, severely visually impaired.
 
-**RGAA criteria:** [Criterion 1.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-3) - [Criterion 1.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-6) - [Criterion 1.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-7)
+**RGAA criteria:** [Criterion 1.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-1) - [Criterion 1.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-3) - [Criterion 1.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-6) - [Criterion 1.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-7)
 {: .criteria }
 
 ## Relevant alternative

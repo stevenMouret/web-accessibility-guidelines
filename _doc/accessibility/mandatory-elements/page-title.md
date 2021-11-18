@@ -14,7 +14,7 @@ description: Accessibility of the page title
 
 **Users mainly impacted:** Blind, visually impaired, motor, mental and cognitive disabilities.
 
-**RGAA criteria:** [Criterion 8.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-5) - [Criterion 8.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-6)
+**RGAA criteria:** [Criterion 8.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-5) - [Criterion 8.6](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-6)
 {: .criteria }
 
 ## Explanation

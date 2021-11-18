@@ -14,7 +14,7 @@ description: Content hierarchized by relevant headings
 
 **Users mainly impacted:** Blind, severely visually impaired, motor handicapped, cognitive disability.
 
-**RGAA criteria:** [Criterion 9.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-1)
+**RGAA criteria:** [Criterion 9.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-1)
 {: .criteria }
 
 ## Explanation

@@ -14,7 +14,7 @@ description: Accessibility of quotes
 
 **Users mainly impacted:** Blind, severely visually impaired, mentally handicapped.
 
-**RGAA criteria:** [Criterion 9.6 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-9-6)
+**RGAA criteria:** [Criterion 9.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-9-4)
 {: .criteria }
 
 ## Explanation

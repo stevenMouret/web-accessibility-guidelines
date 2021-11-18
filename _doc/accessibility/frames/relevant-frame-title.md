@@ -14,7 +14,7 @@ description: accessibility of the iframes
 
 **Users mainly impacted:** Blind
 
-**RGAA criteria:** [Criterion 2.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-1) - [Criterion 2.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-2-2)
+**RGAA criteria:** [Criterion 2.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-2-1) - [Criterion 2.2](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-2-2)
 {: .criteria }
 
 ## Explanation

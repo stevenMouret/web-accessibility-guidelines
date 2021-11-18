@@ -14,7 +14,7 @@ description: Accessibility of the information conveyed by the color
 
 **Users mainly impacted:** Blind, visually impaired
 
-**RGAA criteria:** [Criterion 3.1 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-3-1) - [Criterion 3.2 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-3-2)
+**RGAA criteria:** [Criterion 3.1](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-3-1)
 {: .criteria }
 
 ## Explanation

@@ -13,7 +13,7 @@ nav: menu-criteria
 
 **Users mainly impacted:** Motor disabilities.
 
-**RGAA criteria:** [Criterion 10.7 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-10-7)
+**RGAA criteria:** [Criterion 10.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-10-7)
 {: .criteria }
 
 ## Explanation

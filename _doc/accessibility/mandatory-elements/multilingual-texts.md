@@ -14,7 +14,7 @@ description: Language management in accessibility
 
 **Users mainly impacted:** Blind, severely visually impaired, mentally and cognitively handicapped.
 
-**RGAA criteria:** [Criterion 8.3 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-3) - [Criterion 8.4 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-4) - [Criterion 8.7 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-7) - [Criterion 8.8 [AA]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-8-8)
+**RGAA criteria:** [Criterion 8.3](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-3) - [Criterion 8.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-4) - [Criterion 8.7](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-7) - [Criterion 8.8](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-8-8)
 {: .criteria }
 
 ## Explanation

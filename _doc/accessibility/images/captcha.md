@@ -14,7 +14,7 @@ description: Accessibility of the CAPTCHA
 
 **Users mainly impacted:** Blind, visually impaired, mentally and cognitively impaired.
 
-**RGAA criteria:** [Criterion 1.4 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-4) - [Criterion 1.5 [A]](http://disic.github.io/rgaa_referentiel_en/criteria.html#crit-1-5)
+**RGAA criteria:** [Criterion 1.4](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-4) - [Criterion 1.5](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/#crit-1-5)
 {: .criteria }
 
 ## Explanation
